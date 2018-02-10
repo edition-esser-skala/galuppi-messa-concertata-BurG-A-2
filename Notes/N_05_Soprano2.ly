@@ -38,7 +38,7 @@ KyrieSopranoIINotes = {
 		cis8. cis16 cis4 d8 d16 d d8 d
 		cis4 r r8 a h h
 		e,4 r r2
-		r8 cis' cis e d4. e16([ d)]
+		r8 d'^\critnote cis e d4. e16([ d)]
 		cis8 h a4 g4. a16([ g)] %60
 		fis8 d a'4. a8 gis4
 		r8 cis cis cis fis fis16([ e)] d8 cis
