@@ -144,7 +144,7 @@ KyrieOrgano = {
 		g4. fis16 g a8 d a a,
 		d4 d8 cis h4 e8 e %90
 		a,4 d a4. a8
-		d4 r a r
+		d4 r a-\soloE r
 		d r8 g a a16 g fis8 g
 		fis fis e e d d16 e fis8 d
 		cis cis h h a4 r8 a %95
@@ -197,7 +197,7 @@ KyrieBassFigures = \figuremode {
 	r2 <6 5>4 <_!>
 	<6 5>2 <7>4 <6>
 	<7 _+>2 <6 4>8 <7 5 3> <_+>4 %75
-	r2 r8 <6> r q
+	r2 <6>4 q
 	r2 <6>4 <6+>
 	r2 <7>4 <6>
 	<6> <3> <4 2> <6>

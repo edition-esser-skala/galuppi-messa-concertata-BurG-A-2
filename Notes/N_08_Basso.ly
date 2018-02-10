@@ -7,7 +7,7 @@
 KyrieBassoNotes = {
 	\relative c {
 		\clef bass
-		\key d \major \time 4/4 \tempoKyrie
+		\key d \major \time 4/4 \autoBeamOff \tempoKyrie
 			\set Score.currentBarNumber = #35
 		
 	}
@@ -20,7 +20,7 @@ KyrieBassoLyrics = \lyricmode {
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
-% 		\key d \major \time 4/4 \tempo
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
 % 		
 % 	}
 % }

@@ -18,7 +18,7 @@ AltoIncipit = \markup {
 KyrieAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key d \major \time 4/4 \tempoKyrie
+		\key d \major \time 4/4 \autoBeamOff \tempoKyrie
 			\set Score.currentBarNumber = #35
 		
 	}
@@ -31,7 +31,7 @@ KyrieAltoLyrics = \lyricmode {
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
-% 		\key d \major \time 4/4 \tempo
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
 % 		
 % 	}
 % }
