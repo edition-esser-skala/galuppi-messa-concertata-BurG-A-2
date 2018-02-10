@@ -15,15 +15,16 @@ AltoIncipit = \markup {
 	} \hspace #-1.8
 }
 
-SinfoniaAltoNotes = {
+KyrieAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key d \major \time 4/4 \tempoSinfonia
+		\key d \major \time 4/4 \tempoKyrie
+			\set Score.currentBarNumber = #35
 		
 	}
 }
 
-SinfoniaAltoLyrics = \lyricmode {
+KyrieAltoLyrics = \lyricmode {
 	
 }
 

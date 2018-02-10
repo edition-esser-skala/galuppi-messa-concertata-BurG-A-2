@@ -82,6 +82,19 @@ SinfoniaBassFigures = \figuremode {
 	r1 %34 finis
 }
 
+KyrieOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoKyrie
+			\set Score.currentBarNumber = #35
+		\mvTr d4.\fE-\tuttiE d8 d4 r\fermata
+	}
+}
+
+KyrieBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

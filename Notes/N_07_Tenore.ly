@@ -15,15 +15,16 @@ TenoreIncipit = \markup {
 	} \hspace #-1.8
 }
 
-SinfoniaTenoreNotes = {
+KyrieTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key d \major \time 4/4 \tempoSinfonia
+		\key d \major \time 4/4 \tempoKyrie
+			\set Score.currentBarNumber = #35
 		
 	}
 }
 
-SinfoniaTenoreLyrics = \lyricmode {
+KyrieTenoreLyrics = \lyricmode {
 	
 }
 

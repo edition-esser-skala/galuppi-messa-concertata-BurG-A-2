@@ -4,15 +4,16 @@
 
 \version "2.18.0"
 
-SinfoniaBassoNotes = {
+KyrieBassoNotes = {
 	\relative c {
 		\clef bass
-		\key d \major \time 4/4 \tempoSinfonia
+		\key d \major \time 4/4 \tempoKyrie
+			\set Score.currentBarNumber = #35
 		
 	}
 }
 
-SinfoniaBassoLyrics = \lyricmode {
+KyrieBassoLyrics = \lyricmode {
 	
 }
 

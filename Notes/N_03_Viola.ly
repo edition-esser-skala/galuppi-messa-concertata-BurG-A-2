@@ -46,6 +46,16 @@ SinfoniaViola = {
 	}
 }
 
+KyrieViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key d \major \time 4/4 \tempoKyrie
+			\set Score.currentBarNumber = #35
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

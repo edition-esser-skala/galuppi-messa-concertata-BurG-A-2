@@ -45,6 +45,15 @@ SinfoniaViolinoII = {
 	}
 }
 
+KyrieViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoKyrie
+			\set Score.currentBarNumber = #35
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble
