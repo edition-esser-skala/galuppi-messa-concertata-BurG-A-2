@@ -21,7 +21,7 @@
 			movement = "1.0 SINFONIA"
 			location = "Baldassare Galuppi"
 		}
-		\paper { systems-per-page = #1 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
