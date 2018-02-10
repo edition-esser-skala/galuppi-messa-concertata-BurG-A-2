@@ -87,12 +87,140 @@ KyrieOrgano = {
 		\clef bass
 		\key d \major \time 4/4 \tempoKyrie
 			\set Score.currentBarNumber = #35
-		\mvTr d4.\fE-\tuttiE d8 d4 r\fermata
+		\mvTr d4.\fE-\tuttiE d8 d4 r\fermata %35
+		r8 d d d h4 fis
+		g2 d'4 r
+		r d e4. d8
+		cis h a4 r a'
+		h4. a8 g4. fis8 %40
+		e2 d4 r\fermata
+		a4. a8 a4 r\fermata
+		r8 a' a a fis4 cis
+		d2 a4 d
+		a8 a' d d, a4 d %45
+		a'8 a, d d, a'2 \noBreak
+		d,1\fermata \bar "||"
+		\tempoKyrieB d'4-\soloE r a r \noBreak
+		d r8 g a a16 g fis8 g
+		fis fis e e d d16 e fis8 d %50
+		cis cis h h a4 r
+		d4. d8 e4. e8
+		fis4. fis8 g4. g8
+		a4 r8 a, d e fis g
+		a4 a, d,8-\tutti d'16 e fis8 d %55
+		a' a,16 h cis8 a d, d' d d
+		a a'16 h cis8 d cis cis h h
+		a a16 g fis8 g fis fis e e
+		d d a cis h4 e8 gis
+		a, a'16 g fis8 fis e e a a, %60
+		d d' cis a h h, h h
+		cis cis cis cis d d d d
+		e4 r8 cis d a e' e,
+		a4 r e'-\solo r
+		a, r8 d e e16 d cis8 d %65
+		cis cis h h a-\tutti a16 h cis8 a
+		e e'16 fis gis8 e a a, a a
+		e e'16 d cis8 d cis cis h h
+		a a'16 g fis8 g fis fis e e
+		d4 d8 d g g16 fis e8 e %70
+		fis4 r8 h, cis cis cis cis
+		d h fis'2 eis4
+		fis fis8 e d4 e8 d
+		cis4 d g4. g8
+		fis4 r8 e fis e fis fis, %75
+		h h'16 a h8 g fis d e cis
+		d d' cis d cis cis h h
+		a a16 g fis8 d e e e e
+		fis d a'2 gis4
+		a8 a16 g fis8 fis e e a a %80
+		d, d fis d a' a, cis a
+		e' e16 d cis8 d cis cis h h
+		a a'16 h cis8 a d d,16 e fis8 g
+		fis fis e e d d16 e fis8 d
+		a a'16 g fis8 g fis fis e e %85
+		d d16 e fis8 d cis cis h h
+		a4 r8 a d4. cis16 d
+		e4. d16 e fis4. e16 fis
+		g4. fis16 g a8 d a a,
+		d4 d8 cis h4 e8 e %90
+		a,4 d a4. a8
+		d4 r a r
+		d r8 g a a16 g fis8 g
+		fis fis e e d d16 e fis8 d
+		cis cis h h a4 r8 a %95
+		d4 r8 d e4 r8 e
+		fis4. fis8 g4. g8
+		a4 r8 a, d e fis g
+		a4 a, d, r \bar "||" %99 finis
 	}
 }
 
 KyrieBassFigures = \figuremode {
-	
+	r1 %35
+	r2 <5>4 <6>
+	r1
+	r4 <6>8 <5> <_!>2
+	<6>2. <6>8 <5>
+	r1 %40
+	<7>4 <6>2.
+	r1
+	r2 <5>4 <6>
+	r1
+	r %45
+	r2 <4>4 <3>
+	r1
+	r
+	r
+	<6>4 q r2 %50
+	<6>4 <6+> r2
+	<5>4. <6>8 <5>4. <6>8
+	<5>4. <6>8 <5>4. <6>8
+	r2 <9>4 <6>
+	<4> <3> r2 %55
+	r1
+	r2 <6>4 <6+>
+	r2 <6>4 q
+	r2 <7>4 <7 [_+]>
+	r4 <6> <7> q %60
+	r <6> <7> <6+>
+	<7> <6> <9>8 <8 6> <6>4
+	<_+>2. <4>8 <_+>
+	r2 <_+>
+	r <_+> %65
+	<6>4 <6+> r2
+	r4 <[6]> r2
+	<_+>4 <[6]> <6> <6+>
+	r <6> q <[6+]>
+	r2 <7>8 <6> <6> <5> %70
+	r2 <7>4 <6+>
+	<6> <5 3> <4 2> <6 5>
+	r2 <6 5>4 <_!>
+	<6 5>2 <7>4 <6>
+	<7 _+>2 <6 4>8 <7 5 3> <_+>4 %75
+	r2 r8 <6> r q
+	r2 <6>4 <6+>
+	r2 <7>4 <6>
+	<6> <3> <4 2> <6>
+	r <6> <7> q %80
+	r1
+	r2 <6>4 <6+>
+	r1
+	<6>4 q r2
+	r <6>4 q %85
+	r2 <6>4 <6+>
+	r2 <5>4 <6>
+	<9>4. <6 5>8 <7 5>4. <6>8
+	<8 6>2 <7>4 <4>8 <3>
+	r2 <5> %90
+	<7> <4>4 <3>
+	r1
+	r
+	<6>4 q r2
+	<6>4 <6+> r2 %95
+	<5>4. <6>8 <5>4. <6>8
+	<5>4. <6>8 <5>4. <6>8
+	r2 <9>4 <6>
+	<4> <3> r2 %99 finis
 }
 
 % Organo = {
