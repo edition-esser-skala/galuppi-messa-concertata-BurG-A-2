@@ -36,7 +36,7 @@ KyrieSopranoINotes = {
 		\tempoKyrieB R1*7 %54
 		r2 \mvTr d8.\fE^\tuttiE d16 d4 %55
 		e8. e16 e4 fis8 fis16 fis fis8 fis
-		e4 r8 fis e16([ fis e fis] d([ e d)] e
+		e4 r8 fis e16([ fis e fis] d[ e d)] e
 		cis8 a d2 cis4
 		d r r2
 		r4 r8 d e8. e16 e8 e %60
@@ -51,7 +51,7 @@ KyrieSopranoINotes = {
 		r8 a d4. d8 cis4
 		r fis4. e16[ d] e4~ %70
 		e d cis8. cis16 cis4
-		r8 d cis a h4 r
+		r8 d cis a! h4 r
 		r8 cis fis4. fis8 e4
 		r8 e d cis h4 h8 h
 		ais fis h2 ais4 %75
