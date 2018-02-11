@@ -333,7 +333,7 @@ KyrieIISopranoINotes = {
 		a, fis' e e~
 		e8[ a,] d2 g4~ %240
 		g8[ a fis g] e4. e8
-		d d d d h4 g
+		d d d d h4 a
 		h8. h16 d4 r8 h d d
 		d d d d cis4 fis
 		e( d2) cis4 %245

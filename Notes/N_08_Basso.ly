@@ -271,12 +271,98 @@ KyrieIIBassoNotes = {
 		\clef bass
 		\key d \major \time 4/4 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #198
-		
+		\mvTr d8.\fE^\tuttiE d16 d4 r8 a' a a
+		h4 fis g4. g8
+		d1\fermata \bar "||" %200
+		R1*4
+		r2 d8.^\soloE d16 d8 d %205
+		cis8. h16 a4 r r8 e'
+		fis4( fis8[ gis] a[ e] a4~)
+		a gis a fis
+		e4. e8 d4 cis
+		h4. h8 a4 r %210
+		r2 a'8.^\tuttiE a16 a8 a
+		fis8. e16 d4 r r8 a'
+		h4( h8[ cis] d4) d,
+		a a'2( g4
+		fis4. g16[ fis]) e4. e8 %215
+		d8 d d d e4 a,
+		e'4. e8 a,4 r
+		R1*3 %220
+		r2 r4 a'8[( g])
+		fis4 h8[ a] g[ fis16 e] a8[ g]
+		fis[ e16 d] a'2 gis4
+		a8 e a2( g4~
+		g fis e4.) e8 %225
+		d8 d d d a4 a'
+		e8. e16 e4 r8 h h h
+		fis'4 r h8. h16 h8 h
+		a8. g16 fis8 e^\critnote g4 e
+		d r r2 %230
+		r4 e8[ d] cis4 fis8[ e]
+		d[ cis16 h] e8[ d] cis[ a h cis]
+		d[( a] d2) cis4
+		d4 r a'8. a16 a8 a
+		fis e d4 r r8 a' %235
+		h4( h8[ cis] d4) d,
+		a' r d,8. d16 d8 d
+		cis8. h16 a4 r r8 e'
+		fis4( fis8[ gis] a8.) a,16 a4
+		d8([ e fis d)] g([ a h)] g %240
+		a4 d, a4. a8
+		d8 d d d g4 fis
+		g8. g16 d4 r8 g fis fis
+		g g d d a'4 d,
+		a2. a4 %245
+		d1\fermata \bar "|." %246 FINIS
 	}
 }
 
 KyrieIIBassoLyrics = \lyricmode {
+	Ky -- ri -- e e -- le -- i -- %198
+	son, e -- le -- i --
+	son. %200
 	
+	Ky -- ri -- e e -- %205
+	le -- i -- son, e --
+	le --
+	i -- son, e --
+	le -- i -- son, e --
+	le -- i -- son. %210
+	Ky -- ri -- e e --
+	le -- i -- son, e --
+	le -- i --
+	son, e --
+	le -- i -- %215
+	son, e -- le -- i -- son, e --
+	le -- i -- son,
+	
+	e -- %221
+	le -- _ _ _
+	_ _ i --
+	son, e -- le --
+	i -- %225
+	son, e -- le -- i -- son, e --
+	le -- i -- son, e -- le -- i --
+	son. Ky -- ri -- e e --
+	le -- i -- son, e -- le -- i --
+	son, %230
+	e -- _ _
+	_ _ _
+	le -- i --
+	son. Ky -- ri -- e e --
+	le -- i -- son, e -- %235
+	le -- i --
+	son. Ky -- ri -- e e --
+	le -- i -- son, e --
+	le -- i -- son,
+	e -- le -- i -- %240
+	son, e -- le -- i --
+	son, e -- le -- i -- son, e --
+	le -- i -- son, e -- le -- i --
+	son, e -- le -- i -- son, e --
+	le -- i -- %245
+	son. %246 FINIS
 }
 
 % BassoNotes = {
