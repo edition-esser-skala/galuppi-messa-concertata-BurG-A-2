@@ -289,12 +289,108 @@ KyrieIISopranoINotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #198
-		
+		\mvTr d'8.\fE^\tuttiE d16 d4 r8 e e e
+		d4 d d4. d8
+		d1\fermata \bar "||" %200
+		\tempoKyrieIIFuga a8.^\solo a16 a8 a fis8. e16 d4
+		r r8 a' h4 h8[ cis]
+		d[ a] d4. cis16[ h] cis8[ d]
+		h4. e8 a,4 d~
+		d cis d r8 fis %205
+		e d cis cis d4 e
+		a, h4.( a16[ g]) a8 a
+		h4 r r2
+		R1
+		d8.^\tutti d16 d8 d cis8. h16 a8 cis %210
+		d8. d16 d4 r2
+		r4 r8 d e4( e8[ fis]
+		g4. a16[ g] fis4.) fis8
+		e4. e8 d4 e
+		a, r8 a h4( h8[ cis] %215
+		d[ a] d2) cis4
+		h e8[ d] cis4 fis8[ e]
+		d[ cis16 h] e8[ d] cis[ h cis a]
+		d[ a] d4 e cis
+		d h cis4. d16[ cis] %220
+		h4. h8 a e' e e
+		fis4. fis8 e4. e8
+		a,4 cis h4. h8
+		e,4 r r2
+		r4 r8 a h4 h8[ cis] %225
+		d[ a] d4^\critnote cis cis8[ d]
+		e[ h] e2 d4
+		cis4. cis8 h4 r
+		r2 g'8. g16 g8 g
+		fis4. fis8 e4 e %230
+		e4. e8 e4 cis
+		d( h cis8) h a4
+		R1
+		d8. d16 d8 d cis8. h16 a4
+		r r8 d e4 e8[ fis] %235
+		g4. a16[ g] fis4. fis8
+		e4 cis d4. d8
+		e4 cis d e
+		a, fis' e e~
+		e8[ a,] d2 g4~ %240
+		g8[ a fis g] e4. e8
+		d d d d h4 g
+		h8. h16 d4 r8 h d d
+		d d d d cis4 fis
+		e( d2) cis4 %245
+		d1\fermata \bar "|." %246 FINIS
 	}
 }
 
 KyrieIISopranoILyrics = \lyricmode {
+	Ky -- ri -- e e -- le -- i -- %198
+	son, e -- le -- i --
+	son. %200
+	Ky -- ri -- e e -- le -- i -- son,
+	e -- le -- _
+	_ _ _ _
+	_ _ _ _
+	i -- son, e -- %205
+	le -- i -- son, e -- le -- i --
+	son, e -- le -- i --
+	son.
 	
+	Ky -- ri -- e e -- le -- i -- son, e -- %210
+	le -- i -- son,
+	e -- le --
+	i --
+	son, e -- le -- i --
+	son, e -- le -- %215
+	i --
+	son, e -- le -- _
+	_ _ _
+	_ _ _ _
+	_ _ _ _ %220
+	_ i -- son, e -- le -- i --
+	son, e -- le -- i --
+	son, e -- le -- i --
+	son,
+	e -- le -- _ %225
+	_ _ _ _
+	_ _ _
+	_ i -- son.
+	Ky -- ri -- e e --
+	le -- i -- son, e -- %230
+	le -- i -- son, e --
+	le -- i -- son.
+	
+	Ky -- ri -- e e -- le -- i -- son,
+	e -- le -- _ %235
+	_ _ _ _
+	_ i -- son, e --
+	le -- i -- son, e --
+	le -- i -- son, e --
+	_ _ %240
+	le -- i --
+	son, e -- le -- i -- son, e --
+	le -- i -- son, e -- le -- i --
+	son, e -- le -- i -- son, e --
+	le -- i -- %245
+	son. %246 FINIS
 }
 
 % SopranoINotes = {

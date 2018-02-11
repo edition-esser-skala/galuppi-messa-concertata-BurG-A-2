@@ -439,7 +439,7 @@ KyrieIIOrgano = {
 		h4 fis' g2
 		d1\fermata \bar "||" %200
 		\clef treble \tempoKyrieIIFuga << {
-			a''8. a16 a8 a fis8.^\critnote e16 d4
+			a''8._\soloE a16 a8 a fis8.^\critnote e16 d4
 			r r8 a' h4 h8 cis
 			d a d4. cis16 h cis8 d
 			h4. e8 a,4 d
@@ -454,7 +454,7 @@ KyrieIIOrgano = {
 		fis4 fis8 gis a e a4~
 		a gis a fis
 		e2 d4 cis
-		h2 a4 a' %210
+		h2 a4 a'-\tuttiE %210
 		d8. d16 d8 d a8. a16 a8 a
 		fis8. e16 d8 d a4 a'8 a
 		h4 h8 cis d4 d,
