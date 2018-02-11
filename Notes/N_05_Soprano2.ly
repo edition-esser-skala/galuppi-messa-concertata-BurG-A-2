@@ -31,7 +31,7 @@ KyrieSopranoIINotes = {
 		r8 a a a a4 a
 		a4. a8 a4 r
 		r8 cis d d cis4 r8 d %45
-		e8. cis16 d8 d d4. cis8 \noBreak
+		e8. cis16 d8 d d4^\critnote cis \noBreak
 		d1\fermata \bar "||"
 		\tempoKyrieB R1*7 %54
 		r2 \mvTr a8.\fE^\tuttiE a16 a4 %55
