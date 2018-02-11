@@ -59,17 +59,17 @@ KyrieSopranoIINotes = {
 		fis8[ gis] a2) gis4
 		a r r2
 		r4 r8 a h h h h
-		cis h a4 g4. a16([ g)]
+		cis h a4 g4. a16([ g)] %80
 		fis8 d' d d cis cis cis cis
 		h4 r r2
 		cis8. cis16 cis4 r2
 		r d8. d16 d4
-		r2 r8 fis g e
+		r2 r8 fis g e %85
 		fis4 r r8 a, h h
-		e, e a4~ a8[ gis16 a] h4~
+		e, e a4~ a8[ g?16 a] h4~
 		h8[ a16 h] cis4~ cis8[ h16 cis] d4~
 		d8[ cis16 d] e4~ e8 d4 cis8
-		d4 a8 a h4 h8 h
+		d4 a8 a h4 h8 h %90
 		a4 a a4. a8
 		a4 r r2
 		R1*7 \bar "||" %99 finis

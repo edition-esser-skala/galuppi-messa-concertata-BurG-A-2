@@ -66,7 +66,7 @@ KyrieTenoreNotes = {
 		r fis8. fis16 d4
 		r2 r8 d e e %85
 		a,4 r r8 cis d h
-		cis e cis a e'4 r
+		cis e cis a d4^\critnote r
 		r8 h g e a4 r
 		r8h e d cis d e8. e16
 		d4 fis8 fis h,4 g8 g %90

@@ -69,9 +69,9 @@ KyrieAltoNotes = {
 		a r r8 a fis d
 		g4 r r a~
 		a8([ g16 fis)] g8 h a4 r8 a16 g
-		fis4 a8 a d,4 h'8 h %90
-		cis4 cis cis4. cis8
-		a4 r r2
+		fis4 a8 a fis4^\critnote e8 e %90
+		e4 fis e4. e8
+		fis4 r r2
 		R1*7 \bar "||" %99 finis
 	}
 }
