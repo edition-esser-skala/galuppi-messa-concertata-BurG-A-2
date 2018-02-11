@@ -67,10 +67,10 @@ KyrieViolinoII = {
 		d16 e d e fis8 e16 d cis4 r8 h'
 		a16 h a h g a g a fis8 d a'4~ %50
 		a gis a8 e16 d cis h a g
-		fis8 h16 cis d8 fis, g^\critnote g'16 fis e d c h
+		fis8 h16 cis d8 fis, g^\critnote g'16 fis e d cis h
 		a8 d16 e fis8 a, h h'16 a g fis e d
 		cis8 e16 d cis h a g fis8 cis' d g,
-		fis16 d' cis d e,8 cis' d d, a' d %55
+		e16-\critnote d' cis d e,8 cis' d d, a' d %55
 		cis4 r8 cis d16 e d e fis8 e16 d
 		cis4 r8 fis e16 fis e fis d e d e
 		cis8 a d2 cis4
@@ -114,7 +114,7 @@ KyrieViolinoII = {
 		fis8 h16 cis d8 fis, g g'16 fis e d cis h
 		a8 d16 e fis8 a, h h'16 a g fis e d
 		cis8 e16 d cis h a g fis8 cis' d g,
-		fis16 d' cis d e,8 cis' d,4 r\fermata \bar "||" %99 finis
+		e16-\critnote d' cis d e,8 cis' d,4 r\fermata \bar "||" %99 finis
 	}
 }
 
