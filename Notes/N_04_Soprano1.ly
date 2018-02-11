@@ -136,12 +136,152 @@ ChristeSopranoINotes = {
 		\clef treble
 		\key a \mixolydian \time 2/4 \autoBeamOff \tempoChriste
 			\set Score.currentBarNumber = #100
-		
+		\mvTr a'4\pE^\soloE cis8.([ d16)] %100
+		h4 e,8 e'
+		e dis16([ cis)] dis4
+		r e8 e
+		cis16([ h cis d)] e4
+		d16[ cis d e] fis4 %105
+		h,16[ a h cis] d4
+		cis16[ h cis d] e4
+		fis16[ e fis gis?] fis4
+		d16[ cis d e] cis[ h cis] d
+		h4 r %110
+		r8 e cis a
+		fis'2~
+		fis8([ g16 fis)] e8[ d]
+		cis4~ cis16[ fis e fis]
+		dis8[ e16 dis] e8[ cis] %115
+		dis4. e8
+		e4 r
+		R2*11 %128
+		e,4 gis8.([ a16)]
+		fis4 h,8 h' %130
+		h ais16([ gis?)] ais4
+		r h8 h
+		gis?16[( fis gis? a]) h4
+		a16[ gis? a h] cis4
+		fis,16[ e fis gis?] a4 %135
+		gis16[ fis gis a] h4
+		cis16[ h cis dis] h4
+		a16[ gis? a h] gis[ fis gis] a
+		fis4 r
+		r e'8 e %140
+		dis16[( cis dis e]) fis4
+		r8 h, e d
+		cis16([ h cis d] e4)
+		fis16([ e fis gis?)] e8 e
+		d16([ cis d e] cis[ h cis)] d %145
+		h8 h gis e
+		cis'4 r
+		r8 fis dis cis
+		his cis dis4~
+		dis8[ cis16 his] cis8[ h] %150
+		a4~ a16[ cis dis cis]
+		his8[ cis16 his] cis8[ dis]
+		cis4 his8. cis16
+		cis4 r
+		R2*3 %157
+		a4 cis8.([ d16)]
+		h4 e,8 e'
+		e dis16([ cis)] dis4 %160
+		R2*2
+		r4 r8 a
+		gis16[ fis gis a] h4
+		a16[ gis? a h] cis4 %165
+		fis,16[ e fis gis] a4
+		gis16[ fis gis a] h4
+		cis16[ h cis d] e4
+		d16[ cis d e] cis[ h cis] d
+		h4 r %170
+		r8 e cis a
+		fis'2~
+		fis8([ gis16 fis)] e8([ d)]
+		cis[ d] e4~
+		e8[ d16 cis] d4~ %175
+		d8[ cis16 h] cis8[ d]
+		cis4 h8. a16
+		a4 r
+		r8 a h a
+		gis8([ a16 gis] a8[ fis)] %180
+		a4 gis8. a16
+		a4 r
+		R2*14 %195
+		R2\fermataMarkup \bar "||" %197 finis
 	}
 }
 
 ChristeSopranoILyrics = \lyricmode {
+	Chri -- ste, __ %100
+	Chri -- ste e --
+	le -- i -- son.
+	Chri -- ste
+	e -- le --
+	_ _ %105
+	_ _
+	_ _
+	_ _
+	_ _ i --
+	son, %110
+	e -- le -- i --
+	son, __
+	e --
+	_
+	_ _ %115
+	le -- i --
+	son.
 	
+	Chri -- ste, %129
+	Chri -- ste e -- %130
+	le -- i -- son.
+	Chri -- ste
+	e -- le --
+	_ _
+	_ _ %135
+	_ _
+	_ _
+	_ _ i --
+	son.
+	Chri -- ste, %140
+	Chri -- ste
+	e -- le -- i --
+	son. __
+	Chri -- ste e --
+	le -- i -- %145
+	son, e -- le -- i --
+	son,
+	e -- le -- i --
+	son, e -- le --
+	_ %150
+	_
+	_ _
+	_ _ i --
+	son.
+	
+	Chri -- ste, %158
+	Chri -- ste e --
+	le -- i -- son, %160
+	
+	e -- %163
+	le -- _
+	_ _ %165
+	_ _
+	_ _
+	_ _
+	_ _ i --
+	son, %170
+	e -- le -- i --
+	son, __
+	e --
+	le -- _
+	_ %175
+	_
+	_ _ i --
+	son,
+	e -- le -- i --
+	son, __ %180
+	e -- le -- i --
+	son. %182 finis
 }
 
 % SopranoINotes = {
