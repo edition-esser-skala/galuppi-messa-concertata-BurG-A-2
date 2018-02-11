@@ -123,8 +123,8 @@ KyrieViola = {
 
 ChristeViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key a \mixolydian \time 2/4 \tempoChriste
 			\set Score.currentBarNumber = #100
 		R2*17 %116
@@ -178,7 +178,7 @@ ChristeViola = {
 		fis4 r8 fis
 		e4 r8 e
 		a,4 r8 a'
-		cis4 r8 a %190
+		d4-\critnote r8 a %190
 		h gis a a,
 		e'4 r8 e
 		a,4 r8 a

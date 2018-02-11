@@ -144,12 +144,12 @@ ChristeSopranoINotes = {
 		d16[ cis d e] fis4 %105
 		h,16[ a h cis] d4
 		cis16[ h cis d] e4
-		fis16[ e fis gis?] fis4
+		fis16[ e fis gis?] e4
 		d16[ cis d e] cis[ h cis] d
 		h4 r %110
 		r8 e cis a
 		fis'2~
-		fis8([ g16 fis)] e8[ d]
+		fis8([ gis?16 fis)] e8[ d]
 		cis4~ cis16[ fis e fis]
 		dis8[ e16 dis] e8[ cis] %115
 		dis4. e8
