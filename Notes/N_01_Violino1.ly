@@ -139,7 +139,7 @@ ChristeViolinoI = {
 		R2*24 %153
 		r8 gis e cis
 		a'2 %155
-		cis,4 r
+		h,4^\critnote r
 		gis'?8 a h4~
 		h8 a16 gis? a8 a
 		gis fis e4
@@ -149,7 +149,7 @@ ChristeViolinoI = {
 		d16 cis d e fis4
 		h,16 a h cis d4
 		cis16 h cis d e8 cis %165
-		dis4 a'
+		dis4 a'-\parenthesize-!
 		r gis-!
 		r a8 a,
 		h gis a a,

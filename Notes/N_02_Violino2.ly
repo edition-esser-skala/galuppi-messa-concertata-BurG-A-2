@@ -123,7 +123,64 @@ ChristeViolinoII = {
 		\clef treble
 		\key a \mixolydian \time 2/4 \tempoChriste
 			\set Score.currentBarNumber = #100
-		
+		R2*17 %116
+		r8 h'\p gis e
+		cis'4 r
+		d cis
+		h16 a h cis a gis a h %120
+		gis4 r
+		R2
+		r4 e'8 e
+		dis16 cis dis e fis4
+		e16 dis e fis gis4 %125
+		fis16 e fis gis e dis e fis
+		dis8 e16 dis e8 cis
+		e4 dis8. e16
+		e4 r
+		R2*25 %154
+		r8 cis a fis %155
+		d'2~
+		d8 e16 d cis8 h
+		cis a'16 gis a8 a
+		gis fis e4
+		R2 %160
+		r4 r8 e
+		cis16 h cis d e4
+		d16 cis d e fis4
+		h,16 a h cis d4
+		cis16 h cis d e8 cis %165
+		h4 fis'-!
+		r h,-!
+		r cis8 a
+		h gis a a,
+		e' h'' gis e %170
+		a4-! e-!
+		r a,-!
+		r h-!
+		r cis-!
+		r d-! %175
+		h8 e cis fis
+		e4 gis
+		a8 e cis a
+		fis' fis fis fis
+		h, cis16 h cis8 fis %180
+		cis4 h8. a16
+		a4 cis8. d16
+		h4 e,8 e'
+		e dis16 cis dis4
+		r r8 e %185
+		cis16 h cis d e4
+		d16 cis d e fis4
+		h,16 a h cis d4
+		cis16 h cis d e8 cis
+		d16 cis d e cis4 %190
+		h16 a h cis a gis a h
+		gis8 h gis e
+		cis' d e4~
+		e8 d16 cis d4~
+		d8 cis16 h cis8 d %195
+		h4. a8
+		a2\fermata \bar "||" %197 finis
 	}
 }
 
