@@ -131,6 +131,19 @@ KyrieSopranoILyrics = \lyricmode {
 	son. %92 finis
 }
 
+ChristeSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key a \mixolydian \time 2/4 \autoBeamOff \tempoChriste
+			\set Score.currentBarNumber = #100
+		
+	}
+}
+
+ChristeSopranoILyrics = \lyricmode {
+	
+}
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble

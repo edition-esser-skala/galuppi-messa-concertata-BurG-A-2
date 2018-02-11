@@ -223,6 +223,19 @@ KyrieBassFigures = \figuremode {
 	<4> <3> r2 %99 finis
 }
 
+ChristeOrgano = {
+	\relative c {
+		\clef bass
+		\key a \mixolydian \time 2/4 \tempoChriste
+			\set Score.currentBarNumber = #100
+		\mvTr a4\pE-\soloE r
+	}
+}
+
+ChristeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

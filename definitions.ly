@@ -165,6 +165,7 @@ tempoMarkup =
 tempoSinfonia = \tempoMarkup "[Tempo deest]"
 tempoKyrie = \tempoMarkup "Adagio"
 tempoKyrieB = \tempoMarkup "Allegro"
+tempoChriste = \tempoMarkup "Andante"
 
 
 % modify the Scheme function 'format-bass-figure'

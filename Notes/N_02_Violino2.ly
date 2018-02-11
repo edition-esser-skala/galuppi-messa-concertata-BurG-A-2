@@ -118,6 +118,15 @@ KyrieViolinoII = {
 	}
 }
 
+ChristeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \mixolydian \time 2/4 \tempoChriste
+			\set Score.currentBarNumber = #100
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

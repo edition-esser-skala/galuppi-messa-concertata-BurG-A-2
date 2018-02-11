@@ -121,6 +121,16 @@ KyrieViola = {
 	}
 }
 
+ChristeViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key a \mixolydian \time 2/4 \tempoChriste
+			\set Score.currentBarNumber = #100
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto
