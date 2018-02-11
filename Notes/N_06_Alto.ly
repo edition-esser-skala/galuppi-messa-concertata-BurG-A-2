@@ -131,6 +131,19 @@ KyrieAltoLyrics = \lyricmode {
 	son. %92 finis
 }
 
+KyrieIIAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoKyrieII
+			\set Score.currentBarNumber = #198
+		
+	}
+}
+
+KyrieIIAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

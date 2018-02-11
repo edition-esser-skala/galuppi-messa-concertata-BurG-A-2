@@ -131,6 +131,19 @@ KyrieSopranoIILyrics = \lyricmode {
 	son. %92 finis
 }
 
+KyrieIISopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoKyrieII
+			\set Score.currentBarNumber = #198
+		
+	}
+}
+
+KyrieIISopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoIINotes = {
 % 	\relative c' {
 % 		\clef treble

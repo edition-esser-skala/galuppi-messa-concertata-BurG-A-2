@@ -189,6 +189,16 @@ ChristeViola = {
 	}
 }
 
+KyrieIIViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key d \major \time 4/4 \tempoKyrieII
+			\set Score.currentBarNumber = #198
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto
