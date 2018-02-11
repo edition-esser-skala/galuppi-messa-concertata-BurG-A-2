@@ -136,12 +136,108 @@ KyrieIIAltoNotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #198
-		
+		\mvTr fis8.\fE^\tutti fis16 fis4 r8 a a a
+		fis4 a g4. g8
+		fis1\fermata \bar "||" %200
+		\tempoKyrieIIFuga r2 d8.^\soloE d16 d8 d
+		cis8. h16 a4 r r8 e'
+		fis4 fis8[ gis] a[ e] a4~
+		a8[ g16 fis] g4~ g8[ fis16 e] fis8[ g]
+		e4. e8 fis4 fis8[( gis] %205
+		a[ e] a4. g16[ fis] g8[ a16 g])
+		fis4. fis8 e4 e
+		d e e a
+		g4. g8 fis gis a4~
+		a8 a gis4 a8.^\tuttiE a16 a8 a %210
+		fis8. e16 d8 fis e8. e16 e4
+		R1
+		r4 r8 e fis4( fis8[ gis]
+		a[ e] a4 d, g
+		a8) g fis fis g4. g8 %215
+		a4 fis8 fis e4 e
+		e4. e8 e4 r
+		r2 r4 a8[ g]
+		fis4 h8[ a] g[ fis16 e] a8[ g]
+		fis4 gis a8[( e] a4~) %220
+		a gis a a8 a
+		a4 fis g e
+		fis r r2
+		R1
+		r2 r4 r8 e %225
+		fis4( fis8[ gis] a[ e)] a4
+		g4 g8([ a]) h[( fis] h4~)
+		h ais h r
+		r2 r4r8 e,
+		fis4( fis8[ gis] a[ e] a4~) %230
+		a gis a fis~
+		fis e2 d4
+		a r r2
+		r r4 r8 e'
+		fis4( fis8[ g] e4 a %235
+		d,) e a, d
+		cis( e fis8.) g16 a8 fis
+		e8. e16 e4 g8. g16 g8 g
+		fis8. e16 d4 r2
+		r4 a'4.( g16[ fis]) g8 h %240
+		a4 a a4. a8
+		a4 r r2
+		r8 g fis fis g4 d
+		g8. g16 fis4 r8 a a a
+		a4 a a4. a8 %245
+		a1\fermata \bar "|." %246 FINIS
 	}
 }
 
 KyrieIIAltoLyrics = \lyricmode {
+	[Ky -- ri -- e e -- le -- i -- %198
+	son, e -- le -- i --
+	son.] %200
+	Ky -- ri -- e e --
+	le -- i -- son, e --
+	le -- _ _ _
+	_ _
+	_ i -- son, e -- %205
 	
+	le -- i -- son, e --
+	le -- i -- son, e --
+	le -- i -- son, e -- le --
+	i -- son. Ky -- ri -- e e -- %210
+	le -- i -- son, e -- le -- i -- son,
+	
+	e -- le --
+	
+	i -- son, e -- le -- i -- %215
+	son. Ky -- ri -- e e --
+	le -- i -- son,
+	e --
+	_ _ _ _
+	_ _ le -- %220
+	i -- son. Ky -- ri --
+	e e -- le -- i --
+	son,
+	
+	e -- %225
+	le -- i --
+	son, e -- le --
+	i -- son,
+	e --
+	le -- %230
+	i -- son, e --
+	le -- i --
+	son,
+	e --
+	le -- %235
+	i -- son, e --
+	le -- i -- son, e --
+	le -- i -- son. Ky -- ri -- e e --
+	le -- i -- son,
+	e -- le -- i --
+	son, e -- le -- i --
+	son,
+	e -- le -- i -- son, e --
+	le -- i -- son, e -- le -- i --
+	son, e -- le -- i --
+	son.
 }
 
 % AltoNotes = {

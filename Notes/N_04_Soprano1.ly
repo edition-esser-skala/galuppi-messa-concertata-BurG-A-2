@@ -289,7 +289,7 @@ KyrieIISopranoINotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #198
-		\mvTr d'8.\fE^\tuttiE d16 d4 r8 e e e
+		\mvTr d'8.\fE^\tutti d16 d4 r8 e e e
 		d4 d d4. d8
 		d1\fermata \bar "||" %200
 		\tempoKyrieIIFuga a8.^\solo a16 a8 a fis8. e16 d4

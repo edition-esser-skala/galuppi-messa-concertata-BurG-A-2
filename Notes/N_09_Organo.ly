@@ -461,10 +461,17 @@ KyrieIIOrgano = {
 		a a'2 g4
 		fis4. g16 fis e2 %215
 		d4 d8 d e4 a,
-		e'2 a,4 \clef treble a''~
-		a gis a a8 g
-		fis4 h8 a g fis16 e a8 g
-		fis[ fis] \clef "treble_8" e d cis4 fis8 e %220
+		e'2 a,4 \clef treble << {
+			fis'''8^\critnote e
+			d cis16 h e8 d cis h cis a
+			d a d4 e cis
+			d
+		} \\ {
+			a~
+			a gis a a8 g
+			fis4 h8 a g fis16 e a8 g
+			fis[ fis]
+		} >> \clef "treble_8" e8 d cis4 fis8 e %220
 		d-\critnote cis16 h e8 d cis h \clef bass a[ g]
 		fis4 h8 a g fis16 e a8 g
 		fis d a'2 gis4
@@ -502,38 +509,38 @@ KyrieIIBassFigures = \figuremode {
 	r
 	r
 	r
-	<4>4 <3> r2 %205
-	<[6]>1
-	r2 <9>4 <8>
+	<4>4 <3> r4 <[3]>8 <[4\+]> %205
+	<[6]>2 <[7]>4 <[6]>
+	q4. q8 <9>4 <8>
 	<4 2> <6 5> r <6>
-	<5>4. <6>8 r4 <6>
+	<5>4. <6>8 <[3]>8 <[4\+]> <6>4
 	<[7]> <[6+]> r2 %210
 	r1
-	<[6]>
-	r
+	<[6]>2. <[5]>8 <[6]>
+	q4. q8 r4 <[3]>8 <[4\+]>
 	r4 <3> <4 2>2
 	<[6]> <7>4 <6> %215
 	r4 <[6]>8 <[5]> <7 _+>2
 	<[4]>4 <[_+]> r2
 	r1
 	r
-	r2 <6> %220
-	r1
+	r4 <[_+]> <6>2 %220
+	r4 <[_+]> <[6]>2
 	<6>2 <6 5>
-	r4 <3> <4 2> <6>
+	<[6]>4 <3> <4 2> <6>
 	r <[6]>8 <[5]> <4 2>4 <6>
 	<4 2> <6> <7> <6> %225
-	r1
+	r4 <[3]>8 <[4\+]> r2
 	r2 <4>4 <3>
 	<4> <_+> r2
 	r4 <6> r <6>
-	r1 %230
-	<4>4 <3> <6>2
+	r4 <[3]>8 <[4\+]> r2 %230
+	<4>4 <[_+]> <6>2
 	<6 5>4 <_+> <6>2
 	r4 <[6]>8 <[5]> <4 2>4 <6>
 	r1
 	<[6]>2 q %235
-	r4. <6>8 q2
+	<6> q2
 	r1
 	<[6]>4. <5>8 <6>4 q
 	q2 r

@@ -136,7 +136,7 @@ KyrieIISopranoIINotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #198
-		\mvTr a'8.\fE^\tuttiE a16 a4 r8 cis cis cis
+		\mvTr a'8.\fE^\tutti a16 a4 r8 cis cis cis
 		h4 a h4. h8
 		a1\fermata \bar "||" %200
 		\tempoKyrieIIFuga R1*7 %207
