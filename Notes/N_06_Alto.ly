@@ -231,13 +231,13 @@ KyrieIIAltoLyrics = \lyricmode {
 	le -- i -- son, e --
 	le -- i -- son. Ky -- ri -- e e --
 	le -- i -- son,
-	e -- le -- i --
+	e -- le -- i -- %240
 	son, e -- le -- i --
 	son,
 	e -- le -- i -- son, e --
 	le -- i -- son, e -- le -- i --
-	son, e -- le -- i --
-	son.
+	son, e -- le -- i -- %245
+	son. %246 FINIS
 }
 
 % AltoNotes = {

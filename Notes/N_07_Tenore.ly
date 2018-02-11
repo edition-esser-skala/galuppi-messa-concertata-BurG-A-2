@@ -136,12 +136,100 @@ KyrieIITenoreNotes = {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #198
-		
+		\mvTr d8.\fE^\tuttiE d16 d4 r8 cis cis cis
+		d4 d h4. h8
+		d1\fermata \bar "||" %200
+		R1*4
+		a8.^\soloE a16 a8 a fis8. e16 d4 %205
+		r4 r8 a' h4( h8[ cis]
+		d[ a] d4. cis16[ h] cis8) d
+		h4 h cis( d
+		h) e a, cis
+		d h cis r %210
+		d8.^\tuttiE d16 d8 d cis8. h16 a8 cis
+		d([ e fis)] d a4 r
+		R1
+		r4 r8 a h4( h8[ cis]
+		d4 a e'4.) e8 %215
+		a,4 h8 h h4 a
+		h4. h8 cis4 r
+		R1*2
+		r4 e8[ d] cis4 fis8[ e] %220
+		d[ cis16 h] e8[ d] cis[ h cis a]
+		d[ a] d2 cis4
+		d e d h
+		cis r r8 h h h
+		a4 a g4. g8 %225
+		fis d' d d e4 cis
+		h8. h16 h4 r h
+		cis fis fis r
+		r r8 a, h4 h8[ cis]
+		d4.^\critnote e,8 a[ h cis a] %230
+		e'4 e, a8 e a4~
+		a gis a e'~
+		e8[( d16 cis] d8[ fis)] e4. e8
+		a,4 r r2
+		d8. d16 d8 d cis h a4 %235
+		r4 r8 e fis4( fis8[ gis]
+		a8.) h16 cis4 r2
+		r4 r8 a h4 h8[ cis]
+		d4 h cis8[ d e cis]
+		fis4. fis8 h, h g' g %240
+		e4 d e4. e8
+		fis8 fis fis fis d4 d
+		d8. d16 d4 r8 d d d
+		h h d d e4 d
+		e( a, e'4.) e8 %245
+		fis1\fermata \bar "||" %246 FINIS
 	}
 }
 
 KyrieIITenoreLyrics = \lyricmode {
+	[Ky -- ri -- e e -- le -- i -- %198
+	son, e -- le -- i --
+	son.] %200
 	
+	Ky -- ri -- e e -- le -- i -- son, %205
+	e -- le --
+	i --
+	son, e -- le --
+	i -- son, e --
+	le -- i -- son. %210
+	Ky -- ri -- e e -- le -- i -- son, e --
+	le -- i -- son,
+	
+	e -- le --
+	i -- %215
+	son. Ky -- ri -- e e --
+	le -- i -- son,
+	
+	e -- _ _ %220
+	_ _ _
+	_ le -- i --
+	son, e -- le -- i --
+	son, e -- le -- i --
+	son, e -- le -- i -- %225
+	son, e -- le -- i -- son, e --
+	le -- i -- son, e --
+	le -- i -- son,
+	e -- le -- _
+	_ _ _ %230
+	_ i -- son, e -- le --
+	i -- son, e --
+	le -- i --
+	son.
+	Ky -- ri -- e e -- le -- i -- son, %235
+	e -- le --
+	i -- son,
+	e -- le -- _
+	_ _ _
+	_ i -- son, e -- le -- i -- %240
+	son, e -- le -- i --
+	son, e -- le -- i -- son, e --
+	le -- i -- son, e -- le -- i --
+	son, e -- le -- i -- son, e --
+	le -- i -- %245
+	son. %246 FINIS
 }
 
 % TenoreNotes = {
