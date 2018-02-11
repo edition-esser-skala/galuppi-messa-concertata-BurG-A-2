@@ -30,8 +30,8 @@ SinfoniaViolinoI = {
 		g, fis16 e fis8 d' e, d r d' %20
 		h a16 g a8 d g, fis r d'
 		g, fis16 e fis8 d' e, d r4
-		d'32( e fis8.) fis32( g a8.) a,32( h cis8.) fis32( g a8.)
-		a,32( h cis8.) fis32( g a8.) h,16 a g8 r h
+		d'32( e fis8.) fis32( g a8.) a,32( h c?8.) fis32( g a8.)
+		a,32( h c?8.) fis32( g a8.) h,16 a g8 r h
 		e32( fis gis8.) gis32( a h8.) h,32( cis d8.) gis32( a h8.) %25
 		h,32( cis d8.) gis32( a h8.) cis,16 h a gis a8 d
 		cis h a g fis d' r h
