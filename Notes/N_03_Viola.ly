@@ -117,7 +117,7 @@ KyrieViola = {
 		a8 fis d h r h' \once \tieDashed cis4~
 		cis8 cis a fis r4 d8 e
 		e4 a8 a a4 r8 h
-		e, a a a a4 r\fermata \bar "||"
+		e, a a a a4 r\fermata \bar "||" %99 finis
 	}
 }
 
@@ -127,7 +127,65 @@ ChristeViola = {
 		\clef treble
 		\key a \mixolydian \time 2/4 \tempoChriste
 			\set Score.currentBarNumber = #100
-		
+		R2*17 %116
+		gis'4\pE r
+		a r
+		a a8 a
+		fis h e, e %120
+		e4 r
+		fis r8 fis
+		gis?4 r8 h
+		h4 r8 h
+		h4 r8 e, %125
+		cis fis h, h
+		h4 h'8 cis
+		h4 h
+		h r
+		R2*24 %153
+		e,4 r
+		fis r8 a %155
+		h4 r8 h
+		gis4 r8 e
+		e4 r8 e
+		e4 r
+		R2 %160
+		r4 r8 gis
+		a4 r8 a
+		fis4 r8 fis
+		e4 r8 e
+		e4 r8 a %165
+		fis4 dis-!
+		r e-!
+		r a8 a
+		h gis a a,
+		e'4 r %170
+		e a,
+		r d-!
+		r gis-!
+		r a-!
+		r d,-! %175
+		e a,8 d
+		e4.-\critnote e8
+		e cis cis cis
+		d4 r8 d
+		e4 e8 fis %180
+		e4 e
+		e r
+		gis r
+		a r8 fis
+		h,4 r8 gis' %185
+		a4 r8 e
+		fis4 r8 fis
+		e4 r8 e
+		a,4 r8 a'
+		cis4 r8 a %190
+		h gis a a,
+		e'4 r8 e
+		a,4 r8 a
+		d4 r8 d
+		e4 a,8 d %195
+		e4 e,
+		a2\fermata \bar "||" %197 finis
 	}
 }
 

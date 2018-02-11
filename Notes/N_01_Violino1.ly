@@ -139,8 +139,8 @@ ChristeViolinoI = {
 		R2*24 %153
 		r8 gis e cis
 		a'2 %155
-		h,4^\critnote r
-		gis'?8 a h4~
+		fis4^\critnote r
+		gis?8 a h4~
 		h8 a16 gis? a8 a
 		gis fis e4
 		R2 %160

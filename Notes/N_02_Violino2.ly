@@ -124,7 +124,7 @@ ChristeViolinoII = {
 		\key a \mixolydian \time 2/4 \tempoChriste
 			\set Score.currentBarNumber = #100
 		R2*17 %116
-		r8 h'\p gis e
+		r8 h'\pE gis e
 		cis'4 r
 		d cis
 		h16 a h cis a gis a h %120
