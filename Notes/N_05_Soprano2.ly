@@ -220,6 +220,18 @@ KyrieIISopranoIILyrics = \lyricmode {
 	son. %246 FINIS
 }
 
+GloriaSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/8 \autoBeamOff \tempoGloria
+		
+	}
+}
+
+GloriaSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoIINotes = {
 % 	\relative c' {
 % 		\clef treble

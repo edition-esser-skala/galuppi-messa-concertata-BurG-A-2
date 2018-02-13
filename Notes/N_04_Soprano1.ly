@@ -393,14 +393,15 @@ KyrieIISopranoILyrics = \lyricmode {
 	son. %246 FINIS
 }
 
-% SopranoINotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoILyrics = \lyricmode {
-% 	
-% }
+GloriaSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/8 \autoBeamOff \tempoGloria
+		
+	}
+}
+
+GloriaSopranoILyrics = \lyricmode {
+	
+}
+

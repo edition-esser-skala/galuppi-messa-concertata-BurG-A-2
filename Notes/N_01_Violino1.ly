@@ -227,6 +227,14 @@ KyrieIIViolinoI = {
 	}
 }
 
+GloriaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/8 \tempoGloria
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

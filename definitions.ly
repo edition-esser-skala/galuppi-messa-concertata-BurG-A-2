@@ -163,11 +163,13 @@ tempoMarkup =
 %
 
 tempoSinfonia = \tempoMarkup "[Tempo deest]"
-tempoKyrie = \tempoMarkup "Adagio"
-tempoKyrieB = \tempoMarkup "Allegro"
-tempoChriste = \tempoMarkup "Andante"
-tempoKyrieII = \tempoMarkup "Adagio"
-tempoKyrieIIFuga = \tempoMarkup "Allegro"
+	tempoKyrie = \tempoMarkup "Adagio"
+	tempoKyrieB = \tempoMarkup "Allegro"
+	tempoChriste = \tempoMarkup "Andante"
+	tempoKyrieII = \tempoMarkup "Adagio"
+	tempoKyrieIIFuga = \tempoMarkup "Allegro"
+
+tempoGloria = \tempoMarkup "Allegro"
 
 
 % modify the Scheme function 'format-bass-figure'
@@ -254,7 +256,7 @@ tempoKyrieIIFuga = \tempoMarkup "Allegro"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup

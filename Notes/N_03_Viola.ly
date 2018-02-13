@@ -232,6 +232,15 @@ KyrieIIViola = {
 	}
 }
 
+GloriaViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key d \major \time 3/8 \tempoGloria
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto
