@@ -213,18 +213,18 @@ KyrieIIViolinoII = {
 		a gis a r
 		R1
 		d,8. d16 d8 d cis8. h16 a4
-		r r8 d e4 e8 fis
+		r r8 d e4 e8 fis %235
 		g4. a16 g fis4. fis8
 		e4 r r2
 		r g8. g16 g8 g
 		fis8. e16 d4 r8 a e'4~
-		e8 fis16 e d8 cis h g' g fis
+		e8 fis16 e d8 cis h g' g fis %240
 		e4 fis e4. e8
 		fis4 r r2
 		r8 g fis fis g4 d
 		r8 h d d cis cis d d
-		cis4 d2 cis4
-		d1\fermata \bar "|."
+		cis4 d2 cis4 %245
+		d1\fermata \bar "|." %246 FINIS
 	}
 }
 
