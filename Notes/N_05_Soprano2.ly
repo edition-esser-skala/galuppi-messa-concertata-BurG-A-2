@@ -321,27 +321,27 @@ GloriaSopranoIILyrics = \lyricmode {
 	
 	Glo -- %53
 	
-	ri -- a in ex --
+	ri -- a in ex -- %55
 	cel -- sis,
 	in ex --
 	cel --
 	_
-	
+	%60
 	sis,
 	
 	in ex --
 	cel --
-	
+	%65
 	sis
 	De -- o,
 	
 	in ex --
-	cel --
+	cel -- %70
 	
 	_
 	
 	_
-	
+	%75
 	_
 	
 	_ sis
