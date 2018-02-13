@@ -267,7 +267,7 @@ GloriaViolinoI = {
 		e' e, r
 		r e' a~ %35
 		a16 gis? fis e d cis
-		h8 e gis~
+		h8 d^\critnote gis~
 		gis16 fis e d cis h
 		a8 cis fis~
 		fis16 e d cis h a %40
@@ -322,7 +322,7 @@ GloriaViolinoI = {
 		cis16 d e d cis8
 		fis a16 g fis8 %90
 		e16 fis g fis e8
-		fis16 a g8.[ fis16]
+		fis16 a \appoggiatura a g8.[^\critnote fis16]
 		e( fis g8) fis
 		\once \tieDashed e,16( fis g8) fis
 		e'16( fis g8) g %95

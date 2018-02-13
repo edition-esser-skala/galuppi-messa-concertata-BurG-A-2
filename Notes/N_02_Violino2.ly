@@ -232,7 +232,103 @@ GloriaViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/8 \tempoGloria
-		
+		R4.*2
+		d'8\pE fis16 e d8
+		cis16 d e d cis8
+		fis d16 e fis g %5
+		e8 a, r
+		r a d~
+		d16 cis h a g fis
+		e8 h' e~
+		e16 d cis h a g %10
+		fis8 cis'^\critnote fis~
+		fis16 e d cis h a
+		g8 d' g~
+		g16 fis e d cis h
+		a8 e' a~ %15
+		a16 g fis e d cis
+		h8 h16 h e d
+		cis( d e8) d
+		cis,16( d e8) d
+		cis'16( d e8) d %20
+		cis d16 cis d8~
+		d16 h cis8.[ d16]
+		d8 d, r
+		e' e, r
+		fis' fis, r %25
+		cis' cis, r
+		d' d, r
+		e' e, r
+		fis' fis, r
+		cis' cis, r %30
+		d' d, r
+		cis' cis, a'
+		h gis a
+		e h' e~
+		e16 d cis h a gis %35
+		fis8 a d~
+		d16 cis h a gis? fis
+		e8 gis-\critnote cis~
+		cis16 h a gis? fis e
+		d8 fis h~ %40
+		h16 a gis? fis e d
+		cis8 r r
+		gis''16 a h8 a
+		gis r r
+		gis,16 a h8 a %45
+		gis r r
+		e4 a8
+		d, e e
+		a' cis16 h a8
+		gis16 a h a gis8 %50
+		cis a16 h cis d
+		h8 e, r
+		a, a, r
+		h' h, r
+		cis' cis, r %55
+		gis' gis, r
+		a' a, r
+		d' d, r
+		d' d, r
+		h' h, r %60
+		cis' cis, r
+		fis' fis, r
+		cis' cis, r
+		fis' fis, r
+		cis' cis, r %65
+		d d d
+		a' a, r
+		r a' d~
+		d16 cis h a g fis
+		e8 h' e~ %70
+		e16 d cis h a g
+		fis8 cis'^\critnote fis~
+		fis16 e d cis h a
+		g8 d' g~
+		g16 fis e d cis h %75
+		a8 e' a~
+		a16 g fis e d cis
+		h8 h h
+		cis16 d e8 d
+		cis r r %80
+		cis,16 d e8 d
+		cis r r
+		a'4 d8
+		g, a a,
+		d4 d8 %85
+		e a d,
+		g, a a
+		d r r
+		R4.
+		d'8 fis16 e d8 %90
+		cis16 d e d cis8
+		d16 fis \appoggiatura fis8 e8.[ d16]
+		cis( d e8) d
+		cis,16( d e8) d
+		cis'16( d e8) d %95
+		cis d16 cis d8~
+		d16 h cis8.[ d16]
+		d4.\fermata \bar "||" %98 finis
 	}
 }
 
