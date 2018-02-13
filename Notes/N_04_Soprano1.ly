@@ -397,11 +397,142 @@ GloriaSopranoINotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/8 \autoBeamOff \tempoGloria
-		
+		R4.*22 %22
+		\mvTr d'8[(\pE^\soloE fis16 e d8]
+		cis16[ d e d cis8]
+		fis8) d16 e fis g %25
+		e8 a, r
+		R4.
+		r8 e' e
+		d16[ cis h cis d8]
+		cis16[ h a h cis8] %30
+		fis16[ e d e fis8]
+		e16[ d cis d e8]
+		d16[ e d8] cis
+		cis h r
+		r e e %35
+		fis[( d16 e fis8]~
+		fis16[ e d cis h d]
+		e[ d]) e8 r
+		r cis cis
+		d[( h16 cis d8]~ %40
+		d16[ cis h a gis h]
+		cis[ e d8]) cis
+		h h r
+		gis16([ a h8)] a
+		gis16([ fis)] gis8 r %45
+		h16([ cis d8)] cis
+		d([ cis16 h)] cis8~
+		cis16([ d)] cis8([ h)]
+		a r r
+		R4. %50
+		a8([ cis16 h a8]
+		gis16[ a h a gis8]
+		cis) a16 h cis d
+		h8 e, r
+		R4. %55
+		r8 h' e
+		e16[ d cis h a e']
+		fis8[ d16 e fis8]~
+		fis16[ e d cis h a]
+		gis8 r r %60
+		r a a
+		d[( fis16 e d8]
+		cis16[ d e d cis8]
+		fis[ d16 e)] fis([ g)]
+		e8 a, r %65
+		R4.*2
+		r8 a a
+		h4.~
+		h8.[ cis16 a h] %70
+		cis4.~
+		cis8.[ d16 h cis]
+		d4.~
+		d8.[ e16 cis d]
+		e4.~ %75
+		e8.[ fis16 d e]
+		fis4 e8
+		d[ g] fis
+		e e r
+		cis16([ d e8)] d8 %80
+		cis cis r
+		e16([ fis g8)] fis
+		e([ fis16 e)] fis8~
+		fis16([ g)] fis8([ e)]
+		d fis fis %85
+		e16([ d e cis)] d8~
+		d16([ h)] d8([ cis)]
+		d r r
+		R4.*9 %97
+		R4.\fermataMarkup \bar "||" %98 finis
 	}
 }
 
 GloriaSopranoILyrics = \lyricmode {
+	Glo -- %23
 	
+	ri -- a in ex -- %25
+	cel -- sis,
+	
+	in ex --
+	cel --
+	_ %30
+	_
+	_
+	_ sis
+	De -- o,
+	in ex -- %35
+	cel --
+	
+	sis,
+	in ex --
+	cel -- %40
+	
+	sis
+	De -- o,
+	in __ ex --
+	cel -- sis, %45
+	in __ ex --
+	cel -- sis __
+	De --
+	o.
+	%50
+	Glo --
+	
+	ri -- a in ex --
+	cel -- sis,
+	%55
+	in ex --
+	cel --
+	_
+	
+	sis, %60
+	in ex --
+	cel --
+	
+	sis
+	De -- o, %65
+	
+	in ex -- %68
+	cel --
+	%70
+	_
+	
+	_
+	
+	_ %75
+	
+	_ _
+	_ sis
+	De -- o,
+	in __ ex -- %80
+	cel -- sis,
+	in __ ex --
+	cel -- sis __
+	De --
+	o, in ex -- %85
+	cel -- sis __
+	De --
+	o. %88 finis
 }
 
