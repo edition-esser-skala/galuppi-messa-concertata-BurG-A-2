@@ -558,11 +558,205 @@ GloriaOrgano = {
 		\clef bass
 		\key d \major \time 3/8 \tempoGloria
 		\mvTr d8\pE-\soloE r r
+		a r r
+		d r r
+		a' r r
+		d4 d,8 %5
+		a4 cis8
+		d r r
+		g r r
+		g, r r
+		a r r %10
+		a' r r
+		h r r
+		h, r r
+		cis r r
+		cis' r r %15
+		d4 d,8
+		g4 g8
+		a r r
+		a, r r
+		a r r %20
+		a4 d8
+		g a a,
+		d d, r
+		a'' a, r
+		d d, r %25
+		a'' a, r
+		d' d, r
+		a' a, r
+		d d, r
+		a'' a, r %30
+		d' d, r
+		a'^\critnote a, a'
+		h gis a
+		e e, r
+		a' a, r %35
+		d' d, r
+		gis gis, r
+		cis' cis, r
+		fis fis, r
+		h' h, r %40
+		e e, r
+		r16 a' h gis a a,
+		e'8 e, r
+		e' e, r
+		e' e, r
+		e' r r
+		e4 a,8
+		d e e,
+		a r r
+		e' e, r
+		a' a, r
+		e' e, r
+		a' a, r
+		e' e, r
+		a' a, r
+		e' e, r
+		a' a, r
+		d' d, r
+		h' h, r
+		e e, r
+		a' a, r
+		fis' fis, r
+		a' a, r
+		fis' fis, r
+		a' a, r
+		d d, r
+		a'' a, r
+		d d, r
+		g' g, r
+		g' g, r
+		a' a, r
+		a' a, r
+		h' h, r
+		h' h, r
+		cis' cis, r
+		cis' cis, r
+		d' d, r
+		g g g
+		a a, r
+		a' a, r
+		a' a, r
+		a' a, r
+		a'4 d,8
+		g a a,
+		d4 d8
+		e a d,
+		g a a,
+		d r r
+		a r r
+		d r r
+		a r r
+		d g g
+		a r r
+		a, r r
+		a' r r
+		a4 d,8
+		g a a,
+		d4.\fermata \bar "||" %98 finis
 	}
 }
 
 GloriaBassFigures = \figuremode {
-	
+	r4.
+	r
+	r
+	r
+	r %5
+	r4 <[6]>8
+	r4.
+	<6>
+	q
+	r %10
+	r
+	<5>
+	q
+	q
+	<6> %15
+	r
+	<9>8 <8> <6>16 <5>
+	r4.
+	<7>
+	q %20
+	q
+	<7 5>8 <4> <3>
+	r4.
+	r
+	r %25
+	r
+	r
+	r
+	r
+	r %30
+	r
+	r
+	r
+	r
+	r %35
+	r
+	r
+	r
+	r
+	r %40
+	r
+	r
+	r
+	r
+	r %45
+	r
+	r
+	r
+	r
+	r %50
+	r
+	r
+	r
+	r
+	r %55
+	r
+	r
+	r
+	r
+	r %60
+	r
+	r
+	r
+	r
+	r %65
+	r
+	r
+	r
+	<5>
+	<6> %70
+	<5>
+	<6>
+	<5>
+	<6>
+	<5> %75
+	<6>
+	r
+	r
+	r
+	<7> %80
+	q
+	q
+	q
+	q8 <4> <3>
+	r4. %85
+	<7>8 q r
+	<6 5> <4> <3>
+	r4.
+	r
+	r %90
+	r
+	r
+	<7>
+	q
+	q %95
+	q
+	<7 5>8 <4> <3>
+	r4. %98 finis
 }
 
 % Organo = {
