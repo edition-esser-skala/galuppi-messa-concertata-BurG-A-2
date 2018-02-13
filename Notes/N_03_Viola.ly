@@ -234,10 +234,107 @@ KyrieIIViola = {
 
 GloriaViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key d \major \time 3/8 \tempoGloria
-		
+		fis8\pE r r
+		e r r
+		fis r r
+		a r r
+		a4 d8 %5
+		cis4 e,8
+		fis r r
+		g r r
+		g r r
+		e^\critnote r r %10
+		a r r
+		fis r r
+		h r r
+		g r r
+		cis r r %15
+		a4 d,8
+		d4 e8
+		e r r
+		a, r r
+		a' r r %20
+		a4 a8
+		r16 h a8.[ a16]
+		a8 a, r
+		a' a, r
+		a' a, r %25
+		a' a, r
+		a' a, r
+		a' a, r
+		a' a, r
+		a' a, r %30
+		a' a, r
+		a' a, a'
+		h gis a
+		e e, r
+		a' a, r %35
+		a' a, r
+		gis' gis, r
+		cis cis, r
+		fis' fis, r
+		h' h, r %40
+		e e, r
+		e' e, r
+		e' e, r
+		e' e, r
+		e' e, r %45
+		e' r r
+		e4 a8
+		d, e e
+		e r r
+		e e, r %50
+		e' e, r
+		e' e, r
+		e' e, r
+		e' e, r
+		e' e, r %55
+		e' e, r
+		e' e, r
+		fis' a, r
+		fis' gis,? r
+		e' e, r %60
+		e' e, r
+		fis' fis, r
+		a' a, r
+		a' a, r
+		a' a, r %65
+		a' a, r
+		a' a, r
+		a' a, r
+		g' g, r
+		h' h, r %70
+		e e, r
+		a' a, r
+		d d, r
+		h'' h, r
+		e e, r %75
+		cis'' cis, r
+		a' a, r
+		g' g g
+		a a r
+		a a, r %80
+		a' a, r
+		a' a, r
+		a'4 d,8
+		g a a,
+		d4 d8 %85
+		e a d,
+		g, a a
+		d r r
+		e r r
+		fis r r %90
+		a r r
+		a^\critnote h h
+		e, r r
+		a r r
+		a r r %95
+		a4 a8
+		h a8.[ a16]
+		a4.\fermata \bar "||" %98 finis
 	}
 }
 
