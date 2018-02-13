@@ -191,11 +191,44 @@ ChristeViola = {
 
 KyrieIIViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key d \major \time 4/4 \tempoKyrieII
 			\set Score.currentBarNumber = #198
-		
+		a'8.\fE a16 a4 r8 a a a
+		fis4 fis d4. d8
+		d1\fermata \bar "||" %200
+		R1*11 %211
+		d8.\fE d16 d8 d cis8. h16 a8 cis
+		d4 e a, fis'
+		e2 d4 e
+		fis d e2 %215
+		a,8 fis' fis fis e4 e
+		e4. e8 e4 r
+		R1*6 %223
+		r4 a, h h8 h
+		a2 e' %225
+		a,8 d d d cis4 e
+		e8. e16 e4 r8 d d d
+		cis4. cis8 h4 d
+		e fis d r8 e
+		fis4 fis8 gis a4 e %230
+		e4. e8 e4 fis
+		h h, cis8 d e4~
+		e8 d16 cis d8 fis e2
+		a,4 r r2
+		d8. d16 d8 d cis8. h16 a4 %235
+		d cis8 h a4-\critnote r
+		a'8. a16 a8 a fis8. e16 d8 fis
+		a4 r8 a, h4 h8 cis
+		d4 h cis8 d e4
+		r8 fis fis fis d d h' h %240
+		a4 a a4. a8
+		a4 r r2
+		r8 g d d d4 d
+		r8 d d d e e d d
+		e4 d a'4. a8 %245
+		a1\fermata \bar "|." %246 FINIS
 	}
 }
 
