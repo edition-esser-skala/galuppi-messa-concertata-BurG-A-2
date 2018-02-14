@@ -351,6 +351,15 @@ EtInTerraViolinoII = {
 	}
 }
 
+LaudamusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/4 \tempoLaudamus
+			\set Score.currentBarNumber = #110
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

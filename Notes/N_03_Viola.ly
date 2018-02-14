@@ -358,6 +358,16 @@ EtInTerraViola = {
 	}
 }
 
+LaudamusViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key d \major \time 2/4 \tempoLaudamus
+			\set Score.currentBarNumber = #110
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

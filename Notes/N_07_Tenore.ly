@@ -265,6 +265,19 @@ EtInTerraTenoreLyrics = \lyricmode {
 	tis.] %109 finis
 }
 
+LaudamusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 2/4 \autoBeamOff \tempoLaudamus
+			\set Score.currentBarNumber = #110
+		
+	}
+}
+
+LaudamusTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -63,9 +63,76 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.2 ET IN TERRA"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\EtInTerraViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\EtInTerraViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\EtInTerraViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano I"
+% 						\new Voice = "SopranoI" { \dynamicUp \EtInTerraSopranoINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoI \EtInTerraSopranoILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano II"
+% 						\new Voice = "SopranoII" { \dynamicUp \EtInTerraSopranoIINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoII \EtInTerraSopranoIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \EtInTerraAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \EtInTerraAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \EtInTerraTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \EtInTerraTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \EtInTerraBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \EtInTerraBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\EtInTerraOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\EtInTerraBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.2 ET IN TERRA"
+			movement = "2.3 LAUDAMUS TE"
 		}
 		\score {
 			<<
@@ -73,57 +140,33 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\EtInTerraViolinoI
+							\LaudamusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\EtInTerraViolinoII
+							\LaudamusViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\EtInTerraViola
+						\LaudamusViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano I"
-						\new Voice = "SopranoI" { \dynamicUp \EtInTerraSopranoINotes }
-					}
-					\new Lyrics \lyricsto SopranoI \EtInTerraSopranoILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Soprano II"
-						\new Voice = "SopranoII" { \dynamicUp \EtInTerraSopranoIINotes }
-					}
-					\new Lyrics \lyricsto SopranoII \EtInTerraSopranoIILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \EtInTerraAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \EtInTerraAltoLyrics
-					
-					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EtInTerraTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \LaudamusTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \EtInTerraTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \EtInTerraBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \EtInTerraBassoLyrics
+					\new Lyrics \lyricsto Tenore \LaudamusTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\EtInTerraOrgano
+						\LaudamusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\EtInTerraBassFigures
+					\LaudamusBassFigures
 				}
 			>>
 			\layout { }
