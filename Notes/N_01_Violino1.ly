@@ -337,7 +337,17 @@ EtInTerraViolinoI = {
 		\clef treble
 		\key h \minor \time 4/4 \tempoEtInTerra
 			\set Score.currentBarNumber = #99
-		
+		d'8\fE d d d cis4 r\fermata
+		fis r e r %100
+		r2 r8 g a a
+		h h h h a4 d~
+		d8 cis cis cis d h h h
+		h4 a gis2
+		fis4 a r fis %105
+		gis r r8 e e e
+		fis a a a h h h h
+		ais4 h2 ais4
+		h1\fermata \bar "||" %109 finis
 	}
 }
 

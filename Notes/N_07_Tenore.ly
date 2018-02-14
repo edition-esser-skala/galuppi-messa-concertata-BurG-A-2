@@ -237,7 +237,7 @@ EtInTerraTenoreNotes = {
 		\clef "treble_8"
 		\key h \minor \time 4/4 \autoBeamOff \tempoEtInTerra
 			\set Score.currentBarNumber = #99
-		\mvTr h8\fE^\tuttiE h h h cis4 r
+		\mvTr h8\fE^\tuttiE h h h cis4 r\fermata
 		d r e r %100
 		r8 cis cis cis d4 d
 		h4. h8 d4 fis8 fis
