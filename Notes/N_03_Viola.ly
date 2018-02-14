@@ -340,8 +340,8 @@ GloriaViola = {
 
 EtInTerraViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key h \minor \time 4/4 \tempoEtInTerra
 			\set Score.currentBarNumber = #99
 		fis8\fE fis fis fis fis4 r\fermata

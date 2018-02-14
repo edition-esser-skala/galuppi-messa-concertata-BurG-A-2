@@ -344,7 +344,7 @@ EtInTerraViolinoI = {
 		d8 cis cis cis d h h h
 		h4 a gis2
 		fis4 a r fis %105
-		gis r r8 e e e
+		r gis r8 e e e
 		fis a a a h h h h
 		ais4 h2 ais4
 		h1\fermata \bar "||" %109 finis
