@@ -765,11 +765,31 @@ EtInTerraOrgano = {
 		\key h \minor \time 4/4 \tempoEtInTerra
 			\set Score.currentBarNumber = #99
 		\mvTr h8-.\fE-\tuttiE h-. h-. h-. fis'4 r
+		d r a r %100
+		r8 a' a a h4 fis
+		g2 d4 d8 d
+		a'4 a, h8 h h h
+		cis4 fis cis2
+		fis4 r h, r %105
+		e r a a,8 a
+		d4 d8 d g4 g8 g
+		fis4 h, fis'2
+		h,1\fermata \bar "||" %109 finis
 	}
 }
 
 EtInTerraBassFigures = \figuremode {
-	
+	r2 <_+> %99
+	<5>1 %100
+	r2 <5>4 <6>
+	r1
+	<4>4 <3> <7> <6+>
+	<_+> <_!> <4> <_+>
+	r2 <_!> %105
+	<_+>1
+	r2 <7>4 <6>8 <[5]>
+	<7 _+>4 <_!> <4> <_+>
+	r1 %109 finis
 }
 
 % Organo = {
