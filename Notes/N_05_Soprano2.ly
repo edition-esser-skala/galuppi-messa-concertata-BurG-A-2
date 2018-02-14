@@ -357,6 +357,19 @@ GloriaSopranoIILyrics = \lyricmode {
 	o. %88 finis
 }
 
+EtInTerraSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoEtInTerra
+			\set Score.currentBarNumber = #99
+		
+	}
+}
+
+EtInTerraSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoIINotes = {
 % 	\relative c' {
 % 		\clef treble

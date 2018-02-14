@@ -240,6 +240,19 @@ KyrieIIAltoLyrics = \lyricmode {
 	son. %246 FINIS
 }
 
+EtInTerraAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoEtInTerra
+			\set Score.currentBarNumber = #99
+		
+	}
+}
+
+EtInTerraAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

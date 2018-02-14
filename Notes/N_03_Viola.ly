@@ -338,6 +338,16 @@ GloriaViola = {
 	}
 }
 
+EtInTerraViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key h \minor \time 4/4 \tempoEtInTerra
+			\set Score.currentBarNumber = #99
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

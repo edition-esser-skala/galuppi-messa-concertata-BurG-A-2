@@ -759,6 +759,19 @@ GloriaBassFigures = \figuremode {
 	r4. %98 finis
 }
 
+EtInTerraOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \tempoEtInTerra
+			\set Score.currentBarNumber = #99
+		\mvTr h8-.\fE-\tuttiE h-. h-. h-. fis'4 r
+	}
+}
+
+EtInTerraBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -365,6 +365,19 @@ KyrieIIBassoLyrics = \lyricmode {
 	son. %246 FINIS
 }
 
+EtInTerraBassoNotes = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \autoBeamOff \tempoEtInTerra
+			\set Score.currentBarNumber = #99
+		
+	}
+}
+
+EtInTerraBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

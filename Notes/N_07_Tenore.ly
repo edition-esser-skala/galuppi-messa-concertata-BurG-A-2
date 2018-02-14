@@ -232,6 +232,19 @@ KyrieIITenoreLyrics = \lyricmode {
 	son. %246 FINIS
 }
 
+EtInTerraTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 4/4 \autoBeamOff \tempoEtInTerra
+			\set Score.currentBarNumber = #99
+		
+	}
+}
+
+EtInTerraTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
