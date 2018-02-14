@@ -764,7 +764,7 @@ EtInTerraOrgano = {
 		\clef bass
 		\key h \minor \time 4/4 \tempoEtInTerra
 			\set Score.currentBarNumber = #99
-		\mvTr h8-.\fE-\tuttiE h-. h-. h-. fis'4 r
+		\mvTr h8-.\fE-\tuttiE h-. h-. h-. fis'4 r\fermata
 		d r a r %100
 		r8 a' a a h4 fis
 		g2 d4 d8 d
@@ -784,7 +784,7 @@ EtInTerraBassFigures = \figuremode {
 	r2 <5>4 <6>
 	r1
 	<4>4 <3> <7> <6+>
-	<[5+] _+> <_!> <[5+] 4> <_+>
+	<[7] [5+] _+> <_!> <[5+] 4> <_+>
 	r2 <_!> %105
 	<_+>1
 	r2 <7>4 <6>

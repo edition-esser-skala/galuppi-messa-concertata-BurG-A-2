@@ -362,12 +362,32 @@ EtInTerraSopranoIINotes = {
 		\clef treble
 		\key h \minor \time 4/4 \autoBeamOff \tempoEtInTerra
 			\set Score.currentBarNumber = #99
-		
+		\mvTr h'8\fE^\tuttiE h h h ais4 r\fermata
+		d r cis r %100
+		r8 cis cis cis h4 a
+		h4. h8 a4 a8 a
+		a4 a fis8 fis h h
+		h4( a gis2)
+		a4 r h r %105
+		gis r a cis8 cis
+		a8. a16 a4 h8 h h h
+		ais4( h2 ais4)
+		h1\fermata \bar "||" %109 finis
 	}
 }
 
 EtInTerraSopranoIILyrics = \lyricmode {
-	
+	[Et in ter -- ra pax, %99
+	pax, pax, %100
+	in ter -- ra pax ho --
+	mi -- ni -- bus] bo -- nae,
+	bo -- nae, bo -- nae vo -- lun --
+	ta --
+	tis, [pax, %105
+	pax, pax, pax ho --
+	mi -- ni -- bus bo -- nae vo -- lun --
+	ta --
+	tis.] %109 finis
 }
 
 % SopranoIINotes = {
