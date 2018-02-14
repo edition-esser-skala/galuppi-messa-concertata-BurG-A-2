@@ -237,12 +237,32 @@ EtInTerraTenoreNotes = {
 		\clef "treble_8"
 		\key h \minor \time 4/4 \autoBeamOff \tempoEtInTerra
 			\set Score.currentBarNumber = #99
-		
+		\mvTr h8\fE^\tuttiE h h h cis4 r
+		d r e r %100
+		r8 cis cis cis d4 d
+		h4. h8 d4 fis8 fis
+		e4 e d8 d d d
+		gis,4( fis gis2)
+		fis4 r d' r %105
+		gis, r cis cis8 cis
+		d8. d16 d4 h8 h h e
+		cis4( h cis2)
+		dis1\fermata \bar "||" %109 finis
 	}
 }
 
 EtInTerraTenoreLyrics = \lyricmode {
-	
+	[Et in ter -- ra pax, %99
+	pax, pax, %100
+	in ter -- ra pax ho --
+	mi -- ni -- bus] bo -- nae,
+	bo -- nae, bo -- nae vo -- lun --
+	ta --
+	tis, [pax, %105
+	pax, pax, pax ho --
+	mi -- ni -- bus bo -- nae vo -- lun --
+	ta --
+	tis.] %109 finis
 }
 
 % TenoreNotes = {

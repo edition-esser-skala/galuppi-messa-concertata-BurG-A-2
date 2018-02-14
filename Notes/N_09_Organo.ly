@@ -789,7 +789,7 @@ EtInTerraBassFigures = \figuremode {
 	<_+>1
 	r2 <7>4 <6>
 	<7 _+> <_!> <4> <_+>
-	r1 %109 finis
+	<[_+]>1 %109 finis
 }
 
 % Organo = {
