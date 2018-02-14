@@ -343,11 +343,11 @@ EtInTerraViolinoII = {
 		d g g g fis4 fis8 fis
 		e4 a4. gis16 fis gis8 gis
 		eis4 fis2 eis4
-		fis cis r d
+		fis cis r d %105
 		r h r8 cis cis cis
 		d e fis4. e16 d e8 e
 		e4 d cis2
-		dis1\fermata \bar "||"
+		dis1\fermata \bar "||" %109 finis
 	}
 }
 
