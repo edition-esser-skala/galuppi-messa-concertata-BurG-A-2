@@ -245,12 +245,32 @@ EtInTerraAltoNotes = {
 		\clef treble
 		\key h \minor \time 4/4 \autoBeamOff \tempoEtInTerra
 			\set Score.currentBarNumber = #99
-		
+		\mvTr fis8\fE^\tuttiE fis fis fis fis4 r\fermata
+		a r a r %100
+		r8 a a a fis4 a
+		g4. g8 fis4 r
+		r a4. gis8 gis gis
+		eis4( fis2 eis4)
+		fis r fis r %105
+		e! r e e8 a
+		fis8. fis16 fis4 g8 g g g
+		cis,4( d8[ e] fis2)
+		fis1\fermata \bar "||" %109 finis
 	}
 }
 
 EtInTerraAltoLyrics = \lyricmode {
-	
+	[Et in ter -- ra pax, %99
+	pax, pax, %100
+	in ter -- ra pax ho --
+	mi -- ni -- bus]
+	bo -- nae vo -- lun --
+	ta --
+	tis, [pax, %105
+	pax, pax, pax ho --
+	mi -- ni -- bus bo -- nae vo -- lun --
+	ta --
+	tis.] %109 finis
 }
 
 % AltoNotes = {
