@@ -370,12 +370,32 @@ EtInTerraBassoNotes = {
 		\clef bass
 		\key h \minor \time 4/4 \autoBeamOff \tempoEtInTerra
 			\set Score.currentBarNumber = #99
-		
+		\mvTr h8\fE^\tuttiE h h h fis'4 r\fermata
+		d r a' r %100
+		r8 a a a h4 fis
+		g4. g8 d4 d8 d
+		a'4 a, h8 h h h
+		cis4( fis cis2)
+		fis4 r h r %105
+		e, r a a,8 a
+		d8. d16 d4 g8 g g g
+		fis4( h, fis'2)
+		h,1\fermata \bar "||" %109 finis
 	}
 }
 
 EtInTerraBassoLyrics = \lyricmode {
-	
+	Et in ter -- ra pax, %99
+	pax, pax, %100
+	in ter -- ra pax ho --
+	mi -- ni -- bus bo -- nae,
+	bo -- nae, bo -- nae vo -- lun --
+	ta --
+	tis, pax, %105
+	pax, pax, pax ho --
+	mi -- ni -- bus bo -- nae vo -- lun --
+	ta --
+	tis. %109 finis
 }
 
 % BassoNotes = {
