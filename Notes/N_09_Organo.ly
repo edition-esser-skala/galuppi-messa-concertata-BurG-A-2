@@ -802,7 +802,7 @@ LaudamusOrgano = {
 		\clef bass
 		\key d \major \time 2/4 \tempoLaudamus
 			\set Score.currentBarNumber = #110
-		\mvTr d4\pE^\soloE r8 e
+		\mvTr d4\pE-\soloE r8 e
 		fis e fis g
 		fis d e a,
 		d4 r
@@ -919,9 +919,9 @@ LaudamusOrgano = {
 }
 
 LaudamusBassFigures = \figuremode {
-	r2 %110
-	r
-	r4. <7>8
+	r4. <[6]>8 %110
+	q2
+	q4. <7>8
 	r2
 	r
 	r %115
@@ -940,18 +940,18 @@ LaudamusBassFigures = \figuremode {
 	r
 	r4 <7>8 q
 	r2 %130
-	<5>8 <6> r4
-	<7>8 <5> r4
-	<7>4 <6+>
+	<5>4. <6>8
+	<7>4. <6>8
+	<7>4. <6+>8
 	r2
 	r %135
 	r
 	r
 	r
-	r
-	r %140
-	r
-	r4 <5>8 <6>
+	r4. <[5]>8
+	r4 <[6]> %140
+	r2
+	r4 <5>8 <_+>
 	<9>8 <6+> <6> r
 	<6 4>4 <5 _+>
 	r4. <6+>8 %145
@@ -969,22 +969,22 @@ LaudamusBassFigures = \figuremode {
 	r
 	r
 	r
-	r %160
-	r
-	r
-	r
+	r4. <[6\\]>8 %160
+	<[6]>2
+	q4. <[7] [_+]>8
+	r2
 	r
 	r %165
-	r
-	r
+	<[_+]>
+	q4 <[6]>
+	<_+> <[6]>
+	r q
+	<[6\\]>2 %170
 	<_+>
 	r
-	r %170
-	<_+>
 	r
 	r
-	r
-	r %175
+	<[7] [_+]> %175
 	r
 	r
 	r
@@ -992,11 +992,11 @@ LaudamusBassFigures = \figuremode {
 	r4 <7>8 q %180
 	r2
 	<6>4 <7>8 q
-	r2
-	r
-	r4 <7>8 q %185
-	r2
-	r
+	r4. <[6]>8
+	q2
+	q4 <7>8 q %185
+	r4 <[6]>
+	q2
 	<7>4. <6+>8
 	r2
 	r %190
@@ -1010,10 +1010,10 @@ LaudamusBassFigures = \figuremode {
 	<5 3>
 	r
 	r %200
-	r
-	r
-	r
-	r
+	r8 <[7]>4.
+	r8 <[6]> q4
+	<[6] [4]>4 <[5] [3]>
+	r2
 	r %205
 	r
 	r

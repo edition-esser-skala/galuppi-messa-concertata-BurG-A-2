@@ -275,12 +275,154 @@ LaudamusTenoreNotes = {
 		\clef "treble_8"
 		\key d \major \time 2/4 \autoBeamOff \tempoLaudamus
 			\set Score.currentBarNumber = #110
-		
+		r8 \mvTr a\pE^\soloE d cis %110
+		d8([ cis16 h] a8) h
+		a4( g16[ fis g a])
+		fis4 r
+		R2*13 %126
+		r8 a d cis
+		d8([ cis16 h] a8) h
+		a4( g16[ fis g a])
+		fis4 r %130
+		fis'8 d([ cis h)]
+		e cis([ h)] a
+		d h([ a gis)]
+		cis16([ h)] a8 r4
+		r8 cis16([ d)] e([ fis)] e([ fis)] %135
+		e8[ d16 cis] d8[ e]
+		fis[ fis,16 g] a[ h a h]
+		a8[ g16 fis] g8[ a]
+		h[ cis16 d] e8[ d]
+		cis16[ h] a8 r e' %140
+		fis e d cis
+		d4.( cis16[ h]
+		cis8) gis a fis
+		a4( gis8.) a16
+		a4 r %145
+		R2*14 %159
+		r8 e a gis %160
+		a16([ h cis d] e8) fis
+		e4( d16[ cis d e])
+		cis4 e8 e
+		d4 d8 d
+		cis4. cis8 %165
+		h16([ a)] h8 r4
+		r8 h e e
+		e([ fis16 e] fis[ e d cis]
+		d8) h r d
+		cis e16([ d)] cis8 h %170
+		ais4 r8 h
+		ais([ h)] cis([ h)]
+		ais ais r h
+		ais h cis d
+		e4.( d16[ cis] %175
+		d8) ais h gis
+		h4( ais8.) h16
+		h4 r
+		R2*4 %182
+		r8 a d cis
+		d([ cis16 h] a8) h
+		a4( g16[ fis g a]) %185
+		fis4 d'8 fis
+		e d([ cis)] e
+		d cis([ h d)]
+		cis16([ h)] a8 r4
+		r r8 d %190
+		cis([ d)] e([ d)]
+		cis cis r d
+		cis d e d
+		cis4 r
+		a a8 a %195
+		a2~
+		a~
+		a16([ h cis d] e8) fis
+		a,4 r
+		r8 a cis e %200
+		g,4. fis16[ e]
+		fis8[ cis' d h]
+		d4 cis8. d16
+		d8 a a a
+		h16[ a g fis] e'[ d cis h] %205
+		cis8[ a d d,]
+		fis4 e8. d16
+		d4 r
+		R2*17 %225
+		R2\fermataMarkup \bar "||" %226 finis
 	}
 }
 
 LaudamusTenoreLyrics = \lyricmode {
+	Lau -- da -- mus %110
+	te, __ lau --
+	da --
+	mus,
 	
+	lau -- da -- mus %127
+	te, __ lau --
+	da --
+	mus, %130
+	be -- ne --
+	di -- ci -- mus,
+	ad -- o --
+	ra -- mus,
+	glo -- ri -- fi -- %135
+	ca -- _
+	_ _
+	_ _
+	_ _
+	_ mus, glo -- %140
+	ri -- fi -- ca -- mus
+	te, __
+	glo -- ri -- fi --
+	ca -- mus
+	te. %145
+	
+	Lau -- da -- mus %160
+	te, __ lau --
+	da --
+	mus, be -- ne --
+	di -- ci -- mus,
+	ad -- o -- %165
+	ra -- mus,
+	glo -- ri -- fi --
+	ca --
+	mus, glo --
+	ri -- fi -- ca -- mus %170
+	te, glo --
+	ri -- fi --
+	ca -- mus, glo --
+	ri -- fi -- ca -- mus
+	te, __ %175
+	glo -- ri -- fi --
+	ca -- mus
+	te.
+	
+	Lau -- da -- mus %183
+	te, __ lau --
+	da -- %185
+	mus, be -- ne --
+	di -- ci -- mus,
+	ad -- o --
+	ra -- mus,
+	glo -- %190
+	ri -- fi --
+	ca -- mus, glo --
+	ri -- fi -- ca -- mus
+	te,
+	glo -- ri -- fi -- %195
+	ca --
+	
+	mus
+	te,
+	glo -- ri -- fi -- %200
+	ca -- _
+	_
+	_ _ mus
+	te, glo -- ri -- fi --
+	ca -- _ %205
+	_
+	_ _ mus
+	te. %208 finis
 }
 
 % TenoreNotes = {
