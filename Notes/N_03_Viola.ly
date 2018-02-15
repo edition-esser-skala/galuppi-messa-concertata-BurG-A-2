@@ -360,6 +360,11 @@ EtInTerraViola = {
 
 LaudamusViola = {
 	\relative c' {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 % 		\clef alto
 		\clef treble
 		\key d \major \time 2/4 \tempoLaudamus

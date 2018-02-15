@@ -267,6 +267,11 @@ EtInTerraTenoreLyrics = \lyricmode {
 
 LaudamusTenoreNotes = {
 	\relative c' {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 		\clef "treble_8"
 		\key d \major \time 2/4 \autoBeamOff \tempoLaudamus
 			\set Score.currentBarNumber = #110

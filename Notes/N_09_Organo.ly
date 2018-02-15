@@ -794,15 +794,248 @@ EtInTerraBassFigures = \figuremode {
 
 LaudamusOrgano = {
 	\relative c {
+		\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 		\clef bass
 		\key d \major \time 2/4 \tempoLaudamus
 			\set Score.currentBarNumber = #110
 		\mvTr d4\pE^\soloE r8 e
+		fis e fis g
+		fis d e a,
+		d4 r
+		d r
+		d r8 h %115
+		a h cis d
+		a4 r8 d
+		a4 r8 d
+		a'4 a,
+		a' r %120
+		a r
+		a r8 d,
+		a4 r
+		a8 a' fis e
+		d e fis g %125
+		fis d a' a,
+		d4 r8 e
+		fis e fis g
+		fis d e a,
+		d e fis e %130
+		d4 r8 d
+		cis4 r8 cis
+		h4 r8 h
+		a4 r
+		a r %135
+		a4 r8 a
+		d4 r
+		d r8 a'
+		g4 r8 gis
+		a a,16 h cis8 a %140
+		d4 r8 a'
+		h a gis e
+		a, h cis d
+		e4 e,
+		a r8 h %145
+		cis4 r8 d
+		a a' h e,
+		a,4 r8 a
+		e' fis gis a
+		e4 r8 a, %150
+		e'4 r8 a,
+		e'4 e,
+		e' r
+		e r
+		e r8 a %155
+		e4 r
+		e,8 e' cis h
+		a h cis d
+		cis a e' e,
+		a4 r8 h %160
+		cis4 r8 d
+		cis a h e
+		a,4 r
+		R2*2 %165
+		e'4 r
+		e gis8 e
+		fis4 ais8 fis
+		h h, d h
+		e4 r8 e %170
+		fis4 r
+		fis, r
+		fis' r
+		fis, r
+		fis' r %175
+		R2*2
+		h,4 r8 cis
+		d4 r8 e
+		h h' cis fis, %180
+		h,4 r8 g'
+		fis4 e8 a
+		d,4 r8 e
+		fis e fis g
+		fis d e a %185
+		d, e fis d
+		cis4 r8 cis
+		h4 r8 h
+		a h cis d
+		a4 r %190
+		a r
+		a r
+		a r
+		a r
+		a' a, %195
+		a' r
+		a r
+		a,4 r8 d
+		a4 r8 d
+		a4 r %200
+		r8 a a a
+		d e fis g
+		a4 a,
+		d r
+		R2*3 %207
+		d4 r8 e
+		fis e fis g
+		fis d e a, %210
+		d cis h e
+		a, h cis d
+		a4 r8 d
+		a4 r8 d
+		a4 a' %215
+		a, a'
+		a, a'
+		a, r8 d
+		a4 r
+		a8 a' fis e %220
+		d e fis g
+		fis d a' a,
+		d4 r
+		d r
+		d8 g a a, %225
+		d2\fermata \bar "||" %226 finis
 	}
 }
 
 LaudamusBassFigures = \figuremode {
-	
+	r2 %110
+	r
+	r4. <7>8
+	r2
+	r
+	r %115
+	r
+	r
+	r
+	<4>4 <3>
+	r2 %120
+	<6>
+	<5 3>
+	r
+	r
+	r %125
+	r
+	r
+	r
+	r4 <7>8 q
+	r2 %130
+	<5>8 <6> r4
+	<7>8 <5> r4
+	<7>4 <6+>
+	r2
+	r %135
+	r
+	r
+	r
+	r
+	r %140
+	r
+	r4 <5>8 <6>
+	<9>8 <6+> <6> r
+	<6 4>4 <5 _+>
+	r4. <6+>8 %145
+	<6>2
+	r4 <7>8 q
+	r2
+	<_+>
+	q %150
+	r
+	<6 4>4 <5 _+>
+	r2
+	<6 4>
+	<5 _+> %155
+	<_+>
+	r
+	r
+	r
+	r %160
+	r
+	r
+	r
+	r
+	r %165
+	r
+	r
+	<_+>
+	r
+	r %170
+	<_+>
+	r
+	r
+	r
+	r %175
+	r
+	r
+	r
+	r4. <_!>8
+	r4 <7>8 q %180
+	r2
+	<6>4 <7>8 q
+	r2
+	r
+	r4 <7>8 q %185
+	r2
+	r
+	<7>4. <6+>8
+	r2
+	r %190
+	r
+	r
+	r
+	r
+	<6 4>4 <5 3> %195
+	q2
+	<6 4>
+	<5 3>
+	r
+	r %200
+	r
+	r
+	r
+	r
+	r %205
+	r
+	r
+	r
+	r
+	r %210
+	r
+	r
+	r
+	r
+	r %215
+	r
+	r
+	r
+	r
+	r %220
+	r
+	r
+	r
+	r
+	r %225
+	r %226 finis
 }
 
 % Organo = {
