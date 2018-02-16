@@ -431,12 +431,77 @@ DomineDeusRexTenoreNotes = {
 		\key d \major \time 2/1 \autoBeamOff \tempoDomineDeusRex
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #227
-		
+		R\breve
+		r1 \mvTr a2\fE^\tuttiE a4 a
+		h2 h a4 a a a
+		fis d d'1 cis2 %230
+		d4 d,8[ e] fis4 d a'2^\critnote cis
+		h e2. d4 cis e
+		fis1 e2 a,
+		h2. h4 a2 r
+		d d4 d e2 e %235
+		d4 d d, d a'2 a
+		r1 r4 a8[( h] cis4 a
+		e'2) e4 d cis h a2~
+		a d h1
+		a4 h cis d8[ e] d4 d d d %240
+		h2 a4 a h2. h4
+		a2 r r1
+		r4 a8[( h] cis4 a d2) d4 d
+		e2 e d4 d d d
+		cis( h) a2 r a4 a %245
+		h2. a4 g2 h
+		cis2. h4 a2 cis
+		d cis1 h4 h
+		cis2. cis4 d2 d4 d
+		e2. d4 cis d e2 %250
+		fis1 e2 r
+		R\breve
+		r4 d,8[( e] fis4 d a'2) a4 a
+		h2 h a4 a a a
+		fis2 d'1 cis2 %255
+		d r r cis4 cis
+		h1 a2 a4 a
+		cis2 fis4 fis e e d2
+		cis d4 d e2. e4
+		fis\breve\fermata \bar "||" %260 finis
 	}
 }
 
 DomineDeusRexTenoreLyrics = \lyricmode {
+	Do -- mi -- ne %228
+	De -- us, De -- us Rex coe --
+	le -- _ _ _ %230
+	stis, Do -- _ _ _ _
+	_ _ _ _ _
+	_ _ _
+	_ mi -- ne,
+	Do -- mi -- ne De -- us, %235
+	De -- us Rex coe -- le -- stis,
+	Do --
+	mi -- ne De -- us, Rex __
+	coe -- le --
+	_ _ _ _ _ stis, De -- us %240
+	Pa -- ter o -- mni -- po --
+	tens.
+	Do -- mi -- ne
+	De -- us, De -- us Rex coe --
+	le -- stis, De -- us %245
+	Pa -- _ _ _
+	_ _ _ _
+	_ _ ter o --
+	mni -- po -- tens, Rex coe --
+	le -- _ _ _ _ %250
+	_ stis,
 	
+	Do -- mi -- ne
+	De -- us, De -- us Rex coe --
+	le -- _ _ %255
+	stis, Rex coe --
+	le -- stis, De -- us
+	Pa -- ter o -- mni -- po -- tens,
+	Pa -- ter o -- mni -- po --
+	tens. %260 finis
 }
 
 % TenoreNotes = {
