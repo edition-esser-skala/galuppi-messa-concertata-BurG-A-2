@@ -574,12 +574,57 @@ GratiasSopranoINotes = {
 		\clef treble
 		\key fis \phrygian \time 4/4 \autoBeamOff \tempoGratias
 			\set Score.currentBarNumber = #227
-		
+		\mvTr a'8([\pE^\soloE h cis cis,] fis[ eis)] fis h %227
+		a([ h)] gis h a16([ gis)] fis8 a a16 a
+		gis8 cis, r4 r cis'8([ dis16 e]
+		cis4 his8.) cis16 cis4 r %230
+		R1
+		r4 dis8 gis, e'2~
+		e8([ fis16 e] dis8) cis dis2
+		e16[ dis e fis] e[ fis e dis] cis[ his? cis dis] cis[ dis cis h?]
+		a[ gis a h] a[ gis a] gis fis4 r %235
+		dis'8([ e fis)] h, e e, r4
+		cis'8 d e e, a4 a8 a
+		a g r4 r cis8 cis
+		h cis16([ h)] a8 h16([ a)] a gis gis8 r4
+		r cis8 fis, d'2~ %240
+		d8([ e16 d] cis8) h cis2
+		d!16[ cis d e] d[ e d cis] h[ a h cis] h[ cis h a]
+		gis[ fis gis a] gis[ a gis] fis e4 r
+		cis'8([ d e)] a, d d, d'4~
+		d8([ e16 d] cis8) h a([ gis)] a h %245
+		a4( gis) fis r
+		fis8 fis fis fis fis8. fis16 fis4
+		gis8 gis gis gis gis([ a16 gis)] a8 h
+		a4( gis) fis r
+		R1*2 \bar "||" %251 finis
 	}
 }
 
 GratiasSopranoILyrics = \lyricmode {
+	Gra -- ti -- as %227
+	a -- gi -- mus ti -- bi, a -- gi -- mus
+	ti -- bi, gra --
+	ti -- as, %230
 	
+	pro -- pter ma --
+	gnam glo --
+	_ _ _ _
+	_ _ ri -- am, %235
+	pro -- pter ma -- gnam,
+	pro -- pter ma -- gnam glo -- ri -- am
+	tu -- am, pro -- pter
+	ma -- gnam, ma -- gnam glo -- ri -- am,
+	pro -- pter ma -- %240
+	gnam glo --
+	_ _ _ _
+	_ _ ri -- am,
+	pro -- pter ma -- gnam, ma --
+	gnam glo -- ri -- am %245
+	tu -- am,
+	pro -- pter ma -- gnam glo -- ri -- am,
+	pro -- pter ma -- gnam glo -- ri -- am
+	tu -- am. %249 FINIS
 }
 
 % SopranoINotes = {

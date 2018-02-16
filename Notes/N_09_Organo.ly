@@ -1049,8 +1049,8 @@ GratiasOrgano = {
 		gis gis, cis cis' %230
 		gis4. gis8 a2
 		gis4 gis, cis r
-		fis, h r2
-		e4 r a, r
+		fis,^\critnote r h r
+		e r a, r
 		a r h r %235
 		h h'8 a gis fis e d
 		cis4 r fis r
@@ -1064,7 +1064,7 @@ GratiasOrgano = {
 		cis r8 eis fis4 r8 h, %245
 		cis4 r8 cis fis gis a gis
 		fis4 e! d cis
-		h4. h8 cis4 fis8 a
+		h4. h8 cis4 fis8 h^\critnote
 		cis4 cis, << { a'8 h cis cis, } \\ { fis4 s } >>
 		d8 fis h h, cis eis fis h, %250
 		cis4 cis, fis2 \bar "||" %251 finis
@@ -1073,28 +1073,28 @@ GratiasOrgano = {
 
 GratiasBassFigures = \figuremode {
 	<5>4 <6> <5> <6> %227
-	<6 4> <5 _+> <_!>2
-	<5+>4 <6+> <5> r
-	<6 4> <5 _+> <_!>2 %230
+	<6 4> <[5+] _+> <_!>2
+	<[5+] _+>4 <6+> <5> r
+	<6 4> <[5+] _+> <_!>2 %230
 	<_+>4. q8 <5+>2
-	<_+>2 q
-	<7>4 <_!> r2
-	r <5>
+	<_+>2 <[_!]>
+	<7> <[_+]>
+	q <5>
 	<6> <_+> %235
-	q <6>
-	q <_!>
+	q <6>4 <[_+]>
+	<6>2 <_!>
 	<7>4 q <4> <3>
-	r2 <_+>
-	r <7>8 <6+> r4 %240
+	r8 <[6\\] [5] [_+]> r4 <_+> <[6] [_+]>
+	r2 <7>8 <6+> r4 %240
 	<7 _+>1
 	<5>2 <6>
 	<_+>1
-	r2 <_!>
-	<9> <9>8 <8> r4 %245
-	r4. <5 _+>8 r2
-	r1
-	<6 5>2. r8 <6>
-	<6 4>4 <5 _+> r2
+	<[6]>2 <_!>
+	<9>4. <[6] [_+]>8 <9>8 <8> r4 %245
+	<6 4>4. <[5+] _+>8 r2
+	<[3]>2. \bassFigureExtendersOn <3>4 \bassFigureExtendersOff
+	<[6\\] 5>2 <[5] [_+]>4 r8 <[6\\]>
+	<6 4>4 <[5]+ _+> r2
 	r1 %250
 	<4>4 <_+> r2 %251 finis
 }
