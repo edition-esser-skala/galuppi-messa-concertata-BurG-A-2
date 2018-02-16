@@ -633,12 +633,71 @@ DomineDeusRexSopranoINotes = {
 		\key d \major \time 2/1 \autoBeamOff \tempoDomineDeusRex
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #227
-		
+		R\breve*4 %230
+		r1 \mvTr a'2\fE^\tuttiE a4 a
+		h2 h a4 a a a
+		fis d d'1 cis2
+		d4 d,8[ e] fis4 d e2 e'
+		d2. d4 cis2 r %235
+		d2 d4 d e2 e
+		d4 d d d cis h \once \tieDashed a2~
+		a gis a4 h cis2
+		d4 e fis2 r e~
+		e4 d cis h  a2 d~ %240
+		d cis4 cis h2. h4
+		cis2 r r1
+		R\breve
+		r4 a8([ h] cis4 a d2) d4 d
+		e2 e r d~ %245
+		d4 cis h2. cis8([ d]) e2~
+		e4 d cis2. d8([ e)] fis4 e
+		d2( e) e d
+		cis fis2. e4 d cis
+		h2( e2.) d4 cis h %250
+		a2( d1) cis4 cis
+		h2. h4 e, a8([ h] cis4 a
+		d2) d4 d e2 e
+		d4 d d d cis( h) a2
+		r2 fis'4 fis h,2 e %255
+		a, d e( cis)
+		d e1 fis2
+		cis d4 d e e fis2
+		cis fis4 fis e2. e4
+		d\breve\fermata \bar "||" %260 finis
 	}
 }
 
 DomineDeusRexSopranoILyrics = \lyricmode {
+	Do -- mi -- ne %231
+	De -- us, De -- us Rex coe --
+	le -- _ _ _
+	stis, Do -- _ _ _ _
+	_ mi -- ne, %235
+	Do -- mi -- ne De -- us,
+	De -- us Rex coe -- le -- _ _
+	_ _ _ _
+	_ _ stis, De --
+	us, De -- us Pa -- _ %240
+	ter o -- mni -- po --
+	tens.
 	
+	Do -- mi -- ne
+	De -- us, De -- %245
+	us Rex coe -- le --
+	stis, De -- us Pa -- ter
+	o -- mni -- po --
+	tens, Rex coe -- le -- stis,
+	De -- us, De -- us %250
+	Pa -- ter o --
+	mni -- po -- tens. Do --
+	mi -- ne De -- us,
+	De -- us Rex coe -- le -- stis,
+	Rex coe -- le -- stis, %255
+	De -- us Pa --
+	ter, De -- us
+	Pa -- ter o -- mni -- po -- tens,
+	Pa -- ter o -- mni -- po --
+	tens. %260
 }
 
 % SopranoINotes = {

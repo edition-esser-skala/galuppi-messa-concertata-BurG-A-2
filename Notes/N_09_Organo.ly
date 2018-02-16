@@ -1105,7 +1105,7 @@ DomineDeusRexOrgano = {
 		\key d \major \time 2/1 \tempoDomineDeusRex
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #227
-		d'2 d4 d e2 e
+		\mvTr d'2\fE-\tuttiE d4 d e2 e
 		d4 d d d \clef "treble_8" a2 a4 a
 		h2 h a4 a a a
 		\clef bass d,2 d4 d4 e2 e %230
@@ -1147,31 +1147,31 @@ DomineDeusRexBassFigures = \figuremode {
 	r
 	<7>2 <6+> r1
 	r <7>2 <6+> %230
-	r\breve
+	r1 <[6]>
 	<4 2>2 <6> r <[6]>
-	r1 <4>2 <3>
+	r q <4> <3>
 	<5> <6+> r1
 	<7>2 <6+> r1 %235
 	<[6]>2 r <4> <3>
-	r\breve
+	r2 <[6]> r q
 	<4>2 <_+> r1
 	<6>1 <_+>
 	<[6]> r %240
-	<[_+]>2 r <4> <_+>
+	<[7] [_+]>2 r <4> <_+>
 	r\breve
 	r
 	r
-	r %245
+	r1 <[6]> %245
+	r\breve
 	r
-	r
-	<5>1 <7>2 <_!>
+	<5>1 <7 [_+]>2 <_!>
 	<4> <_+> r1
 	<6> r %250
 	<6> <4>2 <3>
 	<7 4> <6+ 3> r1
 	<6> <4>2 <3>
-	<7> <6+> r1
-	r <7>2 <6> %255
+	<7> <6+> r <[6]>
+	r1 <7>2 <6> %255
 	r1 <6>
 	<4 2>2 <6 5> <4 2> <6>
 	<[6]> r r1
