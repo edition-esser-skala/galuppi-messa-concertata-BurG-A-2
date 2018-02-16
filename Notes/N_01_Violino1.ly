@@ -362,7 +362,7 @@ LaudamusViolinoI = {
 		\key d \major \time 2/4 \tempoLaudamus
 			\set Score.currentBarNumber = #110
 		R2*3 %112
-		r8 fis'16\f g a h a h
+		r8 fis'16\pE g a h a h
 		a8 fis,16 g a h a h
 		a8 h16 cis d fis e d %115
 		cis8 h16 a r8 fis'
