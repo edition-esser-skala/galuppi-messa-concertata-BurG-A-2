@@ -402,9 +402,9 @@ LaudamusViolinoII = {
 		r h( a gis)
 		r a( gis fis) %165
 		gis e'16 fis gis a gis a
-		gis8 d r4
+		gis8 e^\critnote r4
 		R2*3 %170
-		ais8 h cis h
+		ais,8 h cis h
 		fis4 r8 fis
 		ais h cis h
 		fis4 r

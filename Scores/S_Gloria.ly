@@ -134,6 +134,7 @@
 		\header {
 			movement = "2.3 LAUDAMUS TE"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -152,8 +153,8 @@
 						\LaudamusViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
+				\new GrandStaff <<
+				\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \LaudamusTenoreNotes }
 					}

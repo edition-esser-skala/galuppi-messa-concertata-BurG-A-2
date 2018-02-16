@@ -365,11 +365,100 @@ LaudamusViola = {
 			1/8
 			#'(4)
 			#'((end . (((1 . 16) . (4 4)))))
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key d \major \time 2/4 \tempoLaudamus
 			\set Score.currentBarNumber = #110
-		
+		R2*3 %112
+		a'4\pE r
+		a r
+		a r8 h %115
+		e,4 r
+		a r8 a
+		a4 r8 a
+		a4 a
+		a a, %120
+		a' a,
+		cis r8 d
+		cis4 r
+		cis d8 e
+		a, g'-\critnote fis d %125
+		d d e e
+		fis4 r
+		R2*6 %133
+		e4 r
+		a r %135
+		R2*9 %144
+		cis,4 r8 d %145
+		e4 r8 d
+		cis a'4 gis8
+		a4 r8 e
+		e4 r8 e
+		e4^\critnote r8 e %150
+		e4 r8 e
+		e4 e,
+		e' e,
+		e' e,
+		gis' r8 a^\critnote %155
+		gis4 r
+		R2*6 %162
+		r8 a, a a
+		r h h e,
+		r a a a %165
+		e4 r
+		e' r
+		R2*3 %170
+		fis4 r
+		fis, r
+		fis' r
+		fis, r
+		fis' r %175
+		R2*2
+		d4 r8 e
+		fis4 r8 e
+		d h'4 ais8 %180
+		h4 r8 d,
+		d4 e8 cis
+		d d, r4
+		R2*5 %188
+		r4 r8 a''
+		a4 r %190
+		a r
+		a, r
+		a' r
+		a, r
+		a' a, %195
+		a r
+		a' r
+		e r
+		cis r8 d
+		cis4 r %200
+		r8 cis cis cis
+		d e fis g
+		a4 a
+		a8 fis fis fis
+		r g g g %205
+		r a fis g
+		a4 a,
+		d r8 g
+		a4 r8 g
+		d^\critnote d'4 cis8 %210
+		d a4 gis8
+		a4 r8 a
+		a4 r8 a
+		a4 r8 a
+		a4 a,
+		a' a,
+		a' a,
+		a' r8 d,
+		cis4 r8 fis
+		cis4 d8 e
+		a, g' fis d
+		d d e e
+		fis4 r
+		d r
+		d8 h a a
+		a2\fermata \bar "||"
 	}
 }
 
