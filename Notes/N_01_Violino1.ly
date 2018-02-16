@@ -361,7 +361,101 @@ LaudamusViolinoI = {
 		\clef treble
 		\key d \major \time 2/4 \tempoLaudamus
 			\set Score.currentBarNumber = #110
-		
+		R2*3 %112
+		r8 fis'16\f g a h a h
+		a8 fis,16 g a h a h
+		a8 h16 cis d fis e d %115
+		cis8 h16 a r8 fis'
+		e fis g fis
+		e fis g fis
+		fis-! e-! r a
+		r g fis e %120
+		r fis e d
+		a16 h cis d e8 fis
+		a,16 h cis d e fis g a
+		a,4 r8 g'
+		fis cis' d h^\critnote %125
+		a d e, cis'
+		d,4 r
+		R2*6 %133
+		r8 cis16 d e fis e fis
+		e8 a, r4 %135
+		R2*9 %144
+		r8 e' a gis %145
+		a gis?16 fis e8 fis
+		e4 d16 cis d e
+		cis8 e d cis
+		h e, r cis'
+		h cis d cis %150
+		h cis d cis
+		cis h r e
+		r d cis h
+		r cis h a
+		e16 fis gis a h8 cis %155
+		e,16 fis gis a h cis d e
+		e,4 r8 d'
+		cis gis' a fis
+		e a h, gis'
+		a,4 r %160
+		R2*2
+		r8 e'( d cis)
+		r d( cis h)
+		r cis( h a) %165
+		h gis'16 a h cis h cis
+		h8 e, r4
+		R2*3 %170
+		cis8 d e d
+		cis4 r8 d
+		cis d e d
+		cis4 r
+		r8 fis, ais fis %175
+		h cis d e
+		fis4 fis,
+		h8 fis' h ais
+		h a16 g fis8 g
+		fis4 e16 d e fis %180
+		d8 h d h'
+		a4 g16 fis g a
+		fis e d8 r4
+		R2*5 %188
+		r4 r8 fis
+		e fis g fis %190
+		e4 r8 fis
+		e fis g fis
+		e4 r8 fis
+		e fis g fis
+		fis e r a %195
+		r g fis e
+		r fis e d
+		cis4 r
+		a16 h cis d e8 fis
+		a,4 r %200
+		r8 e' e e
+		r fis fis fis
+		r e e e
+		d fis, fis fis
+		r g g g %205
+		r a fis g
+		a4 a,
+		d8 a'' d cis
+		d cis16 h a8 h
+		a4 g16 fis g a %210
+		fis8 a d,16 cis d e
+		cis h a8 r fis'
+		e fis g fis
+		e fis g fis
+		fis e r a %215
+		r g( fis e)
+		r fis( e d)
+		a16 h cis d e8 fis
+		a,16 h cis d e fis g a
+		a,4 r8 g' %220
+		fis cis' d h^\critnote
+		a d e, cis'
+		d, fis16 g a h a h
+		a8 fis,16 g a h a h
+		a g fis g e8. d16 %225
+		d2\fermata \bar "||" %226 finis
 	}
 }
 
