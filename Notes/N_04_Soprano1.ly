@@ -581,11 +581,11 @@ GratiasSopranoINotes = {
 		R1
 		r4 dis8 gis, e'2~
 		e8([ fis16 e] dis8) cis dis2
-		e16[ dis e fis] e[ fis e dis] cis[ his? cis dis] cis[ dis cis h?]
-		a[ gis a h] a[ gis a] gis fis4 r %235
+		e16[ dis e fis] e[ fis e d?] cis[ h cis d] cis[ d cis h]
+		a[ gis a h] a[ h a] gis fis4 r %235
 		dis'8([ e fis)] h, e e, r4
 		cis'8 d e e, a4 a8 a
-		a g r4 r cis8 cis
+		a g! r4 r cis8 cis
 		h cis16([ h)] a8 h16([ a)] a gis gis8 r4
 		r cis8 fis, d'2~ %240
 		d8([ e16 d] cis8) h cis2

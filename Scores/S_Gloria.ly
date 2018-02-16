@@ -178,7 +178,7 @@
 		\header {
 			movement = "2.4 GRATIAS"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
 				\new ChoirStaff <<
