@@ -130,44 +130,78 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.3 LAUDAMUS TE"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\LaudamusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\LaudamusViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\LaudamusViola
+% 					}
+% 				>>
+% 				\new GrandStaff <<
+% 				\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \LaudamusTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \LaudamusTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\LaudamusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\LaudamusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.3 LAUDAMUS TE"
+			movement = "2.4 GRATIAS"
 		}
-		\paper { systems-per-page = #2 }
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\LaudamusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\LaudamusViolinoII
-						}
-					>>
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\LaudamusViola
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \GratiasSopranoINotes }
 					}
-				>>
-				\new GrandStaff <<
-				\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \LaudamusTenoreNotes }
+					\new Lyrics \lyricsto Soprano \GratiasSopranoILyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \GratiasBassoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \LaudamusTenoreLyrics
+					\new Lyrics \lyricsto Basso \GratiasBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\LaudamusOrgano
+						\GratiasOrgano
 					}
 				>>
 				\new FiguredBass {
-					\LaudamusBassFigures
+					\GratiasBassFigures
 				}
 			>>
 			\layout { }

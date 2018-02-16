@@ -1038,6 +1038,67 @@ LaudamusBassFigures = \figuremode {
 	r %226 finis
 }
 
+GratiasOrgano = {
+	\relative c {
+		\clef bass
+		\key fis \phrygian \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #227
+		\mvTr fis4\pE-\soloE e d a'8 h
+		cis4 cis, fis4. fis8
+		cis'4 h a fis
+		gis gis, cis cis' %230
+		gis4. gis8 a2
+		gis4 gis, cis r
+		fis, h r2
+		e4 r a, r
+		a r h r %235
+		h h'8 a gis fis e d
+		cis4 r fis r
+		h, e a, a'
+		e8 eis fis fis, cis'4 eis
+		fis r h, r %240
+		e r a, r
+		d r d r
+		e r e r
+		cis r h r
+		cis r8 eis fis4 r8 h, %245
+		cis4 r8 cis fis gis a gis
+		fis4 e! d cis
+		h4. h8 cis4 fis8 a
+		cis4 cis, << { a'8 h cis cis, } \\ { fis4 s } >>
+		d8 fis h h, cis eis fis h, %250
+		cis4 cis, fis2 \bar "||" %251 finis
+	}
+}
+
+GratiasBassFigures = \figuremode {
+	<5>4 <6> <5> <6> %227
+	<6 4> <5 _+> <_!>2
+	<5+>4 <6+> <5> r
+	<6 4> <5 _+> <_!>2 %230
+	<_+>4. q8 <5+>2
+	<_+>2 q
+	<7>4 <_!> r2
+	r <5>
+	<6> <_+> %235
+	q <6>
+	q <_!>
+	<7>4 q <4> <3>
+	r2 <_+>
+	r <7>8 <6+> r4 %240
+	<7 _+>1
+	<5>2 <6>
+	<_+>1
+	r2 <_!>
+	<9> <9>8 <8> r4 %245
+	r4. <5 _+>8 r2
+	r1
+	<6 5>2. r8 <6>
+	<6 4>4 <5 _+> r2
+	r1 %250
+	<4>4 <_+> r2 %251 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

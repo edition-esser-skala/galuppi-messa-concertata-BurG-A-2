@@ -569,6 +569,19 @@ EtInTerraSopranoILyrics = \lyricmode {
 	tis.] %109 finis
 }
 
+GratiasSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key fis \phrygian \time 4/4 \autoBeamOff \tempoGratias
+			\set Score.currentBarNumber = #227
+		
+	}
+}
+
+GratiasSopranoILyrics = \lyricmode {
+	
+}
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble

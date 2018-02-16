@@ -172,6 +172,7 @@ tempoKyrieII = \tempoMarkup "Adagio"
 tempoGloria = \tempoMarkup "Allegro"
 tempoEtInTerra = \tempoMarkup "Adagio"
 tempoLaudamus = \tempoMarkup "Allegro"
+tempoGratias = \tempoMarkup "Adagio"
 
 
 % modify the Scheme function 'format-bass-figure'
