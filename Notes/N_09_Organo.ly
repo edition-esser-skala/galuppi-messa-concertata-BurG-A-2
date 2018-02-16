@@ -1106,11 +1106,77 @@ DomineDeusRexOrgano = {
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #227
 		d'2 d4 d e2 e
+		d4 d d d \clef "treble_8" a2 a4 a
+		h2 h a4 a a a
+		\clef bass d,2 d4 d4 e2 e %230
+		d4 d d d cis a a'2~
+		a gis a4 a,8 h cis4 a
+		d e fis d a2 a'
+		h1 a2 a4 a
+		h2 h a4 a a a %235
+		fis2 d a1
+		d,4 d'8 e fis4 d a \clef "treble_8" a'8 h cis4 a
+		e'2 e4 d \clef bass a2. g4
+		fis e d2 e2. d4
+		cis h a2 d4 d d d %240
+		e2 a, e'1
+		a,4 \clef treble a''8 h cis4 a << { d2 d4 d e4 } \\ { r4 d,8 e fis4 d a' } >>
+		\clef "treble_8" a,8 h cis4 a d \clef bass d,8 e fis4 d
+		a'2 a4 a h2 h
+		a4 a a a fis e d2 %245
+		g2. fis4 e2. fis8 g
+		a2. g4 fis2. g8 a
+		h2 e, fis h,
+		fis'1 h2. a4
+		g fis e2 a2. g4 %250
+		fis e d2 a a'4 a
+		h2 h a4 a a a
+		fis e d d a'2 a4 a
+		h2 h a4 a,8 h cis4 a
+		d2 d4 d e1 %255
+		d4 d d d cis a a'2~
+		a g1 fis2
+		e d a' d,
+		a d a1
+		d\breve\fermata \bar "||" %260 finis
 	}
 }
 
 DomineDeusRexBassFigures = \figuremode {
-	
+	r\breve %227
+	r
+	<7>2 <6+> r1
+	r <7>2 <6+> %230
+	r\breve
+	<4 2>2 <6> r <[6]>
+	r1 <4>2 <3>
+	<5> <6+> r1
+	<7>2 <6+> r1 %235
+	<[6]>2 r <4> <3>
+	r\breve
+	<4>2 <_+> r1
+	<6>1 <_+>
+	<[6]> r %240
+	<[_+]>2 r <4> <_+>
+	r\breve
+	r
+	r
+	r %245
+	r
+	r
+	<5>1 <7>2 <_!>
+	<4> <_+> r1
+	<6> r %250
+	<6> <4>2 <3>
+	<7 4> <6+ 3> r1
+	<6> <4>2 <3>
+	<7> <6+> r1
+	r <7>2 <6> %255
+	r1 <6>
+	<4 2>2 <6 5> <4 2> <6>
+	<[6]> r r1
+	r <4>2 <3>
+	r\breve %260 finis
 }
 
 % Organo = {
