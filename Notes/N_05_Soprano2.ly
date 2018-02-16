@@ -390,6 +390,20 @@ EtInTerraSopranoIILyrics = \lyricmode {
 	tis.] %109 finis
 }
 
+DomineDeusRexSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/1 \autoBeamOff \tempoDomineDeusRex
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #227
+		
+	}
+}
+
+DomineDeusRexSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoIINotes = {
 % 	\relative c' {
 % 		\clef treble

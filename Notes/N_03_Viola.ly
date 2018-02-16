@@ -462,6 +462,17 @@ LaudamusViola = {
 	}
 }
 
+DomineDeusRexViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key d \major \time 2/1 \tempoDomineDeusRex
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #227
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

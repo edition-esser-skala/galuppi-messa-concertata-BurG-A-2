@@ -627,6 +627,20 @@ GratiasSopranoILyrics = \lyricmode {
 	tu -- am. %249 FINIS
 }
 
+DomineDeusRexSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/1 \autoBeamOff \tempoDomineDeusRex
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #227
+		
+	}
+}
+
+DomineDeusRexSopranoILyrics = \lyricmode {
+	
+}
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble

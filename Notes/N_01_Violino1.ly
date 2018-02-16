@@ -459,6 +459,16 @@ LaudamusViolinoI = {
 	}
 }
 
+DomineDeusRexViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/1 \tempoDomineDeusRex
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #227
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -273,6 +273,20 @@ EtInTerraAltoLyrics = \lyricmode {
 	tis.] %109 finis
 }
 
+DomineDeusRexAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 2/1 \autoBeamOff \tempoDomineDeusRex
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #227
+		
+	}
+}
+
+DomineDeusRexAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

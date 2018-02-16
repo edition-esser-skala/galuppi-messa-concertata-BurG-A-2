@@ -1099,6 +1099,20 @@ GratiasBassFigures = \figuremode {
 	<[5+] 4>4 <\l _+> r2 %251 finis
 }
 
+DomineDeusRexOrgano = {
+	\relative c {
+		\clef treble
+		\key d \major \time 2/1 \tempoDomineDeusRex
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #227
+		d'2 d4 d e2 e
+	}
+}
+
+DomineDeusRexBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

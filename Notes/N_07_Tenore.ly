@@ -425,6 +425,20 @@ LaudamusTenoreLyrics = \lyricmode {
 	te. %208 finis
 }
 
+DomineDeusRexTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 2/1 \autoBeamOff \tempoDomineDeusRex
+			\set Staff.timeSignatureFraction = 2/2
+			\set Score.currentBarNumber = #227
+		
+	}
+}
+
+DomineDeusRexTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
