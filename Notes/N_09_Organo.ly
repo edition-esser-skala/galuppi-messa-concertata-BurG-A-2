@@ -1229,7 +1229,7 @@ DomineFiliOrgano = {
 		fis gis a
 		h cis cis,
 		fis4 fis'8 %305
-		h,4 h8
+		h,4 his?8
 		cis4 a8
 		h cis cis,
 		fis gis a
@@ -1288,7 +1288,7 @@ DomineFiliOrgano = {
 		h cis d
 		e fis fis,
 		h4 h8
-		e e e %365
+		e e eis? %365
 		fis fis16 gis ais gis
 		fis8 r r
 		r cis' h
@@ -1313,13 +1313,13 @@ DomineFiliBassFigures = \figuremode {
 	r8 <6+> <6> %261
 	<6 5> <6 4> <5 _+>
 	r4.
-	<9 7>8 <8 6> <7 5>
+	<9 7>8 <8 6> <7 5 [_+]>
 	<[6] 4> <5 _+> r %265
 	<[_+]>4.
 	r8 <6\\>4
 	<5!>4 <[_+]>8
 	r4.
-	r %270
+	<[_!]> %270
 	r8 <6+>4
 	<6 5>4 <[7] [_+]>8
 	<5> <6!> <6>
@@ -1355,7 +1355,7 @@ DomineFiliBassFigures = \figuremode {
 	r <[6+]> <6>
 	<[6\\] 5> <6 [4]> <[5+] _+>
 	r4. %305
-	<9 7>8 <8 [6\\]> <7 5>
+	<9 7>8 <8 [6\\]> <7 5 [_+]>
 	<[5+] [_+]>4 <[6]>8
 	<[6\\] 5>8 <[5+] 4> <\l _+>
 	r4 <[6]>8
@@ -1379,7 +1379,7 @@ DomineFiliBassFigures = \figuremode {
 	r4 <[6]>8
 	r4.
 	r
-	<6 5>8 <4> <3> %330
+	<6 5>8 <[6] 4> <[5] 3> %330
 	r4.
 	<9 7>8 <8 6> <7 5>
 	r4 <[6]>8
@@ -1414,13 +1414,13 @@ DomineFiliBassFigures = \figuremode {
 	r8 <[6\\]> <[6]>
 	<6 5>8 <4> <[_+]>
 	r4.
-	<9 7>8 <8 6> <7 5> %365
+	<9 7>8 <8 6> <7 5 [_+]> %365
 	<6 4> <5 _+>4
 	<[_+]>4.
 	r8 <6+> r
 	<5>4 <[_+]>8
 	r4. %370
-	r
+	<[_+]>
 	r8 <[6\\]>4
 	<5!>4 <7 [_+]>8
 	<5> <6!> <6>
@@ -1430,7 +1430,7 @@ DomineFiliBassFigures = \figuremode {
 	r
 	r8 <[6\\]>4
 	<5>8 <_+>4 %380
-	r8 <4> <_+>
+	r8 <[_+]>4
 	r4. %382 finis
 }
 

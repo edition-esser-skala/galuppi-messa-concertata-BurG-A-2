@@ -503,11 +503,112 @@ DomineDeusRexViola = {
 
 DomineFiliViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key h \minor \time 3/8 \tempoDomineFili
 			\set Score.currentBarNumber = #261
-		
+		fis8\pE e fis
+		g d cis
+		d4 d8
+		g4 gis8
+		fis fis, r %265
+		fis'4 r8
+		r ais h
+		cis^\critnote fis,4
+		fis r8
+		dis r r %270
+		r dis e
+		fis h,4
+		h8 g h
+		cis4^\critnote fis,8
+		r d' fis %275
+		gis4 cis,8
+		d4 r8
+		r ais' h
+		cis4 fis,8
+		fis16[ g] fis8 fis %280
+		fis r r
+		R4.*3
+		d8 h cis %285
+		d4 fis8
+		fis4 h,8
+		e4 eis8
+		fis fis, r
+		R4.*2 %291
+		h'8 r r
+		a r r
+		a r r
+		fis r r %295
+		fis r r
+		h, r r
+		R4.*5 %302
+		a'8 h cis
+		d, a' gis
+		a4 a8 %305
+		d4 dis8
+		cis cis, r
+		R4.*3 %310
+		a'4 gis8
+		a4 gis8
+		fis r fis
+		h h his
+		cis cis, r %315
+		R4.*2
+		fis8 r r
+		e r r
+		a, cis e %320
+		a r r
+		R4.*3
+		e8 e e %325
+		fis r r
+		R4.*2
+		fis4 a8
+		h fis e %330
+		d4 d8
+		h' h h
+		e, r r
+		R4.*3 %336
+		fis8 r r
+		a r r
+		d, r r
+		e r r %340
+		cis r r
+		ais r r
+		cis^\critnote r r
+		fis r r
+		R4. %345
+		dis8 r r
+		dis r r
+		fis r r
+		h, r r
+		R4.*2 %351
+		fis'8 r r
+		r ais h
+		cis4 fis,8
+		fis16[ g] fis8 fis %355
+		fis r r
+		R4.*5 %361
+		fis8 e fis
+		g d cis
+		d4 d8
+		g g gis %365
+		fis fis, r
+		fis' r r
+		r ais h
+		cis fis,4
+		fis8 r r %370
+		dis r r
+		r dis e
+		fis h,4
+		h8 g h
+		cis4 fis8 %375
+		r d fis
+		gis4 cis,8
+		d r r
+		r ais' h
+		cis4 fis,8 %380
+		fis16[ g] fis8. fis16
+		fis8\fermata r r\bar "||" %382 finis
 	}
 }
 

@@ -279,6 +279,7 @@
 		\header {
 			movement = "2.6 DOMINE FILIE"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -297,7 +298,7 @@
 						\DomineFiliViola
 					}
 				>>
-				\new ChoirStaff <<
+				\new GrandStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \DomineFiliBassoNotes }
@@ -315,7 +316,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 100 }
+			\midi { \tempo 4. = 70 }
 		}
 	}
 }
