@@ -504,7 +504,108 @@ DomineFiliViolinoII = {
 		\clef treble
 		\key h \minor \time 3/8 \tempoDomineFili
 			\set Score.currentBarNumber = #261
-		
+		fis'8\pE h16 ais h8
+		cis, h' ais
+		h, cis d~
+		d cis h
+		h ais r %265
+		fis ais cis
+		e4.~
+		e16 cis h cis ais cis
+		d cis h8 r
+		h dis fis %270
+		a4.~
+		a16 fis e fis dis fis
+		e8 g fis
+		e d16 cis d8
+		r d cis %275
+		h a16 gis a8
+		h cis d
+		e4.~
+		e16 cis h cis ais cis
+		h[ cis] ais8. h16 %280
+		h8 r r
+		R4.*3
+		h,8 d fis %285
+		h4 ais8
+		h4 h8
+		e,4 eis8
+		fis fis r
+		R4.*2 %291
+		r16 e' d e g fis
+		e8 r r
+		d,8 fis a
+		d r r %295
+		r16 fis e fis a g
+		fis8 r r
+		R4.*5 %302
+		cis8 fis16 eis fis8
+		gis, fis' eis
+		fis gis a~ %305
+		a gis fis
+		eis16 dis cis8 r
+		R4.*3 %310
+		fis,8 a cis
+		fis4 eis8
+		fis4 fis,8
+		h h his
+		cis cis, r %315
+		R4.*2
+		r16 h'16 a h d cis
+		h8 r r
+		a, cis e %320
+		a r r
+		R4.*3
+		a8 cis e %325
+		a r r
+		R4.*2
+		a8 d16 cis d8
+		e, d' cis %330
+		d, e fis~
+		fis e d
+		cis16 h a8 r
+		R4.*3 %336
+		d,8 fis a
+		d r r
+		g, h d
+		g r r %340
+		fis, ais cis
+		e4.~
+		e16 cis h cis e d
+		cis8 r r
+		R4. %345
+		h8 dis fis
+		a4.~
+		a16 fis e fis a g
+		fis8 r r
+		R4.*2 %351
+		fis,8 ais cis
+		e4.~
+		e16 cis h cis ais cis
+		h[ cis] ais8. h16 %355
+		h8 r r
+		R4.*5 %361
+		fis'8 h16 ais h8
+		cis, h' ais
+		h, cis d~
+		d cis h %365
+		h ais r
+		fis ais cis
+		e4.~
+		e16 cis h cis ais cis
+		d cis h8 r %370
+		h dis fis
+		a4.~
+		a16 fis e fis dis fis
+		e8 g fis
+		e d16 cis d8 %375
+		r d cis
+		h a16 gis a8
+		h cis d
+		e4.~
+		e16 cis h cis ais cis %380
+		h[ cis] ais8. h16
+		h8\fermata r r \bar "||" %382 finis
 	}
 }
 
