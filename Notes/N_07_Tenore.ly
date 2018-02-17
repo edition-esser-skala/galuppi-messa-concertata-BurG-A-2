@@ -578,7 +578,7 @@ QuiTollisTenoreLyrics = \lyricmode {
 	de -- pre -- ca -- ti -- %530
 	o -- nem, de -- pre -- ca -- ti --
 	o -- nem no --
-	stram. %533 finis
+	stram.] %533 finis
 }
 
 % TenoreNotes = {
