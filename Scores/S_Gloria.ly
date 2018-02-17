@@ -363,7 +363,7 @@
 		\header {
 			movement = "2.8 QUI TOLLIS"
 		}
-		\paper { page-count = #4 }
+% 		\paper { page-count = #4 }
 		\score {
 			<<
 				\new StaffGroup <<

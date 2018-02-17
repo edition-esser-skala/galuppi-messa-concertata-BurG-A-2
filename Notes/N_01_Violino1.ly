@@ -718,7 +718,41 @@ QuiTollisViolinoI = {
 		\clef treble
 		\key fis \phrygian \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #498
-		
+		r4 a''\fE a2
+		a4 a h cis8 cis
+		h4 h8 h h4 a %500
+		fis2 eis\fermata
+		r4 e e2
+		e4 gis a a8 a
+		fis4 a a gis
+		a1\fermata %505
+		R1*2
+		r4 e4. d8 d c16 h
+		c4. e8 d4 h'
+		a8 gis a e fis fis fis fis %510
+		g g g g fis4. e8
+		d e fis4. e16 d e8 e
+		e4 d8 d cis4. cis8
+		h4 d cis8 cis fis fis
+		fis4 e d r8 e %515
+		fis4 r8 fis fis e e d16 cis
+		d4. fis8 e4 fis~
+		fis8 e16 dis e2 d?8 d
+		cis4. cis8 h4 d
+		cis cis r\fermata fis %520
+		e e8 e d4 e
+		e a gis2\fermata
+		R1
+		r2 fis8. fis16 fis4
+		a8 a a a d,4 g %525
+		r2 e8 e e e
+		fis4 a gis a~
+		a gis a r
+		r2 fis8. fis16 fis4
+		r2 e8 e e e %530
+		fis4 a h8 h h h
+		e,4 fis e2
+		fis4 r r2\fermata \bar "||" %533 finis
 	}
 }
 
