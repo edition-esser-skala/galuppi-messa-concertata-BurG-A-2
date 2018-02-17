@@ -1686,11 +1686,81 @@ QuiTollisOrgano = {
 		\key fis \phrygian \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #498
 		r4 \mvTr fis\fE-\tuttiE fis2
+		fis4 fis d ais
+		h h8 h eis4 fis %500
+		d2 cis\fermata
+		r4 a a2
+		a4 e' fis fis8 cis
+		d4 a h2
+		a1\fermata %505
+		\clef treble << { a''4 c h^\critnote e e d } \\ { r2 e,4 g_\critnote fis h } >>
+		\clef "treble_8" a, c
+		\clef bass e, g fis gis
+		a8 e a2 gis4
+		a4 a, dis8 dis dis dis %510
+		e4 e, ais4. ais8
+		h4 h8 h' g g g e
+		fis4 h, fis'2
+		h,4 r fis a
+		gis8 gis cis cis cis4 h %515
+		fis' a gis8 gis ais ais
+		h h, d d cis4 dis
+		e4. e8 fis4 h,
+		fis'2 h,4 h
+		fis' fis, r\fermata d' %520
+		a a'8 a a4 gis
+		a2 e\fermata
+		cis!1~
+		cis2 d4 d8 d
+		fis fis fis fis g4 g, %525
+		gis2 a4 a'8 a
+		d,2 e4 a,
+		e'2 a,4-\critnote r
+		ais2 h4 h
+		gis2 a4 a8 a %530
+		d4 d g g,8 g
+		a4 d a2
+		d4 r r2\fermata \bar "||" %533 finis
 	}
 }
 
 QuiTollisBassFigures = \figuremode {
-	
+	r1 %498
+	r2 <6>
+	r <6 5> %500
+	<7>4 <6> <[_+]>2
+	r1
+	r4 <_+> <6> <6>
+	r2 <7>4 <6>
+	r1 %505
+	r
+	r2 <5>4 <6>
+	r2 <7>4 <5!>
+	r <3> <4 2> <6>
+	<9> <8> <6 5>2 %510
+	<9>4 <8> <5>2
+	<_!> <5>
+	<7>4 <_!> <4> <_+>
+	r1
+	r %515
+	r2. <5!>4
+	<9> <6> q <5!>
+	<9> <8> <7 _+> <_!>
+	<4> <_+> <_!>2
+	<_+>1 %520
+	r2 <4 2>
+	r <_+>
+	<[6]>1
+	<6 5!>
+	<6>4 <5!> r2 %525
+	<6>4 <5!> r2
+	r <_+>
+	<4>4 <_+> r2
+	<6>4 <5> r2
+	<6>4 <5> r2 %530
+	r1
+	<7>2 <4>4 <3>
+	r1 %533 finis
 }
 
 % Organo = {
