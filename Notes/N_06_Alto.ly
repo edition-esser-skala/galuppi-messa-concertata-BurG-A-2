@@ -523,6 +523,67 @@ DomineDeusAgnusAltoLyrics = \lyricmode {
 	tris. %482 finis
 }
 
+QuiTollisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key fis \phrygian \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #498
+		
+	}
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+	
+}
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+% 
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -609,6 +609,15 @@ DomineFiliViolinoII = {
 	}
 }
 
+QuiTollisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key fis \phrygian \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #498
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

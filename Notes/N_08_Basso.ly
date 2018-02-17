@@ -698,6 +698,67 @@ DomineFiliBassoLyrics = \lyricmode {
 	ste. %362 finis
 }
 
+QuiTollisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key fis \phrygian \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #498
+		
+	}
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+	
+}
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

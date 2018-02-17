@@ -459,6 +459,19 @@ DomineDeusRexSopranoIILyrics = \lyricmode {
 	tens. %260 finis
 }
 
+QuiTollisSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key fis \phrygian \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #498
+		
+	}
+}
+
+QuiTollisSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoIINotes = {
 % 	\relative c' {
 % 		\clef treble

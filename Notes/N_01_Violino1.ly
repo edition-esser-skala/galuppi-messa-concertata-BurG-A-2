@@ -713,6 +713,15 @@ DomineDeusAgnusViolinoI = {
 	}
 }
 
+QuiTollisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key fis \phrygian \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #498
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

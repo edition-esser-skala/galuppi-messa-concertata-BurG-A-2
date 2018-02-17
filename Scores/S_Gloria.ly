@@ -319,44 +319,111 @@
 % 			\midi { \tempo 4. = 70 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.7 DOMINE DEUS, AGNUS DEI"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I, II"
+% 							\DomineDeusAgnusViolinoI
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DomineDeusAgnusViola
+% 					}
+% 				>>
+% 				\new GrandStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DomineDeusAgnusAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DomineDeusAgnusAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DomineDeusAgnusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DomineDeusAgnusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.7 DOMINE DEUS, AGNUS DEI"
+			movement = "2.8 QUI TOLLIS"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I, II"
-							\DomineDeusAgnusViolinoI
+							\set Staff.instrumentName = "Violino I"
+							\QuiTollisViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\QuiTollisViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\DomineDeusAgnusViola
+						\QuiTollisViola
 					}
 				>>
-				\new GrandStaff <<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano I"
+						\new Voice = "SopranoI" { \dynamicUp \QuiTollisSopranoINotes }
+					}
+					\new Lyrics \lyricsto SopranoI \QuiTollisSopranoILyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Soprano II"
+						\new Voice = "SopranoII" { \dynamicUp \QuiTollisSopranoIINotes }
+					}
+					\new Lyrics \lyricsto SopranoII \QuiTollisSopranoIILyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DomineDeusAgnusAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DomineDeusAgnusAltoLyrics
+					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DomineDeusAgnusOrgano
+						\QuiTollisOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DomineDeusAgnusBassFigures
+					\QuiTollisBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

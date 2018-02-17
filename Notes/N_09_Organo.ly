@@ -1680,6 +1680,79 @@ DomineDeusAgnusBassFigures = \figuremode {
 	r2 %497 finis
 }
 
+QuiTollisOrgano = {
+	\relative c {
+		\clef bass
+		\key fis \phrygian \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #498
+		r4 \mvTr fis\fE-\tuttiE fis2
+	}
+}
+
+QuiTollisBassFigures = \figuremode {
+	
+}
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

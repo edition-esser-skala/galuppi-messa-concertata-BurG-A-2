@@ -504,6 +504,67 @@ DomineDeusRexTenoreLyrics = \lyricmode {
 	tens. %260 finis
 }
 
+QuiTollisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key fis \phrygian \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #498
+		
+	}
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+	
+}
+
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+% 
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+% 
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

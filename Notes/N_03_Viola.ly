@@ -719,6 +719,16 @@ DomineDeusAgnusViola = {
 	}
 }
 
+QuiTollisViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key fis \phrygian \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #498
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

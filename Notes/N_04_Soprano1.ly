@@ -700,6 +700,67 @@ DomineDeusRexSopranoILyrics = \lyricmode {
 	tens. %260
 }
 
+QuiTollisSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key fis \phrygian \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #498
+		
+	}
+}
+
+QuiTollisSopranoILyrics = \lyricmode {
+	
+}
+
+% SopranoINotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoILyrics = \lyricmode {
+% 	
+% }
+
+% SopranoINotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoILyrics = \lyricmode {
+% 	
+% }
+
+% SopranoINotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoILyrics = \lyricmode {
+% 	
+% }
+
+% SopranoINotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoILyrics = \lyricmode {
+% 	
+% }
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble
