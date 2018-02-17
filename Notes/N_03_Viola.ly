@@ -464,12 +464,40 @@ LaudamusViola = {
 
 DomineDeusRexViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key d \major \time 2/1 \tempoDomineDeusRex
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #227
-		
+			R\breve*6 %232
+			r1 a'2\fE a4 a
+			h2 h a4 a a a
+			fis2 h e,2. e4 %235
+			a2. a4 a2 a
+			fis4 a a a a2 a
+			h e,2. d4 cis h
+			a' gis fis2 e r
+			r a4 cis d a h h %240
+			h2 a h e,
+			e r d r
+			a' r d, r
+			a' a4 cis h2. h4
+			e,2 a2. g4 fis e %245
+			d e8 fis g2. fis4 e h'
+			a h cis h a2 r
+			r4 fis g g fis2 fis
+			fis2. fis4 fis2 r
+			r1 r4 a,8 h cis4 a %250
+			d2 d4 fis a2 a,4 cis
+			h1 e2 r
+			r4 d8 e fis4 d a'2 a4 a
+			a2 gis a4 e e a
+			a2 fis4 fis h,2 e
+			a,4 d d d e2 e
+			e4 e fis fis e2 fis
+			cis d4 fis a a a2
+			a a4 a a2. a4
+			a\breve\fermata \bar "||"
 	}
 }
 
