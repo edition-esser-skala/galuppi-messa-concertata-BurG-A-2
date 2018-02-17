@@ -617,7 +617,99 @@ DomineDeusAgnusViolinoI = {
 		\clef treble
 		\key a \mixolydian \time 2/4 \tempoDomineDeusAgnus
 			\set Score.currentBarNumber = #383
-		
+		R2*6 %388
+		r8 e'\pE a e
+		r \slurDashed a16( gis) a( gis) a( gis) \slurSolid %390
+		a8 e a e
+		r e h' e,
+		r h'16( a h a h a)
+		h8 e, h' e,
+		cis'16 h a gis a8 cis %395
+		h16 gis fis e a8 h
+		gis16 fis e8 r e
+		fis16( a gis a) fis( d cis d)
+		e( a gis a) e( cis h cis)
+		d( h' ais h) d,( h a h) %400
+		cis8 a'16( gis) a( gis) a( gis)
+		a8 a,16 gis a gis a gis
+		a h cis d e8 e,
+		a4 r
+		R2*2 %406
+		r8 h'16 ais h ais h ais
+		h8 h, r4
+		R2*9 %417
+		r8 h e h
+		r e16( dis) e( dis) e( dis)
+		e8 h e h %420
+		r h fis' h,
+		r fis'16( e) fis( e) fis( e)
+		fis8 h, fis' h,
+		gis'16 fis e dis e8 gis
+		fis16 dis cis h e8 fis %425
+		dis16 cis h8 r4
+		r8 e16( dis) e( dis) e( dis)
+		e8 e,16( dis) e( dis) e( dis)
+		e fis gis a h8 h,
+		e4 r %430
+		R2*5 %435
+		r8 h''16( ais) h( ais) h( ais)
+		h8 h, dis fis
+		gis16 fis e8 r4
+		R2*2 %440
+		r8 e16( dis) e( dis) e( dis)
+		e8 e, r4
+		r8 a'16 gis a gis a gis
+		a8 a, r4
+		r8 d16( cis) d( cis) d( cis) %445
+		d8 d, r4
+		r8 cis'16 h cis h a gis
+		a8 a, r4
+		R2*4 %452
+		r8 fis''16( eis) fis( eis) fis( eis)
+		fis8 fis,16( eis) fis( eis) fis( eis)
+		fis gis a h cis8 cis, %455
+		fis4 r
+		r8 h'16( ais) h( ais) h( ais)
+		h8 h, r4
+		r8 a'16 gis a gis a gis
+		a8 a, r4 %460
+		r8 d16( cis) d( cis) d( cis)
+		d8 d, r4
+		r8 cis'16( h) cis( h) cis( h)
+		cis8 cis, r4
+		r8 h'16( a) h( a) h( a) %465
+		h8 h, r4
+		r8 a'16 gis a gis a gis
+		a8 gis16 a h8 h
+		e, a'16 gis a gis a gis
+		a8 a, r4 %470
+		r8 a16 gis a gis a gis
+		a h cis d e8 e,
+		a4 r
+		r16 a' g a fis d cis d
+		e4 r %475
+		r16 d cis d h cis a h
+		gis4 r
+		r8 a'16( gis) a( gis) a( gis)
+		a8 a, r4
+		r8 a16( gis) a( gis) a( gis) %480
+		a h cis d e8 e,
+		a e' a e
+		r a16( gis) a( gis) a( gis)
+		a8 e a e
+		r e h' e, %485
+		r h'16( ais) h( ais) h( ais)
+		h8 e, h' e,
+		cis'16 h a gis a8 cis
+		h16 gis fis e a8 h
+		gis16 fis e8 r e %490
+		fis16( a gis a) fis( d cis d)
+		e( a gis a) e( cis h cis)
+		d h' a h d, h a h
+		cis8 a'16( g) a( gis) a( gis)
+		a8 a,16( gis) a( gis) a( gis) %495
+		a h cis d e8 e,
+		a4 r\fermata \bar "||" %497 finis
 	}
 }
 

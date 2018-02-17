@@ -423,8 +423,8 @@ DomineDeusAgnusAltoNotes = {
 		fis8 fis fis fis
 		h16([ fis)]^\critnote e8 r4 %465
 		r8 e e e
-		a16[(^\critnote e] d4.~
-		d16[ d e fis] e8[ d])
+		a16[^\critnote e] d4.~
+		d16[ d e fis] e8[ d]
 		cis4 r
 		r8 a'16([ gis)] a([ gis)] a([ gis)] %470
 		a8[( cis16 h] cis[ h] cis[ h]
@@ -505,8 +505,8 @@ DomineDeusAgnusAltoLyrics = \lyricmode {
 	De -- us, A -- gnus
 	De -- i, %465
 	Fi -- li -- us
-	Pa --
-	
+	Pa -- _
+	_
 	tris,
 	Fi -- li -- us __ %470
 	Pa --
