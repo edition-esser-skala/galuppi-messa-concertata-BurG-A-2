@@ -323,18 +323,14 @@
 		\header {
 			movement = "2.7 DOMINE DEUS, AGNUS DEI"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
+							\set Staff.instrumentName = "Violino I, II"
 							\DomineDeusAgnusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DomineDeusAgnusViolinoII
 						}
 					>>
 					\new Staff {
@@ -360,7 +356,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4. = 70 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

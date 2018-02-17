@@ -619,11 +619,103 @@ DomineDeusAgnusViola = {
 			#'(4)
 			#'((end . (((1 . 16) . (4 4)))))
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key a \mixolydian \time 2/4 \tempoDomineDeusAgnus
 			\set Score.currentBarNumber = #383
-		
+		R2*6 %388
+		cis4\pE r
+		e r %390
+		cis r
+		h' r
+		gis r
+		e4 r8 e
+		e4 r8 e %395
+		e4 fis8 fis
+		h,4 r8 cis
+		d4 r8 d
+		a'4 r8 a
+		a4 r8 gis %400
+		a4 r
+		e r
+		a,16 h cis d e8 e
+		a,4 r
+		R2*2 %406
+		dis4 r
+		dis r
+		R2*9 %417
+		gis4 r
+		h r
+		gis r %420
+		fis r
+		dis r
+		h r8 h
+		h4 r8 h
+		h h' cis cis %425
+		fis,4 r
+		h r8 a
+		gis4 r8 fis
+		e16 fis gis a h8 h,
+		e4 r %430
+		R2*5 %435
+		fis4 r8 e
+		fis4 r8 fis
+		h,4 r
+		R2*2 %440
+		h'4 r
+		gis r
+		e r
+		e r
+		fis r %445
+		h r
+		gis r
+		cis r
+		R2*4 %452
+		a4 r
+		cis r8 gis
+		fis16 gis a h cis8 cis, %455
+		fis4 r
+		fis r
+		fis r
+		e r
+		cis r %460
+		h' r
+		e, r
+		a r
+		d, r
+		gis r %465
+		cis, r
+		fis r
+		d e
+		a8 a, r4
+		e'4 r %470
+		e r8 e
+		a,16 h cis d e8 e,
+		a4 r
+		fis' r8 gis
+		e4 r8 a %475
+		fis4 r8 d
+		h4 r
+		cis r
+		e r
+		cis r8 e %480
+		a,16 h cis d e8 e,
+		a4 r
+		e' r
+		cis r
+		h' r %485
+		gis r
+		e r8 e
+		e4 r8 e
+		e4 fis8 fis
+		h,4 r8 cis %490
+		d4 r8 d
+		a'4 r8 a
+		a4 r8 gis
+		a4 r
+		e r8 d %495
+		cis16 h cis d e8 e,
+		a4 r\fermata \bar "||" %497 finis
 	}
 }
 

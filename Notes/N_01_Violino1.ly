@@ -706,7 +706,7 @@ DomineDeusAgnusViolinoI = {
 		fis16( a gis a) fis( d cis d)
 		e( a gis a) e( cis h cis)
 		d h' a h d, h a h
-		cis8 a'16( g) a( gis) a( gis)
+		cis8 a'16( gis) a( gis) a( gis)
 		a8 a,16( gis) a( gis) a( gis) %495
 		a h cis d e8 e,
 		a4 r\fermata \bar "||" %497 finis
