@@ -271,8 +271,8 @@
 					\DomineDeusRexBassFigures
 				}
 			>>
-% 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\layout { }
+			\midi { \tempo 2 = 100 }
 		}
 	}
 }
