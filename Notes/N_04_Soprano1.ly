@@ -705,12 +705,76 @@ QuiTollisSopranoINotes = {
 		\clef treble
 		\key fis \phrygian \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #498
-		
+		r4 cis' cis2
+		cis4 cis d fis8 fis
+		d4 d8 d cis4 cis %500
+		cis( h) cis2\fermata
+		r4 e e2
+		e4 e cis cis8 e
+		d4 e d2
+		cis1\fermata %505
+		a4 c h8 h e e
+		e4 d c4.( d8)
+		e4 r r2
+		c8 c c c d4 h~
+		h8[ e,] a4. g16[ fis] h8[ a] %510
+		g4 r cis!8 cis cis cis
+		fis,4 fis h8 h e e
+		e e d d cis2
+		h4 r r2
+		R1*4 %518
+		r2 r4 d
+		cis cis r\fermata fis %520
+		e e8 e d4 e
+		e2 e\fermata
+		e4. d8 cis4 r
+		e8 cis a g fis fis r4
+		r2 h8 h h h %525
+		e4( d) cis r
+		r d2( cis4
+		h2) cis4 r
+		fis8. fis16 cis4 r2
+		e8 h cis d cis([ h)] a4 %530
+		r d4. h8 e d
+		cis cis d2( cis4)
+		d r r2\fermata \bar "||" %533 finis
 	}
 }
 
 QuiTollisSopranoILyrics = \lyricmode {
+	Qui [tol -- %498
+	lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta %500
+	mun -- di,]
+	[qui tol --
+	lis pec -- ca -- ta, pec --
+	ca -- ta mun --
+	di:] %505
+	Mi -- se -- re -- re, mi -- se --
+	re -- re no --
+	bis,
+	mi -- se -- re -- re no -- _
+	_ _ _ %510
+	bis, mi -- se -- re -- re
+	no -- bis, mi -- se -- re -- re,
+	mi -- se -- re -- re no --
+	bis.
 	
+	Qui %519
+	[tol -- lis, qui %520
+	tol -- lis pec -- ca -- ta
+	mun -- di:]
+	Sus -- ci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- %525
+	o -- nem
+	no --
+	stram,
+	sus -- ci -- pe
+	de -- pre -- ca -- ti -- o -- nem, %530
+	de -- pre -- ca -- ti --
+	o -- nem no --
+	stram. %533 finis
 }
 
 % SopranoINotes = {
