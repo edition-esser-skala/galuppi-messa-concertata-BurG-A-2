@@ -639,7 +639,7 @@ QuiTollisViolinoII = {
 		cis2 h\fermata
 		R1
 		r2 a8. a16 a4
-		d8 d cis cis h4 h %525
+		d8 d c? c h4 h %525
 		r2 cis8 cis cis cis
 		d a d2 cis4
 		h2 cis4 r

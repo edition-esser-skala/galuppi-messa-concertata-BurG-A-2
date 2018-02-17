@@ -1701,7 +1701,7 @@ QuiTollisOrgano = {
 		e4 e, ais4. ais8
 		h4 h8 h' g g g e
 		fis4 h, fis'2
-		h,4 r fis a
+		h,4 r fis a!
 		gis8 gis cis cis cis4 h %515
 		fis' a gis8 gis ais ais
 		h h, d d cis4 dis
@@ -1741,10 +1741,10 @@ QuiTollisBassFigures = \figuremode {
 	<9>4 <8> <6>2
 	<_!> <[7]>4 <[6]>
 	<7 [_+]>4 <_!> <4> <_+>
-	r1
-	r %515
-	r2. <5!>4
-	<9> <6> q <5!>
+	r2. <[6]>4
+	<[7]> r <[5] [2]> r %515
+	r <[6]> <[7]> <5!>
+	<9> <6> <[6\\]> <5!>
 	<9> <8> <7 _+> <_!>
 	<4> <_+> <_!>2
 	<_+>1 %520

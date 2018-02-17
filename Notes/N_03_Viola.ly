@@ -721,11 +721,45 @@ DomineDeusAgnusViola = {
 
 QuiTollisViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key fis \phrygian \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #498
-		
+		r4 fis\fE fis2
+		fis4 fis fis fis8 fis
+		fis4 fis8 fis gis4 fis8 cis %500
+		d2 gis,\fermata
+		r4 a' a2
+		a4 gis fis fis8 a
+		a4 a h2
+		e,1\fermata %505
+		R1*2
+		r8 g g g a4 h
+		e,4. c8 d4 e
+		e a4. g16 fis h8 a %510
+		g4 e r8 e e d16 cis
+		d4 d d8 g g g
+		fis4 fis8 fis fis2
+		fis4 r r2
+		r2 h,4 d %515
+		cis8 cis fis fis gis4 fis
+		fis fis8 d e4 dis
+		h r8 g' fis4 fis8 fis
+		fis2 fis4 fis
+		fis fis r\fermata a %520
+		a a8 a fis4^\critnote gis
+		e2 e\fermata
+		R1
+		r2 d8. d16 d4
+		d8 fis a a g4 g %525
+		r2 a8 a a a
+		a4 fis e2~
+		e e4 r
+		r2 h'8. h16 h4
+		r2 a8 a a a %530
+		a4 d, d8 d g g
+		g4 fis8 g a2
+		a4 r r2\fermata \bar "||" %533 finis
 	}
 }
 
