@@ -528,12 +528,76 @@ QuiTollisAltoNotes = {
 		\clef treble
 		\key fis \phrygian \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #498
-		
+		r4 \mvTr fis\fE^\tuttiE fis2
+		fis4 fis fis fis8 fis
+		fis4 fis8 fis gis4 fis %500
+		fis2 eis\fermata
+		r4 a a2
+		a4 gis fis fis8 e
+		fis4 a a( gis)
+		a1\fermata %505
+		r2 e4 g!
+		fis8 fis h h h4 a
+		g2 a4 h
+		e,2 d4. e16[ d]
+		c4 r fis8 fis fis fis %510
+		g4 g fis8 fis fis fis
+		d4 d d g
+		fis fis fis2
+		fis4 r r2
+		R1*4 %518
+		r2 r4 fis
+		fis fis r\fermata a %520
+		a a8 a fis4 gis
+		e( a) gis2\fermata
+		R1
+		r2 a8. a16 a4
+		a8 a a a g^\critnote g r4 %525
+		r2 e8 e e e
+		fis4 fis e2~
+		e e4 r
+		r2 fis8. fis16 fis4
+		r2 e8 e e e %530
+		fis4 fis g8 g g g
+		g4 fis e2
+		d4 r r2\fermata \bar "||" %533 finis
 	}
 }
 
 QuiTollisAltoLyrics = \lyricmode {
+	[Qui tol -- %498
+	lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta %500
+	mun -- di,]
+	[qui tol --
+	lis pec -- ca -- ta, pec --
+	ca -- ta mun --
+	di:] %505
+	Mi -- se --
+	re -- re, mi -- se -- re -- re
+	no -- _ _
+	_ _ _
+	bis, mi -- se -- re -- re %510
+	no -- bis, mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no --
+	bis.
 	
+	[Qui %519
+	tol -- lis, qui %520
+	tol -- lis pec -- ca -- ta
+	mun -- di:]
+	
+	[Sus -- ci -- pe
+	de -- pre -- ca -- ti -- o -- nem, %525
+	de -- pre -- ca -- ti --
+	o -- nem no --
+	stram,]
+	[sus -- ci -- pe
+	de -- pre -- ca -- ti -- %530
+	o -- nem, de -- pre -- ca -- ti --
+	o -- nem no --
+	stram. %533 finis
 }
 
 % AltoNotes = {

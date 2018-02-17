@@ -1693,7 +1693,7 @@ QuiTollisOrgano = {
 		a4 e' fis fis8 cis
 		d4 a h2
 		a1\fermata %505
-		\clef treble << { a''4 c h^\critnote e e d } \\ { r2 e,4 g_\critnote fis h } >>
+		\clef treble << { a''4 c h^\critnote e e d } \\ { r2 e,4 g!_\critnote fis h } >>
 		\clef "treble_8" a, c
 		\clef bass e, g fis gis
 		a8 e a2 gis4
@@ -1734,11 +1734,11 @@ QuiTollisBassFigures = \figuremode {
 	r2 <7>4 <[6\\]>
 	r1 %505
 	r
-	r2 <5 [_!]>4 <6>
-	r2 <7>4 <5!>
+	r2 <[9] [_!]>4 <6>
+	r <[6]> <7> <5!>
 	<_!>2 <[6!] 4 2>4 <6>
 	<9 [_!]> <8> <6 5>2 %510
-	<9>4 <8> <5>2
+	<9>4 <8> <6>2
 	<_!> <5>4 <[6]>
 	<7 [_+]>4 <_!> <4> <_+>
 	r1
