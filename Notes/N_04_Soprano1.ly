@@ -705,7 +705,7 @@ QuiTollisSopranoINotes = {
 		\clef treble
 		\key fis \phrygian \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #498
-		r4 cis' cis2
+		r4 \mvTr cis'\fE^\tuttiE cis2
 		cis4 cis d fis8 fis
 		d4 d8 d cis4 cis %500
 		cis( h) cis2\fermata
