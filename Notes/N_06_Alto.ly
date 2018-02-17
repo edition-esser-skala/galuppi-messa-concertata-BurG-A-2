@@ -363,12 +363,164 @@ DomineDeusAgnusAltoNotes = {
 		\clef treble
 		\key a \mixolydian \time 2/4 \autoBeamOff \tempoDomineDeusAgnus
 			\set Score.currentBarNumber = #383
-		
+		\mvTr e8[\pE^\soloE a16 gis] a[ gis a gis] %383
+		a8[ e a cis]
+		r h16[ ais] h[ ais h ais] %385
+		h8[ e, gis h]
+		cis16[ h a gis] a[ e cis e]
+		a8[ gis16 fis] e([ d)] cis([ h)]
+		cis([ h)] a8 r4
+		R2*14 %403
+		a'8([ cis16 h)] a([ gis)] fis([ e)]
+		dis4 e %405
+		a16([ gis)] fis([ a)] gis([ fis)] e([ gis)]
+		fis([ e)] fis8 r4
+		fis dis8 h
+		gis'[ h16 a] gis[ fis gis e]
+		a8[ e cis a] %410
+		d[ h16 cis] d[ cis d h]
+		cis8[ e] a4~
+		a8[ h16 a] h[ a gis fis]
+		gis8[ a] h4~
+		h16[ cis gis a] a4~ %415
+		a8[ gis16 fis] gis8[ a]
+		gis4 \tuplet 3/2 4 { fis8[ e fis] }
+		e4 r
+		R2*11 %429
+		h8[ e16 dis] e[ dis e dis] %430
+		e8[ h e gis]
+		r fis16[ e] fis[ e fis e]
+		fis8[ h, fis' h]
+		gis16[ fis e dis] e[ fis gis a]
+		h8[ a16 gis] fis8 e %435
+		e dis r4
+		R2
+		e16[( fis gis a]) h8 e,
+		cis'([ a)] h4
+		a8([ h16)] cis h8 a %440
+		gis16([ fis]) e8 r4
+		h'4 gis8 e
+		cis'2~
+		cis8[ a16 h] cis[ a gis a]
+		fis2~ %445
+		fis8[ gis16 a] h[ gis fis gis]
+		eis[ dis] cis8 r4
+		r8 fis16([ e)] fis([ e)] d([ cis)]
+		d8[ h'16 a] h[ a gis fis]
+		gis8[ h16 a] gis[ fis eis dis] %450
+		cis8[ dis16 eis] fis8[ h16 gis]
+		fis4 \tuplet 3/2 4 { gis8[ fis gis] }
+		fis4 r
+		R2*2 %455
+		fis16([ a gis a] fis8[ e]
+		d16) cis d8 r4
+		d8([ e16 fis]) e8 d
+		cis16([ h)] a8 r4
+		e'8 e a a %460
+		a gis r4
+		r8 gis gis gis
+		cis16([ gis)] fis8 r4
+		fis8 fis fis fis
+		h16([ fis)]^\critnote e8 r4 %465
+		r8 e e e
+		a16[(^\critnote e] d4.~
+		d16[ d e fis] e8[ d])
+		cis4 r
+		r8 a'16([ gis)] a([ gis)] a([ gis)] %470
+		a8[( cis16 h] cis[ h] cis[ h]
+		cis[ h a h] gis4)
+		a8 a16([ gis] a[ gis)] fis([ e)]
+		fis([ e)] d8 r4
+		r8 a'16([ gis]) a([ e)] d([ cis)] %475
+		d[^\critnote cis h8] r4
+		r8 e16[ d] e[ h cis d]
+		cis[ h] a8 r4
+		r8 a'16([ gis)] a([ gis)] a([ gis)]
+		a8[( cis16 h] cis[ h cis h] %480
+		cis[ gis a fis] gis4\trill)
+		a r
+		R2*14 %496
+		R2\fermataMarkup \bar "||" %497 finis
 	}
 }
 
 DomineDeusAgnusAltoLyrics = \lyricmode {
+	Do -- _ %383
+	_
+	_ _ %385
+	_
+	_ _
+	_ mi -- ne
+	De -- us,
 	
+	Do -- mi -- ne %404
+	De -- us, %405
+	De -- us, A -- gnus
+	De -- i,
+	Fi -- li -- us
+	Pa -- _
+	_ %410
+	_ _
+	_ _
+	_
+	_ _
+	_ %415
+	_
+	_ _
+	tris.
+	
+	Do -- _ %430
+	_
+	_ _
+	_
+	_ _
+	_ mi -- ne %435
+	De -- us,
+	
+	Do -- mi -- ne
+	De -- us,
+	De -- us, A -- gnus %440
+	De -- i,
+	Fi -- li -- us
+	Pa --
+	_
+	_ %445
+	_
+	_ tris,
+	Fi -- li -- us
+	Pa -- _
+	_ _ %450
+	_ _
+	_ _
+	tris.
+	
+	Do -- %456
+	mi -- ne,
+	Do -- mi -- ne
+	De -- us,
+	De -- us, A -- gnus %460
+	De -- i,
+	Fi -- li -- us
+	Pa -- tris,
+	De -- us, A -- gnus
+	De -- i, %465
+	Fi -- li -- us
+	Pa --
+	
+	tris,
+	Fi -- li -- us __ %470
+	Pa --
+	
+	tris, A -- gnus
+	De -- i,
+	Fi -- li -- us %475
+	Pa --
+	_ _
+	_ tris,
+	Fi -- li -- us __
+	Pa -- %480
+	
+	tris. %482 finis
 }
 
 % AltoNotes = {
