@@ -497,6 +497,15 @@ DomineDeusRexViolinoI = {
 	}
 }
 
+DomineFiliViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 3/8 \tempoDomineFili
+			\set Score.currentBarNumber = #261
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

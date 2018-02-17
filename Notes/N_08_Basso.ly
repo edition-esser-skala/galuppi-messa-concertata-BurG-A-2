@@ -528,6 +528,18 @@ DomineDeusRexBassoLyrics = \lyricmode {
 	tens. %260 FINIS
 }
 
+DomineFiliBassoNotes = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 3/8 \autoBeamOff \tempoDomineFili
+		
+	}
+}
+
+DomineFiliBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

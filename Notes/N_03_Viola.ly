@@ -501,6 +501,16 @@ DomineDeusRexViola = {
 	}
 }
 
+DomineFiliViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key h \minor \time 3/8 \tempoDomineFili
+			\set Score.currentBarNumber = #261
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

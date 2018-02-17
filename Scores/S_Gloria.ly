@@ -208,9 +208,76 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.5 DOMINE DEUS, REX COELESTIS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DomineDeusRexViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DomineDeusRexViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DomineDeusRexViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano I"
+% 						\new Voice = "SopranoI" { \dynamicUp \DomineDeusRexSopranoINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoI \DomineDeusRexSopranoILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano II"
+% 						\new Voice = "SopranoII" { \dynamicUp \DomineDeusRexSopranoIINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoII \DomineDeusRexSopranoIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DomineDeusRexAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DomineDeusRexAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \DomineDeusRexTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DomineDeusRexTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \DomineDeusRexBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DomineDeusRexBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DomineDeusRexOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DomineDeusRexBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.5 DOMINE DEUS, REX COELESTIS"
+			movement = "2.6 DOMINE FILIE"
 		}
 		\score {
 			<<
@@ -218,57 +285,33 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DomineDeusRexViolinoI
+							\DomineFiliViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DomineDeusRexViolinoII
+							\DomineFiliViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\DomineDeusRexViola
+						\DomineFiliViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano I"
-						\new Voice = "SopranoI" { \dynamicUp \DomineDeusRexSopranoINotes }
-					}
-					\new Lyrics \lyricsto SopranoI \DomineDeusRexSopranoILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Soprano II"
-						\new Voice = "SopranoII" { \dynamicUp \DomineDeusRexSopranoIINotes }
-					}
-					\new Lyrics \lyricsto SopranoII \DomineDeusRexSopranoIILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DomineDeusRexAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \DomineDeusRexAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \DomineDeusRexTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \DomineDeusRexTenoreLyrics
-					
-					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \DomineDeusRexBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \DomineFiliBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DomineDeusRexBassoLyrics
+					\new Lyrics \lyricsto Basso \DomineFiliBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DomineDeusRexOrgano
+						\DomineFiliOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DomineDeusRexBassFigures
+					\DomineFiliBassFigures
 				}
 			>>
 			\layout { }
