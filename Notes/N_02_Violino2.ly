@@ -465,7 +465,37 @@ DomineDeusRexViolinoII = {
 		\key d \major \time 2/1 \tempoDomineDeusRex
 			\set Staff.timeSignatureFraction = 2/2
 			\set Score.currentBarNumber = #227
-		
+		R\breve*4 %230
+		r1 a'2\fE a
+		h h a4 a a a
+		fis d d'1 cis2
+		r4 d,8 e fis4 d e2 cis'
+		cis2. d4 cis h a2 %235
+		r4 d d d d2 cis
+		fis fis4 fis e e a2~
+		a gis a4 cis, cis cis
+		d e fis2 h, e~
+		e4 d cis h a fis' fis fis %240
+		gis2 a1 gis2
+		a r a, r
+		cis r fis r
+		e4 cis cis cis d2. d4
+		cis a8 h cis4 a d a d2~ %245
+		d4 cis h2. cis8 d e2
+		cis2. d8 e fis4 e d cis
+		h d e e e2 d
+		cis fis2. e4 d cis
+		h2 e2. d4 cis h %250
+		a2 d1 cis2
+		r4 d d d cis d e2
+		fis4 e d1 cis4 cis
+		h2. h4 e, a' a a
+		fis2 fis g! g %255
+		fis4 d8 e fis4 d a'2 a4 a
+		h h h h a2 a4 a
+		g2 fis4 d cis cis d2
+		e2. d4 d d cis2
+		d\breve\fermata \bar "||" %260 finis
 	}
 }
 
