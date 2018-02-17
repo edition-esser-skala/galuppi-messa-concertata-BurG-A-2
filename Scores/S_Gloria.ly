@@ -323,7 +323,7 @@
 		\header {
 			movement = "2.7 DOMINE DEUS, AGNUS DEI"
 		}
-		\paper { systems-per-page = #2 }
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<

@@ -1445,11 +1445,239 @@ DomineDeusAgnusOrgano = {
 		\key a \mixolydian \time 2/4 \tempoDomineDeusAgnus
 			\set Score.currentBarNumber = #383
 		\mvTr a4\pE^\soloE r8 h
+		cis4 r8 a'
+		gis4 r8 fis %385
+		e4 r8 gis
+		a4 r
+		a,8 d e e,
+		a4 r8 h
+		cis4 r8 h %390
+		a4 r8 a'
+		gis4 r8 fis
+		e4 r8 fis
+		gis4 r8 gis
+		a4 r8 a %395
+		gis4 fis8 dis
+		e e'16 d! cis8 a
+		d4 r8 h
+		cis4 r8 a
+		h4 r8 e %400
+		a,4 r8 h
+		cis4 r8 h
+		a16 h cis d e8 e,
+		a,4 r8 a'
+		h a gis e %405
+		fis dis e e,
+		h'4 r8 cis
+		dis4 r8 dis
+		e4 r8 d
+		cis4 r8 cis %410
+		h4 r8 gis
+		a4 r8 a'
+		h4 r8 h,
+		e4 r8 gis
+		a4 r8 fis %415
+		h4 e,8 a
+		h4 h,
+		e r8 fis
+		gis4 r8 fis
+		e4 r8 e %420
+		dis4 r8 cis
+		h4 r8 cis
+		dis4 r8 dis
+		e4 r8 e
+		dis4 cis8 ais %425
+		h h'16 cis h8 a!
+		gis4 r8 fis
+		e4 r8 h
+		e16 fis gis a h8 h,
+		e4 r8 fis %430
+		gis4 r8 e
+		dis4 r8 cis
+		h4 r8 dis
+		e4 r8 fis
+		gis4 r8 a %435
+		h4 r8 cis,
+		dis4 r8 dis
+		e4 r8 gis
+		a4 gis
+		fis8 e dis h %440
+		e4 r8 fis
+		gis4 r8 gis
+		a4 r8 h
+		cis4 r8 cis,
+		d4 r %445
+		h r8 h
+		cis4 r8 eis
+		fis4 r8 a,
+		h4 r
+		h r8 h' %450
+		h4 a8 h
+		cis4 cis,
+		fis r8 gis
+		a4 r8 gis
+		a16 gis a h cis8 cis, %455
+		fis4 r8 cis
+		h4 r
+		h'8 h, e e,
+		a4 r8 h
+		cis4 r8 a %460
+		h4 r
+		e r
+		a, r
+		d r
+		gis r %465
+		cis, r
+		fis r
+		h,8 h' gis4
+		a4 r8 h
+		cis4 r8 h %470
+		a4 r8 e
+		a,16 h cis d e8 e,
+		a4 r
+		d r8 h
+		cis4 r8 a %475
+		h4 r8 h
+		gis'4 r8 e,
+		a4 r8 h
+		cis4 r8 h
+		a4 r8 e' %480
+		a,16 h cis d e8 e,
+		a4 r8 h
+		cis4 r8 h
+		a4 r8 a'
+		gis4 r8 fis %485
+		e4 r8 fis
+		gis4 r8 gis
+		a4 r8 a
+		gis4 fis8 dis
+		e cis'16 d! cis8 a %490
+		d4 r8 h
+		cis4 r8 a
+		h4 r8 e,
+		a4 r8 h
+		cis4 r8 h %495
+		a16 h cis d e8 e,
+		a,4 r\fermata \bar "||" %497 finis
 	}
 }
 
 DomineDeusAgnusBassFigures = \figuremode {
-	
+	r4. <6+>8 %383
+	<6>2
+	r %385
+	r
+	r
+	r
+	r
+	r %390
+	r
+	r
+	r
+	r
+	r %395
+	r
+	r
+	r
+	r
+	r %400
+	r
+	r
+	r
+	r
+	r %405
+	r
+	r
+	<6>
+	<_+>
+	<6> %410
+	<7>4. <6>8
+	r2
+	<7 _+>
+	r
+	<9>4 <8> %415
+	<_+>2
+	<6 4>4 <[5] _+>
+	r4. <6+>8
+	<6>2
+	r %420
+	<6>
+	r
+	<6>
+	<_+>
+	<6> %425
+	<_+>
+	<6>
+	<_+>
+	r4 <4>8 <_+>
+	r4. <6+>8 %430
+	<6>2
+	<6>
+	r
+	r
+	r %435
+	<4>8 <_+> r4
+	r2
+	r
+	r
+	r %440
+	r
+	r
+	r
+	r
+	r %445
+	<5>4. <6+>8
+	<5>2
+	r
+	r
+	r %450
+	<4+ 2>
+	<6 4>4 <[5] _+>
+	r4. <6+>8
+	r2
+	r4 <4>8 <_+> %455
+	r2
+	r
+	<7>4 <_+>
+	r2
+	r %460
+	<7>8 <6+> r4
+	<7 _+>2
+	<7>8 <6> r4
+	r2
+	<7>8 <6> r4 %465
+	<7>2
+	<7>8 <6> r4
+	<7>4 <5!>
+	r4. <6+>8
+	<6>4. <6+>8 %470
+	r2
+	r
+	r
+	r4. <6>8
+	<6>2 %475
+	<7>
+	<7>
+	r4. <6+>8
+	r4. <6+>8
+	r2 %480
+	r4 <4>8 <_+>
+	r2
+	r
+	r
+	r %485
+	r
+	r
+	r
+	r
+	r %490
+	r
+	r
+	r
+	r
+	r %495
+	r
+	r %497 finis
 }
 
 % Organo = {
