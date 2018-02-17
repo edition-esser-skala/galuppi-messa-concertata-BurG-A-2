@@ -688,14 +688,14 @@ DomineFiliBassoLyrics = \lyricmode {
 	Chri -- ste,
 	Je --
 	
-	su Chri --
+	su Chri -- %355
 	ste, u -- ni --
 	ge -- ni -- te
 	Je --
 	su,
-	Je --
+	Je -- %360
 	su Chri --
-	ste.
+	ste. %362 finis
 }
 
 % BassoNotes = {
