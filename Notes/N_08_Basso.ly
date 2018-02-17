@@ -532,12 +532,170 @@ DomineFiliBassoNotes = {
 	\relative c {
 		\clef bass
 		\key h \minor \time 3/8 \autoBeamOff \tempoDomineFili
-		
+			\set Score.currentBarNumber = #261
+		R4.*20 %280
+		\mvTr fis8[\pE^\soloE h16 ais h8]
+		cis,[ h' ais]
+		h,16[ cis d e fis8]
+		g[ fis e]
+		d16 cis h8 r %285
+		h d fis
+		h([ cis)] d~
+		d cis h
+		h16 ais ais8 r
+		r cis fis, %290
+		d' h fis
+		g4.~
+		g16([ e d e cis e)]
+		fis8 r r
+		r fis g %295
+		a4.~
+		a16([ fis e fis dis fis]
+		g8) c h
+		ais([ h16 ais)] h8
+		r g([ fis] %300
+		eis[ fis16 eis fis8)]
+		h, cis4
+		fis8 r r
+		R4.*3 %306
+		cis8[ fis16 eis fis8]
+		gis,[ fis' eis]
+		fis16[ gis a h cis8]
+		d[ cis h] %310
+		a16 gis fis8 r
+		fis, a cis
+		fis([ gis)] a~
+		a gis fis
+		fis16 eis eis8 r %315
+		r gis cis,
+		a' fis cis'
+		d4.~
+		d16([ h a h gis h)]
+		cis8 r r %320
+		r a e
+		fis d' a
+		h([ g fis]
+		e) d4
+		d8 cis r %325
+		d16[( e fis g a8]
+		g16[ a h cis d8])
+		g,16([ h)] a8([ a,)]
+		d r r
+		R4.*3 %332
+		a'8[ d16 cis d8]
+		e,[ d' cis]
+		d,16[ e fis g a8] %335
+		h[ a g]
+		fis16 e d8 r
+		a' d a
+		h16([ a)] h8 r
+		cis8. d16 cis h %340
+		ais gis fis8 r
+		r cis' h
+		ais4.(
+		fis16[ gis)] ais([ h)] cis8
+		d16([ cis)] h8 r %345
+		R4.
+		r8 fis e
+		dis?4.(
+		h16[ cis dis e fis8]
+		g) c h %350
+		ais h4
+		cis8 fis, r
+		r cis'([ h]
+		ais[ fis ais]
+		h16) e, fis4 %355
+		h,8 d'16([ cis)] h([ a)]
+		h([ a)] g([ fis)] e([ d)]
+		g16([ fis e d cis h]
+		fis'8) fis, r
+		h16([ cis d e fis8)] %360
+		g16([ e)] fis([ h ais h)]
+		h,8 r r
+		R4.*19 %381
+		R4.\fermataMarkup \bar "||" %382 finis
 	}
 }
 
 DomineFiliBassoLyrics = \lyricmode {
+	Do -- %281
+	_
+	_
+	_
+	_ mi -- ne, %285
+	Do -- mi -- ne
+	Fi -- li __
+	u -- ni --
+	ge -- ni -- te,
+	u -- ni -- %290
+	ge -- ni -- te
+	Je --
 	
+	su,
+	u -- ni %295
+	ge --
+	
+	ni -- te
+	Je -- su,
+	Je -- %300
+	
+	su Chri --
+	ste.
+	
+	Do -- %307
+	_
+	_
+	_ %310
+	_ mi -- ne,
+	Do -- mi -- ne
+	Fi -- li __
+	u -- ni --
+	ge -- ni -- te, %315
+	u -- ni --
+	ge -- ni -- te
+	Je --
+	
+	su, %320
+	u -- ni --
+	ge -- ni -- te
+	Je --
+	su
+	Chri -- ste, %325
+	Je --
+	
+	su Chri --
+	ste.
+	
+	Do -- %333
+	_
+	_ %335
+	_
+	_ mi -- ne,
+	Do -- mi -- ne
+	Fi -- li,
+	Fi -- li u -- ni -- %340
+	ge -- ni -- te,
+	u -- ni --
+	ge --
+	ni -- te
+	Je -- su, %345
+	
+	u -- ni --
+	ge --
+	
+	ni -- te %350
+	Je -- su
+	Chri -- ste,
+	Je --
+	
+	su Chri --
+	ste, u -- ni --
+	ge -- ni -- te
+	Je --
+	su,
+	Je --
+	su Chri --
+	ste.
 }
 
 % BassoNotes = {
