@@ -612,6 +612,21 @@ DomineFiliViola = {
 	}
 }
 
+DomineDeusAgnusViola = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key a \mixolydian \time 2/4 \tempoDomineDeusAgnus
+			\set Score.currentBarNumber = #383
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

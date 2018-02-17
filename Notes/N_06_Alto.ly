@@ -353,6 +353,24 @@ DomineDeusRexAltoLyrics = \lyricmode {
 	tens. %260 finis
 }
 
+DomineDeusAgnusAltoNotes = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key a \mixolydian \time 2/4 \autoBeamOff \tempoDomineDeusAgnus
+			\set Score.currentBarNumber = #383
+		
+	}
+}
+
+DomineDeusAgnusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -275,9 +275,53 @@
 % 			\midi { \tempo 2 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.6 DOMINE FILIE"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DomineFiliViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DomineFiliViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DomineFiliViola
+% 					}
+% 				>>
+% 				\new GrandStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \DomineFiliBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DomineFiliBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DomineFiliOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DomineFiliBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 70 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.6 DOMINE FILIE"
+			movement = "2.7 DOMINE DEUS, AGNUS DEI"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
@@ -286,33 +330,33 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DomineFiliViolinoI
+							\DomineDeusAgnusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DomineFiliViolinoII
+							\DomineDeusAgnusViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\DomineFiliViola
+						\DomineDeusAgnusViola
 					}
 				>>
 				\new GrandStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \DomineFiliBassoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \DomineDeusAgnusAltoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DomineFiliBassoLyrics
+					\new Lyrics \lyricsto Alto \DomineDeusAgnusAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DomineFiliOrgano
+						\DomineDeusAgnusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DomineFiliBassFigures
+					\DomineDeusAgnusBassFigures
 				}
 			>>
 			\layout { }
