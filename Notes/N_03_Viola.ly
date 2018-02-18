@@ -829,6 +829,15 @@ QuiSedesViola = {
 	}
 }
 
+QuoniamViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key d \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #591
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

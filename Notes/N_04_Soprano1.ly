@@ -861,17 +861,18 @@ QuiSedesSopranoILyrics = \lyricmode {
 	bis. %%81 finis
 }
 
-% SopranoINotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoILyrics = \lyricmode {
-% 	
-% }
+QuoniamSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #591
+		
+	}
+}
+
+QuoniamSopranoILyrics = \lyricmode {
+	
+}
 
 % SopranoINotes = {
 % 	\relative c' {

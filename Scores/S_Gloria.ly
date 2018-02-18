@@ -426,44 +426,93 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.9 QUI SEDES"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuiSedesViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuiSedesViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\QuiSedesViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \QuiSedesSopranoINotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \QuiSedesSopranoILyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuiSedesOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuiSedesBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.9 QUI SEDES"
+			movement = "2.10 QUONIAM"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuiSedesViolinoI
+							\QuoniamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuiSedesViolinoII
+							\QuoniamViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\QuiSedesViola
+						\QuoniamViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuiSedesSopranoINotes }
+						\new Voice = "SopranoI" { \dynamicUp \QuoniamSopranoINotes }
 					}
-					\new Lyrics \lyricsto Soprano \QuiSedesSopranoILyrics
+					\new Lyrics \lyricsto SopranoI \QuoniamSopranoILyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \QuoniamAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuiSedesOrgano
+						\QuoniamOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuiSedesBassFigures
+					\QuoniamBassFigures
 				}
 			>>
 			\layout { }

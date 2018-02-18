@@ -821,13 +821,13 @@ QuiSedesViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+QuoniamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #591
+	}
+}
 
 % ViolinoI = {
 % 	\relative c' {
