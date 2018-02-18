@@ -866,12 +866,107 @@ QuoniamSopranoINotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #591
-		
+		\mvTr a'8([\pE^\soloE g16 a] h8) h a4 r
+		R1*4 %595
+		a8([ g16 a] h8) h a a d4~
+		d cis r r8 a
+		h h h h cis[ h16 a] d4~
+		d8[ e16 d] cis8. d16 d4 r
+		r r8 cis d([ cis)] h d %600
+		cis([ h)] a cis h[ cis16 d] e4~
+		e8[ d16 cis] d8[ cis16 h] cis4 fis~
+		fis8[ e16 d] e8[ fis16 e] d4. e16[ d]
+		cis4 e~ e8[ d16 cis] d4~
+		d8[ cis16 h] cis8 d cis4( h) %605
+		a4 r r2
+		R1
+		cis8([ h16 cis] d8) d cis4 r
+		R1
+		a8([ g16 a] h8) h a4 r %610
+		r8 cis d e d16([ cis d e)] cis8 cis
+		h h h h cis([ h16 a] d4~)
+		d8. d16 cis8 cis d([ e16 fis)] e8 d
+		d16 cis cis8 r4 fis16([ g fis cis] e[ fis e cis]
+		d8) d r4 e16([ fis e cis] d[ e d h] %615
+		cis8) cis r4 a d~
+		d8[ cis16 h] cis8[ a] h4 e~
+		e8[ d16 cis] d8[ h] cis4 fis~
+		fis8[ e16 d] e4. a,8 d d
+		d cis r4 r2 %620
+		r4 fis4. e16[ d] e4~
+		e8[ d16 cis] d8 e d4( cis)
+		h r r2
+		R1*3 %626
+		r2 d8([ cis16 d] e8) e
+		d4 r8 h cis cis cis cis
+		d([ cis16 h] d2) cis4
+		r r8 cis d([ cis)] h d %630
+		cis([ h)] a cis d a d4~
+		d cis d d~
+		d8[ cis16 h] cis8[ d16 cis] h4. cis16[ h]
+		a4. h16[( a]) a8 gis r4
+		r2 cis16([ d cis gis] h[ cis h gis] %635
+		a8) a r4 h16([ cis h gis?] a[ h a fis]
+		gis8) gis r4 cis8[ d] e4~
+		e8[ d16 cis] d8[ cis] h[ cis16 d] e8[ d]
+		cis[ d16 cis] d8 e d4( cis)
+		d r r2 %640
+		r4 a4. g16[ fis] g4~
+		g8[ fis16 e] fis8 g fis4( e)
+		d r r2
+		R1*4 \bar "||" %647 finis
 	}
 }
 
 QuoniamSopranoILyrics = \lyricmode {
+	Quo -- ni -- am, %591
 	
+	quo -- ni -- am tu so -- %596
+	lus, tu
+	so -- lus, so -- lus Do -- _
+	_ mi -- nus,
+	tu so -- lus al -- %600
+	tis -- si -- mus Je -- _
+	_ _ _
+	_ _ _
+	su, Je -- _
+	_ su Chri -- %605
+	ste.
+	
+	Quo -- ni -- am,
+	
+	quo -- ni -- am %610
+	tu so -- lus san -- ctus, tu
+	so -- lus, so -- lus Do --
+	mi -- nus, tu so -- lus al --
+	tis -- si -- mus Je --
+	su, Je -- %615
+	su, Je -- _
+	_ _ _
+	_ _ _
+	_ _ _ su
+	Chri -- ste, %620
+	Je -- _ _
+	_ su Chri --
+	ste.
+	
+	Quo -- ni -- am %627
+	tu so -- lus, so -- lus
+	san -- ctus,
+	tu so -- lus al -- %630
+	tis -- si -- mus Je -- su Chri --
+	_ ste, Je --
+	_ _ _
+	_ su Chri -- ste,
+	Je -- %635
+	su, Je --
+	su, Je -- _
+	_ _ _
+	_ _ su Chri --
+	ste, %640
+	Je -- _ _
+	_ su Chri --
+	ste. %643 finis
 }
 
 % SopranoINotes = {
