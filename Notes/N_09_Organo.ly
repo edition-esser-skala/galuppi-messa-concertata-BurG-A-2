@@ -1763,17 +1763,18 @@ QuiTollisBassFigures = \figuremode {
 	r1 %533 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+QuiSedesOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 3/4 \tempoQuiSedes
+			\set Score.currentBarNumber = #534
+		\mvTr h4\pE^\soloE h h8 e
+	}
+}
+
+QuiSedesBassFigures = \figuremode {
+	
+}
 
 % Organo = {
 % 	\relative c {

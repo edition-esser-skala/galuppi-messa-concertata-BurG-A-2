@@ -777,17 +777,18 @@ QuiTollisSopranoILyrics = \lyricmode {
 	stram. %533 finis
 }
 
-% SopranoINotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoILyrics = \lyricmode {
-% 	
-% }
+QuiSedesSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 3/4 \autoBeamOff \tempoQuiSedes
+			\set Score.currentBarNumber = #534
+		
+	}
+}
+
+QuiSedesSopranoILyrics = \lyricmode {
+	
+}
 
 % SopranoINotes = {
 % 	\relative c' {

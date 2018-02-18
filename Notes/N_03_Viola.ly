@@ -763,6 +763,15 @@ QuiTollisViola = {
 	}
 }
 
+QuiSedesViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key h \minor \time 3/4 \tempoQuiSedes
+			\set Score.currentBarNumber = #534
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

@@ -177,6 +177,7 @@ tempoDomineDeusRex = \tempoMarkup "Andante"
 tempoDomineFili = \tempoMarkup "[Tempo deest]"
 tempoDomineDeusAgnus = \tempoMarkup "[Tempo deest]"
 tempoQuiTollis = \tempoMarkup "Adagio"
+tempoQuiSedes = \tempoMarkup "Largo"
 
 
 % modify the Scheme function 'format-bass-figure'

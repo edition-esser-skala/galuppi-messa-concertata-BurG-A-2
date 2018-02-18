@@ -756,6 +756,38 @@ QuiTollisViolinoI = {
 	}
 }
 
+QuiSedesViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 3/4 \tempoQuiSedes
+			\set Score.currentBarNumber = #534
+	}
+}
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

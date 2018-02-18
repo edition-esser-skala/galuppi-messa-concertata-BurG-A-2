@@ -359,68 +359,111 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.8 QUI TOLLIS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuiTollisViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuiTollisViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\QuiTollisViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano I"
+% 						\new Voice = "SopranoI" { \dynamicUp \QuiTollisSopranoINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoI \QuiTollisSopranoILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano II"
+% 						\new Voice = "SopranoII" { \dynamicUp \QuiTollisSopranoIINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoII \QuiTollisSopranoIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuiTollisOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuiTollisBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.8 QUI TOLLIS"
+			movement = "2.9 QUI SEDES"
 		}
-% 		\paper { page-count = #4 }
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuiTollisViolinoI
+							\QuiSedesViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuiTollisViolinoII
+							\QuiSedesViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\QuiTollisViola
+						\QuiSedesViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano I"
-						\new Voice = "SopranoI" { \dynamicUp \QuiTollisSopranoINotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \QuiSedesSopranoINotes }
 					}
-					\new Lyrics \lyricsto SopranoI \QuiTollisSopranoILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Soprano II"
-						\new Voice = "SopranoII" { \dynamicUp \QuiTollisSopranoIINotes }
-					}
-					\new Lyrics \lyricsto SopranoII \QuiTollisSopranoIILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+					\new Lyrics \lyricsto Soprano \QuiSedesSopranoILyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuiTollisOrgano
+						\QuiSedesOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuiTollisBassFigures
+					\QuiSedesBassFigures
 				}
 			>>
 			\layout { }
