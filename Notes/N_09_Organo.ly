@@ -1894,11 +1894,123 @@ QuoniamOrgano = {
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #591
 		\mvTr d4\pE-\soloE g d g
+		d r r8 d d d
+		d' cis16 h a g fis e d4 r8 g
+		a a16 h a8 g fis4 r8 fis
+		g d r e d4 a'8 a, %595
+		d4 g d8 e fis d
+		g e a a, d d' cis a
+		d, h e e, a a' fis d
+		e4 a d, r8 d
+		a4 r8 a' h4 e, %600
+		a,8 h cis a e'4 r8 e
+		h4. h8 fis'4 fis8 fis
+		cis4 cis' fis,8 fis gis e
+		a a, cis a d4 r8 d
+		e4 a8 d, e4 e, %605
+		a d a r
+		r8 a a a a' gis16 fis e d cis h
+		a4 d a r
+		r8 d d d d' cis16 h a g fis e
+		d4 g d r8 g %610
+		a4 r8 a, d4 a8 a'
+		d, h e e, a a' fis d
+		g e a a, d4 r8 g
+		a4 r8 a fis4 r8 fis
+		h4 r e, r %615
+		a, r d8 e fis d
+		a4 r8 a' e4 r8 e
+		h4 r8 h fis'4 r8 fis
+		h,4 r8 cis d e fis d
+		a' a a a d cis16 h a g fis e %620
+		d8 e fis d g fis g e
+		fis4 h,8 e fis4 fis,
+		h e h r
+		r8 h h h h' a16 g fis e d cis
+		h4 r8 e fis8 fis, fis' e %625
+		d4 r8 d e h r e
+		fis4 fis,8 fis h4 r8 e
+		h cis d h e cis fis fis,
+		h4 r8 h' g e a a,
+		d d' cis a h4 e, %630
+		a, a'8 g fis4 r8 fis
+		e4 a8 a, d e fis d
+		a4 r8 a' e4 r8 eis
+		fis gis a fis cis'4 cis,
+		cis r cis eis %635
+		fis r h, r
+		e r8 e a,4 r8 cis
+		d4 fis g g,
+		a d8 g a4 a,
+		d,8 d' d d d' cis16 h a g fis e %640
+		d8 e fis d g,4 g'8 g
+		a4 d,8 g a4 a,
+		d g d r
+		r8 d d d d' cis16 h a g fis e
+		d4 r8 g a a16 h a8 g %645
+		fis4 r8 fis g d r e
+		fis e16 d a'8 a, d4 r\fermata \bar "||" %647 finis
 	}
 }
 
 QuoniamBassFigures = \figuremode {
-	
+	r1 %591
+	r
+	r
+	r
+	r2. <4>8 <3> %595
+	r1
+	<6 5>2. <6>4
+	<6 5> <4>8 <_+> r4 <6>
+	<7> q r2
+	r <7>4 <7 _+> %600
+	r2 <4>8 <_+> r4
+	<4>4 <3> <4> <_!>
+	<4> <3> <6 5> <5>
+	<9> <6> <9>8 <8> <6> <5>
+	<7 _+>4 r <4> <_+> %605
+	r1
+	r
+	r
+	r
+	r %610
+	r
+	<6 5>4 <_+> r <6>
+	<6 5>1
+	<6 4>8 <5 3> r4 <_+>2
+	r1 %615
+	r
+	<4>4 <3> <4> <3>
+	<4> <3> <4> <3>
+	<6 5>4. <5!>8 <9>4 <6>
+	<6 4> <5 3> r2 %620
+	r <7>4 <6>
+	<7 3 _+> <_!> <4> <_+>
+	r1
+	r
+	r2 <_+> %625
+	<6> r8 <_!> r4
+	<4> <_+> <_!>4. q8
+	q2 <6 5>4 <4>8 <3>
+	r2 <6 5>4 <4>8 <3>
+	r2 <7>4 <7> %630
+	r2 <6>
+	<7>4 <7> r2
+	<4>8 <3> r4 <4>8 <3> r4
+	<9>4 <6> <6 4> <5 _+>
+	<_+>2. <5!>4 %635
+	r2 <_!>
+	<_+>1
+	<9>4 <6> <9> <8>
+	<7>2 <6 4>4 <5 3>
+	r1 %640
+	r
+	<7>2 <4>4 <3>
+	r1
+	r
+	r %645
+	r2.. <6>8
+	q1 %647 finis
 }
 
 % Organo = {
