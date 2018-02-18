@@ -1769,11 +1769,123 @@ QuiSedesOrgano = {
 		\key h \minor \time 3/4 \tempoQuiSedes
 			\set Score.currentBarNumber = #534
 		\mvTr h4\pE^\soloE h h8 e
+		h'4 h, r %535
+		h' h, e
+		fis fis, r
+		h r r
+		e8 h'16 a g8 fis e4
+		a r r %540
+		d,8 a'16 g fis8 e d4
+		g r r
+		cis,8 g'16 fis e8 d cis4
+		fis r r
+		h,8 fis'16 e d8 cis h4 %545
+		e8 g fis4 fis,
+		h r r
+		h h h8 e
+		h4 h fis'
+		h, h e %550
+		fis fis, r
+		h r r
+		e8 h'16 a g8 fis e4
+		a, r r
+		d8 a'16 g fis8 e d4 %555
+		gis r r
+		cis,8 gis'16 fis eis8 dis cis4
+		fis fis gis
+		a8 h cis4 cis,
+		fis fis fis8 h %560
+		fis4 fis, cis'
+		fis, r r
+		fis'8 cis'16 h a8 gis fis e
+		d cis h4 r
+		h8 fis'16 e d8 cis h4 %565
+		e cis a
+		d d d
+		a r r
+		d8 a'16 g fis8 e d4
+		g r r %570
+		cis,8 g'16 fis e8 d cis4
+		fis r r
+		h,8 fis'16 e d8 cis h4
+		e4. fis8 g e
+		fis4 ais h %575
+		e, fis fis,
+		h8 fis'16 e d8 cis h4
+		e8 h'16 a g8 fis e4
+		fis r8 fis g4
+		r8 e fis4 fis, %580
+		h r r
+		e8 h'16 a g8 fis e4
+		a, r r
+		d8 a'16 g fis8 e d4
+		g r r %585
+		cis,8 g'16 fis e8 d cis4
+		fis r r
+		h,8 fis'16 e d8 cis h4
+		e8 g fis4 fis,
+		h r r\fermata \bar "||" %590
 	}
 }
 
 QuiSedesBassFigures = \figuremode {
-	
+	r2. %534
+	r %535
+	r
+	<6 4>4 <5 _+> r
+	<_+>2.
+	<_!>
+	r %540
+	r
+	r
+	r
+	<[_+]>
+	r %545
+	r4 <4> <_+>
+	r2.
+	r
+	r
+	r %550
+	<6 4>4 <5 _+> r
+	<_+>2.
+	<_!>
+	r
+	r %555
+	r
+	<[5+] _+>
+	r
+	<6>4 <[5+] 4> <\l _+>
+	r2 r8 <_!> %560
+	r2 <[5+] [_+]>4
+	r2.
+	r
+	r
+	r %565
+	r
+	r
+	r
+	r
+	r %570
+	r
+	<_+>
+	r
+	<7>4 <6!>2
+	<7 [_+]>4 <5!> r %575
+	<7 5> <6 4> <5 _+>
+	r2.
+	r2 <6>8 <5>
+	<[_+]>2 <5>4
+	r8 <7 5> <4>4 <_+> %580
+	r2.
+	r
+	r
+	r
+	r %585
+	r
+	r
+	r
+	r4 <4> <_+>
+	r2. %590 finis
 }
 
 % Organo = {
