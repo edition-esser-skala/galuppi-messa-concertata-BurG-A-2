@@ -761,6 +761,63 @@ QuiSedesViolinoI = {
 		\clef treble
 		\key h \minor \time 3/4 \tempoQuiSedes
 			\set Score.currentBarNumber = #534
+		fis'8\p h ais h fis g
+		fis16 h ais h fis8( g fis e) %535
+		d( cis h) fis'( e d)
+		d4 cis r
+		dis16( h ais h) fis'8 h, a' g16 fis
+		e,8 h'16-! a-! g8 fis e4
+		cis'16( a gis a) e'8 a, g' fis16 e %540
+		d,8 a'16-! g-! fis8 e d4
+		h'16( g fis g) d'8 g, fis' e16 d
+		cis,8 g'16 fis e8 d cis4
+		ais'16 fis eis fis cis'8 fis, e' d16 cis
+		h,8 fis'16 e d8 cis h4 %545
+		e8 g fis4 fis
+		h, r r
+		fis''8 h ais h fis g
+		fis4 h, ais
+		h8 cis d e fis e16 d %550
+		d4 cis r
+		R2.
+		e,8 h'16 a g8 fis e4
+		R2.
+		d8 a'16 g fis8 e d4 %555
+		R2.
+		cis8 gis'16 fis eis8 dis cis4
+		fis fis gis
+		a8 h cis4 cis
+		cis8 fis eis fis cis d %560
+		cis16( fis eis fis) cis8 d cis h
+		a gis fis4 r
+		fis8 cis'16 h a8 gis fis e
+		d cis h4 r
+		h8 fis'16 e d8 cis h4 %565
+		e cis a
+		d d d'
+		cis16( a gis a) e'8 e, g' fis16 e
+		d,8 a'16 g fis8 e d4
+		h'16 g fis g d'8 g, fis' e16 d %570
+		cis,8 g'16 fis e8 d cis4
+		cis'16( fis, eis fis) cis'8 fis, e' d16 cis
+		h,8 fis'16 e d8 cis h d
+		e4. fis8 g e
+		fis4 ais h %575
+		e, fis fis
+		h,8 fis'16 e d8 cis h4
+		e8 h'16 a g8 fis e4
+		fis4 r8 fis g4
+		r8 e fis4 fis %580
+		fis'16( h, ais h) fis'8 h, a' g16 fis
+		e,8 h'16 a g8 fis e4
+		cis'16 a gis a e'8 a, g' fis16 e
+		d,8 a'16 g fis8 e d4
+		h'16 g fis g d'8 g, fis' e16 d %585
+		cis,8 g'16 fis e8 d cis4
+		ais'16 fis eis fis cis'8 fis, e' d16 cis
+		h,8 fis'16 e d8 cis h4
+		e8 g fis4 fis
+		h, r r\fermata \bar "||" %590 finis
 	}
 }
 

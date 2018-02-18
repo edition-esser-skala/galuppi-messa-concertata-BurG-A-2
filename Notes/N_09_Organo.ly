@@ -1876,13 +1876,13 @@ QuiSedesBassFigures = \figuremode {
 	r2 <6>8 <5>
 	<[_+]>2 <5>4
 	r8 <7 5 [_+]> <4>4 <_+> %580
-	r2.
+	<[_+]>2.
 	r
 	r
 	r
 	r %585
 	r
-	r
+	<[_+]>
 	r
 	r4 <4> <_+>
 	r2. %590 finis
