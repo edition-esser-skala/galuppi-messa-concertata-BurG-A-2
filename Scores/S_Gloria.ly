@@ -430,8 +430,7 @@
 		\header {
 			movement = "2.9 QUI SEDES"
 		}
-% 		\paper { systems-per-page = #2 }
-% 		\paper { page-count = #4 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -468,7 +467,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }
