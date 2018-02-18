@@ -1916,7 +1916,7 @@ QuoniamOrgano = {
 		a4 r8 a, d4 a8 a'
 		d, h e e, a a' fis d
 		g e a a, d4 r8 g
-		a4 r8 a fis4 r8 fis
+		a4 r8 g^\critnote fis4 r8 fis
 		h4 r e, r %615
 		a, r d8 e fis d
 		a4 r8 a' e4 r8 e
@@ -1957,8 +1957,8 @@ QuoniamBassFigures = \figuremode {
 	r1 %591
 	r
 	r
-	r
-	r2. <4>8 <3> %595
+	r2 <[6]>
+	r4. <[6]>8 r4 <4>8 <3> %595
 	r2. <[6]>4
 	<6 5>2. <6>4
 	<6 5> <[_+]> r <6>
@@ -1977,7 +1977,7 @@ QuoniamBassFigures = \figuremode {
 	r
 	<6 5>4 <_+> r <6>
 	<6 5>2.. <[7] [5]>8
-	<6 4>8 <5 3> r4 <_+>2
+	<6 4>8 <5 3> r <[6]> <_+>2
 	r1 %615
 	r2. <[6]>4
 	<4>8 <3> r4 <4>8 <3> r4
@@ -1989,8 +1989,8 @@ QuoniamBassFigures = \figuremode {
 	r1
 	r
 	r2 <_+> %625
-	<6> r8 <_!> r4
-	<4> <_+> <_!>4. q8
+	<6> r8 <_!> r <[6] [5]>
+	<[6] 4>4 <[5] _+> <_!>4. q8
 	q4 <[6]> <6 5> <[_+]>
 	r2 <6 5>4 <[3]>
 	r <[6]> <7> <7 _+> %630
@@ -2009,8 +2009,8 @@ QuoniamBassFigures = \figuremode {
 	r1
 	r
 	r %645
-	r2.. <6>8
-	q1 %647 finis
+	<[6]>2.. <6>8
+	q4 <[4]>8 <[3]> r2 %647 finis
 }
 
 % Organo = {
