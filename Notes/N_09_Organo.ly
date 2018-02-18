@@ -1768,7 +1768,7 @@ QuiSedesOrgano = {
 		\clef bass
 		\key h \minor \time 3/4 \tempoQuiSedes
 			\set Score.currentBarNumber = #534
-		\mvTr h4\pE^\soloE h h8 e
+		\mvTr h4\pE-\soloE h h8 e
 		h'4 h, r %535
 		h' h, e
 		fis fis, r
@@ -1856,7 +1856,7 @@ QuiSedesBassFigures = \figuremode {
 	r2 <[6\\]>4
 	<6>4 <[5+] 4> <\l _+>
 	r2 r8 <_!> %560
-	r2 <[5+] [_+]>4
+	r2 <[8] [6]>8 <[7] [5+]>
 	r2.
 	r
 	<[6]>

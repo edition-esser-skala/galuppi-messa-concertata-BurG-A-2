@@ -761,7 +761,7 @@ QuiSedesViolinoI = {
 		\clef treble
 		\key h \minor \time 3/4 \tempoQuiSedes
 			\set Score.currentBarNumber = #534
-		fis'8\p h ais h fis g
+		fis'8\pE h ais h fis g
 		fis16 h ais h fis8( g fis e) %535
 		d( cis h) fis'( e d)
 		d4 cis r

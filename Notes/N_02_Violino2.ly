@@ -656,6 +656,63 @@ QuiSedesViolinoII = {
 		\clef treble
 		\key h \minor \time 3/4 \tempoQuiSedes
 			\set Score.currentBarNumber = #534
+		d'4\pE d d8( e)
+		d4. e8 d cis %535
+		h4. d8 cis h
+		h4 ais r
+		R2.
+		e8 h'16-! a-! g8 fis e4
+		R2. %540
+		d8 a'16-! g-! fis8 e d4
+		R2.
+		cis8 g'16 fis e8 d cis4
+		R2.
+		h8 fis'16 e d8 cis h4 %545
+		e8 g fis4 fis
+		h, r r
+		d' d d8 e
+		d4 h fis
+		h, h e %550
+		fis fis r
+		R2.
+		e8 h'16 a g8 fis e4
+		R2.
+		d8 a'16 g fis8 e d4 %555
+		R2.
+		cis8 gis'16 fis eis8 dis cis4
+		fis fis gis
+		a8 h cis4 cis
+		a4 a4. h8 %560
+		a4. h8 a gis
+		fis4 cis r
+		fis8 cis'16 h a8 gis fis e
+		d cis h4 r
+		h8 fis'16 e d8 cis h4 %565
+		e cis a
+		d d d
+		a' r r
+		d,8 a'16 g fis8 e d4
+		R2. %570
+		cis8 g'16 fis e8 d cis4
+		R2.
+		h8 fis'16 e d8 cis h d
+		e4. fis8 g e
+		fis4 ais h %575
+		e, fis fis
+		h,8 fis'16 e d8 cis h4
+		e8 h'16 a g8 fis e4
+		fis4 r8 fis g4
+		r8 e fis4 fis %580
+		h, r r
+		e8 h'16 a g8 fis e4
+		R2.
+		d8 a'16 g fis8 e d4
+		R2. %585
+		cis8 g'16 fis e8 d cis4
+		R2.
+		h8 fis'16 e d8 cis h4
+		e8 g fis4 fis
+		h, r r\fermata \bar "||" %590 finis
 	}
 }
 
