@@ -709,17 +709,18 @@ QuoniamAltoLyrics = \lyricmode {
 	ste. %643 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+CumSanctoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #648
+		
+	}
+}
+
+CumSanctoAltoLyrics = \lyricmode {
+	
+}
 
 % AltoNotes = {
 % 	\relative c' {

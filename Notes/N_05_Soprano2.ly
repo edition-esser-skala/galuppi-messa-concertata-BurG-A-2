@@ -532,6 +532,19 @@ QuiTollisSopranoIILyrics = \lyricmode {
 	stram.] %533 finis
 }
 
+CumSanctoSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
+			\set Score.currentBarNumber = #648
+		
+	}
+}
+
+CumSanctoSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoIINotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -878,6 +878,16 @@ QuoniamViola = {
 	}
 }
 
+CumSanctoViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #648
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

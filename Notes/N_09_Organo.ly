@@ -2013,17 +2013,18 @@ QuoniamBassFigures = \figuremode {
 	q4 <[4]>8 <[3]> r2 %647 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+CumSanctoOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoCumSancto
+			\set Score.currentBarNumber = #648
+		\mvTr d2\fE-\tuttiE d4 d
+	}
+}
+
+CumSanctoBassFigures = \figuremode {
+	
+}
 
 % Organo = {
 % 	\relative c {
