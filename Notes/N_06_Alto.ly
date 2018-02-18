@@ -645,7 +645,7 @@ QuoniamAltoNotes = {
 		e a, a'4. gis16[ fis] gis4~
 		gis8[ fis16 eis] fis8 fis fis eis r4
 		R1 %635
-		fis16([ g? fis d?] e[ fis e cis] d8) d r4
+		fis16([ gis fis d?] e[ fis e cis] d8) d r4
 		e16([ fis e cis] d[ e d h] cis8) cis r4
 		fis8[ g] a4. g16[ fis] g4~
 		g8[ fis16 e] fis8 g fis4( e)

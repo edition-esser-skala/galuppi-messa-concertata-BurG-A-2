@@ -831,10 +831,50 @@ QuiSedesViola = {
 
 QuoniamViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #591
+		r2 d4\pE d
+		d r r8 d d d
+		d'cis16 h a g fis e d4 r8 d
+		a'4 r d, r8 a'
+		g fis r g fis e16 d a'8 a %595
+		d,4 r r2
+		R1*9 %605
+		a'4 a a r
+		r8 a, a a a' gis16 fis e d cis h
+		a4 r r8 a' a a
+		fis d d d d' cis16 h a g fis e
+		d4 r r8 d d g %610
+		a4 r r2
+		R1*2
+		r8 a a e^\critnote cis4 r
+		d r e r %615
+		a r r2
+		R1*3
+		r8 a a a d cis16 h a g fis e %620
+		d4 r r2
+		R1
+		h'4 h h h
+		h8 h, h h h' a16 g fis e d cis
+		h4 r8 h fis' fis, r4 %625
+		d' r8 fis e d r e
+		d cis16 h^\critnote fis'8 fis h,4 r
+		R1*6 %633
+		r2 r8 cis cis cis
+		cis' h16 a gis fis eis dis cis4 r %635
+		cis r h r
+		e r e r
+		R1*2
+		r8 d d d d' cis16 h a g fis e %640
+		d4 r r2
+		R1
+		d4 d d r
+		r8 d d d d' cis16 h a g fis e
+		d4 r8 d a'4 r %645
+		d, r8 a' g fis r
+		g fis e16 d a'8 a d,4 r \bar "||" %647 finis
 	}
 }
 
