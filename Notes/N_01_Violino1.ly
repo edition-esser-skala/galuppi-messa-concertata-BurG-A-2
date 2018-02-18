@@ -826,6 +826,46 @@ QuoniamViolinoI = {
 		\clef treble
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #591
+		r2 a''8\pE g16 a h8 h
+		a d, d d d' cis16 h a g fis e
+		d8 cis16 h a g fis e d8 a'' g fis
+		e a, r4 a'8 g16 fis e8 d
+		h' a r g, fis e16 d a'8 a %595
+		d,4 r r2
+		R1*9 %605
+		e'8 d16 e fis8 fis e a, a a
+		a' gis16 fis e d cis h a8 gis16 fis e d cis h
+		a4 r r8 a'' a a
+		d cis16 h a g fis e d8 cis16 h a g fis e
+		d4 r r8 a'' g fis %610
+		e a, r4 r2
+		R1*2 %613
+		r8 e' e e fis4 r
+		fis r g r %615
+		e r fis r
+		R1*3
+		r8 a, a a d cis16 h a g fis e %620
+		d4 r r2
+		R1
+		fis'8 e16 fis g8 g fis h, h h
+		h' a16 g fis e d cis h8 a16 g fis e d cis
+		h8 fis'' e d cis fis, r4 %625
+		fis'8 e16 d cis8 h g' fis r e,
+		d cis16 h fis'8 fis h,4 r
+		R1*6 %633
+		r2 r8 cis cis cis
+		cis' h16 a gis fis eis dis? cis4 r %635
+		fis' r d r
+		h r cis r
+		R1*2
+		r8 d, d d d' cis16 h a g fis e %640
+		d4 r r2
+		R1
+		a''8 g16 a h8 h a d, d d
+		d' cis16 h a g fis e d8 cis16 h a g fis e
+		d8 a'' g fis e a, r4 %645
+		a'8 g16 fis e8 d h' a r g,
+		fis e16 d a'8 a d,4 r\fermata \bar "||" %647 finis
 	}
 }
 
