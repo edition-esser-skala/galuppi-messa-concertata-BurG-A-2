@@ -2019,11 +2019,118 @@ CumSanctoOrgano = {
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #648
 		\mvTr d2\fE-\tuttiE d4 d
+		d4. d8 a4 d
+		h2 a8 \tempoCumSanctoFuga \clef treble a''[ a a] %650
+		<< {
+			fis8.^\critnote e16 d4 r r8 a'
+			h4 h8 cis d a d4~
+			d8 cis16 h cis8 d h4. e8
+			a,4 d
+		} \\ {
+			r8 d, d d cis8. h16 a4
+			r r8 e' fis4 fis8 gis
+			a e a4. g16 fis g4~
+			g8 fis16 e fis8 g
+		} >> \clef "treble_8" a,4 a8 a
+		fis \clef bass d[ d d] cis h a4 %655
+		e e'8 e fis4. gis8
+		a e a2 gis4
+		a fis e2
+		d4 cis h2
+		a4 a' d,8 d' d d %660
+		cis a a a fis e d d
+		a4 a'8 a h4 h,8 cis
+		d2 a4 a'~
+		a g fis2
+		e d4 d8 d %665
+		e4 a, e'2
+		a,4 \clef treble << {
+			fis'''8^\critnote e d cis16 h e8 d
+			cis h cis a d a d4
+			e cis d
+		} \\ {
+			a2 gis4
+			a a8 g fis4 h8 a
+			g fis16 e a8 g fis[ fis]
+		} >> \clef "treble_8" e8 d
+		cis4 fis8 e d cis16 h e8 d %670
+		cis8 a \clef bass a[ g] fis4 h8 a
+		g fis16 e a8 g fis d a'4~
+		a gis a8 e a4~
+		a g2 fis4
+		e2 d4 d8 d %675
+		a4 a8 a e4 e'8 e
+		h4 h8 h fis'4. fis8
+		h,8 h' h h a8. g16 fis8 fis
+		g4 e d d8 d
+		a h cis a e4 e'8 d %680
+		cis4 fis8 e d cis16 h e8 d
+		cis a h cis d a d4~
+		d cis d4. d8
+		a a' a a fis8. e16 d8 d'
+		cis h a4 h h8 e, %685
+		fis4 fis8 g a4 a,
+		d,8 d' d d cis h a a'
+		h4 h8 e, fis4 fis8 g
+		a4 a, d,8 d' d d
+		g a h g a4 d, %690
+		a2 d8 d d d
+		g4 fis g d
+		g,8 g' fis fis g g d d
+		a'4 d, a'2
+		d,1\fermata \bar "|." %695 FINIS
 	}
 }
 
 CumSanctoBassFigures = \figuremode {
-	
+	r1 %648
+	r
+	<7>4 <6+> r2 %650
+	r1
+	r
+	r
+	r2 <4>4 <3>
+	r1 %655
+	<4>4 <_+> r2
+	<9>4 <8> <4 2> <6>
+	r <6> <7> <6>
+	r <[6]> <7> <6+>
+	r1 %660
+	r
+	r2 <6>
+	r1
+	<4 2>4 <6> <6>2
+	<5>4 <6> <5> <6>8 <5> %665
+	<[_+]>1
+	r1
+	r
+	r
+	r %670
+	r
+	<6 5>
+	<4 2>4 <6> r <6>8 <5>
+	<4 2>4 <6> <4 2> <6>
+	<5> <6> r2 %675
+	r1
+	r2 <4>4 <_+>
+	r1
+	r4 <6> r2
+	r2 <4>4 <_+> %680
+	<6>2 <6 5>4 <_+>
+	<6>1
+	<4 2>4 <[6]> r2
+	r <[6]>
+	q <6> %685
+	<6> r
+	r1
+	<7>4 <6\\> <[6]>2
+	r <9>4 <8>
+	<9> <8> <7> r %690
+	<4> <3> r2
+	r4 <6> r2
+	r4 <[6]> r2
+	r <4>4 <3>
+	r1 %695 FINIS
 }
 
 % Organo = {
