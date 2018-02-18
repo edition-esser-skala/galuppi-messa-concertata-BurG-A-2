@@ -431,7 +431,7 @@
 			movement = "2.9 QUI SEDES"
 		}
 % 		\paper { systems-per-page = #2 }
-		\paper { page-count = #4 }
+% 		\paper { page-count = #4 }
 		\score {
 			<<
 				\new StaffGroup <<

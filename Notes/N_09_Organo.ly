@@ -1844,8 +1844,8 @@ QuiSedesBassFigures = \figuremode {
 	r4 <4> <_+>
 	r2.
 	r
-	r
-	r %550
+	r2 <[_+]>4
+	r2. %550
 	<6 4>4 <5 _+> r
 	<_+>2.
 	<_!>
@@ -1853,16 +1853,16 @@ QuiSedesBassFigures = \figuremode {
 	r %555
 	r
 	<[5+] _+>
-	r
+	r2 <[6\\]>4
 	<6>4 <[5+] 4> <\l _+>
 	r2 r8 <_!> %560
 	r2 <[5+] [_+]>4
 	r2.
 	r
-	r
+	<[6]>
 	r %565
-	r
-	r
+	r4 <[6] [5]> <[7]>
+	r2.
 	r
 	r
 	r %570
@@ -1875,7 +1875,7 @@ QuiSedesBassFigures = \figuremode {
 	r2.
 	r2 <6>8 <5>
 	<[_+]>2 <5>4
-	r8 <7 5> <4>4 <_+> %580
+	r8 <7 5 [_+]> <4>4 <_+> %580
 	r2.
 	r
 	r

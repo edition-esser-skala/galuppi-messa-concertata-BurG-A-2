@@ -782,12 +782,83 @@ QuiSedesSopranoINotes = {
 		\clef treble
 		\key h \minor \time 3/4 \autoBeamOff \tempoQuiSedes
 			\set Score.currentBarNumber = #534
-		
+		R2.*13 %546
+		\mvTr h'4\pE^\soloE d e
+		fis h, r
+		fis'8([ e)] d e([ d cis)]
+		d([ cis)] h([ d)] cis([ h)] %550
+		h4 ais r
+		dis8 h([ ais h)] fis'([ a,?)]
+		g4 r r
+		cis8 h a16([ h cis d] e8[ e,)]
+		fis4 r r %555
+		h8 d16([ cis)] h8([ a)] gis([ fis)]
+		eis cis r4 cis'8 h
+		a4~ a16([ fis gis a] h[ gis a h]
+		cis8) fis, fis4( gis16[ fis gis8])
+		fis4 r r %560
+		R2.
+		fis4 a h
+		cis fis, r
+		h d e
+		fis h, d %565
+		g, e' g,
+		fis d'8([ e)] fis4
+		e8 a, r4 r
+		r d d
+		d16([ cis)] h8 r4 r %570
+		e4. e8 e h
+		ais16([ gis)] fis8 r4 r
+		r d' d
+		d8([ c16 h)] c8 e16([ dis] e8) e
+		e4.( d16[ cis] d4~) %575
+		d8 e d4( cis)
+		h r d8 h
+		g g r4 cis8 h
+		ais4( h8[ ais] h4~)
+		h8 gis h4( ais) %580
+		h r r
+		R2.*8 %589
+		R2.\fermataMarkup \bar "||" %590 finis
 	}
 }
 
 QuiSedesSopranoILyrics = \lyricmode {
+	Qui se -- des, %547
+	se -- des,
+	se -- des ad __
+	dex -- te -- ram %550
+	Pa -- tris:
+	Mi -- se -- re --
+	re,
+	mi -- se -- re --
+	re, %555
+	mi -- se -- re -- re __
+	no -- bis, mi -- se --
+	re --
+	re no --
+	bis. %560
 	
+	Qui se -- des,
+	se -- des,
+	qui se -- des,
+	se -- des, qui %565
+	se -- des ad
+	dex -- te -- ram
+	Pa -- tris:
+	Mi -- se --
+	re -- re, %570
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se --
+	re -- re, mi -- se --
+	re -- %575
+	re no --
+	bis, mi -- se --
+	re -- re, mi -- se --
+	re --
+	re no -- %580
+	bis. %%81 finis
 }
 
 % SopranoINotes = {
