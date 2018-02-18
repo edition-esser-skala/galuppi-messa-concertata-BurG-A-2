@@ -605,12 +605,108 @@ QuoniamAltoNotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #591
-		
+		\mvTr fis8([\pE^\soloE e16 fis] g8) g fis4 r
+		R1*4 %595
+		fis8([ e16 fis] g8) g fis4 r8 d
+		e e e e fis[ e16 d] a'4~
+		a8[ h16 a] gis4 a r8 fis
+		g([ fis)] e g fis([ e)] d fis
+		e[( fis16 gis] a2) gis4 %600
+		r a4. gis16[ fis] gis8[ fis16 e]
+		fis4 h4. a16[ gis] a8[ gis16 fis]
+		gis4 cis4. h16[ a] h4~
+		h8[ e,^\critnote a g] fis4 h8[ a]
+		gis[ a16 gis] a8 fis a4( gis) %605
+		a r r2
+		R1
+		e8([ d16 e] fis8) fis e4 r
+		R1
+		fis8([ e16 fis] g8) g fis4 r %610
+		r8 e fis g fis16([ e fis g]) e8 a
+		a4 gis? r r8 d
+		e e e e fis([ g16 a]) g8 fis
+		fis16 e e8 r4 r2
+		h'16([ cis h g] a[ h a fis] g8) g r4 %615
+		a16([ h a fis] g[ a g e] fis8) fis r4
+		e4 a4. g16[ fis] g8[ e]
+		fis4 h4. a16[ g] a8[ fis]
+		g4. a16[ g] fis4. g16[( fis])
+		fis8 e r4 r2 %620
+		r h'4. cis16[ h]
+		ais8[ h16 ais] h8 cis h4( ais)
+		h r r2
+		R1*3 %626
+		r2 fis8([ e16 fis] g8) g
+		fis fis h2 ais4
+		r r8 d, e e e e
+		fis([ e16 d] a'2 gis4) %630
+		a r r r8 fis
+		g([ fis)] e g fis([ e)] d fis
+		e a, a'4. gis16[ fis] gis4~
+		gis8[ fis16 eis] fis8 fis fis eis r4
+		R1 %635
+		fis16([ gis fis dis] e[ fis e cis] dis8) dis r4
+		e16([ fis e cis] d[ e d h] cis8) cis r4
+		fis8[ g] a4. g16[ fis] g4~
+		g8[ fis16 e] fis8 g fis4( e)
+		d r r2 %640
+		r h4 e8[ d]
+		cis[ d16 cis] d8 h d4( cis)
+		d r r2
+		R1*3 %646
+		R1\fermataMarkup \bar "||" %647 finis
 	}
 }
 
 QuoniamAltoLyrics = \lyricmode {
+	Quo -- ni -- am, %591
 	
+	quo -- ni -- am tu %596
+	so -- lus, so -- lus san -- _
+	_ tus, tu
+	so -- lus al -- tis -- si -- mus
+	Je -- su, %600
+	Je -- _ _
+	_ _ _ _
+	_ _ _ _
+	su, Je --
+	_ _ su Chri -- %605
+	ste.
+	
+	Quo -- ni -- am,
+	
+	quo -- ni -- am %610
+	tu so -- lus san -- ctus, tu
+	so -- lus, tu
+	so -- lus, so -- lus, so -- lus al --
+	tis -- si -- mus
+	Je -- su, %615
+	Je -- su,
+	Je -- _ _ _
+	_ _ _ _
+	_ _ _ su
+	Chri -- ste, %620
+	Je -- _
+	_ _ su Chri --
+	ste.
+	
+	Quo -- ni -- %627
+	am tu so -- lus,
+	tu so -- lus, so -- lus
+	san -- %630
+	ctus, tu
+	so -- lus al -- tis -- si -- mus
+	Je -- su, Je -- _ _
+	_ su Chri -- ste,
+	%635
+	Je -- su,
+	Je -- su,
+	Je -- _ _ _
+	_ su Chri --
+	ste, %640
+	Je -- _
+	_ _ su Chri --
+	ste. %643 finis
 }
 
 % AltoNotes = {

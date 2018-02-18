@@ -914,7 +914,8 @@ QuoniamSopranoINotes = {
 		r4 a4. g16[ fis] g4~
 		g8[ fis16 e] fis8 g fis4( e)
 		d r r2
-		R1*4 \bar "||" %647 finis
+		R1*3 %646
+		R1\fermataMarkup \bar "||" %647 finis
 	}
 }
 
@@ -950,8 +951,8 @@ QuoniamSopranoILyrics = \lyricmode {
 	_ su Chri --
 	ste.
 	
-	Quo -- ni -- am %627
-	tu so -- lus, so -- lus
+	Quo -- ni -- %627
+	am tu so -- lus, so -- lus
 	san -- ctus,
 	tu so -- lus al -- %630
 	tis -- si -- mus Je -- su Chri --
