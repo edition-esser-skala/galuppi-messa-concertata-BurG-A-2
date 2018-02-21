@@ -537,12 +537,88 @@ CumSanctoSopranoIINotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #648
-		
+		\mvTr a'2\fE^\tuttiE a4 a
+		a4. a8 a4 a
+		a gis << \context Voice = "SopranoII" { \oneVoice a4 } \\ { s8 \tempoCumSanctoFuga s } >> r4 %650
+		R1*6 %656
+		r2 r8 d d d
+		cis8. h16 a8 a h4 h8 cis
+		d4 a h2
+		e,4 r r2 %660
+		r r8 d' d d
+		cis8. h16 a8 cis d4 e
+		a, d cis4. cis8
+		h4 r r2
+		r4 r8 e, fis4 h8 a %665
+		gis gis a2( gis4)
+		a r r2
+		R1*5 %672
+		r4 e'8[ d] cis4 fis8[ e]
+		d[ cis16 h] e8[ d] cis[ a] d4
+		e2 a,8 fis' fis fis16 fis %675
+		e8 e r4 r8 g g g16 g
+		fis8 fis r4 r8 fis fis fis
+		d8. cis16 h8 d cis4 fis8 fis
+		d4 e a,8 a d d
+		cis4 cis h2 %680
+		cis4 r r2
+		r4 a8[ g] fis4 h8[ a]
+		g[ fis16 e] a8[ g] fis2
+		e4 e a4. a8
+		a4 r8 cis d4( cis8) h %685
+		a4 r r8 a a a
+		fis8. e16 d8 fis a8. a16 a4
+		r2 r8 d d d
+		cis8. h16 a4 r8 a a a16 a
+		h8 h h h cis cis d4~ %690
+		d( cis) d r
+		r2 r8 h a a16 a
+		h8 h a a h h a a
+		cis4 fis e2
+		d1\fermata \bar "|." %695 FINIS
 	}
 }
 
 CumSanctoSopranoIILyrics = \lyricmode {
+	[Cum San -- cto %648
+	Spi -- ri -- tu in
+	glo -- ri -- a.] %650
 	
+	Cum San -- cto %657
+	Spi -- ri -- tu in glo -- ri -- a
+	De -- i Pa --
+	tris, %660
+	cum San -- cto
+	Spi -- ri -- tu in glo -- ri --
+	a, in glo -- ri --
+	a,
+	in glo -- ri -- a %665
+	De -- i Pa --
+	tris,
+	
+	a -- _ _ %673
+	_ _ _ _
+	_ men, in glo -- ri -- a %675
+	De -- i, in glo -- ri -- a
+	De -- i, cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a
+	De -- i, De -- i Pa -- tris,
+	a -- men, a -- %680
+	men,
+	a -- _ _
+	_ _ _
+	men, in glo -- ri --
+	a, in glo -- ri -- %685
+	a, cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a,
+	cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a
+	De -- i, De -- i Pa -- tris, a -- %690
+	men,
+	in glo -- ri -- a
+	De -- i, De -- i Pa -- tris, De -- i
+	Pa -- tris, a --
+	men. %695 FINIS
 }
 
 % SopranoIINotes = {

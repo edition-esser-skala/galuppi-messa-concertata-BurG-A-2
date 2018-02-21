@@ -1029,7 +1029,7 @@ CumSanctoSopranoINotes = {
 CumSanctoSopranoILyrics = \lyricmode {
 	[Cum San -- cto %648
 	Spi -- ri -- tu in
-	glo -- ri -- a,] cum San -- cto %650
+	glo -- ri -- a.] Cum San -- cto %650
 	Spi -- ri -- tu in
 	glo -- ri -- a De -- i, De --
 	i Pa -- tris,
