@@ -975,12 +975,106 @@ CumSanctoSopranoINotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #648
-		
+		\mvTr d'2\fE^\tuttiE d4 cis
+		d4. d8 cis4 d
+		h4. h8 cis \tempoCumSanctoFuga a a a %650
+		fis8. e16 d4 r r8 a'
+		h4 h8 cis d a d4~
+		d8([ cis16 h] cis8) d h4. e8
+		a,4( d2 cis4)
+		d r8 fis e d cis cis %655
+		d4 e a,( h4~)
+		h8 a16([ gis)] a4 h r
+		R1
+		r2 r8 d d d
+		cis8. h16 a8 cis d8. d16 d4 %660
+		r2 r4 r8 d
+		e4 e8 fis g4. a16([ g)]
+		fis2 e4 r8 e
+		d4 e a, r8 a
+		h4 h8 cis d a d4~ %665
+		d cis h e8[ d]
+		cis4 fis8[ e] d[ cis16 h] e8[ d]
+		cis[ h cis a] d[ a] d4
+		e cis d h
+		cis4. d16[ cis] h2 %670
+		a8 e' e e16 e fis4. fis8
+		e2( a,8[ h)] cis4
+		h2 e,4 r
+		r2 r4 r8 a
+		h4 h8 cis d a d d %675
+		cis4 cis8([ d)] e h e4~
+		e( d cis2)
+		h4 r r2
+		r8 g' g g fis8. e16 d8 fis
+		e16 e e8 r4 r8 e e e16 e %680
+		e4 cis d h
+		cis8([ h)] a4 r2
+		r r8 d d d
+		cis8. h16 a4 r r8 d
+		e4 e8 fis g4. a16([ g)] %685
+		fis4 fis e cis
+		d2 e4 cis
+		d e8 e a, a fis' fis
+		e e e4.a,8 d4~
+		d g4. a8[ fis a] %690
+		e2 d8 d d d16 d
+		h8 h a a h4 d
+		r8 h d d16 d d8 d fis fis
+		e4 d d( cis)
+		d1\fermata \bar "|." %695 FINIS
 	}
 }
 
 CumSanctoSopranoILyrics = \lyricmode {
+	[Cum San -- cto %648
+	Spi -- ri -- tu in
+	glo -- ri -- a,] cum San -- cto %650
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i, De --
+	i Pa -- tris,
+	a --
+	men, in glo -- ri -- a, in %655
+	glo -- ria De --
+	i __ Pa -- tris,
 	
+	cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a, %660
+	in
+	glo -- ri -- a De -- i __
+	Pa -- tris, in
+	glo -- ri -- a, in
+	glo -- ri -- a De -- i Pa -- %665
+	tris, a -- _
+	_ _ _ _
+	_ _ _
+	_ _ _ _
+	_ _ _ %670
+	men, in glo -- ri -- a De -- i
+	Pa -- tris,
+	a -- men,
+	in
+	glo -- ri -- a De -- i, De -- i %675
+	Pa -- tris, a -- men, a --
+	
+	men.
+	Cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a, in glo -- ri -- a %680
+	De -- i Pa -- tris,
+	a -- men.
+	Cum San -- cto
+	Spi -- ri -- tu in
+	glo -- ri -- a De -- i __ %685
+	Pa -- tris, De -- i
+	Pa -- tris, in
+	glo -- ri -- a De -- i, De -- i
+	Pa -- tris, a -- _ _
+	_ _ %690
+	_ men, in glo -- ri -- a
+	De -- i, De -- i Pa -- tris,
+	in glo -- ri -- a De -- i, De -- i
+	Pa -- tris, a --
+	men. %695
 }
 
 % SopranoINotes = {
