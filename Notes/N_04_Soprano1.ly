@@ -977,7 +977,7 @@ CumSanctoSopranoINotes = {
 			\set Score.currentBarNumber = #648
 		\mvTr d'2\fE^\tuttiE d4 cis
 		d4. d8 cis4 d
-		h4. h8 cis \tempoCumSanctoFuga a a a %650
+		d4.^\critnote d8 cis \tempoCumSanctoFuga a a a %650
 		fis8. e16 d4 r r8 a'
 		h4 h8 cis d a d4~
 		d8([ cis16 h] cis8) d h4. e8

@@ -586,12 +586,102 @@ CumSanctoTenoreNotes = {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #648
-		
+		\mvTr d2\fE^\tuttiE d4 e
+		d4. d8 e4 d
+		d4. d8  << \context Voice = "Tenore" { \oneVoice cis4 } \\ { s8 \tempoCumSanctoFuga s } >> r4 %650
+		R1*3
+		r2 r8 a a a
+		fis8. e16 d4 r r8 a' %655
+		h4 h8 cis d a d4~
+		d8([ cis16 h] cis8) d h4 h^\critnote
+		r d h e
+		a, cis d h
+		cis r r8 d d d %660
+		cis8. h16 a8 cis d8([ e)] fis([ d)]
+		a4 r r2
+		r r4 r8 a
+		h4 h8 cis d4 a
+		e'2 a,8 a h h16 h %665
+		h4 a h2
+		cis4 r r2
+		R1
+		r2 r4 e8[ d]
+		cis4 fis8[ e] d[ cis16 h] e8[ d] %670
+		cis[ h cis a] d[ a] d4~
+		d cis d e
+		d h cis r
+		r8 h h h16 h a4^\critnote a
+		g2 fis8 d' d d16 d %675
+		e4 cis h8 h r4
+		r h( cis fis)
+		fis r r r8 a,
+		h4 h8 cis d4 d,
+		a'8 h cis a e'2 %680
+		a,8 e a2 gis4
+		a e'4. d16([ cis)] d8 fis
+		e2 a,4 r
+		r2 r8 d d d
+		cis8. h16 a4 r r8 e %685
+		fis4 fis8 gis a([ h)] cis4
+		r2 r4 r8 a
+		h4 h8 cis d4 h
+		cis8 d e cis fis2
+		h,4 e2( d4 %690
+		e2) fis8 fis fis fis16 fis
+		d8 d d d d4 d
+		r8 d d d16 d h8 h d d
+		e([ cis)] d4 e2
+		fis1\fermata \bar "|." %695 FINIS
 	}
 }
 
 CumSanctoTenoreLyrics = \lyricmode {
+	[Cum San -- cto %648
+	Spi -- ri -- tu in
+	glo -- ri -- a.] %650
 	
+	Cum San -- cto %654
+	Spi -- ri -- tu in %655
+	glo -- ri -- a De -- i, De --
+	i Pa -- tris,
+	in glo -- ri --
+	a, in glo -- ri --
+	a, cum San -- cto %660
+	Spi -- ri -- tu in glo -- ri --
+	a,
+	in
+	glo -- ri -- a De -- i
+	Pa -- tris, in glo -- ri -- a %665
+	De -- i Pa --
+	tris,
+	
+	a --
+	_ _ _ _ %670
+	_ _ _
+	_ men, in
+	glo -- ri -- a,
+	in glo -- ri -- a De -- i
+	Pa -- tris, in glo -- ri -- a %675
+	De -- i Pa -- tris,
+	a --
+	men, in
+	glo -- ri -- a De -- i,
+	De -- i Pa -- tris, a -- %680
+	men, in glo -- ri --
+	a De -- i __ Pa -- tris,
+	a -- men.
+	Cum San -- cto
+	Spi -- ri -- tu in %685
+	glo -- ri -- a De -- i,
+	in
+	glo -- ri -- a De -- i
+	Pa -- tris, De -- i Pa --
+	tris, a -- %690
+	men, in glo -- ri -- a
+	De -- i, De -- i Pa -- tris,
+	in glo -- ri -- a De -- i, De -- i
+	Pa -- tris, a --
+	men. %695 FINIS
 }
 
 % TenoreNotes = {

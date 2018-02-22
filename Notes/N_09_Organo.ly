@@ -2018,7 +2018,7 @@ CumSanctoOrgano = {
 		\clef bass
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #648
-		\mvTr d2\fE-\tuttiE d4 d
+		\mvTr d2\fE-\tuttiE d4 a^\critnote
 		d4. d8 a4 d
 		h2 a8 \tempoCumSanctoFuga \clef treble a''[ a a] %650
 		<< {
@@ -2069,7 +2069,7 @@ CumSanctoOrgano = {
 		d cis d4. d8
 		a a' a a fis8. e16 d8 d'
 		cis h a4 h h8 e, %685
-		fis4 fis8 g a4 a,
+		fis4 fis8 gis? a4 a,
 		d,8 d' d d cis h a a'
 		h4 h8 e, fis4 fis8 g
 		a4 a, d,8 d' d d
@@ -2091,7 +2091,7 @@ CumSanctoBassFigures = \figuremode {
 	r
 	r2 <4>4 <3>
 	<[6]>2 q %655
-	<4>4 <[_!]> <[6]>4. q8
+	<4>4 <[_!]>8 <[6]> <[6]>4. q8
 	<9>4 <8> <4 2> <6>
 	r <6> <7>4. <6>8
 	r4 <[6]> <7> <6+>
@@ -2114,16 +2114,16 @@ CumSanctoBassFigures = \figuremode {
 	r2 <[_!]>
 	<[4]>4 <[3]> <4> <_+>
 	r1
-	r4 <6> r2
+	r4 <[5]>8 <6> r2
 	r4 <[6]> <4> <_+> %680
 	<6>2 <6 5>4 <_+>
-	<6>2. <[6]>8 <[5]>
+	<6>2 <[9]>4 <[6]>8 <[5]>
 	<4 2>4 <[6]> r2
 	r <[6]>
 	q <6> %685
 	<6> r
 	r <[6]>
-	<7>4 <6\\> <[6]>2
+	<7>4 <6> <[6]>2
 	r <9>4 <8>
 	<9> <8> <7> r %690
 	<4> <3> r2
