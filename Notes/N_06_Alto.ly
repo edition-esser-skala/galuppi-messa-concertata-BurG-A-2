@@ -714,12 +714,104 @@ CumSanctoAltoNotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #648
-		
+		\mvTr fis2\fE^\tuttiE fis4 e
+		fis4. fis8 e4 fis
+		d4. d8 << \context Voice = "Alto" { \oneVoice e4 } \\ { s8 \tempoCumSanctoFuga s } >> r4 %650
+		r8 d d d cis8. h16 a4
+		r r8 e' fis4 fis8 gis
+		a e a4. g16[( fis]) g4~
+		g8[( fis16 e] fis8) g e2
+		fis4 fis8[ gis] a[ e] a4~ %655
+		a8[ g16 fis] g8[ a16 g] fis2
+		e4 e d e
+		e a g g8 g
+		fis gis a2 gis4
+		r8 a a a fis8. e16 d8 fis %660
+		e8. e16 e4 r2
+		r r4 r8 e
+		fis4 fis8 gis a([ e] a4
+		d,) g a( fis)
+		g r8 g a4 fis8 fis %665
+		e4 e e2
+		e4 r r2
+		r4 a8[ g] fis4 h8[ a]
+		g[ fis16 e] a8[ g] fis4 gis
+		a8[ e] a2 gis4 %670
+		a4 a a fis8 fis
+		g4 e fis8 fis r4
+		R1*2
+		r4 r8 e fis4 fis8 gis %675
+		a e a a g g g a
+		h fis h2( ais4)
+		h r r2
+		r4 r8 e, fis4 fis8 gis
+		a e a2( gis4) %680
+		a fis2( e4~)
+		e2 a,4 r
+		R1
+		r4 r8 e' fis4 fis8 gis
+		e4 a d, e %685
+		a, d cis( e
+		fis8[ g a fis]) e4 r
+		r8 g g g fis8. e16 d4
+		r2 r4 a'
+		a8 g16 fis g8 h a4 a %690
+		a2 a4 r
+		r2 r8 g fis fis16 fis
+		g8 g d d g g fis fis
+		a4 a a2
+		a1\fermata \bar "|." %695 FINIS
 	}
 }
 
 CumSanctoAltoLyrics = \lyricmode {
+	[Cum San -- cto %648
+	Spi -- ri -- tu in
+	glo -- ri -- a.] %650
+	Cum San -- cto Spi -- ri -- tu
+	in glo -- ri -- a
+	De -- i, De -- i __ Pa --
+	tris, a --
+	men, a -- _ _ %655
+	_ _
+	men, in glo -- ri --
+	a, in glo -- ri -- a
+	De -- i Pa -- tris,
+	cum San -- cto Spi -- ri -- tu in %660
+	glo -- ri -- a,
+	in
+	glo -- ri -- a De --
+	i Pa --
+	tris, in glo -- ri -- a %665
+	De -- i Pa --
+	tris,
+	a -- _ _
+	_ _ _ _
+	_ _ _ %670
+	men, in glo -- ri -- a
+	De -- i Pa -- tris,
 	
+	in glo -- ri -- a %675
+	De -- i Pa -- tris, De -- i Pa -- tris,
+	Pa -- tris, a --
+	men,
+	in glo -- ri -- a
+	De -- i, Pa -- %680
+	tris, a --
+	men,
+	
+	in glo -- ri -- a
+	De -- i, De -- i %685
+	Pa -- tris, a --
+	men.
+	Cum San -- cto Spi -- ri -- tu
+	in
+	glo -- ri -- a De -- i Pa -- tris, %690
+	a -- men,
+	in glo -- ri -- a
+	De -- i, De -- i, De -- i Pa -- tris,
+	a -- men, a --
+	men. %695 FINIS
 }
 
 % AltoNotes = {
