@@ -874,7 +874,41 @@ CumSanctoViolinoI = {
 		\clef treble
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #648
-		
+		d'2\fE d4 cis
+		d4. d8 cis4 d
+		d4.^\critnote d8 << { \oneVoice cis4 } \\ { s8 \tempoCumSanctoFuga s } >> r4 %650
+		R1*9
+		r8 a' a a fis8. e16 d8 fis %660
+		e4 r r r8 d
+		e4 e8 fis g4. a16 g
+		fis8 e d cis cis4 r8 a'
+		h4 h8 cis d a d fis,
+		g4. g8 fis d' d d %665
+		d4 cis h4. h8
+		a4 r r2
+		R1*6 %673
+		r2 r4 r8 a
+		h4 h8 cis d4 fis,8 d %675
+		e4 a8 a g4 g8 a
+		h fis h2 ais4
+		h fis8 g a4 r
+		r8 g g g fis8. e16 d8 fis
+		e4 a2 gis4 %680
+		a r r2
+		r4 a8 g! fis4 h8 a
+		g fis16 e a8 g fis4. fis8
+		e4 r8 e fis4 fis8 gis
+		a4. a8 d,4 e %685
+		a, d cis e
+		fis8 g a fis e4 r
+		r2 r8 d' d d
+		cis h a g fis g a4
+		h8 a g h cis4 d~ %690
+		d cis d r
+		r2 r8 h a a
+		h4 a r8 g fis fis
+		e e fis fis e4. e8
+		fis1\fermata \bar "|." %695 FINIS
 	}
 }
 
