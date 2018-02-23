@@ -2032,7 +2032,7 @@ CumSanctoOrgano = {
 			a e a4. g16 fis g4~
 			g8 fis16 e fis8 g
 		} >> \clef "treble_8" a,4 a8 a
-		fis \clef bass d[ d d] cis h a4 %655
+		fis \clef bass d[ d d] cis8.^\critnote h16 a4 %655
 		e e'8 e fis4. gis8
 		a e a2 gis4
 		a fis e2
@@ -2054,7 +2054,7 @@ CumSanctoOrgano = {
 			g fis16 e a8 g fis[ fis]
 		} >> \clef "treble_8" e8 d
 		cis4 fis8 e d cis16 h e8 d %670
-		cis8 a \clef bass a[ g] fis4 h8 a
+		cis8 h^\critnote \clef bass a[ g] fis4 h8 a
 		g fis16 e a8 g fis d a'4~
 		a gis a8 e a4~
 		a g2 fis4
@@ -2071,7 +2071,7 @@ CumSanctoOrgano = {
 		cis h a4 h h8 e, %685
 		fis4 fis8 gis? a4 a,
 		d,8 d' d d cis h a a'
-		h4 h8 e, fis4 fis8 g
+		h4 h8 e, fis4 fis8 gis?
 		a4 a, d,8 d' d d
 		g a h g a4 d, %690
 		a2 d8 d d d

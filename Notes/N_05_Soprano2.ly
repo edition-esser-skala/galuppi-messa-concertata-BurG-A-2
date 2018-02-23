@@ -546,8 +546,8 @@ CumSanctoSopranoIINotes = {
 		d4 a h2
 		e,4 r r2 %660
 		r r8 d' d d
-		cis8. h16 a8 cis d4 e
-		a, d cis4. cis8
+		cis8. h16 a8 cis d4.^\critnote e8
+		a,4 d cis4. cis8
 		h4 r r2
 		r4 r8 e, fis4 h8 a %665
 		gis gis a2( gis4)

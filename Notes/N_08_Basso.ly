@@ -778,12 +778,96 @@ CumSanctoBassoNotes = {
 		\clef bass
 		\key d \major \time 4/4 \autoBeamOff \tempoCumSancto
 			\set Score.currentBarNumber = #648
-		
+		\mvTr d2\fE^\tuttiE d4 a^\critnote
+		d4. d8 a4 d
+		h4. h8 << \context Voice = "Basso" { \oneVoice a4 } \\ { s8 \tempoCumSanctoFuga s } >> r4
+		R1*4
+		r8 d d d cis8.^\critnote h16 a4 %655
+		r r8 e' fis4 fis8 gis
+		a e a2 gis4
+		a( fis e2)
+		d4 cis h4. h8
+		a4 r r2 %660
+		r8 a' a a fis8. e16 d4
+		r4 r8 a' h4 h8 cis
+		d4( d,) a a'~
+		a g fis2(
+		e) d8 d d d16 d %665
+		e4 a, e'2
+		a,4 r r2
+		R1*3 %670
+		r4 a'8[ g] fis4 h8[ a]
+		g[ fis16 e] a8[ g] fis[ e16 d] a'4~
+		a gis a8 e a4~
+		a8 a^\critnote g2 fis8 fis
+		e2 d8 d d d16 d %675
+		a8 a a a e' e r4
+		r8 h h h16 h fis'8 fis r4
+		r8 h h h a8. g16 fis8 fis
+		g4 e d r
+		r2 r4 e8[ d] %680
+		cis4 fis8[ e] d[ cis16 h] e8[ d]
+		cis[ a h cis] d4 d~
+		d cis d r
+		r8 a' a a fis8. e16 d4
+		r r8 a' h4 h8 cis %685
+		d4 d, a'8 a, r4
+		r8 d d d cis8. h16 a4
+		r4 r8 e' fis4 fis8 gis
+		a4 a, r8 d d d16 d
+		g8 a h g a4 d, %690
+		a2 d8 d d d16 d
+		g8 g fis fis g4 d
+		r8 g fis fis16 fis g8 g d d
+		a'4 d, a2
+		d1\fermata \bar "|." %695 FINIS
 	}
 }
 
 CumSanctoBassoLyrics = \lyricmode {
+	Cum San -- cto %648
+	Spi -- ri -- tu in
+	glo -- ri -- a. %650
 	
+	Cum San -- cto Spi -- ri -- tu %655
+	in glo -- ri -- a
+	De -- i, De -- i
+	Pa --
+	tris, in glo -- ri --
+	a, %660
+	cum San -- cto Spi -- ri -- tu
+	in glo -- ri -- a
+	De -- i, De --
+	i Pa --
+	tris, in glo -- ri -- a %665
+	De -- i Pa --
+	tris,
+	
+	a -- _ _ %671
+	_ _ _ _
+	_ men, in glo --
+	ri -- a De -- i
+	Pa -- tris, in glo -- ri -- a %675
+	De -- i, De -- i Pa -- tris,
+	in glo -- ri -- a De -- i,
+	cum San -- cto Spi -- ri -- tu in
+	glo -- ri -- a,
+	a -- %680
+	_ _ _ _
+	_ _ _
+	_ men.
+	Cum San -- cto Spi -- ri -- tu
+	in glo -- ri -- a %685
+	De -- i Pa -- tris,
+	cum San -- cto Spi -- ri -- tu
+	in glo -- ri -- a
+	De -- i, in glo -- ri -- a
+	De -- i, De -- i Pa -- tris, %690
+	a -- men, in glo -- ri -- a
+	De -- i, De -- i Pa -- tris,
+	in glo -- ri -- a De -- i, De -- i
+	Pa -- tris, a --
+	men. %695 FINIS
 }
 
 % BassoNotes = {
