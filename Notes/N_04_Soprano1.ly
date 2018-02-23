@@ -1079,17 +1079,17 @@ CumSanctoSopranoILyrics = \lyricmode {
 	men. %695
 }
 
-% SopranoINotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoILyrics = \lyricmode {
-% 	
-% }
+CredoSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoSopranoILyrics = \lyricmode {
+	
+}
 
 % SopranoINotes = {
 % 	\relative c' {

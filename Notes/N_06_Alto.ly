@@ -815,17 +815,17 @@ CumSanctoAltoLyrics = \lyricmode {
 	men. %695 FINIS
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+CredoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoAltoLyrics = \lyricmode {
+	
+}
 
 % AltoNotes = {
 % 	\relative c' {

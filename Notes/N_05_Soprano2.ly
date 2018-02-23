@@ -622,6 +622,18 @@ CumSanctoSopranoIILyrics = \lyricmode {
 	men. %695 FINIS
 }
 
+CredoSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoIINotes = {
 % 	\relative c' {
 % 		\clef treble

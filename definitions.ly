@@ -182,6 +182,8 @@ tempoQuoniam = \tempoMarkup "Allegro"
 tempoCumSancto = \tempoMarkup "Grave"
 tempoCumSanctoFuga = \tempoMarkup "Allegro"
 
+tempoCredo = \tempoMarkup "Vivace"
+
 
 % modify the Scheme function 'format-bass-figure'
 % in usr/share/lilypond/current/scm/translation-functions.scm

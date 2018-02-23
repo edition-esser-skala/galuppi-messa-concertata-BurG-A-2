@@ -912,13 +912,13 @@ CumSanctoViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+CredoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoCredo
+		
+	}
+}
 
 % ViolinoI = {
 % 	\relative c' {

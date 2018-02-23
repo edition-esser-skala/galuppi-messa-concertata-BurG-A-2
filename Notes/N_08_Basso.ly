@@ -872,17 +872,17 @@ CumSanctoBassoLyrics = \lyricmode {
 	men. %695 FINIS
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+CredoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoBassoLyrics = \lyricmode {
+	
+}
 
 % BassoNotes = {
 % 	\relative c {

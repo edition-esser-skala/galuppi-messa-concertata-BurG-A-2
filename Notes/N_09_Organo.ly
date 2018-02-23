@@ -2133,17 +2133,17 @@ CumSanctoBassFigures = \figuremode {
 	r1 %695 FINIS
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+CredoOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoCredo
+		R1*4
+	}
+}
+
+CredoBassFigures = \figuremode {
+	
+}
 
 % Organo = {
 % 	\relative c {
