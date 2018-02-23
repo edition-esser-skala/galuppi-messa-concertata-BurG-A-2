@@ -72,7 +72,8 @@ KyrieSopranoIINotes = {
 		d4 a8 a h4 h8 h %90
 		a4 a a4. a8
 		a4 r r2
-		R1*7 \bar "||" %99 finis
+		R1*6
+		R1\fermataMarkup \bar "||" %99 finis
 	}
 }
 

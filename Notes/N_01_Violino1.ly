@@ -41,7 +41,7 @@ SinfoniaViolinoI = {
 		g4 a d, r
 		d' r cis r
 		d8 cis16 h a8 g fis4 e
-		d r r2 \bar "||" %34 finis
+		d r r2\fermata \bar "||" %34 finis
 	}
 }
 
@@ -603,7 +603,7 @@ DomineFiliViolinoI = {
 		e4.~
 		e16 e d e cis e %380
 		d[ e] cis8. h16
-		h8\fermata r r \bar "||" %382 finis
+		h8 r r\fermata \bar "||" %382 finis
 	}
 }
 

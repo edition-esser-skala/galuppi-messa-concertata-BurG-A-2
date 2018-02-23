@@ -41,7 +41,7 @@ SinfoniaOrgano = {
 		g4 a d, r
 		h r a r
 		d8 e fis g a4 a,
-		d r r2 \bar "||" %34 finis
+		d r r2\fermata \bar "||" %34 finis
 	}
 }
 
@@ -151,7 +151,7 @@ KyrieOrgano = {
 		d4 r8 d e4 r8 e
 		fis4. fis8 g4. g8
 		a4 r8 a, d e fis g
-		a4 a, d, r \bar "||" %99 finis
+		a4 a, d, r\fermata \bar "||" %99 finis
 	}
 }
 
@@ -1067,7 +1067,7 @@ GratiasOrgano = {
 		h4. h8 cis4 fis8 h^\critnote
 		cis4 cis, << { a'8 h cis cis, } \\ { fis4 s } >>
 		d8 fis h h, cis eis fis h, %250
-		cis4 cis, fis2 \bar "||" %251 finis
+		cis4 cis, fis2\fermata \bar "||" %251 finis
 	}
 }
 
@@ -1305,7 +1305,7 @@ DomineFiliOrgano = {
 		r cis' h
 		ais fis4 %380
 		h16[ e,] fis8 fis,
-		h\fermata r r \bar "||" %382 finis
+		h r r\fermata \bar "||" %382 finis
 	}
 }
 
@@ -2113,8 +2113,8 @@ CumSanctoBassFigures = \figuremode {
 	<5>4. <6>8 r2 %675
 	r2 <[_!]>
 	<[4]>4 <[3]> <4> <_+>
-	r1
-	r4 <[5]>8 <6> r2
+	r2. <[6]>4
+	r <[5]>8 <6> r2
 	r4 <[6]> <4> <_+> %680
 	<6>2 <6 5>4 <_+>
 	<6>2 <[9]>4 <[6]>8 <[5]>

@@ -72,7 +72,8 @@ KyrieSopranoINotes = {
 		fis4 fis8 e d4 e8 e %90
 		cis4 d d4. cis8
 		d4 r r2
-		R1*7 \bar "||" %99 finis
+		R1*6 %98
+		R1\fermataMarkup \bar "||" %99 finis
 	}
 }
 
@@ -597,7 +598,8 @@ GratiasSopranoINotes = {
 		fis8 fis fis fis fis8. fis16 fis4
 		gis8 gis gis gis gis([ a16 gis)] a8 h
 		a4( gis) fis r
-		R1*2 \bar "||" %251 finis
+		R1
+		R1\fermataMarkup \bar "||" %251 finis
 	}
 }
 

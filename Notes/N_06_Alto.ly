@@ -72,7 +72,8 @@ KyrieAltoNotes = {
 		fis4 a8 a fis4^\critnote e8 e %90
 		e4 fis e4. e8
 		fis4 r r2
-		R1*7 \bar "||" %99 finis
+		R1*6
+		R1\fermataMarkup \bar "||" %99 finis
 	}
 }
 

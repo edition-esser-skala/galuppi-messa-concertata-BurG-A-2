@@ -72,7 +72,8 @@ KyrieTenoreNotes = {
 		d4 fis8 fis h,4 g8 g %90
 		a4 a a4. a8
 		fis4 r r2
-		R1*7 \bar "||" %99 finis
+		R1*6
+		R1\fermataMarkup \bar "||" %99 finis
 	}
 }
 

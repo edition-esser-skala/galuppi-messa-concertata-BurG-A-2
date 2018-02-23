@@ -42,7 +42,7 @@ SinfoniaViola = {
 		g4 a d, r
 		h r a r
 		d8 e fis g a4 a,
-		d r r2 \bar "||" %34 finis
+		d r r2\fermata \bar "||" %34 finis
 	}
 }
 
@@ -608,7 +608,7 @@ DomineFiliViola = {
 		r ais' h
 		cis4 fis,8 %380
 		fis16[ g] fis8. fis16
-		fis8\fermata r r\bar "||" %382 finis
+		fis8 r r\fermata \bar "||" %382 finis
 	}
 }
 
@@ -874,7 +874,7 @@ QuoniamViola = {
 		r8 d d d d' cis16 h a g fis e
 		d4 r8 d a'4 r %645
 		d, r8 a' g fis r
-		g fis e16 d a'8 a d,4 r \bar "||" %647 finis
+		g fis e16 d a'8 a d,4 r\fermata \bar "||" %647 finis
 	}
 }
 

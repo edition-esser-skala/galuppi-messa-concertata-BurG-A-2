@@ -61,7 +61,8 @@ KyrieBassoNotes = {
 		d,4 d8 cis h4 e8 e %90
 		a,4 d a4. a8
 		d4 r r2
-		R1*7 \bar "||" %99 finis
+		R1*6
+		R1\fermataMarkup \bar "||" %99 finis
 	}
 }
 
@@ -425,7 +426,8 @@ GratiasBassoNotes = {
 		r2 fis8 fis fis fis
 		fis fis16 fis fis8 fis eis([ fis16 eis]) fis8 h
 		cis2 fis,4 r
-		R1*2 \bar "||" %251 finis
+		R1
+		R1\fermataMarkup \bar "||" %251 finis
 	}
 }
 

@@ -41,7 +41,7 @@ SinfoniaViolinoII = {
 		g4 a d, r
 		gis r g r
 		fis r8 h d,4 cis
-		d r r2 \bar "||" %34 finis
+		d r r2\fermata \bar "||" %34 finis
 	}
 }
 
@@ -605,7 +605,7 @@ DomineFiliViolinoII = {
 		e4.~
 		e16 cis h cis ais cis %380
 		h[ cis] ais8. h16
-		h8\fermata r r \bar "||" %382 finis
+		h8 r r\fermata \bar "||" %382 finis
 	}
 }
 
@@ -784,7 +784,7 @@ CumSanctoViolinoII = {
 		R1*5 %672
 		r4 e8 d cis4 fis8 e
 		d cis16 h e8 d cis a d4
-		g r8 e fis4 fis8 g %675
+		g r8 e fis4 fis8 gis? %675
 		a4 cis,8 d e4 g8 a
 		fis4 r r8 fis fis fis
 		d8. cis16 h8 d cis4 r8 a
