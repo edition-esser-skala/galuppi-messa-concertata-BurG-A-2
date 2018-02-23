@@ -782,13 +782,13 @@ CumSanctoBassoNotes = {
 		d4. d8 a4 d
 		h4. h8 << \context Voice = "Basso" { \oneVoice a4 } \\ { s8 \tempoCumSanctoFuga s } >> r4
 		R1*4
-		r8 d d d cis8.^\critnote h16 a4 %655
+		r8 d^\soloE d d cis8.^\critnote h16 a4 %655
 		r r8 e' fis4 fis8 gis
 		a e a2 gis4
 		a( fis e2)
 		d4 cis h4. h8
 		a4 r r2 %660
-		r8 a' a a fis8. e16 d4
+		r8 a'^\tuttiE a a fis8. e16 d4
 		r4 r8 a' h4 h8 cis
 		d4( d,) a a'~
 		a g fis2(

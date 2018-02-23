@@ -541,11 +541,11 @@ CumSanctoSopranoIINotes = {
 		a4. a8 a4 a
 		a gis << \context Voice = "SopranoII" { \oneVoice a4 } \\ { s8 \tempoCumSanctoFuga s } >> r4 %650
 		R1*6 %656
-		r2 r8 d d d
+		r2 r8 d^\soloE d d
 		cis8. h16 a8 a h4 h8 cis
 		d4 a h2
 		e,4 r r2 %660
-		r r8 d' d d
+		r r8 d'^\tuttiE d d
 		cis8. h16 a8 cis d4.^\critnote e8
 		a,4 d cis4. cis8
 		h4 r r2

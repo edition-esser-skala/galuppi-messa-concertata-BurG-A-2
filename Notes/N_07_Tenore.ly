@@ -590,13 +590,13 @@ CumSanctoTenoreNotes = {
 		d4. d8 e4 d
 		d4. d8  << \context Voice = "Tenore" { \oneVoice cis4 } \\ { s8 \tempoCumSanctoFuga s } >> r4 %650
 		R1*3
-		r2 r8 a a a
+		r2 r8 a^\soloE a a
 		fis8. e16 d4 r r8 a' %655
 		h4 h8 cis d a d4~
 		d8([ cis16 h] cis8) d h4 h^\critnote
 		r d h e
 		a, cis d h
-		cis r r8 d d d %660
+		cis r r8 d^\tuttiE d d %660
 		cis8. h16 a8 cis d8([ e)] fis([ d)]
 		a4 r r2
 		r r4 r8 a

@@ -717,7 +717,7 @@ CumSanctoAltoNotes = {
 		\mvTr fis2\fE^\tuttiE fis4 e
 		fis4. fis8 e4 fis
 		d4. d8 << \context Voice = "Alto" { \oneVoice e4 } \\ { s8 \tempoCumSanctoFuga s } >> r4 %650
-		r8 d d d cis8. h16 a4
+		r8 d^\soloE d d cis8. h16 a4
 		r r8 e' fis4 fis8 gis
 		a e a4. g16[( fis]) g4~
 		g8[( fis16 e] fis8) g e2
@@ -726,7 +726,7 @@ CumSanctoAltoNotes = {
 		e4 e d e
 		e a g g8 g
 		fis gis a2 gis4
-		r8 a a a fis8. e16 d8 fis %660
+		r8 a^\tuttiE a a fis8. e16 d8 fis %660
 		e8. e16 e4 r2
 		r r4 r8 e
 		fis4 fis8 gis a([ e] a4
