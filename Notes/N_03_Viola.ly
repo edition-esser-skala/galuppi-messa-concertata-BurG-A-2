@@ -880,11 +880,45 @@ QuoniamViola = {
 
 CumSanctoViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key d \major \time 4/4 \tempoCumSancto
 			\set Score.currentBarNumber = #648
-		
+		fis2\fE fis4 e
+		fis4. fis8 e4 fis
+		d4. d8 << { \oneVoice cis4 } \\ { s8 \tempoCumSanctoFuga s } >> r4 %650
+		R1*10 %660
+		r2 r8 d d d
+		cis8. h16 a8 cis d4 e
+		a, fis' e2
+		d4 e fis d
+		e2 a,8 fis' fis fis %665
+		e4 e e4. e8
+		e4 r r2
+		R1*5 %672
+		r2 r4 a,
+		h h8 h a2
+		e' a,8 d d d
+		cis4 e e8. e16 e4
+		r8 d d d cis4. cis8
+		h4 d e fis
+		d r8 e fis4 fis8 fis
+		a4 e e4. e8
+		e4 fis h h,
+		cis8 d e4. d16 cis d8 fis
+		e2 a,4-\critnote r
+		r2 r8 d d d
+		cis8. h16 a4 d cis8 h
+		a4 r r8 a' a a
+		fis8. e16 d8 fis a4 r8 a,
+		h4 h8 cis d4 h
+		cis8 d e4 r8 fis fis fis
+		d d h' h a4 a
+		a4. a8 a4 r
+		r2 r8 g d d
+		d4 d r8 d d d
+		e e d d e4 a
+		a1\fermata \bar "|."
 	}
 }
 
