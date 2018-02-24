@@ -1192,6 +1192,67 @@ CredoSopranoILyrics = \lyricmode {
 	_ ctus est. %66 finis
 }
 
+EtResurrexitSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #67
+		
+	}
+}
+
+EtResurrexitSopranoILyrics = \lyricmode {
+	
+}
+
+% SopranoINotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoILyrics = \lyricmode {
+% 	
+% }
+
+% SopranoINotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoILyrics = \lyricmode {
+% 	
+% }
+
+% SopranoINotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoILyrics = \lyricmode {
+% 	
+% }
+
+% SopranoINotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% SopranoILyrics = \lyricmode {
+% 	
+% }
+
 % SopranoINotes = {
 % 	\relative c' {
 % 		\clef treble

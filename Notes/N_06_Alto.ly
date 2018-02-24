@@ -936,6 +936,67 @@ CredoAltoLyrics = \lyricmode {
 	ctus est.] %66 finis
 }
 
+EtResurrexitAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #67
+		
+	}
+}
+
+EtResurrexitAltoLyrics = \lyricmode {
+	
+}
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }
+% 
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

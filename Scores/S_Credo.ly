@@ -81,9 +81,58 @@
 % 			\midi { \tempo 2 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.2 CRUCIFIXUS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\CrucifixusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\CrucifixusViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\CrucifixusViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso I"
+% 						\new Voice = "BassoI" { \dynamicUp \CrucifixusBassoINotes }
+% 					}
+% 					\new Lyrics \lyricsto BassoI \CrucifixusBassoILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso II"
+% 						\new Voice = "BassoII" { \dynamicUp \CrucifixusBassoIINotes }
+% 					}
+% 					\new Lyrics \lyricsto BassoII \CrucifixusBassoIILyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\CrucifixusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\CrucifixusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.2 CRUCIFIXUS"
+			movement = "3.3 ET RESURREXIT"
 		}
 		\score {
 			<<
@@ -91,43 +140,61 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\CrucifixusViolinoI
+							\EtResurrexitViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\CrucifixusViolinoII
+							\EtResurrexitViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\CrucifixusViola
+						\EtResurrexitViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Basso I"
-						\new Voice = "BassoI" { \dynamicUp \CrucifixusBassoINotes }
+						\set Staff.instrumentName = "Soprano I"
+						\new Voice = "SopranoI" { \dynamicUp \EtResurrexitSopranoINotes }
 					}
-					\new Lyrics \lyricsto BassoI \CrucifixusBassoILyrics
+					\new Lyrics \lyricsto SopranoI \EtResurrexitSopranoILyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Basso II"
-						\new Voice = "BassoII" { \dynamicUp \CrucifixusBassoIINotes }
+						\set Staff.instrumentName = "Soprano II"
+						\new Voice = "SopranoII" { \dynamicUp \EtResurrexitSopranoIINotes }
 					}
-					\new Lyrics \lyricsto BassoII \CrucifixusBassoIILyrics
+					\new Lyrics \lyricsto SopranoII \EtResurrexitSopranoIILyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \EtResurrexitAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \EtResurrexitTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \EtResurrexitBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\CrucifixusOrgano
+						\EtResurrexitOrgano
 					}
 				>>
 				\new FiguredBass {
-					\CrucifixusBassFigures
+					\EtResurrexitBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

@@ -1011,13 +1011,14 @@ CrucifixusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+EtResurrexitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #67
+		
+	}
+}
 
 % ViolinoI = {
 % 	\relative c' {

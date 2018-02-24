@@ -2316,6 +2316,67 @@ CrucifixusBassFigures = \figuremode {
 	r %84 finis
 }
 
+EtResurrexitOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #67
+		\mvTr f4\fE-\tuttiE a c
+	}
+}
+
+EtResurrexitBassFigures = \figuremode {
+	
+}
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \tempo
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

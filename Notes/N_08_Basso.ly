@@ -1069,6 +1069,55 @@ CrucifixusBassoIILyrics = \lyricmode {
 	est. %82 finis
 }
 
+EtResurrexitBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #67
+		
+	}
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+	
+}
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
+% BassoNotes = {
+% 	\relative c {
+% 		\clef bass
+% 		\key d \major \time 4/4 \autoBeamOff \tempo
+% 		
+% 	}
+% }
+% 
+% BassoLyrics = \lyricmode {
+% 	
+% }
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

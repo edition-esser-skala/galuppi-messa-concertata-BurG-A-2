@@ -731,6 +731,19 @@ CredoSopranoIILyrics = \lyricmode {
 	ctus est.] %66 finis
 }
 
+EtResurrexitSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #67
+		
+	}
+}
+
+EtResurrexitSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoIINotes = {
 % 	\relative c' {
 % 		\clef treble

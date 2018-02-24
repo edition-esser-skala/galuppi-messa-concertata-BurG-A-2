@@ -1023,6 +1023,16 @@ CrucifixusViola = {
 	}
 }
 
+EtResurrexitViola = {
+	\relative c' {
+		\clef alto
+% 		\clef treble
+		\key f \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #67
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto
