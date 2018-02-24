@@ -914,8 +914,19 @@ CredoBassoNotes = {
 		b([ a b g] a[ g a f]
 		g[ f g c,] f4) f8 f
 		b4 f8 f b,4 f8 f
-		c'1
-		f,\fermata \bar "||" %55 finis
+		c'1 \noBreak
+		f,\fermata \bar "||" %55
+		\time 4/2 \tempoEtIncarnatus \newSpacingSection d'1 d2 d \noBreak
+		g1. g2
+		d1. d2
+		c1 c2 c
+		b1 b %60
+		h2 h h h
+		a2. a4 a1
+		f g
+		gis a~
+		a\breve~ %65
+		a2. a4 d1\fermata \bar "||" %66 finis
 	}
 }
 
@@ -958,7 +969,18 @@ CredoBassoLyrics = \lyricmode {
 	dit de --
 	scen -- dit, [de -- scen -- dit de
 	coe --
-	lis.] %55 finis
+	lis.] %55
+	[Et in -- car --
+	na -- tus
+	est de
+	Spi -- ri -- tu
+	San -- cto %60
+	ex Ma -- ri -- a
+	Vir -- gi -- ne,
+	et ho --
+	mo fa --
+	%65
+	ctus est.] %66 finis
 }
 
 % BassoNotes = {

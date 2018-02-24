@@ -1133,7 +1133,7 @@ CredoSopranoINotes = {
 		d2. cis4 cis1
 		d d
 		d cis
-		d\breve~ %65
+		d^\critnote cis %65
 		d2 cis d1\fermata \bar "||" %66 finis
 	}
 }
@@ -1188,7 +1188,7 @@ CredoSopranoILyrics = \lyricmode {
 	Vir -- gi -- ne,
 	et ho --
 	mo fa --
-	_ %65
+	_ _ %65
 	ctus est. %66 finis
 }
 
