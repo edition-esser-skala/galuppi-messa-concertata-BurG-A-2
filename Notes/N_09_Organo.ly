@@ -2322,11 +2322,215 @@ EtResurrexitOrgano = {
 		\key f \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #67
 		\mvTr f4\fE-\tuttiE a c
+		a f c
+		f a c
+		a f f %70
+		c2 c4
+		d2 g4
+		c, e g
+		c, e g
+		e c c %75
+		f2 f4
+		g2 c,4
+		f2 f4
+		g e c
+		f a, b %80
+		c2 f,4
+		f' a c
+		f, a, c
+		f, f' e
+		d f d %85
+		r cis a
+		r d' d,
+		r b' b,
+		r a' a,
+		r c a %90
+		r e' e,
+		r a' a,
+		r d d,
+		r e' e,
+		r f' f, %95
+		r g' g,
+		a2 a'4~
+		a g2~
+		g4 f f
+		e2 d4~ %100
+		d a2
+		d d4
+		e e, e'
+		f f, f'
+		g g, g' %105
+		a2 d,4~
+		d a2 \noBreak
+		d,2.\fermata \bar "||"
+		\time 4/4 \mvTr b''8\fE-\tutti c d b a g f a-\critnote \noBreak
+		\mvTr b\pE-\solo c d d, es c f f, %110
+		b c d es? f g a f
+		g g, g g' a g a f
+		b, c d c \mvTr b\fE-\tutti b' d b
+		r f a f r b, d b
+		r f' a f r f, a f %115
+		r c' e c r f a f
+		r c e c r f a f
+		r d f d r b d b
+		g1
+		f8 f' a f b b, f' f %120
+		b b, f' f b b, f' f
+		g g, d' d es d c f,
+		b c d b \mvTr a\pE-\solo g a f
+		b b' g g f e f f,
+		c' d e c g' f g g, %125
+		c e f b, c b c c,
+		f a'16 g f8 d g f e c
+		f g a f g g, c f
+		g f g g, c d e c
+		f e f f, c' d e c %130
+		f d e f d c d g,
+		c d c h \mvTr a\fE-\tutti a' gis e
+		a a, e' e a a gis gis
+		a a, e' e f f e c
+		f f, c' c f g a f %135
+		g g, c c g f g g
+		c d c h \mvTr a\pE-\solo h c a
+		e' fis gis e a h c a
+		gis fis? gis e a a, g? f?
+		e e' gis fis e e16 fis gis8 e %140
+		a gis a d, e d e e,
+		a a' g f e d c b!
+		a g a f c' d e c
+		f f, c' c, f g a b
+		c b a f b a g e %145
+		a g f d g f e c
+		f g a b c b a f
+		c' b c4 f,2
+		R1
+		\mvTr d'8\fE-\tutti e f d cis h? cis h %150
+		a h? cis a d f16 e d8 d,
+		a' h cis a d e f d
+		g, a b b a g a a
+		d2 r
+		b'8 d c b a g a f %155
+		b b, f' a b a b b,
+		f'2^\critnote r
+		f8 g a g e d e c
+		f f, c' e f e f f,
+		c' c c' b a g a f %160
+		g f e c g' f g g,
+		c c c' b a g a f
+		b a b b, f' g a f
+		b a g es f es f f,
+		b b a f c' d e c %165
+		f f, a f c' d e c
+		f e d b c b c c,
+		f4 f' c2
+		f, r\fermata \bar "|." %169 FINIS
 	}
 }
 
 EtResurrexitBassFigures = \figuremode {
-	
+	r2. %67
+	r
+	r
+	<6> %70
+	<4>4 <3> r
+	<9 7>2 <_!>4
+	<9> <6> <_!>
+	r2.
+	r %75
+	<9>2 <8>4
+	<7 _->2.
+	r
+	<9>4 <5> r
+	<9> <6> r %80
+	r2.
+	r
+	r
+	r
+	r %85
+	r
+	r
+	r
+	r
+	r4 <6> r %90
+	r <_+> r
+	r <_+> r
+	r2.
+	<7>4 <6+> r
+	<7> <6> r %95
+	r <_!> r
+	<4> <_+> r
+	<6 4 2> <6> r
+	<6 4+ 2> <6> r
+	<6+>2. %100
+	r4 <4> <3>
+	r2.
+	<9 4>4 <8 3> r
+	<9 7> <8 6> r
+	<6 5>2. %105
+	<_+>
+	r4 <4> <_+>
+	r2.
+	r1
+	r %110
+	r2 <4>4 <6>
+	<7> <6> r2
+	r1
+	r
+	r %115
+	r
+	r
+	r
+	<7>2. <6>4
+	r1 %120
+	r
+	r
+	r
+	<6>
+	r2 <4>4 <_-> %125
+	<7>2 <3>
+	r4. <7>8 <9->4 <8 5>
+	<9> <6> <7 _!>2
+	<_!>1
+	r %130
+	r2 <6!>
+	r <[_+]>4 <[6] [_!]>
+	r1
+	r4 <6> r q
+	r1 %135
+	<_!>
+	r
+	r
+	r
+	r %140
+	r
+	r2 <6>
+	<6>1
+	r
+	r2 <9> %145
+	<9> <9>
+	<9>4 <6> r q
+	r1
+	r
+	r %150
+	r
+	r
+	r
+	r
+	r %155
+	r
+	r
+	r
+	r
+	r2 <6> %160
+	<_!> <4>4 <3>
+	r1
+	r
+	r4 <6-> <4> <3>
+	r1 %165
+	r
+	r4 <6> <4>4. <3>8
+	r1
+	r %169 FINIS
 }
 
 % Organo = {
