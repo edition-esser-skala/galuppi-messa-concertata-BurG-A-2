@@ -2275,11 +2275,45 @@ CrucifixusOrgano = {
 		\key b \lydian \time 4/4 \tempoCrucifixus
 			\set Score.currentBarNumber = #67
 		\mvTr b'8\pE-\soloE r a r g r d r
+		es r f r b, r a r
+		g r f r es r d r
+		es r f r b r d r %70
+		c r a r b r c r
+		f, r f r g r g r
+		a r a r d r d r
+		g, r e r f r d r
+		e r cis r d r d r %75
+		g r b r a r a r
+		d r b r c r c r
+		fis, r fis r g r b r
+		c r a r b r b r
+		es r f r b, r b r %80
+		f' r b, r f r f r
+		b r a r g r d' r
+		es r f r b, r f r
+		b4 r r2\fermata \bar "||" %84 finis
 	}
 }
 
 CrucifixusBassFigures = \figuremode {
-	
+	r1 %67
+	r
+	r
+	r %70
+	<_!>2 <6 5>
+	r4 <6> <[6]>2
+	<_+>1
+	<9>4 <6> <9> <8>
+	<9> <8> <9> <8> %75
+	r1
+	r2 <_->
+	r1
+	<9>4 <6> <9> <8>
+	r1 %80
+	r
+	r
+	r
+	r %84 finis
 }
 
 % Organo = {
