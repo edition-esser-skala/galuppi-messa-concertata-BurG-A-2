@@ -2188,7 +2188,7 @@ CredoOrgano = {
 		g f g c, f e f a,
 		b b' f f b, b f f
 		c'1 \noBreak
-		f,\fermata \bar "||"
+		f,\fermata \bar "||" %55
 		\time 4/2 \tempoEtIncarnatus \newSpacingSection d'1 d2 d \noBreak
 		g,1. g2
 		d'1. d2
@@ -2259,12 +2259,12 @@ CredoBassFigures = \figuremode {
 	<_+>\breve
 	r
 	q
-	<6 4+ 3->
+	<6 4+ _->
 	<6> %60
 	r
 	<6 4>1 <5 _+>
 	<6>\breve
-	<7- 5>1 <_+>
+	<7 5 [_!]>1 <_+>
 	<6 4> <7 5 [_+]> %65
 	<4>2 <_+> r1 %66 finis
 }

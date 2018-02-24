@@ -1122,8 +1122,19 @@ CredoSopranoINotes = {
 		f1~
 		f4 e8 e f4 f,8 f'
 		d4 f8 f f4 a,8 c
-		c1
-		c\fermata \bar "||" %55 finis
+		c1 \noBreak
+		c\fermata \bar "||" %55
+		\time 4/2 \tempoEtIncarnatus \newSpacingSection d1 d2 d \noBreak
+		d1. d2
+		d1. d2
+		es1 es2 es
+		d1 d %60
+		d2 d d d
+		d2. cis4 cis1
+		d d
+		d cis
+		d\breve~ %65
+		d2 cis d1\fermata \bar "||" %66 finis
 	}
 }
 
@@ -1167,7 +1178,18 @@ CredoSopranoILyrics = \lyricmode {
 	dit de coe -- lis, de --
 	scen -- dit, de -- scen -- dit de
 	coe --
-	lis. %55 finis
+	lis. %55
+	Et in -- car --
+	na -- tus
+	est de
+	Spi -- ri -- tu
+	San -- cto %60
+	ex Ma -- ri -- a
+	Vir -- gi -- ne,
+	et ho --
+	mo fa --
+	_ %65
+	ctus est. %66 finis
 }
 
 % SopranoINotes = {
