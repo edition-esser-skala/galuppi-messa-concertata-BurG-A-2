@@ -2165,7 +2165,7 @@ CredoOrgano = {
 		a a d a e' e16 fis gis8 e
 		a c16 h a8 c, d e f d %30
 		g g, a g f f' f g
-		a g a a, d \mvTr b'\fE-\tutti a f
+		a g a a, \mvTr d\fE-\tutti b' a f
 		b, b' a f b b, f' f,
 		b f' e c f f, c' c
 		f f, c' d e d e c %35
@@ -2178,7 +2178,7 @@ CredoOrgano = {
 		f' a16 g f8 d e d e c
 		d c d g, c b c a
 		b a b g a g a f
-		g f g c f, \mvTr f'\fE-\tutti a f %45
+		g f g c \mvTr f,\fE-\tutti f' a f %45
 		b, g c c f g a f
 		b, g c c f f e d
 		c d e c f e f d
