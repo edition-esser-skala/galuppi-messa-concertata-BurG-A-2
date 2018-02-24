@@ -969,8 +969,19 @@ CredoViolinoI = {
 		d' d d d d d d d c c c c c c c c
 		b b b b b b b b a a a a a a a a
 		f f f f f f f f f f f f f f f f
-		e4 f f4. e8
-		f1\fermata \bar "||" %55 finis
+		e4 f f4. e8 \noBreak
+		f1\fermata \bar "||" %55
+		\time 4/2 \tempoEtIncarnatus \newSpacingSection a1 a2 a \noBreak
+		b1. b2
+		a1. a2
+		a1 a2 a
+		b1 b %60
+		gis2 gis gis gis
+		a1 a
+		a b
+		h a
+		f a~ %65
+		a fis\fermata \bar "|."
 	}
 }
 
