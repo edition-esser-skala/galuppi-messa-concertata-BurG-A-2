@@ -2187,8 +2187,19 @@ CredoOrgano = {
 		b a b g a g a f
 		g f g c, f e f a,
 		b b' f f b, b f f
-		c'1
-		f,\fermata \bar "||" %55 finis
+		c'1 \noBreak
+		f,\fermata \bar "||"
+		\time 4/2 \tempoEtIncarnatus \newSpacingSection d'1 d2 d \noBreak
+		g,1. g2
+		d'1. d2
+		c1 c2 c
+		b1 b %60
+		h2 h h h
+		a\breve
+		f1 g
+		gis a~
+		a\breve~ %65
+		a1 d,\fermata \bar "||" %66 finis
 	}
 }
 
@@ -2244,7 +2255,18 @@ CredoBassFigures = \figuremode {
 	<7>4 <6> r4. <[6]>8
 	r1
 	<7 [5]>4 <6 [4]> <[5] 3>2
-	r1 %55 finis
+	r1 %55
+	<_+>\breve
+	r
+	q
+	<6 4+ 3->
+	<6> %60
+	r
+	<6 4>1 <5 _+>
+	<6>\breve
+	<7- 5>1 <_+>
+	<6 4> <7 5 [_+]> %65
+	<4>2 <_+> r1 %66 finis
 }
 
 % Organo = {
