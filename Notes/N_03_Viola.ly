@@ -924,10 +924,64 @@ CumSanctoViola = {
 
 CredoViola = {
 	\relative c' {
-		\clef alto
-% 		\clef treble
+% 		\clef alto
+		\clef treble
 		\key f \major \time 4/4 \tempoCredo
-		
+		f8\fE g a f c' c, e c
+		f f a f c d e c
+		d c d b c b c a
+		b a b g a g a f
+		b g c c, f a' a a %5
+		g c c c c c c c
+		c e,16 f g8 e f e f d
+		e d e c d c d b
+		c b c c d d c c
+		c4 r r16 c' c c c c c c %10
+		c8 f,16 g a8 f c16 g' g g g g g g
+		a a a a a a a a g8 c,16 d e8 c
+		f d g g, c d e c
+		f g a f b, g c c,
+		f16 f' f f f f f f g g g g g g g g %15
+		a8 f16 g a8 f b, d16 c b8 b
+		a16 f' f f f f f f f f f f f f f f
+		f8 f16 es? d8 d c es f f,
+		b16 f' f f f f f f f f f f f f f f
+		f8 e f g a g f f, %20
+		c'16 c' c c c c c c c c d d c c c c
+		c8 f,,16 g f8 e d e f d
+		a'16 a' a a a a a a a a a a a a a a
+		a8a,16 h cis8 a d e f d
+		a' g a f b a b b, %25
+		a16 a' a a a a a a a a a a a a a a
+		a8 a,16 h c!8 a h a h gis
+		a gis a d e d e e,
+		a16 a' a a a a a a h h h h h h h h
+		c8 c,16 h a8 c d e f d %30
+		e16 g g g e e e e a8 f f g
+		a g a a, r16 d' d d c c c c
+		d4 r r16 d d d c c c c
+		d8 c r4 r16 c c c c c c c
+		c c c c c c c c c c c c c c c c %35
+		c c c c c c c c b b b b b b b b
+		b b b b b b b b a a a a f f f f
+		f f g g f f f f f8 b,16 c d8 c
+		b b a g f a g f
+		g c a f b c d d %40
+		g, c f a, g b c c,
+		f a'16 g f8 d e d e c
+		d c d g, c b c16 c' c c
+		d d d d g, g g g c c c c f, f f f
+		b b b b e, e e e a8 a c a %45
+		g16 g g g g g g g f c' c c c c c c
+		b b b b g g g g f f f f g g g g
+		e8 f g e c f16 e f8 d
+		e d e c d c d g,
+		c16 c' c c c c c c c c c c c c c c %50
+		b b b b f f f f a a a a f f f f
+		d d d d e e e e c c' c c c c c c
+		d d d d c c c c d d d d c c c c
+		c4 c c2
+		a1\fermata \bar "||" %55 finis
 	}
 }
 
