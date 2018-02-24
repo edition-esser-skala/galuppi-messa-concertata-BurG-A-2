@@ -1189,7 +1189,7 @@ CredoSopranoILyrics = \lyricmode {
 	et ho --
 	mo fa --
 	_ _ %65
-	ctus est. %66 finis
+	_ ctus est. %66 finis
 }
 
 % SopranoINotes = {

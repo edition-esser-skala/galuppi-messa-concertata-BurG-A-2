@@ -873,7 +873,7 @@ CredoViolinoII = {
 		fis?1 fis2 fis
 		g1 g %60
 		f!2 f f f
-		f e e1
+		f2.^\critnote e4 e1
 		f d
 		f e
 		d e~ %65
