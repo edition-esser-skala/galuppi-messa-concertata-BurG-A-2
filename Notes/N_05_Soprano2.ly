@@ -663,8 +663,19 @@ CredoSopranoIINotes = {
 		d([ c d b] c[ b c f]
 		d4) b8 c c4 c8 c
 		b4 c8 c d4 f8 a,
-		g4( a8[ b] g2)
-		a1\fermata \bar "||" %55 finis
+		g4( a8[ b] g2) \noBreak
+		a1\fermata \bar "||" %55
+		\time 4/2 \tempoEtIncarnatus \newSpacingSection a1 a2 a \noBreak
+		b1. b2
+		a1. a2
+		a1 a2 a
+		b1 b %60
+		gis2 gis gis gis
+		a2. a4 a1
+		a1 b
+		h a~
+		a\breve~ %65
+		a2 a a1\fermata \bar "||" %66 finis
 	}
 }
 
@@ -706,7 +717,18 @@ CredoSopranoIILyrics = \lyricmode {
 	[dit de coe -- lis, de --
 	scen -- dit, de -- scen -- dit] de
 	coe --
-	lis. %55 finis
+	lis. %55
+	[Et in -- car --
+	na -- tus
+	est de
+	Spi -- ri -- tu
+	San -- cto %60
+	ex Ma -- ri -- a
+	Vir -- gi -- ne,
+	et ho --
+	mo fa --
+	%65
+	ctus est.] %66 finis
 }
 
 % SopranoIINotes = {
