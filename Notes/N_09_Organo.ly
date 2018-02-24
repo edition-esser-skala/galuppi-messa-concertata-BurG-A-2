@@ -2269,17 +2269,18 @@ CredoBassFigures = \figuremode {
 	<4>2 <_+> <[_+]>1 %66 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+CrucifixusOrgano = {
+	\relative c {
+		\clef bass
+		\key b \lydian \time 4/4 \tempoCrucifixus
+			\set Score.currentBarNumber = #67
+		\mvTr b'8\pE-\soloE r a r g r d r
+	}
+}
+
+CrucifixusBassFigures = \figuremode {
+	
+}
 
 % Organo = {
 % 	\relative c {

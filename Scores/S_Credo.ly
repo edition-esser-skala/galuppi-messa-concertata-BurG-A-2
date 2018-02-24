@@ -14,9 +14,76 @@
 #(set-global-staff-size 15.87)
 
 \book {
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.1 CREDO"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\CredoViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\CredoViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\CredoViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano I"
+% 						\new Voice = "SopranoI" { \dynamicUp \CredoSopranoINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoI \CredoSopranoILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano II"
+% 						\new Voice = "SopranoII" { \dynamicUp \CredoSopranoIINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoII \CredoSopranoIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \CredoAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \CredoBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\CredoOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\CredoBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.1 CREDO"
+			movement = "3.2 CRUCIFIXUS"
 		}
 		\score {
 			<<
@@ -24,57 +91,39 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\CredoViolinoI
+							\CrucifixusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\CredoViolinoII
+							\CrucifixusViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\CredoViola
+						\CrucifixusViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano I"
-						\new Voice = "SopranoI" { \dynamicUp \CredoSopranoINotes }
+						\set Staff.instrumentName = "Basso I"
+						\new Voice = "BassoI" { \dynamicUp \CrucifixusBassoINotes }
 					}
-					\new Lyrics \lyricsto SopranoI \CredoSopranoILyrics
+					\new Lyrics \lyricsto BassoI \CrucifixusBassoILyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Soprano II"
-						\new Voice = "SopranoII" { \dynamicUp \CredoSopranoIINotes }
+						\set Staff.instrumentName = "Basso II"
+						\new Voice = "BassoII" { \dynamicUp \CrucifixusBassoIINotes }
 					}
-					\new Lyrics \lyricsto SopranoII \CredoSopranoIILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \CredoAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \CredoBassoLyrics
+					\new Lyrics \lyricsto BassoII \CrucifixusBassoIILyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\CredoOrgano
+						\CrucifixusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\CredoBassFigures
+					\CrucifixusBassFigures
 				}
 			>>
 			\layout { }

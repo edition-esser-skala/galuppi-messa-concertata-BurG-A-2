@@ -881,6 +881,15 @@ CredoViolinoII = {
 	}
 }
 
+CrucifixusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoCrucifixus
+			\set Score.currentBarNumber = #67
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

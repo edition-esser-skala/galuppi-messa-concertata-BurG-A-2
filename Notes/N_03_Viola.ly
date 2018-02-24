@@ -996,6 +996,16 @@ CredoViola = {
 	}
 }
 
+CrucifixusViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key b \lydian \time 4/4 \tempoCrucifixus
+			\set Score.currentBarNumber = #67
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto

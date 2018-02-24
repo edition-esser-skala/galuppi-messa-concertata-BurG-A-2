@@ -983,29 +983,31 @@ CredoBassoLyrics = \lyricmode {
 	ctus est.] %66 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+CrucifixusBassoINotes = {
+	\relative c {
+		\clef bass
+		\key b \lydian \time 4/4 \autoBeamOff \tempoCrucifixus
+			\set Score.currentBarNumber = #67
+		
+	}
+}
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+CrucifixusBassoILyrics = \lyricmode {
+	
+}
+
+CrucifixusBassoIINotes = {
+	\relative c {
+		\clef bass
+		\key b \lydian \time 4/4 \autoBeamOff \tempoCrucifixus
+			\set Score.currentBarNumber = #67
+		
+	}
+}
+
+CrucifixusBassoIILyrics = \lyricmode {
+	
+}
 
 % BassoNotes = {
 % 	\relative c {
