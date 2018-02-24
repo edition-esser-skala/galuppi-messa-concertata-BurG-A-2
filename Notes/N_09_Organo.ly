@@ -2138,11 +2138,113 @@ CredoOrgano = {
 		\clef bass
 		\key f \major \time 4/4 \tempoCredo
 		R1*4
+		r2 \mvTr f8\fE-\soloE g a f %5
+		c' c, e c f f, a f
+		c' d e c d c d b
+		c b c a b a b g
+		a g a f b g c c,
+		f'-\tutti g a f e d e c %10
+		f g a f c d e c
+		f g a f c d e c
+		f d g g, c d e c
+		f g a f b, g c c,
+		f g a f c' d e c %15
+		f g a f b d16 c b8 b,
+		a a'16 g f8 a b a b b,
+		f' es d d c es f f,
+		b4 b'8 b a b a g
+		f e f g a g f f, %20
+		c' e f f, c' b c c,
+		f' g f e d-\solo e f d
+		a' h cis a d, e f d
+		a' h? cis a d, e f d
+		a' g a f b a b b, %25
+		a h cis a d e f d
+		a' h cis a h a h gis
+		a gis a d, e d e e,
+		a a d a e' e16 fis gis8 e
+		a c16 h a8 c, d e f d %30
+		g g, a g f f' f g
+		a g a a, d b'-\tutti a f
+		b, b' a f b b, f' f,
+		b f' e c f f, c' c
+		f f, c' d e d e c %35
+		f a16 g f8 a b c b a
+		g f g es f f b b,
+		f' es f f, b-\solo c d c
+		b b' a g f a g f
+		g c, a f b c d d %40
+		e c f f, g b c c,
+		f' a16 g f8 d e d e c
+		d c d g, c b c a
+		b a b g a g a f
+		g f g c f, f'-\tutti a f %45
+		b, g c c f g a f
+		b, g c c f f e d
+		c d e c f e f d
+		e d e c d c d g,
+		c d c b a g f f' %50
+		b a b g a g a f
+		g f g c, f e f a,
+		b b' f f b, b f f
+		c'1
+		f,\fermata \bar "||" %55 finis
 	}
 }
 
 CredoBassFigures = \figuremode {
-	
+	r1*4
+	r1 %5
+	r
+	r2 <7>4 <6>
+	<7> <6> <7> <6>
+	<7> <6> r2
+	r1 %10
+	r2 <4>4 <[6]>
+	r2 <4>4 <[6]>
+	<6 5> <[_!]> r2
+	r <6 5>
+	r <4>4 <[6]> %15
+	r1
+	r
+	r2 <7 [_-]>4 <7>
+	r1
+	r %20
+	r2 <4>4 <3>
+	r4 <6>8 <[6\\]> r2
+	<_+>1
+	<[_+]>
+	<_+>2 <7>4 <6> %25
+	<[_+]>2 <9>4 <[6]>
+	<4> <6> <9> <8>
+	<9> <8> <4> <3>
+	<_!>2 <[5!] [_+]>4 <[6] [_!]>
+	r4. <[6]>8 <9>4 <6> %30
+	<7 _-> <_+> <7> <6>
+	<4> <3> r2
+	r1
+	r
+	r2 <6> %35
+	r <9>4 <8>
+	r <6-> r2
+	<4>4 <3> r2
+	r1
+	r2 <9>4 <6> %40
+	r2 <7>4 <4>8 <3>
+	r4 <6> <7> <6>
+	<7> <6!> <7> <6>
+	<7> <6> <7> <6>
+	<7> <6> r2 %45
+	<6 5>1
+	q
+	r
+	<7>4 <6> <7> <6>
+	r1 %50
+	r
+	<7>4 <6> r2
+	r1
+	<7>4 <6> <3>2
+	r1 %55 finis
 }
 
 % Organo = {
