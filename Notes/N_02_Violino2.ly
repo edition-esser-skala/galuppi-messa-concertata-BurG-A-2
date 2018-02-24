@@ -886,7 +886,24 @@ CrucifixusViolinoII = {
 		\clef treble
 		\key b \lydian \time 4/4 \tempoCrucifixus
 			\set Score.currentBarNumber = #67
-		
+		f'4\pE r8 f, b b, r b'
+		g' g, r a b' b, r c,
+		d' d, r f g' g, r b,
+		c' c, r c d' d, r f %70
+		g' g, r c, d' d, r g
+		a' a, r d, e' e, r f'
+		cis' cis, r e, f' f, r f
+		d' d, r e c' c, r d
+		b' b, r cis a' a, r d %75
+		d' d, r d e' e, r e
+		f' f, r g g' g, r g
+		a' a, r a a' a, r d,
+		es' es, r f f' f, r f
+		g' g, r a b' b, r d, %80
+		c' c, r d c' c, r c
+		d' d, r a b' b, r f'
+		g' g, r a b' b, r d,
+		d' d, r4 r2\fermata \bar "||" %84 finis
 	}
 }
 
