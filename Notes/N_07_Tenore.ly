@@ -715,7 +715,7 @@ CredoTenoreNotes = {
 		b4 es c b
 		c2 b
 		\mvTr b8\pE^\solo d c b c f, f'4~
-		f8 e e e d4 d %40
+		f8 e f^\critnote f d4 d %40
 		c2( b)
 		a4 d4. g,8 c4~
 		c8 d16 c h8. c16 c2

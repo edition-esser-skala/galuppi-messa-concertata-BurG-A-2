@@ -916,7 +916,61 @@ CredoViolinoI = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoCredo
-		
+		f8\fE g a f c' c, e c
+		f f a f c d e c
+		d c d b c b c a
+		b a b g a g a f'
+		b, g c c f16 f' f f f f f f %5
+		e g g g g g g g a a a a a a a a
+		g c c c c c c c c c c c b b b b
+		b b b b a a a a a a a a g g g g
+		g g g g f f f f f f f f e e e e
+		f4 r r16 g g g g g g g %10
+		a a a a a a a a g8 c,,16 d e8 c
+		f g a f c16 c'' c c c c c c
+		a a a a h h h h g g g g g g g g
+		a a a a a a a a g g g g g g g g
+		f8 f,16 g a8 f c' d e c %15
+		f,16 f' f f f f f f f f f f f f f f
+		f8 a,16 g f8 a b a b b,
+		f'16 f' f f f f f f g g g g a a a a
+		b8 b, b b a b a g
+		f16 c'' c c c c c c c c c c c c c c %20
+		c g g g a a a a g g g g g g g g
+		f a a a a a a a a a a a a a a a
+		a8 a,16 h? cis8 a d, e f d
+		a'16 a' a a a a a a a a a a a a a a
+		a a a a a a a a f f f f g g g g %25
+		e8 a,,16 h? cis8 a d e f d
+		a'16 a' a a a a a a a a a a gis gis gis gis
+		e e e e e e f f e e f f e e e e
+		e8 a,, d a e' e16 fis gis8 e
+		a16 a' a a a a a a a a a a a a a a %30
+		g8 g, a g f16 f' f f f f f f
+		e e e e e e e e d f f f f f f f
+		f4 r r16 f f f f f f f
+		f4 r r16 a a a g g g g
+		a a a a g g g g g g g g g g g g %35
+		f f f f f f f f f f f f f f f f
+		f^\critnote f f f es es es es es es es es d d d d
+		c c c c c c c c b f' f f f f f f
+		f f f f f f f f f8 c b a
+		b g c c, d e f g %40
+		e g f e d d c c
+		a16 a'' a a d, d d d g g g g c, c c c
+		f f f f h, h h h e e e e a, a a a
+		b8 a b g a g a f
+		g f g c, f16 f' f f f f f f %45
+		d b' b b b b b b a a a a a a a a
+		d d d d c c c c c c c c c c c c
+		c c c c c c c c a a a a c c c c
+		g g g g c c c c f, f f f h h h h
+		g g g g g g g g f f f f f f f f %50
+		d' d d d d d d d c c c c c c c c
+		b b b b b b b b a a a a a a a a
+		f f f f f f f f f f f f f f f f
+		e4 f f4. e8
+		f1\fermata \bar "||" %55 finis
 	}
 }
 
