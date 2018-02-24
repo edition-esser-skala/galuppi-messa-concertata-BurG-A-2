@@ -2363,7 +2363,8 @@ EtResurrexitOrgano = {
 		a2 d,4~
 		d a2 \noBreak
 		d,2.\fermata \bar "||"
-		\time 4/4 \mvTr b''8\fE-\tutti c d b a g f a-\critnote \noBreak
+		\time 4/4 \newSpacingSection
+			\mvTr b''8\fE-\tutti c d b a g f a-\critnote \noBreak
 		\mvTr b\pE-\solo c d d, es c f f, %110
 		b c d es? f g a f
 		g g, g g' a g a f
@@ -2428,24 +2429,24 @@ EtResurrexitOrgano = {
 }
 
 EtResurrexitBassFigures = \figuremode {
-	r2. %67
-	r
-	r
-	<6> %70
-	<4>4 <3> r
+	r4 <[6]>2 %67
+	q4 r2
+	r4 q2
+	<6>2. %70
+	<4>2 <3>4
 	<9 7>2 <_!>4
 	<9> <6> <_!>
-	r2.
-	r %75
+	<[9]> <[6]> <[_!]>
+	<[6]>2. %75
 	<9>2 <8>4
 	<7 _->2.
 	r
 	<9>4 <5> r
 	<9> <6> r %80
 	r2.
-	r
-	r
-	r
+	r4 <[6]> r
+	r q r
+	r2.
 	r %85
 	r
 	r
@@ -2458,7 +2459,7 @@ EtResurrexitBassFigures = \figuremode {
 	<7>4 <6+> r
 	<7> <6> r %95
 	r <_!> r
-	<4> <_+> r
+	<4>2 <_+>4
 	<6 4 2> <6> r
 	<6 4+ 2> <6> r
 	<6+>2. %100
@@ -2470,21 +2471,21 @@ EtResurrexitBassFigures = \figuremode {
 	<_+>
 	r4 <4> <_+>
 	r2.
-	r1
-	r %110
-	r2 <4>4 <6>
+	r4 <[6]> q2
+	r4 q q2 %110
+	r <4>4 <6>
 	<7> <6> r2
 	r1
 	r
 	r %115
 	r
 	r
-	r
+	r8 <[6]>2..
 	<7>2. <6>4
 	r1 %120
 	r
-	r
-	r
+	r4 <[6]> r8 q <[7]> <[6]>
+	r1
 	<6>
 	r2 <4>4 <_-> %125
 	<7>2 <3>
@@ -2492,13 +2493,13 @@ EtResurrexitBassFigures = \figuremode {
 	<9> <6> <7 _!>2
 	<_!>1
 	r %130
-	r2 <6!>
-	r <[_+]>4 <[6] [_!]>
-	r1
-	r4 <6> r q
+	r8 <[6!]> <[6]> q <6!>2
+	r2. <[6] [_!]>4
+	r <[_+]> r <[6] [_!]>
+	r <[5!] [_!]> r <6>
 	r1 %135
-	<_!>
-	r
+	<_!>2 <[4]>4 <[_!]>
+	r1
 	r
 	r
 	r %140
@@ -2511,23 +2512,23 @@ EtResurrexitBassFigures = \figuremode {
 	<9>4 <6> r q
 	r1
 	r
-	r %150
-	r
-	r
-	r
-	r
-	r %155
-	r
-	r
-	r
-	r
-	r2 <6> %160
-	<_!> <4>4 <3>
+	r2 <[6]> %150
+	<[_+]>1
+	q
+	r4 <[6]> r2
+	r1
+	r2 <[6]> %155
 	r1
 	r
+	r2 <[6]>
+	r1
+	r2 <6> %160
+	<_!>4 <[6]> <4> <3>
+	r2 <[6]>
+	r1
 	r4 <6-> <4> <3>
-	r1 %165
-	r
+	r2 <[_!]> %165
+	r1
 	r4 <6> <4>4. <3>8
 	r1
 	r %169 FINIS
