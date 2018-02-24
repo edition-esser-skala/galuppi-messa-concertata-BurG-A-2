@@ -924,8 +924,8 @@ CumSanctoViola = {
 
 CredoViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key f \major \time 4/4 \tempoCredo
 		f8\fE g a f c' c, e c
 		f f a f c d e c
@@ -980,8 +980,19 @@ CredoViola = {
 		b b b b f f f f a a a a f f f f
 		d d d d e e e e c c' c c c c c c
 		d d d d c c c c d d d d c c c c
-		c4 c c2
-		a1\fermata \bar "||" %55 finis
+		c4 c c2 \noBreak
+		a1\fermata \bar "||" %55
+		\time 4/2 \tempoEtIncarnatus \newSpacingSection d,1 d2 d \noBreak
+		d1. d2
+		d1. a2
+		c1 c2 c
+		d1 d %60
+		d2 d d d
+		a'1 a
+		d, g
+		gis cis,
+		a' \once\tieDashed a~ %65
+		a a\fermata \bar "||" %66 finis
 	}
 }
 

@@ -871,13 +871,13 @@ CredoViolinoII = {
 		g1. g2
 		fis1. fis2
 		fis?1 fis2 fis
-		g1 g
+		g1 g %60
 		f!2 f f f
 		f e e1
 		f d
 		f e
-		d e~
-		e d\fermata \bar "|."
+		d e~ %65
+		e d\fermata \bar "|." %66 finis
 	}
 }
 
