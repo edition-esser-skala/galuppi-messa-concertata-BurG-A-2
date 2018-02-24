@@ -981,7 +981,7 @@ CredoViolinoI = {
 		a b
 		h a
 		f a~ %65
-		a fis\fermata \bar "|."
+		a fis\fermata \bar "|." %66 finis
 	}
 }
 
