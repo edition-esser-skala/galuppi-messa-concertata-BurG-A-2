@@ -2448,12 +2448,12 @@ EtResurrexitBassFigures = \figuremode {
 	r q r
 	r2.
 	r %85
-	r
-	r
-	r
+	r4 <[6]> <[_+]>
+	r2.
+	<[6]>
 	r
 	r4 <6> r %90
-	r <_+> r
+	<[5!] 4> <\l _+> r
 	r <_+> r
 	r2.
 	<7>4 <6+> r
@@ -2474,7 +2474,7 @@ EtResurrexitBassFigures = \figuremode {
 	r4 <[6]> q2
 	r4 q q2 %110
 	r <4>4 <6>
-	<7> <6> r2
+	<7> <6> <[6]>2
 	r1
 	r
 	r %115
@@ -2485,11 +2485,11 @@ EtResurrexitBassFigures = \figuremode {
 	r1 %120
 	r
 	r4 <[6]> r8 q <[7] [_-]> <[6]>
-	r1
-	<6>
+	r2 <[6]>
+	<6>1
 	r2 <4>4 <_-> %125
-	<7>2 <3>
-	r4. <7>8 <9->4 <8 5>
+	<7>4. <[6]>8 <3>2
+	r4. <7>8 <9->4 <6 5>
 	<9> <6> <7 _!>2
 	<_!>1
 	r %130

@@ -1293,7 +1293,7 @@ EtResurrexitSopranoILyrics = \lyricmode {
 	ter -- ti -- a
 	di -- e se --
 	cun -- dum, se --
-	cun -- dum scri -- %80
+	cun -- dum Scri -- %80
 	ptu -- ras,
 	re -- sur -- re -- xit, re -- sur --
 	re -- xit.
@@ -1314,7 +1314,7 @@ EtResurrexitSopranoILyrics = \lyricmode {
 	
 	Et i -- te -- rum, %109
 	et i -- te -- rum ven -- %110
-	tu -- rus est com glo -- ri -- a
+	tu -- rus est cum glo -- ri -- a
 	
 	ju --
 	di -- ca --
