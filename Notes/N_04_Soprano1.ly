@@ -1252,7 +1252,7 @@ EtResurrexitSopranoINotes = {
 		c2 \mvTr c8\fE^\tuttiE c e e
 		c4 e c e
 		c e8 e c c e e
-		c4 e f8 e c e %135
+		c4 e f8 e c f %135
 		d4 e8 e d2
 		e r
 		R1*12 %149
@@ -1329,12 +1329,12 @@ EtResurrexitSopranoILyrics = \lyricmode {
 	nis.
 	
 	Qui cum %129
-	Pa -- tre, cum
+	Pa -- tre, cum %130
 	Pa -- tre et Fi -- li --
 	o si -- mul ad -- o --
 	ra -- tur, ad -- o --
 	ra -- tur et con -- glo -- ri -- fi --
-	ca -- tur, qui lo -- cu -- tus
+	ca -- tur, qui lo -- cu -- tus %135
 	est per Pro -- phe --
 	tas.
 	

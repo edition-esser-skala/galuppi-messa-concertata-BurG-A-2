@@ -2413,7 +2413,7 @@ EtResurrexitOrgano = {
 		b'8 d c b a g a f %155
 		b b, f' a b a b b,
 		f'2^\critnote r
-		f8 g a g e d e c
+		f8 g a f e d e c
 		f f, c' e f e f f,
 		c' c c' b a g a f %160
 		g f e c g' f g g,
@@ -2460,10 +2460,10 @@ EtResurrexitBassFigures = \figuremode {
 	<7> <6> r %95
 	r <_!> r
 	<4>2 <_+>4
-	<6 4 2> <6> r
+	<[6!] 4 2> <6> r
 	<6 4+ 2> <6> r
 	<6+>2. %100
-	r4 <4> <3>
+	r4 <4> <[_+]>
 	r2.
 	<9 4>4 <8 3> r
 	<9 7> <8 6> r
@@ -2481,10 +2481,10 @@ EtResurrexitBassFigures = \figuremode {
 	r
 	r
 	r8 <[6]>2..
-	<7>2. <6>4
+	<7>2 <6>
 	r1 %120
 	r
-	r4 <[6]> r8 q <[7]> <[6]>
+	r4 <[6]> r8 q <[7] [_-]> <[6]>
 	r1
 	<6>
 	r2 <4>4 <_-> %125
@@ -2496,14 +2496,14 @@ EtResurrexitBassFigures = \figuremode {
 	r8 <[6!]> <[6]> q <6!>2
 	r2. <[6] [_!]>4
 	r <[_+]> r <[6] [_!]>
-	r <[5!] [_!]> r <6>
+	r <[6]> r <6>
 	r1 %135
 	<_!>2 <[4]>4 <[_!]>
 	r1
-	r
-	r
-	r %140
-	r
+	<[_+]>1
+	<[6]>2. q8 q
+	<[_+]>1 %140
+	r8 <[6] [_!]> r4 <[5!] [4]>4 <\l [_+]>
 	r2 <6>
 	<6>1
 	r
@@ -2515,7 +2515,7 @@ EtResurrexitBassFigures = \figuremode {
 	r2 <[6]> %150
 	<[_+]>1
 	q
-	r4 <[6]> r2
+	r4 <[6]> <[4]> <[_+]>
 	r1
 	r2 <[6]> %155
 	r1
@@ -2523,7 +2523,7 @@ EtResurrexitBassFigures = \figuremode {
 	r2 <[6]>
 	r1
 	r2 <6> %160
-	<_!>4 <[6]> <4> <3>
+	<_!>4 <[6]> <4> <[_!]>
 	r2 <[6]>
 	r1
 	r4 <6-> <4> <3>
