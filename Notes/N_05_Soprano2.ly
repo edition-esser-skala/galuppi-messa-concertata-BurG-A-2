@@ -696,8 +696,8 @@ CredoSopranoIILyrics = \lyricmode {
 	
 	Per __ %43
 	quem o -- mni -- a fa --
-	cta sunt. [Qui %45
-	pro -- pter nos ho -- mi -- nes et
+	cta sunt. Qui %45
+	[pro -- pter nos ho -- mi -- nes et
 	pro -- pter no -- stram sa --
 	lu -- tem] de -- scen --
 	dit de

@@ -819,12 +819,99 @@ CredoAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		R1*9
+		\mvTr f4\fE^\tuttiE f g g %10
+		f2 g4 g
+		a a g g8 e
+		a4 g g g
+		r f2 e8 e
+		f4 f f e %15
+		r2 f8 f16 f f8 f
+		a4 a8 a f4 f
+		f f8 f g4( a)
+		f2 f4. g8
+		a8([ b)] a g f4 f8 f %20
+		c c f f f4. e8
+		f2 r
+		r4 \mvTr e8\pE^\solo a f4 d8 d
+		e4 a f8. e16 d4
+		e a a4.( g8) %25
+		a2 f4. g16 f
+		e4. f16([ e)] d4. e16([ d)]
+		c4.( d16[ c] h4.) h8
+		a4 r r2
+		R1*3 %32
+		r8 \mvTr f'\fE^\tuttiE a a f4 f
+		r8 f g g f8. f16 e4
+		r e8 f g4 g %35
+		f a2 g4~
+		g g f f
+		f2 f
+		R1
+		r2 \mvTr f4\pE^\solo f %40
+		g8 g a f f4.( e8)
+		f4 a8 a g4 g8 g
+		f4. f8 e2
+		R1
+		r2 r4 \mvTr f\fE^\tutti %45
+		b g8 g f8. f16 f8 f
+		b4 g f g8 g
+		e4 e8 g a([ g a f]
+		g[ f g e] f[ g)] f g
+		g4 g8 g a4 a8 a %50
+		b4 f r a
+		b8([ a b g] a[ g)] a a
+		f4 a8 a b4 c8 f,
+		e4( f2 e4)
+		f1\fermata \bar "||" %55 finis
 	}
 }
 
 CredoAltoLyrics = \lyricmode {
+	Cre -- do, [cre -- do, %10
+	cre -- do in
+	u -- num De -- um,] in
+	u -- num De -- um,
+	cre -- do in
+	u -- num De -- um, %15
+	Pa -- trem [o -- mni -- po --
+	ten -- tem, fa -- cto -- rem
+	coe -- li et ter --
+	rae, vi -- si --
+	bi -- li -- um o -- mni -- um %20
+	et in -- vi -- si -- bi -- li --
+	um.]
+	Et in u -- num, in
+	u -- num Do -- mi -- num
+	Je -- sum Chri -- %25
+	stum, Fi -- li -- um
+	De -- i __ u -- ni --
+	ge -- ni --
+	tum.
 	
+	De -- um de De -- o, %33
+	lu -- men de lu -- mi -- ne,
+	De -- um ve -- rum, %35
+	de De -- o, __
+	de De -- o
+	ve -- ro.
+	Con sub --
+	stan -- ti -- a -- lem Pa -- %40
+	tri:
+	Per quem o -- mni -- a
+	fa -- cta sunt.
+	
+	Qui %45
+	[pro -- pter nos ho -- mi -- nes et
+	pro -- pter no -- stram sa --
+	lu -- tem de -- scen --
+	dit de
+	coe -- lis, de -- scen -- dit,] de -- %50
+	scen -- dit, de --
+	scen -- dit de
+	coe -- lis, de -- scen -- dit de
+	coe --
+	lis. %55 finis
 }
 
 % AltoNotes = {
