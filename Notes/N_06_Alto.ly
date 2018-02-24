@@ -895,7 +895,7 @@ CredoAltoLyrics = \lyricmode {
 	de De -- o, __
 	de De -- o
 	ve -- ro.
-	Con sub --
+	Con -- sub --
 	stan -- ti -- a -- lem Pa -- %40
 	tri:
 	Per quem o -- mni -- a
