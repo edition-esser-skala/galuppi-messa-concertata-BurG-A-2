@@ -626,12 +626,87 @@ CredoSopranoIINotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		R1*9
+		\mvTr a'4\fE^\tuttiE a c c %10
+		R1
+		r2 r4 c~
+		c h8 h c4 c
+		a2 g
+		r4 f g g %15
+		a a d8 d16 es f8 d
+		c4 c8 c b4 d
+		a b8 b b4( a)
+		b d8 d c([ d)] c b
+		c4 c8 c a4 a %20
+		g a g4. g8
+		a2 r
+		R1*6 %28
+		r2 \mvTr e'8\pE^\solo f e d
+		c a e'4. a,8 d4~ %30
+		d cis8 cis a4 a8 g
+		e4. e8 f4 r
+		r8 \mvTr b\fE^\tuttiE c c b4 a
+		r8 a c c a8. a16 g4
+		r e'8 d c4 e %35
+		r c2 b4~
+		b b a b~
+		b a b2
+		R1*4 %42
+		r2 r4 \mvTr a~\pE^\solo
+		a8 d, g4. a16 g f4~
+		f8([ g16 f] e8.) e16 f4 \mvTr a\fE^\tutti %45
+		d4 c8 b c8. b16 a8 a
+		d4 c8([ b)] c4 e8 h
+		c4 c8 c c2~
+		c2. h8 h
+		c4 c8 c f4 f,8 c' %50
+		d([ c d b] c[ b c f]
+		d4) b8 c c4 c8 c
+		b4 c8 c d4 f8 a,
+		g4( a8[ b] g2)
+		a1\fermata \bar "||" %55 finis
 	}
 }
 
 CredoSopranoIILyrics = \lyricmode {
+	[Cre -- do, cre -- do,] %10
 	
+	cre --
+	do in u -- num
+	De -- um,
+	in u -- num %15
+	[De -- um, Pa -- trem o -- mni -- po --
+	ten -- tem, fa -- cto -- rem
+	coe -- li et ter --
+	rae, vi -- si -- bi -- li -- um
+	o -- mni -- um et in -- %20
+	vi -- si -- bi -- li --
+	um.]
+	
+	Et ex Pa -- tre %29
+	na -- tum an -- te o -- %30
+	mni -- a, o -- mni -- a
+	sae -- cu -- la.
+	[De -- um de De -- o,
+	lu -- men de lu -- mi -- ne,
+	De -- um ve -- rum,] %35
+	de De --
+	o ve -- _
+	_ ro.
+	
+	Per __ %43
+	quem o -- mni -- a fa --
+	cta sunt. [Qui %45
+	pro -- pter nos ho -- mi -- nes et
+	pro -- pter no -- stram sa --
+	lu -- tem] de -- scen --
+	dit de
+	coe -- lis, de -- scen -- dit, de -- %50
+	scen --
+	[dit de coe -- lis, de --
+	scen -- dit, de -- scen -- dit] de
+	coe --
+	lis. %55 finis
 }
 
 % SopranoIINotes = {
