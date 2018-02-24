@@ -2266,7 +2266,7 @@ CredoBassFigures = \figuremode {
 	<6>\breve
 	<7 5 [_!]>1 <_+>
 	<6 4> <7 5 [_+]> %65
-	<4>2 <_+> r1 %66 finis
+	<4>2 <_+> <[_+]>1 %66 finis
 }
 
 % Organo = {

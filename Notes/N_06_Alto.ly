@@ -862,8 +862,19 @@ CredoAltoNotes = {
 		b4 f r a
 		b8([ a b g] a[ g)] a a
 		f4 a8 a b4 c8 f,
-		e4( f2 e4)
-		f1\fermata \bar "||" %55 finis
+		e4( f2 e4) \noBreak
+		f1\fermata \bar "||" %55
+		\time 4/2 \tempoEtIncarnatus \newSpacingSection fis1 fis2 fis \noBreak
+		g1. g2
+		fis1. fis2
+		fis?1 fis2 fis
+		g1 g %60
+		f!2 f f f
+		f2. e4 e1
+		f d
+		f e
+		f e~ %65
+		e2 e fis1\fermata \bar "||" %66 finis
 	}
 }
 
@@ -911,7 +922,18 @@ CredoAltoLyrics = \lyricmode {
 	scen -- dit de
 	coe -- lis, de -- scen -- dit de
 	coe --
-	lis. %55 finis
+	lis. %55
+	[Et in -- car --
+	na -- tus
+	est de
+	Spi -- ri -- tu
+	San -- cto %60
+	ex Ma -- ri -- a
+	Vir -- gi -- ne,
+	et ho --
+	mo fa --
+	_ _ %65
+	ctus est.] %66 finis
 }
 
 % AltoNotes = {
