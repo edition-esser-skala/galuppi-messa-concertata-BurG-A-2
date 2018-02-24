@@ -1032,12 +1032,41 @@ CrucifixusBassoIINotes = {
 		\clef bass
 		\key b \lydian \time 4/4 \autoBeamOff \tempoCrucifixus
 			\set Score.currentBarNumber = #67
-		
+		R1*2
+		\mvTr b4\pE^\soloE f' b f
+		g8 g f es d d r4 %70
+		e8 c f4.( e16[ d] e4)
+		f2 r
+		R r4 a~
+		a8 b g4. a8 f4~
+		f8 g e e e d f d %75
+		g4 b a4. a8
+		d,4 d8 d es4 es
+		d8 es d c b g r g'
+		es c f es d b d d
+		es es f f b,4 d8 es %80
+		f4( b, f4.) f8
+		b2 r
+		R1
+		R\fermataMarkup \bar "||" %84 finis
 	}
 }
 
 CrucifixusBassoIILyrics = \lyricmode {
-	
+	Cru -- ci -- fi -- xus %69
+	e -- ti -- am pro no -- bis, %70
+	cru -- ci -- fi --
+	xus,
+	cru --
+	ci -- fi -- xus e --
+	ti -- am pro no -- bis pas -- sus %75
+	et se -- pul -- tus
+	est, cru -- ci -- fi -- xus
+	e -- ti -- am pro no -- bis sub
+	Pon -- ti -- o Pi -- la -- to pas -- sus
+	et se -- pul -- tus est, et se -- %80
+	pul -- tus
+	est. %82 finis
 }
 
 % BassoNotes = {
