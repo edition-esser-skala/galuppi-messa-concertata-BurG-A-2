@@ -1006,7 +1006,7 @@ CrucifixusViolinoI = {
 		g' g, r a b' b, r d, %80
 		c' c, r d c' c, r c
 		d' d, r a b' b, r f'
-		g' g, r a b' b, r d,
+		g' g, r a b' b, r c,-\critnote
 		d' d, r4 r2\fermata \bar "||" %84 finis
 	}
 }

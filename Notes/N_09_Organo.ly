@@ -2298,7 +2298,7 @@ CrucifixusOrgano = {
 CrucifixusBassFigures = \figuremode {
 	r4 <[6]> r q %67
 	r2. <[6]>4
-	r <[6] [4]> r <[6]>
+	r2. <[6]>4
 	r2. <[6]>4 %70
 	<[7] _!> <[6]> <6 5>2
 	r4 <6> <[6]>2
