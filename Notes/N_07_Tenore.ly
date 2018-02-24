@@ -729,8 +729,19 @@ CredoTenoreNotes = {
 		d8([ f d f] f4) c8 a
 		d4 e8 e c4 c8 c
 		d4 c8 c b4 a8 a
-		c4( a c2)
-		c1\fermata \bar "||" %55 finis
+		c4( a c2) \noBreak
+		c1\fermata \bar "||" %55
+		\time 4/2 \tempoEtIncarnatus \newSpacingSection d1 d2 d \noBreak
+		b1. b2
+		d1. a2
+		c1 c2 c
+		d1 d %60
+		d2 d d d
+		a2. a4 a1
+		d b
+		h cis
+		a\breve~^\critnote %65
+		a2 cis a1\fermata \bar "||" %66 finis
 	}
 }
 
@@ -775,7 +786,18 @@ CredoTenoreLyrics = \lyricmode {
 	coe -- lis, de -- scen -- dit de
 	[coe -- lis, de -- scen -- dit de
 	coe --
-	lis.] %55 finis
+	lis.] %55
+	[Et in -- car --
+	na -- tus
+	est de
+	Spi -- ri -- tu
+	San -- cto %60
+	ex Ma -- ri -- a
+	Vir -- gi -- ne,
+	et ho --
+	mo fa --
+	_ %65
+	ctus est.] %66 finis
 }
 
 % TenoreNotes = {
