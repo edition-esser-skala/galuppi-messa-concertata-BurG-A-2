@@ -998,11 +998,28 @@ CredoViola = {
 
 CrucifixusViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key b \lydian \time 4/4 \tempoCrucifixus
 			\set Score.currentBarNumber = #67
-		
+		d8\pE r c r b r f r
+		g r c r d r a r
+		d r a r g r f r
+		g r a r f r b r %70
+		c r a r g r c r
+		c r a r g r g' r
+		cis, r cis r a r a r
+		b r g r a r f r
+		g r e r f r f r %75
+		b r d r a r a r
+		a r d r c r es r
+		a, r a r b r b r
+		g r a r f r b r
+		c r f r f r b, r %80
+		c r b r b r a r
+		f r f r g r b r
+		b r a r d r a r
+		f4 r r2\fermata \bar "||" %84 finis
 	}
 }
 
