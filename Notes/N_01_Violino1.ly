@@ -1129,7 +1129,7 @@ SanctusViolinoI = {
 		h8 fis h a g g g g
 		g8.( fis32 g) a8 g fis fis a a
 		h h h h h h d, d
-		d d d cis16 h cis a e cis a g' fis e
+		d d d cis16 h cis a e cis a g'! fis e
 		d8 << { fis'16 fis fis8 fis16 e } \\ { a,16 a a8 a } >> d16 h fis d h d fis h %10
 		d8 d16 d d8 dis? e16 h' g e h g h e
 		e8 e d d d d cis cis
@@ -1138,7 +1138,7 @@ SanctusViolinoI = {
 		d fis,32( g fis g) a8 fis fis4 r \bar "||" %15
 		\time 3/4 \tempoOsanna \newSpacingSection
 			\set Timing.measurePosition = #(ly:make-moment -1/4) r4 \noBreak
-			R2.
+			R2. \noBreak
 		r8 fis'\p a fis g4
 		g( fis8) d a' fis
 		g( e) g g fis d
