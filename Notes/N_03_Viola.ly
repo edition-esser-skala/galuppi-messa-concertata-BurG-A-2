@@ -1135,7 +1135,58 @@ SanctusViola = {
 		\clef alto
 % 		\clef treble
 		\key d \major \time 4/4 \tempoSanctus
-		
+		r4 a'8\fE a a a a a
+		d, d e e e e a, a
+		h h h e cis a d d
+		e e e a d, d d d
+		g e e e cis fis fis fis
+		fis h, h h h h h h
+		a a a a a a a d
+		d d g g e e e e
+		e e e e e4 e16 g! fis e
+		d8 d16 d d8 d16 e fis8 fis fis fis
+		fis fis fis fis g g g e
+		cis cis h fis' e e e e
+		fis a g fis g a a a
+		a a a a a a a g \noBreak
+		fis a, a a a4 r \bar "||" %15
+		\time 3/4 \tempoOsanna \newSpacingSection
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4 \noBreak
+			R2. \noBreak
+		r4 r a\pE
+		a a a
+		a2 a4
+		a2 a4 %20
+		e'2 cis4
+		h h h
+		a r r
+		r r e'
+		e e e %25
+		e2 e4
+		e2 e4
+		fis h g!
+		fis2 fis4
+		g fis fis %30
+		fis fis fis\fE
+		g8. fis16 e4 e
+		fis8. e16 d4 a
+		h8 h h h h h
+		a4 a' a %35
+		a a a
+		a a a
+		a a a
+		a a a
+		a a a %40
+		a a a
+		a g fis
+		g a a
+		a a a
+		d, d d %45
+		d d d
+		h h a
+		a a a
+		a a a
+		a2 r4\fermata \bar "||" %50 finis
 	}
 }
 

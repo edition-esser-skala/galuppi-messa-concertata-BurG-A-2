@@ -1030,7 +1030,7 @@ SanctusViolinoII = {
 		h8 fis16 fis fis8 h h16 g' e h g e g h
 		ais8 ais fis h h h a a
 		a fis g a d, e fis a
-		cis cis d d d d cis cis
+		cis cis d d d d cis cis \noBreak
 		d d,32 e d e fis8 d d4 r \bar "||" %15
 		\time 3/4 \tempoOsanna \newSpacingSection
 			\set Timing.measurePosition = #(ly:make-moment -1/4) r4 \noBreak

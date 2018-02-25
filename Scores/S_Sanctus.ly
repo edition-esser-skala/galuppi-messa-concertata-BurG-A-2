@@ -77,8 +77,8 @@
 					\SanctusBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
+% 			\layout { }
+			\midi { \tempo 4 = 140 }
 		}
 	}
 }
