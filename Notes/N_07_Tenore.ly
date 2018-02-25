@@ -1017,7 +1017,7 @@ SanctusTenoreNotes = {
 		a r \bar "||" %15
 		\time 3/4 \tempoOsanna \newSpacingSection
 			\set Timing.measurePosition = #(ly:make-moment -1/4) \mvTr a4\pE^\soloE \noBreak
-		d8.([ e16] fis4) g
+		d8.([ e16] fis4) g \noBreak
 		fis( d) e
 		e d d
 		e2 d4

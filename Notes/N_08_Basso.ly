@@ -1261,12 +1261,110 @@ SanctusBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
-		
+		\mvTr d2\fE^\tuttiE a'
+		h a4 r
+		r2 r4 d,
+		e4. a8 fis[ d g fis]
+		e2 fis4. e8 %5
+		dis2 e4. d8
+		cis2 d4 fis(
+		g) g8 g gis4 gis
+		a4. a,8 a4 r
+		d8 d16 d d8 d16 cis h8 h r4 %10
+		h'8 h16 h h8 h16 a g8 g g4
+		fis h8[ a] gis4 a8[ g]
+		fis[ d e fis] g4 fis8 d
+		a1
+		d2 r \bar "||" %15
+		\time 3/4 \tempoOsanna \newSpacingSection
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4 \noBreak
+		R2.*2
+		r4 r \mvTr d'\pE^\soloE
+		cis a d
+		cis a d~ %20
+		d2 cis4
+		h2.
+		a4 r r
+		R2.
+		r4 r a %25
+		gis e a
+		gis e a~
+		a2 g4
+		fis gis8[ ais] h4
+		e, fis2 %30
+		h, \mvTr h'4\fE^\tuttiE
+		g8.([ fis16)] e4 a
+		fis8.([ e16)] d4 r
+		g2 gis4
+		a a, a' %35
+		a2.
+		a
+		a
+		a
+		a~ %40
+		a
+		d,4 e fis
+		g a2
+		d,4 d d
+		\once \tieDashed d2.~ %45
+		\once \tieDashed d~
+		d2 cis4
+		d d d
+		a'2.
+		d,2 r4\fermata \bar "||" %50 finis
 	}
 }
 
 SanctusBassoLyrics = \lyricmode {
+	San -- _
+	_ ctus,
+	San --
+	_ _ _
+	_ _ _ %5
+	_ _ _
+	_ ctus Do --
+	mi -- nus De -- us
+	Sa -- ba -- oth.
+	Ple -- ni sunt coe -- li et ter -- ra, %10
+	ple -- ni sunt coe -- li et ter -- ra glo --
+	_ _ _ _
+	_ _ ri -- a
+	tu --
+	a. %15
 	
+	O --
+	san -- na, o --
+	san -- na in __
+	ex --
+	cel --
+	sis,
+	
+	o --
+	san -- na, o --
+	san -- na in __
+	ex --
+	cel -- _ _
+	_ _
+	sis. O -- %31
+	san -- na, o --
+	san -- na
+	in ex --
+	cel -- sis, o -- %35
+	san --
+	na
+	in
+	ex --
+	cel -- %40
+	
+	_ _ _
+	_ _
+	sis, in ex --
+	cel -- %45
+	
+	_
+	sis, in ex --
+	cel --
+	sis. %50 finis
 }
 
 % BassoNotes = {
