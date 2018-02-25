@@ -193,8 +193,8 @@
 					\EtResurrexitBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 100 }
+% 			\layout { }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

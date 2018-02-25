@@ -1074,12 +1074,187 @@ EtResurrexitBassoNotes = {
 		\clef bass
 		\key f \major \time 3/4 \autoBeamOff \tempoEtResurrexit
 			\set Score.currentBarNumber = #67
-		
+		\mvTr f4\fE^\tuttiE a c
+		a f r
+		f a c
+		a f f8 f %70
+		c'2 c,4
+		d4. d8 g4
+		c, c r
+		c e g
+		e c c8 c %75
+		f2 f4
+		g4. g8 c4
+		f, f f
+		g e c
+		f a, b %80
+		c2 f,4
+		f'8 f a a c c
+		f,4 f r
+		R2.*2 %85
+		r4 a cis
+		d d, d'
+		b b, b'
+		a2 a4
+		R2.*3 %92
+		d,2.
+		e
+		f %95
+		g4. g8 g4
+		a a, a'~
+		a g g~
+		g f f
+		e4. e8 d4~ %100
+		d a2
+		d2.
+		R2.*5 \noBreak %107
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 \newSpacingSection r4 \mvTr b'\fE^\tuttiE a8. g16 f4^\critnote
+		R1 %110
+		r2 \mvTr f\pE^\soloE
+		g8 g g g a g a f
+		b8. b,16 b4 \mvTr b'2\fE^\tuttiE
+		a b
+		f f %115
+		e f
+		c f
+		d( b
+		g2.) g4
+		f4 f'8 f b4 f %120
+		r f8 f b4 f8 f
+		g4 d8 d es d c4
+		b r r2
+		R1*5 %128
+		r2 r4 \mvTr c8\pE^\solo c
+		f2 e4 c %130
+		f e8 f d4. d8
+		c2 \mvTr a'8\fE^\tuttiE a gis gis
+		a4 e a gis
+		a e8 e f f e e
+		f4 c f8 g a f %135
+		g4 c,8 c g2
+		c r
+		R1*4 %141
+		r4 \mvTr f\pE^\soloE c'4. b8
+		a4 r r g
+		a g a2
+		g4 c2 b4~ %145
+		b a2 g4
+		g f e f
+		c2 f
+		R1
+		\mvTr d4\fE^\tuttiE d' cis a %150
+		r a d d,
+		a'8 a a g f4 d
+		g, b a2
+		d r
+		r4 b' a f8 f %155
+		b4 a b4. b8
+		f2 r
+		r4 f e c8 c
+		f4 e f4. f8
+		c4 c' a f %160
+		g c,8 c g2
+		c4 c'( a) f
+		r b( a f
+		b es, f2)
+		b,4 f'( e) c %165
+		r f( e c
+		f b, c2)
+		f,4 f'( c2)
+		f, r\fermata \bar "|." %169 FINIS
 	}
 }
 
 EtResurrexitBassoLyrics = \lyricmode {
+	[Et re -- sur --
+	re -- xit,
+	et re -- sur --
+	re -- xit, re -- sur -- %70
+	re -- xit
+	ter -- ti -- a
+	di -- e,
+	et re -- sur --
+	re -- xit, re -- sur -- %75
+	re -- xit
+	ter -- ti -- a
+	di -- e se --
+	cun -- dum, se --
+	cun -- dum Scri -- %80
+	ptu -- ras,
+	re -- sur -- re -- xit, re -- sur --
+	re -- xit.]
 	
+	Et a -- %86
+	scen -- dit, a --
+	scen -- dit in
+	coe -- lum,
+
+	se -- %93
+	det
+	ad %95
+	[dex -- te -- ram
+	Pa -- tris, se --
+	det, se --
+	det ad
+	dex -- te -- ram __ %100
+	Pa --
+	tris.]
+	
+	[Et i -- te -- rum,] %109
+	%110
+	[et
+	i -- te -- rum ven -- tu -- rus est cum
+	glo -- ri -- a ju --
+	di -- ca --
+	re vi -- %115
+	vos, vi --
+	vos et
+	mor --
+	tu --
+	os, cu -- ius re -- gni, %120
+	cu -- ius re -- gni non
+	e -- rit, non e -- rit fi --
+	nis.]
+	
+	Qui cum %129
+	Pa -- tre, cum %130
+	Pa -- tre et Fi -- li --
+	o si -- mul [ad -- o --
+	ra -- tur, ad -- o --
+	ra -- tur et con -- glo -- ri -- fi --
+	ca -- tur, qui lo -- cu -- tus %135
+	est per Pro -- phe --
+	tas.]
+	
+	Con -- fi -- te -- %142
+	or u --
+	num ba -- pti --
+	sma in re -- %145
+	mis -- si --
+	o -- nem pec -- ca --
+	to -- rum.
+
+	[Et ex -- spe -- cto, %150
+	ex -- spe -- cto
+	re -- sur -- re -- cti -- o -- nem
+	mor -- tu -- o --
+	rum,]
+	[et vi -- tam ven -- %155
+	tu -- ri sae -- cu --
+	li,]
+	[et vi -- tam ven --
+	tu -- ri sae -- cu --
+	li, ven -- tu -- ri %160
+	sae -- cu -- li, a --
+	men, a] -- men,
+	a --
+	
+	men, a -- men, %165
+	a --
+	
+	[men, a --
+	men.] %169 FINIS
 }
 
 % BassoNotes = {
