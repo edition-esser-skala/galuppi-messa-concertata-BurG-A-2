@@ -189,6 +189,7 @@ tempoEtResurrexit = \tempoMarkup "Vivace"
 
 tempoSanctus = \tempoMarkup "Adagio"
 	tempoOsanna = \tempoMarkup "Allegro"
+tempoBenedictus = \tempoMarkup "Andantino"
 
 
 % modify the Scheme function 'format-bass-figure'

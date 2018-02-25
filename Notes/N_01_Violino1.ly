@@ -1176,13 +1176,14 @@ SanctusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 2/4 \tempoBenedictus
+			\set Score.currentBarNumber = #51
+		
+	}
+}
 
 % ViolinoI = {
 % 	\relative c' {

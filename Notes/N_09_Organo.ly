@@ -2646,17 +2646,18 @@ SanctusBassFigures = \figuremode {
 	r2. %50 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+BenedictusOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 2/4 \tempoBenedictus
+			\set Score.currentBarNumber = #51
+		\mvTr a4\pE^\soloE r
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+	
+}
 
 % Organo = {
 % 	\relative c {
