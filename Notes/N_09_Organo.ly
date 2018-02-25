@@ -2551,11 +2551,11 @@ SanctusOrgano = {
 		h h' h h16 a g8 g g g
 		fis fis h a gis e a g
 		fis d e fis g g fis d
-		a' a, a a a a a a
+		a' a, a a a a a a \noBreak
 		d d, d d d4 r \bar "||" %15
 		\time 3/4 \tempoOsanna \newSpacingSection
-			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
-			\mvTr d'2\pE-\solo g4
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4 \noBreak
+			\mvTr d'2\pE-\solo g4 \noBreak
 		d2 cis4
 		d2 d'4
 		cis a d
@@ -2597,14 +2597,14 @@ SanctusBassFigures = \figuremode {
 	r2 <4>4 <3>
 	<7> <6+> r2
 	<7>4 <6!> r2
-	<7>4 <6> r2
+	<7>4 <6!> <[5!]>2
 	r4 <6+>8 <[5]> <_+>2 %5
-	<6>4 <5!> <9 4> <8 3>
+	<6>4. <5!>8 <9 4>4 <8 3>
 	<6 5>2 <4>4 <6>
 	r2 <6 5>
 	<4 2>2 <3>
 	r1 %10
-	r2 <6>
+	r4. <[_+]>8 <6>2
 	<7 _+>2 <6 5>
 	<6>4 <7>8 <5!> <3> <4+> <6>4
 	<5 3> <6 4> <5 4> <\l 3>
@@ -2617,12 +2617,12 @@ SanctusBassFigures = \figuremode {
 	<4+>4 <6>2
 	<7>2 <6+>4
 	r2.
-	r
-	<4>4 <3> r %25
-	r2.
-	r
+	r2 <[6] [5]>4
+	<4> <3> r %25
+	<[6] [5]>2.
+	q
 	<4 2+>2 <6>4
-	<7 _+>2.
+	<7 _+>2 r8 <[6]>
 	<6 5>4 <5 _+>2 %30
 	r2.
 	<6>
@@ -2632,10 +2632,10 @@ SanctusBassFigures = \figuremode {
 	<5 3>2 <6 4>4
 	<7 5>2 <6 4>4
 	<5 3>2 <6 4>4
-	<5 3>2 <6 4>4
-	<7 5>2 <6 4>4 %40
-	<5 3> <7 5> r
-	<9> <7>8 <6> q4
+	<[7] [5]>2 <6 4>4
+	<[5] [3]>2 <6 4>4 %40
+	<7 5>2.
+	<9>4 <7>8 <6> q4
 	<6 5>2.
 	r2 <7!>4
 	<6 4>2. %45
