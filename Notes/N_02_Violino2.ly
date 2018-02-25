@@ -912,7 +912,104 @@ EtResurrexitViolinoII = {
 		\clef treble
 		\key f \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #67
-		
+		R2.
+		f'8\fE f f f e e
+		f2 r4
+		R2.*3 %72
+		c8 c c c h h
+		c4 c r
+		e e g %75
+		g f a
+		g4. g8 a4
+		a a a
+		a g g
+		g f f %80
+		e2 f4
+		R2.
+		f8 f f f e e
+		f2 f4
+		f r r %85
+		e r r
+		f r r
+		e r r
+		cis r r
+		e r r %90
+		e r r
+		cis r r
+		f r r
+		e r r
+		a, r r %95
+		h r r
+		a r r
+		R2.*4 %101
+		d4 f2
+		e4 e2
+		e4 d d
+		d2 d4 %105
+		cis4. cis8 d^\critnote cis
+		d e cis2 \noBreak
+		d2.\fermata \bar "||"
+		\time 4/4 \newSpacingSection r2 r16 f\fE f f f f f f \noBreak
+		f f f f d d d d g g g g f f f f %110
+		f f f f f f f f f8 f,16 g a8 f
+		g g, g g' a g a f
+		b, c d c b16 f'' f f f f f f
+		a a a a a a a a f f f f f f f f
+		f f f f f f f f a a a a a a a a %115
+		g g g g g g g g a a a a a a a a
+		g g g g g g g g a a a a a a a a
+		f f f f f f f f d d d d d d d d
+		d8 d d d e4 e
+		c r r16 f f f f f f f %120
+		f4 r r2
+		R1
+		r16 f f f f f f f f c c c c c c c
+		b b' b b b b b b c c c c c c c c
+		c e, e e e e e e d d d d d d d d %125
+		c c c c c c d d c c d d c c c c
+		a8 a16 g f8 d g f e c
+		f g a f g g, c f
+		g f g g, c16 c'' c c c c c c
+		c c c c c c c c c c c c c c c c %130
+		c c c c c c c c f, f f f f f f f
+		e e e e e e e e e e e e e e e e
+		e a a a gis gis gis gis a a a a e e e e
+		a a a a g g g g f f f f g g g g
+		f f f f g g g g a a a a a a a a %135
+		g g g g g g g g g g g g g g g g
+		g e e e e e e e e e e e e e e e
+		e e e e e e e e e e e e e e e e
+		e e e e e e e e e e e e e e e e
+		e e e e e e e e e e e e e e e e %140
+		e e e e e e f f e e f f e e e e
+		e8 a, g! f e d c b!
+		a g a b c d e c
+		f f c' c, f g a b
+		c16 g' g g a a a a f f f f g g g g %145
+		e e e e f f f f d d d d e e e e
+		c c' c c c d c b c c c c c c c c
+		c c c c c c c c c2
+		R1
+		r2 r16 e, e e e e e e %150
+		e4 r r16 f f f f f f f
+		e e e e e e e e d a' a a a a a a
+		g g g g g g g g e e e e e e e e
+		f2 r
+		r r16 f f f f f f f %155
+		f f f f f f f f f f f f f f f f
+		f2 r
+		r r16 c' c c c c c c
+		c c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c %160
+		h h h h g g g g g g g g g g g g
+		g g g g g g g g f f f f f f f f
+		f f f f f f f f f f f f f f f f
+		f f f f g g g g c, c c c c c c c
+		d f f f f f f f g g g g g g g g %165
+		a a a a a a a a g g g g g g g g
+		a a a a b b b b g g g g g g g g
+		a f f f f f f f e c' c c c c c c
+		c2 r\fermata \bar "|." %169 FINIS
 	}
 }
 
