@@ -1121,7 +1121,58 @@ SanctusViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoSanctus
-		
+		r4 fis'8\fE fis e16 a, cis e a8 a
+		a a gis gis a a, a'4~
+		a g2 fis8 fis
+		g g g g a a g g
+		g g g g fis ais ais8.( gis?32 ais) %5
+		h8 fis h a g g g g
+		g8.( fis32 g) a8 g fis fis a a
+		h h h h h h d, d
+		d d d cis16 h cis a e cis a g' fis e
+		d8 << { fis'16 fis fis8 fis16 e } \\ { a,16 a a8 a } >> d16 h fis d h d fis h %10
+		d8 d16 d d8 dis? e16 h' g e h g h e
+		e8 e d d d d cis cis
+		d d4 c8 h16 d cis e d8 fis
+		e e fis fis e e e e \noBreak
+		d fis,32( g fis g) a8 fis fis4 r \bar "||" %15
+		\time 3/4 \tempoOsanna \newSpacingSection
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4 \noBreak
+			R2.
+		r8 fis'\p a fis g4
+		g( fis8) d a' fis
+		g( e) g g fis d
+		g( e) g g fis a %20
+		gis4 gis8 fis16 e a4~
+		a gis8 fis gis4
+		a r r
+		r8 cis,( e cis) d4
+		d( cis8) a e' cis %25
+		d( h) d d-! cis-! a-!
+		d( h) d d-! cis-! a-!
+		dis4. cis16 h e8 e
+		e2 d4
+		cis8 cis cis cis cis cis %30
+		h h\fE d h fis' h
+		h8. a16 g8 e e a
+		a8. g16 fis8 d d fis
+		e e e e e e
+		e8. d16 cis4 e %35
+		e8 cis e g fis a
+		g e g e fis4
+		e8. d16 e4 fis
+		g8 e g e fis d
+		e cis e g fis a %40
+		g e g e g e
+		fis4 g8.( fis32 g) a4
+		h8 g e2\trill
+		d8 fis a d d c
+		h4. h8 d h %45
+		a4. a8 d a
+		g4. g8 a g
+		fis4. fis8 a fis
+		e e e e e e
+		d4 d, r\fermata \bar "||" %50 finis
 	}
 }
 
