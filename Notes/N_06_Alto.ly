@@ -1126,12 +1126,100 @@ SanctusAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
-		
+		\mvTr fis2\fE^\tuttiE e
+		d4 e e cis(
+		d2 e4 d8[ fis]
+		e2) d
+		R1 %5
+		r4 h'2 h8 h
+		a2 a
+		g( h
+		e,4.) e8 e4 r
+		a8 a16 a a8 a16 a h8 h r4 %10
+		fis8 fis16 fis fis8 fis16 fis g8 g e4
+		fis2 e
+		fis8[ a g fis] d[ e] fis fis
+		e4( fis e2) \noBreak
+		d r \bar "||" %15
+		\time 3/4 \tempoOsanna \newSpacingSection
+			\set Timing.measurePosition = #(ly:make-moment -1/4) \mvTr a'4\pE^\soloE \noBreak
+		fis8.([ g16] a4) h \noBreak
+		a( fis) g
+		g fis fis
+		g2 fis4
+		g2 fis4 %20
+		gis4. fis16[ e] a4~
+		a gis8[ fis] gis4
+		a r r
+		R2.*7 %30
+		r4 r \mvTr fis\fE^\tuttiE
+		g8.([ a16)] h4 a
+		a a r
+		h2 h4
+		a4 a a %35
+		g2 fis4
+		e2 a4
+		a a fis
+		e2 fis4
+		g2 fis4 %40
+		e2.
+		fis4 g a
+		h a2
+		a4 a a
+		g2 g4 %45
+		d2 a'4
+		h2 a4
+		a2.
+		g
+		fis2 r4\fermata \bar "||" %50 finis
 	}
 }
 
 SanctusAltoLyrics = \lyricmode {
+	San -- _
+	_ _ ctus, San --
 	
+	ctus
+	%5
+	Do -- mi -- nus
+	De -- us
+	Sa -- 
+	ba -- oth.
+	[Ple -- ni sunt coe -- li et ter -- ra, %10
+	ple -- ni sunt coe -- li et ter -- ra glo --
+	_ _
+	_ _ ri -- a
+	tu --
+	a.] %15
+	O -- san -- na
+	in __ ex --
+	cel -- sis, o --
+	san -- na
+	in ex -- %20
+	cel -- _ _
+	_ _
+	sis.
+	
+	O -- %31
+	san -- na, o --
+	san -- na
+	[in ex --
+	cel -- sis, o -- %35
+	san -- na
+	in ex --
+	cel -- sis, o --
+	san -- na
+	in ex -- %40
+	cel --
+	_ _ _
+	_ _
+	sis, in ex --
+	cel -- _ %45
+	_ _
+	_ _
+	_
+	_
+	sis.] %50 finis
 }
 
 % AltoNotes = {

@@ -1364,8 +1364,8 @@ SanctusSopranoINotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
-		r4 \mvTr d'2(\fE^\tuttiE cis4
-		d2) cis4 r
+		r4 \mvTr d'2\fE^\tuttiE cis4
+		d2 cis4 r
 		r2 r4 d~
 		d c2 h4~
 		h cis8[ h] ais2 %5
@@ -1415,8 +1415,8 @@ SanctusSopranoINotes = {
 }
 
 SanctusSopranoILyrics = \lyricmode {
-	San --
-	ctus,
+	San -- _
+	_ ctus,
 	San --
 	_ _
 	_ _ %5
