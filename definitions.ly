@@ -188,6 +188,7 @@ tempoCrucifixus = \tempoMarkup "Largo e spiccato"
 tempoEtResurrexit = \tempoMarkup "Vivace"
 
 tempoSanctus = \tempoMarkup "Adagio"
+	tempoOsanna = \tempoMarkup "Allegro"
 
 
 % modify the Scheme function 'format-bass-figure'

@@ -2539,11 +2539,111 @@ SanctusOrgano = {
 		\clef bass
 		\key d \major \time 4/4 \tempoSanctus
 		\mvTr d8\fE-\tuttiE d d d a' a a a
+		h h h h a4 \clef "treble_8" a
+		h4. e8 cis a \clef bass d,4
+		e8 e e a fis d g fis
+		e e e e fis fis, fis' e %5
+		dis dis dis dis e e, e' d
+		cis cis cis cis d d fis fis
+		g g g g gis gis gis gis
+		a a, a a a4 a'16 g fis e
+		d8 d d d16 cis h8 h h h %10
+		h h' h h16 a g8 g g g
+		fis fis h a gis e a g
+		fis d e fis g g fis d
+		a' a, a a a a a a
+		d d, d d d4 r \bar "||" %15
+		\time 3/4 \tempoOsanna \newSpacingSection
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4
+			\mvTr d'2\pE-\solo g4
+		d2 cis4
+		d2 d'4
+		cis a d
+		cis a d %20
+		d2 cis4
+		h h h
+		a a, d
+		a2 gis4
+		a a a' %25
+		gis e a
+		gis e a
+		a a g
+		fis gis8 ais h d,
+		e e fis fis fis, fis %30
+		h2 \mvTr h'4\fE-\tutti
+		g8. fis16 e4 a
+		fis8. e16 d4 d
+		g g gis
+		a a, a' %35
+		a2.
+		a
+		a
+		a
+		a %40
+		a4 a a,
+		d e fis
+		g a a,
+		d d d
+		d2. %45
+		d
+		d
+		d
+		a'4 a a,
+		d d, r\fermata \bar "||" %50 finis
 	}
 }
 
 SanctusBassFigures = \figuremode {
-	
+	r2 <4>4 <3>
+	<7> <6+> r2
+	<7>4 <6!> r2
+	<7>4 <6> r2
+	r4 <6+>8 <[5]> <_+>2 %5
+	<6>4 <5!> <9 4> <8 3>
+	<6 5>2 <4>4 <6>
+	r2 <6 5>
+	<4 2>2 <3>
+	r1 %10
+	r2 <6>
+	<7 _+>2 <6 5>
+	<6>4 <7>8 <5!> <3> <4+> <6>4
+	<5 3> <6 4> <5 4> <\l 3>
+	r1 %15
+	r4 r2.
+	r2 <5>4
+	<4> <3> r
+	r2.
+	r %20
+	<4+>4 <6>2
+	<7>2 <6+>4
+	r2.
+	r
+	<4>4 <3> r %25
+	r2.
+	r
+	<4 2+>2 <6>4
+	<7 _+>2.
+	<6 5>4 <5 _+>2 %30
+	r2.
+	<6>
+	q
+	<6 5>
+	r %35
+	<5 3>2 <6 4>4
+	<7 5>2 <6 4>4
+	<5 3>2 <6 4>4
+	<5 3>2 <6 4>4
+	<7 5>2 <6 4>4 %40
+	<5 3> <7 5> r
+	<9> <7>8 <6> q4
+	<6 5>2.
+	r2 <7!>4
+	<6 4>2. %45
+	<5 4>4 <\l 3>2
+	<4 3>4 <2>2
+	<9 4>4 <8 3>2
+	<5 4>4 <\l 3> r
+	r2. %50 finis
 }
 
 % Organo = {
