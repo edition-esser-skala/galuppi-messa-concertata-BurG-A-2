@@ -787,7 +787,7 @@ EtResurrexitSopranoIINotes = {
 		r2 \mvTr a8\fE^\tuttiE a h h
 		a4 h a h
 		a c8 c a a c c
-		a4 c c8 h? a c %135
+		a4 c c8 b a c %135
 		h4 c8 c c4( h)
 		c2 r
 		r \mvTr a\pE^\soloE
