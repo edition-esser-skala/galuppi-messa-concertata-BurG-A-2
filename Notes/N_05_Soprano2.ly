@@ -905,12 +905,102 @@ SanctusSopranoIINotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
-		
+		\once \tieDashed \mvTr a'1~\fE^\tuttiE
+		a4 gis a a~
+		a g2 fis8[ a]
+		g2 a4 g~
+		g2 fis4 fis'~ %5
+		\once \tieDashed fis2~ fis8[ e16 dis] \once \tieDashed e4~
+		e2~ e8[ d16 cis] d4
+		d d8 d d4 h
+		h4. a16[( gis]) a4 r
+		d8 d16 d d8 a16 a h8 h r4 %10
+		h8 h16 h h8 h16 h h8 h h4
+		ais h2 \once\tieDashed a4~
+		a8[ fis g a] g[ a] a a
+		a2~ a4. g8 \noBreak
+		fis2 r \bar "||"
+		\time 3/4 \tempoOsanna \newSpacingSection
+			\set Timing.measurePosition = #(ly:make-moment -1/4) r4 \noBreak
+			R2.*6 %21
+		r4 r \mvTr e\pE^\soloE
+		a8.([ h16] cis4) d4
+		cis( a) h
+		h a a %25
+		h2 a4
+		h2 a4
+		fis2 h4
+		ais h8[ cis] \once \tieDashed h4~
+		h ais2 %30
+		h \mvTr h4\fE^\tuttiE
+		h8.([ a16)] g4 e
+		a8.([ g16)] fis4 r
+		d'2 d4
+		cis8.([ h16)] a4 cis %35
+		cis2 d4
+		e2 d4
+		cis8.([ h16)] cis4 d
+		e2 d4
+		cis2 d4 %40
+		\once \tieDashed e2.~
+		e4 d8[ cis] \once \tieDashed d4~
+		d cis8[ h] cis4
+		d d c
+		h2. %45
+		a
+		g
+		fis
+		e
+		d2 r4\fermata \bar "||" %50 finis
 	}
 }
 
 SanctusSopranoIILyrics = \lyricmode {
+	San --
+	_ ctus, San --
+	_ _
+	_ _ _
+	ctus, San -- %5
+	_
+	ctus
+	Do -- mi -- nus De -- us
+	Sa -- ba -- oth.
+	[Ple -- ni sunt coe -- li et ter -- ra, %10
+	ple -- ni sunt coe -- li et ter -- ra glo --
+	_ _ _
+	_ ri -- a
+	tu -- _
+	a.] %15
 	
+	O -- %22
+	san -- na
+	in __ ex --
+	cel -- sis, o -- %25
+	san -- na
+	in ex --
+	cel -- _
+	_ _ _
+	_ %30
+	sis. O --
+	san -- na, o --
+	san -- na
+	[in ex --
+	cel -- sis, o -- %35
+	san -- na
+	in ex --
+	cel -- sis, o --
+	san -- na
+	in ex -- %40
+	cel --
+	_ _
+	_ _
+	sis, in ex --
+	cel -- %45
+	_
+	_
+	_
+	_
+	sis.] %50 finis
 }
 
 % SopranoIINotes = {
