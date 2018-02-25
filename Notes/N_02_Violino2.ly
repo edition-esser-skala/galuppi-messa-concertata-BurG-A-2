@@ -943,7 +943,7 @@ EtResurrexitViolinoII = {
 		a r r
 		R2.*4 %101
 		d4 f2
-		e4 e2
+		f4^\critnote e2
 		e4 d d
 		d2 d4 %105
 		cis4. cis8 d^\critnote cis

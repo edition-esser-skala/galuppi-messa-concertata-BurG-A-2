@@ -1047,7 +1047,7 @@ EtResurrexitViolinoI = {
 		e r r
 		R2.*4 %101
 		f4 a2
-		g4 g2
+		a4^\critnote g2
 		g4 f f
 		e e e %105
 		e4. e8 f e

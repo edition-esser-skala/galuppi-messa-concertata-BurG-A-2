@@ -1029,7 +1029,104 @@ EtResurrexitViola = {
 % 		\clef treble
 		\key f \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #67
-		
+		R2.
+		c'8\fE c c c c c
+		c2 r4
+		R2.*3 %72
+		g8 g g g g g
+		g4 g r
+		c c c %75
+		c2 c4
+		g d' c
+		c c a
+		b b e,
+		a a d, %80
+		g2 f4
+		R2.
+		c'8 c c c c c
+		c2 c4
+		d r r %85
+		cis r r
+		d r r
+		b r r
+		a r r
+		c! r r %90
+		e, r r
+		a r r
+		d, r r
+		e r r
+		f r r %95
+		g r r
+		a r r
+		R2.*4 %101
+		r4 d, d
+		h e e
+		c f f
+		b! b b %105
+		a2 a4
+		a a2 \noBreak
+		a2.\fermata \bar "||"
+		\time 4/4 \newSpacingSection r2 r16 c\fE c c c c c c \noBreak
+		d8 b,16 c d8 b es c f f, %110
+		b c d es f16 c' c c c c c c
+		b b b b b b b b a a a a a a a a
+		f8 es f es d16 b' b b b b b b
+		c c c c c c c c d d d d d d d d
+		c c c c c c c c c c c c c c c c %115
+		c c c c c c c c c c c c c c c c
+		c c c c c c c c c, c c c c c c c
+		d d d d d d d d f f f f f f f f
+		b4 b b, b
+		a r r16 d' d d c c c c %120
+		d4 r r2
+		R1
+		r16 d d d d d d d c4 r
+		b,8 b' g g f e f f,
+		c' d e c g' f g g, %125
+		c c f, b c b c c,
+		f16 f' f f f f f f d d' d d c c c c
+		c c c c c c c c g g g g g g a a
+		h h d d g, g g g e8 c16 d e8 c
+		f e f f, c' d e c %130
+		f d e f d c d g,
+		c16 a' a a a a h h c^\critnote c c c h h h h
+		c c c c h h h h c c c c h h h h
+		c c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c %135
+		h h h h c c c c d d d d g, g g g
+		e a a a a a a a c c c c c c c c
+		h h h h h h h h c8 a,16 h c8 a
+		gis fis? gis e a a g? f?
+		e e gis fis? e e16 fis? gis8 e %140
+		a gis a d, e d e e
+		a16 c' c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c
+		c8 c,16 b a8 f b a g e %145
+		a g f d g f e c
+		f g a b c16 e e e f f f f
+		g g g g g g g g a2
+		R1
+		r2 r16 a a a a a a a %150
+		cis4 r r16 d d d d d d d
+		cis? cis cis cis cis cis cis cis a d d d d d d d
+		b b b b g g g g a a a a a a a a
+		a2 r
+		r r16 c c c c c c c %155
+		d d d d c c c c d d d d d d d d
+		c2 r
+		r r16 g g g g g g g
+		a a a a g g g g a a a a a a a a
+		g g g g g g g g f f f f f f f f %160
+		d d d d c c c c d d d d d d d d
+		c c' c c c c c c c c c c c c c c
+		d d d d d d d d c c c c c c c c
+		d d d d b b b b b b b b a a a a
+		b b b b c c c c c c c c c c c c %165
+		c c c c c c c c c c c c c c c c
+		c c c c d d d d c c c c c c c c
+		c a a a a a a a g e e e e e e e
+		f2 r\fermata \bar "|." %169 FINIS
 	}
 }
 
