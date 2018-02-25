@@ -2611,7 +2611,7 @@ SanctusBassFigures = \figuremode {
 	r1 %15
 	r4 r2.
 	r2 <5>4
-	<4> <3> r
+	<4 [2]> <3> r
 	<[5]>2.
 	q %20
 	<4+>2 <6>4

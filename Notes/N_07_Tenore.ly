@@ -1000,12 +1000,100 @@ SanctusTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
-		
+		\mvTr d2\fE^\tuttiE a
+		d4 h e a,
+		h4. e8 cis[ a] d4
+		h e a, h~
+		h e8[ d] cis2 %5
+		fis4 fis8 fis h,4 h
+		e2 a,4 d~
+		d g \once \tieDashed e2~
+		e4. e8 e4 r
+		d8 d16 d d8 d16 e fis8 fis r4 %10
+		d8 d16 d fis8 fis16 fis e8 e h4
+		cis d h e
+		d8[ fis e d] d[ e] d d
+		e4( d a2) \noBreak
+		a r \bar "||" %15
+		\time 3/4 \tempoOsanna \newSpacingSection
+			\set Timing.measurePosition = #(ly:make-moment -1/4) \mvTr a4\pE^\soloE \noBreak
+		d8.([ e16] fis4) g
+		fis( d) e
+		e d d
+		e2 d4
+		e2 d4 %20
+		h4 e2
+		d2.
+		cis4 r r
+		R2.*7 %30
+		r4 r \mvTr d\fE^\tuttiE
+		e e e
+		d d r
+		e2 e4
+		e e e %35
+		e2 d4
+		cis2 d4
+		a' a, d
+		cis2 d4
+		e2 d4 %40
+		cis2.
+		\once \tieDashed d~
+		d4 a2
+		a4 d d
+		d2. %45
+		d
+		R
+		r4 d a
+		a2.
+		a2 r4\fermata \bar "||" %50 finis
 	}
 }
 
 SanctusTenoreLyrics = \lyricmode {
+	San -- _
+	_ _ ctus, San --
+	_ _ _ _
+	_ _ _ _
+	_ ctus %5
+	Do -- mi -- nus De -- us
+	Sa -- _ _
+	_ _
+	ba -- oth.
+	[Ple -- ni sunt coe -- li et ter -- ra, %10
+	ple -- ni sunt coe -- li et ter -- ra glo --
+	_ _ _ _
+	_ _ ri -- a
+	tu --
+	a.] %15
+	O -- san -- na
+	in __ ex --
+	cel -- sis, o --
+	san -- na
+	in ex -- %20
+	cel -- _
+	_
+	sis.
 	
+	O -- %31
+	san -- na, o --
+	san -- na
+	[in ex --
+	cel -- sis, o -- %35
+	san -- na
+	in ex --
+	cel -- sis, o --
+	san -- na
+	in ex -- %40
+	cel] --
+	_
+	_
+	sis, in ex --
+	cel -- %45
+	sis,
+	
+	in ex --
+	cel --
+	sis. %50 finis
 }
 
 % TenoreNotes = {
