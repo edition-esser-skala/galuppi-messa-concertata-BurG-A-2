@@ -187,6 +187,8 @@ tempoCredo = \tempoMarkup "Vivace"
 tempoCrucifixus = \tempoMarkup "Largo e spiccato"
 tempoEtResurrexit = \tempoMarkup "Vivace"
 
+tempoSanctus = \tempoMarkup "Adagio"
+
 
 % modify the Scheme function 'format-bass-figure'
 % in usr/share/lilypond/current/scm/translation-functions.scm

@@ -1013,6 +1013,14 @@ EtResurrexitViolinoII = {
 	}
 }
 
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoSanctus
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

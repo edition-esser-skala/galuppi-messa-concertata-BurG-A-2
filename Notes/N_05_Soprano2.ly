@@ -901,6 +901,18 @@ EtResurrexitSopranoIILyrics = \lyricmode {
 	men.] %169 FINIS
 }
 
+SanctusSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoIINotes = {
 % 	\relative c' {
 % 		\clef treble

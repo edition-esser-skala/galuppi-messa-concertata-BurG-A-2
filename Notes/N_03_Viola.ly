@@ -1130,6 +1130,15 @@ EtResurrexitViola = {
 	}
 }
 
+SanctusViola = {
+	\relative c' {
+		\clef alto
+% 		\clef treble
+		\key d \major \time 4/4 \tempoSanctus
+		
+	}
+}
+
 % Viola = {
 % 	\relative c' {
 % % 		\clef alto
