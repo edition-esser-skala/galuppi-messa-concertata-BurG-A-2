@@ -2647,11 +2647,91 @@ SanctusBassFigures = \figuremode {
 }
 
 BenedictusOrgano = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 	\relative c {
 		\clef bass
 		\key a \major \time 2/4 \tempoBenedictus
 			\set Score.currentBarNumber = #51
-		\mvTr a4\pE^\soloE r
+		\mvTr a4\pE-\soloE r
+		r8 d cis a
+		r a' cis d
+		r d, fis a
+		h4 gis %55
+		a8 a, cis a
+		e'4 r
+		r8 h'16 a gis8 a
+		e4 r
+		r8 h'16 a gis8 a %60
+		d, d e e
+		fis fis gis gis
+		a d, e e,
+		a a' a, r
+		a4 r %65
+		r8 d cis a
+		r a cis d
+		r d' d cis
+		h4 e,
+		a8 a, cis a %70
+		h4 h
+		h8 h e e
+		fis fis fis fis
+		d d d d
+		e e e e %75
+		gis gis gis gis
+		a a a ais
+		h h, h e
+		h4 r
+		r8 fis'16 e dis8 e %80
+		h4 r
+		r8 fis'16 e dis8 e
+		a,4 h
+		cis8 gis a h
+		e4 r %85
+		r8 a gis e
+		r e gis a
+		r a a gis
+		r fis dis h
+		e a h h, %90
+		e e, e' r
+		e e e e
+		h e e,4
+		r8 e' e d
+		cis cis cis cis %95
+		d fis16 e d8 r
+		r a cis d
+		r d' d cis
+		h4 gis
+		a8 a, a' g %100
+		fis d cis a
+		d d d d
+		cis cis a a
+		h h gis gis
+		a a cis dis %105
+		e e e a
+		e4 r
+		r8 h'16 a gis8 a
+		e4 r
+		r8 h'16 a gis8 a %110
+		d, d e e
+		fis d e e,
+		a a' gis a
+		r fis e dis
+		e2\fermata %115
+		a8 a, cis a
+		e'4 r
+		r8 h'16 a gis8 a
+		e4 r
+		r8 h'16 a gis8 a %120
+		d, d e e
+		fis fis gis gis
+		a d, e e,
+		a a' a, r\fermata
+			\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+			\mark \markup { \remark "Osanna ut supra" } \bar "||" %124 finis
 	}
 }
 
