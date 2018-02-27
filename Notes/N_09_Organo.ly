@@ -2656,21 +2656,21 @@ BenedictusOrgano = {
 		\clef bass
 		\key a \major \time 2/4 \tempoBenedictus
 			\set Score.currentBarNumber = #51
-		\mvTr a4\pE-\soloE r
+		\mvTr a4\fE-\soloE r
 		r8 d cis a
 		r a' cis d
 		r d, fis a
 		h4 gis %55
-		a8 a, cis a
+		a8 a, cis a\pE
 		e'4 r
 		r8 h'16 a gis8 a
 		e4 r
-		r8 h'16 a gis8 a %60
+		r8 h'16 a gis8 a\fE %60
 		d, d e e
 		fis fis gis gis
 		a d, e e,
 		a a' a, r
-		a4 r %65
+		a4\pE r %65
 		r8 d cis a
 		r a cis d
 		r d' d cis
@@ -2690,14 +2690,14 @@ BenedictusOrgano = {
 		r8 fis'16 e dis8 e
 		a,4 h
 		cis8 gis a h
-		e4 r %85
+		e4\fE r %85
 		r8 a gis e
 		r e gis a
 		r a a gis
 		r fis dis h
 		e a h h, %90
 		e e, e' r
-		e e e e
+		e\pE e e e
 		h e e,4
 		r8 e' e d
 		cis cis cis cis %95
@@ -2721,7 +2721,7 @@ BenedictusOrgano = {
 		a a' gis a
 		r fis e dis
 		e2\fermata %115
-		a8 a, cis a
+		a8\fE a, cis a
 		e'4 r
 		r8 h'16 a gis8 a
 		e4 r

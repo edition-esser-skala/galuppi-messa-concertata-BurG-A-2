@@ -1272,7 +1272,7 @@ BenedictusAltoNotes = {
 		cis16 h h8 r4
 		r r8 gis'16([ h)]
 		a([ d,)] d8 r4
-		r r8 gis'16([ h)]
+		r r8 gis16([ h)]
 		a([ d,)] d4 cis8 %110
 		fis( \tuplet 3/2 8 { fis16[ gis a)] gis([ fis e)] d([ cis h)] }
 		a4. h8

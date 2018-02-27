@@ -1181,7 +1181,80 @@ BenedictusViolinoI = {
 		\clef treble
 		\key a \major \time 2/4 \tempoBenedictus
 			\set Score.currentBarNumber = #51
-		
+		a''8.(\fE gis32 fis) e8 e
+		fis4 e8 a
+		gis32( a16.) a4 fis8
+		eis32( fis16.) fis4 e8
+		d cis16 d e8 d %55
+		d( cis) r cis\p
+		\tuplet 3/2 8 { h16[ cis d] h cis d } cis( a') gis( h)
+		a( d,) d4 cis8
+		\tuplet 3/2 8 { h16[ cis d] h cis d } cis( a') gis( h)
+		a( d,) d4 cis8\f %60
+		<fis a, d,> \tuplet 3/2 8 { fis16[ gis a] gis fis e d[ cis h]
+		a[ h cis] a gis fis e[ gis h] d, cis h
+		a[ a' e] fis d h } cis8 h
+		a a' a, r
+		a''8.\p( gis32 fis) e8 e %65
+		fis4( e8) a
+		gis32 a16. a4 fis8
+		eis32 fis16. fis4 e8
+		d cis16 d e8 d
+		d16 cis cis8 a'16 e e e %70
+		dis( fis) fis-! h,-! e( gis) gis-! h,-!
+		fis'( a) a-! h,-! gis'8 h
+		a a a a
+		a16( fis a fis) fis8 a
+		gis16( e gis e) gis8 gis %75
+		h,16( e gis h) h8 h
+		a a4 gis8
+		gis16 fis fis8 r gis
+		\tuplet 3/2 8 { fis16([ gis a)] fis( gis a) } gis( h) fis( a)
+		gis a a4 gis8 %80
+		\tuplet 3/2 8 { fis16([ gis a)] fis( gis a) } gis e dis fis
+		e a, a4 gis8
+		<cis e,> \tuplet 3/2 8 { cis16[ dis e] dis cis h a[ gis fis] }
+		e8 e'32 dis? e fis fis4\trill
+		e8.\f( dis?32 cis) h8 h %85
+		cis4 h8 e
+		dis32( e16.) e4 cis8
+		his32( cis16.) cis4 h8
+		gis32( a16.) a4 a8
+		\tuplet 3/2 8 { gis16[ e' h] cis a fis } gis8 fis %90
+		e e' e, r
+		r e'\p g h
+		a g e16 h e g
+		g( e) g( e) g8 g
+		g16 e g e e8 g %95
+		fis16 e d8 r a'
+		gis!32( a16.) a4 fis8
+		eis32( fis16.) fis4 e8
+		d cis16 d e8 d
+		d16 cis cis8 e16 cis cis a %100
+		d( fis) fis-! a,-! e'( g) g-! a,-!
+		fis'( a) a-! d,-! gis( h) h( gis)
+		a( e) a( e) e8 e
+		d16 h d h d8 d
+		cis16( e) e( a) a8 cis, %105
+		cis16 h h8 r cis
+		\tuplet 3/2 8 { h16( cis d) h( cis d) } cis a' gis h
+		a d, d4 cis8
+		\tuplet 3/2 8 { h16( cis d) h( cis d) } cis a' gis h
+		a d, d4 cis8 %110
+		<fis a, d,> \tuplet 3/2 8 { fis16[ gis a] gis fis e d[ cis h] }
+		a8 d16 h h4\trill
+		a8 cis d cis
+		cis\f a'4 a8
+		a r r4\fermata %115
+		r r8 cis,
+		\tuplet 3/2 8 { h16[ cis d] h cis d } cis a' gis h
+		a d, d4 cis8
+		\tuplet 3/2 8 { h16[ cis d] h cis d } cis a' gis h
+		a d, d4 cis8 %120
+		<fis a, d,> \tuplet 3/2 8 { fis16[ gis a] gis fis e d[ cis h]
+		a[ h cis] a gis fis e[ gis h] d, cis h
+		a[ a' e] fis d h } cis8 h
+	a a' a, r\fermata \markOsanna \bar "||" %124 FINIS
 	}
 }
 
