@@ -1196,7 +1196,80 @@ BenedictusViola = {
 		\clef treble
 		\key a \major \time 2/4 \tempoBenedictus
 			\set Score.currentBarNumber = #51
-		
+		e4\fE r8 cis
+		d a a r
+		r cis e a,
+		r a' d cis
+		h4. h8 %55
+		e, e e e\pE
+		e4 r
+		r8 e e e
+		e4 r
+		r8 e e e\fE %60
+		d d h gis
+		a a h h
+		cis h a gis
+		a a' a, r
+		a4\pE r %65
+		r8 d cis a
+		r a cis d
+		r d' d cis
+		h4 e,
+		a8 a, cis a %70
+		h4 h
+		h8 h e e
+		fis fis fis fis
+		dis? dis dis dis
+		e e e e %75
+		gis gis gis gis
+		a a a ais
+		h h, h e
+		h4 r
+		r8 h h h %80
+		h4 r
+		r8 h h h
+		a r h r
+		cis h cis h
+		h4\fE r8 gis' %85
+		r e e gis
+		r gis h e,
+		r e e e
+		r cis fis dis
+		h fis' e dis %90
+		e e, e' r
+		e\pE e e e
+		h e e,4
+		r8 e' e d
+		cis cis cis cis %95
+		d fis16 e d8 r
+		r a cis d
+		r d' d cis
+		h4 gis
+		a8 a, a' g %100
+		fis d cis a
+		d d d d
+		cis cis a a
+		h h gis gis
+		a a cis dis %105
+		e e e a
+		e4 r
+		r8 e e e
+		e4 r
+		r8 e e e %110
+		d d e e
+		fis d e e,
+		a a' gis a
+		r fis e dis
+		e2\fermata %115
+		r8 cis\fE e e
+		e4 r
+		r8 e e e
+		e4 r
+		r8 e e e %120
+		a, d h gis'
+		a a, h e
+		cis h a gis
+		a a' a, r\fermata \markOsanna \bar "||" %124 FINIS
 	}
 }
 
