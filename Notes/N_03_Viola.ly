@@ -1192,8 +1192,8 @@ SanctusViola = {
 
 BenedictusViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key a \major \time 2/4 \tempoBenedictus
 			\set Score.currentBarNumber = #51
 		e4\fE r8 cis

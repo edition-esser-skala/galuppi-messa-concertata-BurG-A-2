@@ -85,6 +85,7 @@
 		\header {
 			movement = "4.2 BENEDICTUS"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -121,7 +122,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }
