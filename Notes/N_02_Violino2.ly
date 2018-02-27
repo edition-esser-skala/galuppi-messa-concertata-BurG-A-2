@@ -1073,6 +1073,11 @@ SanctusViolinoII = {
 }
 
 BenedictusViolinoII = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 	\relative c' {
 		\clef treble
 		\key a \major \time 2/4 \tempoBenedictus
@@ -1151,6 +1156,14 @@ BenedictusViolinoII = {
 		a[ h cis] a gis fis e[ gis h] d, cis h
 		a[ a' e] fis d h } cis8 h
 		a a' a, r\fermata \markOsanna \bar "||" %124 FINIS
+	}
+}
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoAgnusDei
+		
 	}
 }
 

@@ -1191,6 +1191,11 @@ SanctusViola = {
 }
 
 BenedictusViola = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 	\relative c' {
 		\clef alto
 % 		\clef treble
@@ -1270,6 +1275,15 @@ BenedictusViola = {
 		a a, h e
 		cis h a gis
 		a a' a, r\fermata \markOsanna \bar "||" %124 FINIS
+	}
+}
+
+AgnusDeiViola = {
+	\relative c' {
+% 		\clef alto
+		\clef treble
+		\key d \major \time 3/4 \tempoAgnusDei
+		
 	}
 }
 

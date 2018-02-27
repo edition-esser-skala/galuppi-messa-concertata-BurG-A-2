@@ -1367,17 +1367,17 @@ SanctusBassoLyrics = \lyricmode {
 	sis. %50 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiassoLyrics = \lyricmode {
+	
+}
 
 % BassoNotes = {
 % 	\relative c {

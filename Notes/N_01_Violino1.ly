@@ -1177,6 +1177,11 @@ SanctusViolinoI = {
 }
 
 BenedictusViolinoI = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 	\relative c' {
 		\clef treble
 		\key a \major \time 2/4 \tempoBenedictus
@@ -1258,14 +1263,14 @@ BenedictusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
-% 
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoAgnusDei
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

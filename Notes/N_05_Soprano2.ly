@@ -1003,14 +1003,14 @@ SanctusSopranoIILyrics = \lyricmode {
 	sis.] %50 finis
 }
 
-% SopranoIINotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoIILyrics = \lyricmode {
-% 	
-% }
+AgnusDeiSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiSopranoIILyrics = \lyricmode {
+	
+}
