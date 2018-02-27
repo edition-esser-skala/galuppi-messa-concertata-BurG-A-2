@@ -1077,7 +1077,80 @@ BenedictusViolinoII = {
 		\clef treble
 		\key a \major \time 2/4 \tempoBenedictus
 			\set Score.currentBarNumber = #51
-		
+		a''8.(\fE gis32 fis) e8 e
+		fis4 e8 a
+		gis32( a16.) a4 fis8
+		eis32( fis16.) fis4 e8
+		d cis16 d e8 d %55
+		d( cis) r a\p
+		\tuplet 3/2 8 { gis16[ a h] gis a h } a cis h d
+		cis h h4 a8
+		\tuplet 3/2 8 { gis16[ a h] gis a h } a cis h d
+		cis h h4 a8\f %60
+		<fis' a, d,> \tuplet 3/2 8 { fis16[ gis a] gis fis e d[ cis h]
+		a[ h cis] a gis fis e[ gis h] d, cis h
+		a[ a' e] fis d h } cis8 h
+		a a' a, r
+		cis'4\p r8 cis %65
+		d a4 a8
+		h16 cis cis8 e a,
+		r a a a
+		a4 gis
+		a8 a a cis %70
+		fis, dis'? gis, e'
+		dis fis e gis
+		fis cis cis cis
+		h h h h
+		h h h h %75
+		h e e e
+		fis fis4 e8
+		e16 dis dis8 r e
+		\tuplet 3/2 8 { dis16[ e fis ] dis e fis } e gis dis fis
+		e fis fis4 e8 %80
+		\tuplet 3/2 8 { dis16[ e fis ] dis e fis } e gis, fis a
+		gis fis fis4 e8
+		e \tuplet 3/2 8 { a16[ h cis] h a gis fis[ e dis] }
+		e8 e'32 dis? e fis e8 dis\trill
+		e8.\f( dis?32 cis) h8 h %85
+		cis4 h8 e
+		dis32( e16.) e4 cis8
+		his32( cis16.) cis4 h8
+		gis32( a16.) a4 a8
+		\tuplet 3/2 8 { gis16[ e' h] cis a fis } gis8 fis %90
+		e e' e, r
+		r h'\p e g
+		fis e h16 g h e
+		h8 h h h
+		a a a a %95
+		a a16 g fis8 r
+		r cis' e a,
+		r a a a
+		fis4 h
+		e,8 e e e %100
+		a a a e'
+		d16 fis fis d h gis! gis h
+		a8 a a a
+		fis fis e h'
+		a16 cis cis e e8 a, %105
+		a16 gis gis8 r a
+		\tuplet 3/2 8 { gis16[ a h] gis a h } a cis h d
+		cis h h4 a8
+		\tuplet 3/2 8 { gis16[ a h] gis a h } a cis h d
+		cis h h4 a8 %110
+		a4 r8 \tuplet 3/2 8 { h16 a gis }
+		a8 a a gis
+		a a h a
+		a\f cis4 cis8
+		cis r r4\fermata %115
+		r r8 a
+		\tuplet 3/2 8 { gis16[ a h] gis a h } a cis h d
+		cis h h4 a8
+		\tuplet 3/2 8 { gis16[ a h] gis a h } a cis h d
+		cis h h4 a8 %120
+		<fis' a, d,> \tuplet 3/2 8 { fis16[ gis a] gis fis e d[ cis h]
+		a[ h cis] a gis fis e[ gis h] d, cis h
+		a[ a' e] fis d h } cis8 h
+		a a' a, r\fermata \markOsanna \bar "||" %124 FINIS
 	}
 }
 

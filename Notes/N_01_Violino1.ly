@@ -1237,9 +1237,9 @@ BenedictusViolinoI = {
 		d16 h d h d8 d
 		cis16( e) e( a) a8 cis, %105
 		cis16 h h8 r cis
-		\tuplet 3/2 8 { h16( cis d) h( cis d) } cis a' gis h
+		\tuplet 3/2 8 { h16([ cis d)] h( cis d) } cis a' gis h
 		a d, d4 cis8
-		\tuplet 3/2 8 { h16( cis d) h( cis d) } cis a' gis h
+		\tuplet 3/2 8 { h16([ cis d)] h( cis d) } cis a' gis h
 		a d, d4 cis8 %110
 		<fis a, d,> \tuplet 3/2 8 { fis16[ gis a] gis fis e d[ cis h] }
 		a8 d16 h h4\trill
@@ -1254,7 +1254,7 @@ BenedictusViolinoI = {
 		<fis a, d,> \tuplet 3/2 8 { fis16[ gis a] gis fis e d[ cis h]
 		a[ h cis] a gis fis e[ gis h] d, cis h
 		a[ a' e] fis d h } cis8 h
-	a a' a, r\fermata \markOsanna \bar "||" %124 FINIS
+		a a' a, r\fermata \markOsanna \bar "||" %124 FINIS
 	}
 }
 
