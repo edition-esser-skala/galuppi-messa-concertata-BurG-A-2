@@ -2679,7 +2679,7 @@ BenedictusOrgano = {
 		h4 h
 		h8 h e e
 		fis fis fis fis
-		d d d d
+		dis? dis dis dis
 		e e e e %75
 		gis gis gis gis
 		a a a ais
@@ -2730,13 +2730,85 @@ BenedictusOrgano = {
 		fis fis gis gis
 		a d, e e,
 		a a' a, r\fermata
-			\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-			\mark \markup { \remark "Osanna ut supra" } \bar "||" %124 finis
+			\markOsanna \bar "||" %124 FINIS
 	}
 }
 
 BenedictusBassFigures = \figuremode {
-	
+	r2 %51
+	r
+	r
+	r
+	r %55
+	r
+	r
+	r
+	r
+	r %60
+	r
+	r
+	r
+	r
+	r %65
+	r
+	r
+	r
+	r
+	r %70
+	r
+	r
+	r
+	r
+	r %75
+	r
+	r
+	r
+	r
+	r %80
+	r
+	r
+	r
+	r
+	r %85
+	r
+	r
+	r
+	r8 <5> <6> r
+	r4 <6 4>8 <5 _+> %90
+	r2
+	<_!>
+	<7 [_+]>8 <_!> r4
+	r2
+	<6 5!> %95
+	r
+	r
+	r
+	r
+	r %100
+	r
+	r4 <4+>
+	r2
+	r
+	r %105
+	r
+	r
+	r
+	r
+	r %110
+	r
+	r
+	r
+	r8 <5 3> <6 4> <7 5>
+	r2 %115
+	r
+	r
+	r
+	r
+	r %120
+	r
+	r
+	r
+	r %124 FINIS
 }
 
 % Organo = {

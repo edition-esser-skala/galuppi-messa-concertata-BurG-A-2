@@ -105,10 +105,10 @@
 				>>
 				\new GrandStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "SopranoI" { \dynamicUp \BenedictusSopranoINotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \BenedictusAltoNotes }
 					}
-					\new Lyrics \lyricsto SopranoI \BenedictusSopranoILyrics
+					\new Lyrics \lyricsto Alto \BenedictusAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

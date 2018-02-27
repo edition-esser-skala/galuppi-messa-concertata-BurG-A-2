@@ -149,9 +149,10 @@ mvTrh = \once \override TextScript.X-offset = #2.5
 mvTrr = \once \override TextScript.X-offset = #3
 hideTn = \once \override TupletNumber.stencil = ##f
 mvDll = \once \override DynamicText.X-offset = #-3
-pao = \partcombineApartOnce
-pa = \partcombineApart
-pd = \partcombineAutomatic
+markOsanna = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "Osanna ut supra" }
+}
 
 tempoMarkup =
 	#(define-music-function

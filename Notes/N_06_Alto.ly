@@ -1222,6 +1222,119 @@ SanctusAltoLyrics = \lyricmode {
 	sis.] %50 finis
 }
 
+BenedictusAltoNotes = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
+	\relative c' {
+		\clef treble
+		\key a \major \time 2/4 \autoBeamOff \tempoBenedictus
+			\set Score.currentBarNumber = #51
+		R2*14 %64
+		\mvTr a'8.([\pE^\soloE gis32 fis] e8) e %65
+		fis4 e8 a
+		gis32([ a16.)] a4 fis8
+		eis32([ fis16.)] fis4 e8
+		d([ cis16 d)] e8 d
+		d16 cis cis8 r e %70
+		dis8.([ fis16)] e8 gis
+		fis8.([ a16)] gis8 h
+		a4~ a16[ fis a fis]
+		h,4~ h16[ dis fis a]
+		gis4~ gis16[ e gis e] %75
+		h4~ h16[ e gis h]
+		a4 a8 gis
+		gis16 fis fis8 r4
+		r r8 fis
+		gis16([ a)] a4 r8 %80
+		r4 r8 fis
+		gis16([ a)] a4 gis8
+		cis( \tuplet 3/2 8 { cis16[ dis e]) dis[( cis h]) a[( gis fis]) }
+		e8.([ fis16] fis8.) fis16
+		e4 r %85
+		R2*6 %91
+		e4( g8) h
+		a g r g
+		g4 g16[( e)] g([ e)]
+		a,4 a16([ cis)] e([ g?)] %95
+		fis e d8 r a'
+		gis!32([ a16.)] a4 fis8
+		eis32([ fis16.)] fis4 e8
+		d([ cis16 d)] e8 d
+		d16 cis cis8 r a %100
+		d8.([ fis16)] e8 g
+		fis8.([ a16)] gis8 h
+		a4~ a16[ e a e]
+		\appoggiatura e8 d4 h'16[ gis e d]
+		cis8[ a'] a cis, %105
+		cis16 h h8 r4
+		r r8 gis'16([ h)]
+		a([ d,)] d8 r4
+		r r8 gis'16([ h)]
+		a([ d,)] d4 cis8 %110
+		fis( \tuplet 3/2 8 { fis16[ gis a)] gis([ fis e)] d([ cis h)] }
+		a4. h8
+		a cis'16([ a)] d([ h)] cis a
+		a4 a8 a
+		e4( h'8.)\fermata h16 %115
+		a4 r
+		R2*7 %123
+		R2\fermataMarkup \markOsanna \bar "||" %124 FINIS
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	Be -- ne -- %65
+	di -- ctus, qui
+	ve -- nit, qui
+	ve -- nit in
+	no -- mi -- ne
+	Do -- mi -- ni, qui %70
+	ve -- nit, qui
+	ve -- nit in
+	no -- 
+	_
+	_ %75
+	_
+	_ mi -- ne
+	Do -- mi -- ni,
+	qui
+	ve -- nit, %80
+	qui
+	ve -- nit in
+	no -- mi -- ne __
+	Do -- mi --
+	ni. %85
+	
+	Be -- ne -- %92
+	di -- ctus, qui
+	ve -- nit in __
+	no -- mi -- ne __ %95
+	Do -- mi -- ni, qui
+	ve -- nit, qui
+	ve -- nit in
+	no -- mi -- ne
+	Do -- mi -- ni, qui %100
+	ve -- nit, qui
+	ve -- nit in
+	no --
+	_ _
+	_ mi -- ne %105
+	Do -- mi -- ni,
+	qui
+	ve -- nit,
+	qui
+	ve -- nit in %110
+	no -- mi -- ne __
+	Do -- mi --
+	ni, qui ve -- nit in
+	no -- mi -- ne
+	Do -- mi -- %115
+	ni. %116 FINIS
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
