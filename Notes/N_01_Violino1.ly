@@ -1267,7 +1267,38 @@ AgnusDeiViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoAgnusDei
-		
+		R2.*4
+		r4 r8 d'\fE fis a %5
+		gis h h h h h
+		h h gis gis a a
+		a a a a a a
+		a a a a g! g
+		g h h h h h %10
+		ais ais ais ais h h
+		h h ais gis ais4
+		h8 h fis d h4
+		R2.*4 %17
+		r4 r8 h\fE d fis
+		h fis fis fis fis fis
+		g! g g g g g %20
+		g g g g f f
+		f? f e e e e
+		e e e g g g
+		fis fis a a g g
+		g4 fis8 e fis4 %25
+		g8 g, h d g h
+		d h h g h d
+		c?8.( h32 a) g8 d d g
+		cis,!4 d8 a d a'
+		g g g g fis fis %30
+		fis4 e8 cis a cis
+		d4 d d
+		fis2.
+		g
+		g4 fis2 %35
+		g4 b b
+		b2 a8[ g]
+		a2 r4\fermata \bar "||" %38 finis
 	}
 }
 
