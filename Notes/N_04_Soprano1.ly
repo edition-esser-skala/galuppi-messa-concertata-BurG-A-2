@@ -1490,7 +1490,7 @@ AgnusDeiSopranoINotes = {
 		g2 r4
 		d'2 h4
 		a g d'
-		cis d d
+		cis! d d
 		d( cis) d %30
 		d cis r
 		d2.
@@ -1530,8 +1530,8 @@ AgnusDeiSopranoILyrics = \lyricmode {
 	De -- i, qui
 	tol -- lis pec --
 	ca -- ta %30
-	mun -- di:
-	Mi --
+	mun -- di:]
+	[Mi --
 	se --
 	re --
 	%35

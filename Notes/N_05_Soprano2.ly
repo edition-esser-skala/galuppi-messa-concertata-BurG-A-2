@@ -1007,10 +1007,84 @@ AgnusDeiSopranoIINotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr fis8([\pE^\soloE g] a4) a
+		h a a
+		g fis e
+		d2 e4
+		e d r %5
+		\mvTr e2\fE^\tuttiE h'4
+		h( gis) a
+		a2 a4
+		a( fis) g!
+		g( h) e %10
+		cis2 d4
+		cis2.
+		h2 r4
+		\mvTr h2\pE^\soloE h8.([ d16)]
+		cis8.([ ais16)] h4 r8 h %15
+		h([ a)] a([ g)] g([ fis)]
+		fis([ e16 dis] e4) e
+		e d r
+		\mvTr h'2\fE^\tuttiE h4
+		h2 h4 %20
+		d2 d4
+		d( c) c
+		e2 e4
+		d( c?) h
+		a2. %25
+		g2 r4
+		h2 d4
+		c? h h
+		a a a
+		g2 a4 %30
+		a a r
+		d2.
+		c?
+		b(
+		a) %35
+		g
+		g2( fis8[ e)]
+		fis2 r4\fermata \bar "||" %38 finis
 	}
 }
 
 AgnusDeiSopranoIILyrics = \lyricmode {
-	
+	[A -- gnus
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta
+	mun -- di:] %5
+	[Mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se -- %10
+	re -- re
+	no --
+	bis.]
+	A -- gnus
+	De -- i, qui %15
+	tol -- lis pec --
+	ca -- ta
+	mun -- di:
+	[Mi -- se --
+	re -- re, %20
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re
+	no -- %25
+	bis.]
+	[A -- gnus
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta %30
+	mun -- di:]
+	[Mi --
+	se --
+	re --
+	%35
+	re
+	no --
+	bis.] %38 finis
 }
