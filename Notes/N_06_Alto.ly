@@ -1339,12 +1339,86 @@ AgnusDeiAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr d8([\pE^\soloE e] fis4) fis
+		g fis fis
+		e d cis
+		h2 cis4
+		d d r %5
+		\mvTr gis2\fE^\tuttiE gis4
+		gis2 fis4
+		fis2 fis4
+		fis2 e4
+		g!2 g4 %10
+		fis2 fis4
+		g( fis2)
+		fis r4
+		\mvTr d8([\pE^\soloE e] fis4) fis
+		g fis fis %15
+		e d cis
+		h2 cis4
+		cis h r
+		\mvTr fis'2\fE^\tuttiE fis4
+		g!2 g4 %20
+		g2 f4
+		e2 e4
+		g( a) g
+		fis2 g4
+		g( fis8[ e] fis4) %25
+		g2 r4
+		g2 g4
+		fis g g
+		e a fis
+		g2 fis4 %30
+		fis e r
+		a2.
+		a
+		g~
+		g4( fis2) %35
+		g2.
+		g2( fis8[ e)]
+		fis2 r4\fermata \bar "||" %38 finis
 	}
 }
 
 AgnusDeiAltoLyrics = \lyricmode {
-	
+	[A -- gnus
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta
+	mun -- di:] %5
+	[Mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se -- %10
+	re -- re
+	no --
+	bis.]
+	[A -- gnus
+	De -- i, qui %15
+	tol -- lis pec --
+	ca -- ta
+	mun -- di:]
+	[Mi -- se --
+	re -- re, %20
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re
+	no -- %25
+	bis.]
+	[A -- gnus
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta %30
+	mun -- di:]
+	[Mi --
+	se --
+	re --
+	%35
+	re
+	no --
+	bis.] %38 finis
 }
 
 % AltoNotes = {
