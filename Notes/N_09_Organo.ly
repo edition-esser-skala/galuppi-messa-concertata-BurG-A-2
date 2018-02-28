@@ -2819,7 +2819,7 @@ AgnusDeiOrgano = {
 		e d cis
 		h2 cis4
 		d d r %5
-		\clef bass \mvTr d,8\fE^\tuttiE d d d d d
+		\clef bass \mvTr d,8\fE-\tuttiE d d d d d
 		cis cis cis cis cis cis
 		c c c c c c
 		h h h h e e
@@ -2827,12 +2827,12 @@ AgnusDeiOrgano = {
 		e e e e d! d
 		e e fis fis fis, fis
 		h2 r4
-		\clef "treble_8" \mvTr h'8\pE^\soloE cis d4 d
+		\clef "treble_8" \mvTr h'8\pE-\soloE cis d4 d
 		e d d %15
-		cis h a
+		cis h a!
 		gis2 ais4
 		h h r
-		\clef bass \mvTr h,8 h h h h h
+		\clef bass \mvTr h,8\fE-\tuttiE h h h h h
 		h h h h h h %20
 		h h h h h h
 		c c c c c c
@@ -2857,18 +2857,18 @@ AgnusDeiOrgano = {
 
 AgnusDeiBassFigures = \figuremode {
 	r4 <6>2
-	q2.
+	q4 <[6]>2
 	<7>8 <6> <7> <6> <7> <6>
-	<7>4 <6> r
+	<7>4 <6> <[5]>
 	<4> <3> r %5
 	<6 4+ 2>2.
-	<7 5+ 3>
-	<6 4 2+>
-	r
+	<7 5+ 3>2 <6>4
+	<6 4 2+>2.
+	<[7] [_+]>
 	r %10
-	r
-	r
-	r
+	<[4+]>2 <[6]>4
+	r <[_+]>2
+	r2.
 	r4 <6>2
 	q2. %15
 	<7>8 <6> <7> <6> <7> <6>
@@ -2876,7 +2876,7 @@ AgnusDeiBassFigures = \figuremode {
 	<4> <3> r
 	r2.
 	<6> %20
-	<6 4>2 <6 5>4
+	<6>2 <6 5!>4
 	<9> <8> r
 	<8 6>2 <7 5>4
 	r2.
@@ -2890,9 +2890,9 @@ AgnusDeiBassFigures = \figuremode {
 	r2.
 	<7>
 	<6- 4>
-	<7 5> %35
-	<6- 4>4 <7>2
-	<6- 4>4 <5 3> <4 2>
+	<[7!] 5> %35
+	<6- 4>4 <[7-]>2
+	<6- 4>2 <5 3>8 <4 2>
 	<5 3>2. %38 finis
 }
 
