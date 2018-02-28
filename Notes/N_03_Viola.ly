@@ -1280,10 +1280,39 @@ BenedictusViola = {
 
 AgnusDeiViola = {
 	\relative c' {
-% 		\clef alto
-		\clef treble
+		\clef alto
+% 		\clef treble
 		\key d \major \time 3/4 \tempoAgnusDei
-		
+		R2.*5 %5
+		e8\fE e e e e e
+		eis cis' cis cis cis cis
+		c c c c c c
+		h, dis dis dis e e
+		e e e e e e %10
+		fis fis fis fis d! d
+		e g fis fis fis fis
+		fis2 r4
+		R2.*5 %18
+		h8\fE h h h h h
+		h g! g g g g %20
+		g g g g g g
+		g g g g g g
+		g g a a g g
+		d d d d d d
+		d d d d d d %25
+		d4 d d
+		d d d
+		d d h'
+		a a fis
+		e a, a %30
+		a a r
+		a'2.
+		c?
+		b4 d2
+		c?2. %35
+		b4 g cis,!
+		d2.
+		d2 r4\fermata \bar "||" %38 finis
 	}
 }
 
