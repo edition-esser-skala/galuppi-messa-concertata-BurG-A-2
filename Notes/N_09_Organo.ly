@@ -2815,11 +2815,85 @@ AgnusDeiOrgano = {
 		\clef treble
 		\key d \major \time 3/4 \tempoAgnusDei
 		\mvTr d'8\pE-\soloE e fis4 fis
+		g fis fis
+		e d cis
+		h2 cis4
+		d d r %5
+		\clef bass \mvTr d,8\fE^\tuttiE d d d d d
+		cis cis cis cis cis cis
+		c c c c c c
+		h h h h e e
+		e e e e e e %10
+		e e e e d! d
+		e e fis fis fis, fis
+		h2 r4
+		\clef "treble_8" \mvTr h'8\pE^\soloE cis d4 d
+		e d d %15
+		cis h a
+		gis2 ais4
+		h h r
+		\clef bass \mvTr h,8 h h h h h
+		h h h h h h %20
+		h h h h h h
+		c c c c c c
+		c c c c cis cis
+		d d d d g g
+		d d d d d d %25
+		g,2 r4
+		g' g g
+		a h g
+		g fis fis
+		e2 d4 %30
+		a' a, r
+		d8 d d d d d
+		d d d d d d
+		d d d d d d
+		d d d d d d %35
+		d d cis! cis cis cis
+		d2.
+		d,2 r4\fermata \bar "||" %38 finis
 	}
 }
 
 AgnusDeiBassFigures = \figuremode {
-	
+	r4 <6>2
+	q2.
+	<7>8 <6> <7> <6> <7> <6>
+	<7>4 <6> r
+	<4> <3> r %5
+	<6 4+ 2>2.
+	<7 5+ 3>
+	<6 4 2+>
+	r
+	r %10
+	r
+	r
+	r
+	r4 <6>2
+	q2. %15
+	<7>8 <6> <7> <6> <7> <6>
+	<7>4 <6> <6 5>
+	<4> <3> r
+	r2.
+	<6> %20
+	<6 4>2 <6 5>4
+	<9> <8> r
+	<8 6>2 <7 5>4
+	r2.
+	<4>4 <3>2 %25
+	r2.
+	r
+	<6>4 q r
+	<4+ 2> <6> r
+	<7> <6+> r %30
+	<6 4> <5 _+> r
+	r2.
+	<7>
+	<6- 4>
+	<7 5> %35
+	<6- 4>4 <7>2
+	<6- 4>4 <5 3> <4 2>
+	<5 3>2. %38 finis
 }
 
 % Organo = {

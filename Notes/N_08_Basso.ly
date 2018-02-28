@@ -1375,7 +1375,7 @@ AgnusDeiBassoNotes = {
 	}
 }
 
-AgnusDeiassoLyrics = \lyricmode {
+AgnusDeiBassoLyrics = \lyricmode {
 	
 }
 
