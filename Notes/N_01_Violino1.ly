@@ -1283,7 +1283,7 @@ AgnusDeiViolinoI = {
 		g! g g g g g %20
 		g g g g f f
 		f? f e e e e
-		e e e g g g
+		e e e e g g
 		fis fis a a g g
 		g4 fis8 e fis4 %25
 		g8 g, h d g h
