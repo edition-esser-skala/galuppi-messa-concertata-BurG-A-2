@@ -1373,7 +1373,7 @@ AgnusDeiAltoNotes = {
 		a2.
 		a
 		g~
-		g4( fis2) %35
+		g4 fis2 %35
 		g2.
 		g2( fis8[ e)]
 		fis2 r4\fermata \bar "||" %38 finis
@@ -1415,7 +1415,7 @@ AgnusDeiAltoLyrics = \lyricmode {
 	[Mi --
 	se --
 	re --
-	%35
+	_ %35
 	re
 	no --
 	bis.] %38 finis
