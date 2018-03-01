@@ -2903,7 +2903,7 @@ DonaNobisOrgano = {
 			\set Score.currentBarNumber = #39
 		<< {
 			\mvTr a''8.\fE_\soloE a16 a8 a fis8.^\critnote e16 d4
-			r r8 a' h4 h8 cis
+			r r8 a' h4 h8 cis %40
 			d a d4. cis16 h cis8 d
 			h4. e8 a,4 d
 		} \\ {
@@ -2914,101 +2914,101 @@ DonaNobisOrgano = {
 		} >>
 		\clef "treble_8" a,8. a16 a8 a \clef bass d,8. d16 d8 d
 		cis h a a' h4 h8 e,
-		fis4 fis8 gis a e a4~
+		fis4 fis8 gis a e a4~ %45
 		a gis a fis
 		e2 d4 cis
 		h2 a4 a'-\tuttiE
 		d8. d16 d8 d a8. a16 a8 a
-		fis8. e16 d8 d a4 a'8 a
+		fis8. e16 d8 d a4 a'8 a %50
 		h4 h8 cis d4 d,
 		a a'2 g4
 		fis4. g16 fis e2
 		d4 d8 d e4 a,
 		e'2 a,4 \clef treble << {
-			fis'''8^\critnote e
+			fis'''8^\critnote e %55
 			d cis16 h e8 d cis h cis a
 			d a d4 e cis
 			d
 		} \\ {
-			a~
+			a~ %55
 			a gis a a8 g
 			fis4 h8 a g fis16 e a8 g
 			fis[ fis]
 		} >> \clef "treble_8" e8 d cis4 fis8 e
 		d-\critnote cis16 h e8 d cis h \clef bass a[ g]
-		fis4 h8 a g fis16 e a8 g
+		fis4 h8 a g fis16 e a8 g %60
 		fis d a'2 gis4
 		a8 e a2 g4~
 		g fis e2
 		d4 d8 d a4 a'
-		e e,8 e' h' h, h h
+		e e,8 e' h' h, h h %65
 		fis'4. fis8 h8. h16 h8 h
 		a8. g16 fis8 e g4 e
 		d d8 d a'4 a,
 		e' e8 d cis4 fis8 e
-		d cis16 h e8 d cis a h cis
+		d cis16 h e8 d cis a h cis %70
 		d a d2 cis4
 		d4. d8 a'8. a16 a8 a
 		fis e d d' cis h a4
 		h h8 e, fis4 fis8 gis
-		a4 a, d8. d16 d8 d
+		a4 a, d8. d16 d8 d %75
 		cis h a a' a4 h8 e,
 		fis4 fis8 gis a4 a,
 		d8 e fis d g a h g
 		a4 d, a2
-		d8 d d d g4 fis
+		d8 d d d g4 fis %80
 		g d g,8 g' fis fis
 		g g d d a'4 d,
 		a1
-		d\fermata \bar "|."
+		d\fermata \bar "|." %84 FINIS
 	}
 }
 
 DonaNobisBassFigures = \figuremode {
-	r1
-	r
+	r1 %39
+	r %40
 	r
 	r
 	<4>4 <3> r4 <[3]>8 <[4\+]>
 	<[6]>2 <[7]>4 <[6]>8 q
-	q4. q8 <9 [4]>4 <8 [3]>
+	q4. q8 <9 [4]>4 <8 [3]> %45
 	<4 2> <6 5> r <6>
 	<5>4. <6>8 <[3]>8 <[4\+]> <6>4
 	<[7]> <[6+]> r2
 	r1
-	<[6]>2. <[5]>8 <[6]>
+	<[6]>2. <[5]>8 <[6]> %50
 	q4. q8 r4 <[3]>8 <[4\+]>
 	r4 <3> <4 2> <[6]>
 	<[6]>2 <7>4 <6>
 	r4 <[6]>8 <[5]> <7 _+>2
-	<[4]>4 <[_+]> r2
+	<[4]>4 <[_+]> r2 %55
 	r1
 	r
 	r4 <[_+]> <6>2
 	<[6] [5]>4 <[_+]> <[6]>2
-	<6>2 <6 5>
+	<6>2 <6 5> %60
 	<[6]>4 <3> <4 2> <6>
 	r <[6]>8 <[5]> <4 2>4 <6>
 	<4 2> <6> <7> <6>
 	r4 <[3]>8 <[4\+]> r2
-	r2 <4>4 <3>
+	r2 <4>4 <3> %65
 	<4> <_+> r2
 	r4 <6> r <[5]>8 <6>
 	r4 <[3]>8 <[4\+]> r2
 	<4>4 <[_+]> <6>2
-	<6 5>4 <_+> <6>2
+	<6 5>4 <_+> <6>2 %70
 	<[9]>4 <[6]>8 <[5]> <4 2>4 <6>
 	r1
 	<[6]>2 q
 	<6>4. q8 q2
-	r1
+	r1 %75
 	<[6]>4. <5>8 <[2]>4 <6>8 q
 	q4. q8 r2
 	<9>4 <6> <9> <6>
 	<7>2 <4>4. <3>8
-	r2. <[6]>4
+	r2. <[6]>4 %80
 	r2. <[6]>4
 	r1
 	<5 3>4 <6 4> <5 4> <\l 3>
-	r1
+	r1 %84 FINIS
 }
