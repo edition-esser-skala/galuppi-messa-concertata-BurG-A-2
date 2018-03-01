@@ -1421,50 +1421,60 @@ AgnusDeiAltoLyrics = \lyricmode {
 	bis.] %38 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+DonaNobisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoDonaNobis
+			\set Score.currentBarNumber = #39
+		r2 \mvTr d8.\fE^\soloE d16 d8 d
+		cis8. h16 a4 r r8 e'
+		fis4 fis8[ gis] a[ e] a4~
+		a8[ g16 fis] g4~ g8[ fis16 e] fis8[ g]
+		e4. e8 fis4 fis8[( gis]
+		a[ e] a4. g16[ fis] g8[ a16 g])
+		fis4. fis8 e4 e
+		d e e a
+		g4. g8 fis gis a4~
+		a8 a gis4 a8.^\tuttiE a16 a8 a
+		fis8. e16 d8 fis e8. e16 e4
+		R1
+		r4 r8 e fis4( fis8[ gis]
+		a[ e] a4 d, g
+		a8) g fis fis g4. g8
+		a4 fis8 fis e4 e
+		e4. e8 e4 r
+		r2 r4 a8[ g]
+		fis4 h8[ a] g[ fis16 e] a8[ g]
+		fis4 gis a8[( e] a4~)
+		a gis a a8 a
+		a4 fis g e
+		fis r r2
+		R1
+		r2 r4 r8 e
+		fis4( fis8[ gis] a[ e)] a4
+		g4 g8([ a]) h[( fis] h4~)
+		h ais h r
+		r2 r4r8 e,
+		fis4( fis8[ gis] a[ e] a4~)
+		a gis a fis~
+		fis e2 d4
+		a r r2
+		r r4 r8 e'
+		fis4( fis8[ g] e4 a
+		d,) e a, d
+		cis( e fis8.) g16 a8 fis
+		e8. e16 e4 g8. g16 g8 g
+		fis8. e16 d4 r2
+		r4 a'4.( g16[ fis]) g8 h
+		a4 a a4. a8
+		a4 r r2
+		r8 g fis fis g4 d
+		g8. g16 fis4 r8 a a a
+		a4 a a4. a8
+		a1\fermata \bar "|."
+	}
+}
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
-% 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
-% 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+DonaNobisAltoLyrics = \lyricmode {
+	
+}

@@ -1302,10 +1302,42 @@ AgnusDeiViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+DonaNobisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #39
+		R1*9
+		r2 a'8.\fE a16 a8 a
+		fis8. e16 d8 fis e4 r
+		r r8 d e4 e8 fis
+		g4. a16 g fis8 e d d
+		cis4 r8 a' h4 h8 cis
+		d a d fis, g4. g8
+		fis d' d d d4 cis
+		h4. h8 a4 r
+		R1*7
+		r4 r8 a h4 h8 cis
+		d4 fis, e a
+		g! g8 a h fis h4~
+		h ais h fis8 g
+		a4 r g8. g16 g8 g
+		fis4. fis8 e4 a~
+		a gis a r
+		r2 r4 a8 g
+		fis4 h8 a g fis16 e a8 g
+		fis4. fis8 e4 r8 e
+		fis4 fis8 g a4. a8
+		d,4 e a, d
+		cis e fis8. g16 a8 fis
+		e4 r r2
+		d'8. d16 d8 d cis h a g
+		fis g a4. h16 a g8 h
+		cis4 d2 cis4
+		d r r2
+		r8 h a a h4 a
+		r8 g fis fis e e fis fis
+		e4 fis e2
+		fis1\fermata \bar "|."
+	}
+}

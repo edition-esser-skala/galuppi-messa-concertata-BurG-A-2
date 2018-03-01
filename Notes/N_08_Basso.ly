@@ -1436,26 +1436,55 @@ AgnusDeiBassoLyrics = \lyricmode {
 	bis. %38 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+DonaNobisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoDonaNobis
+			\set Score.currentBarNumber = #39
+		R1*4
+		r2 \mvTr d8.\fE^\soloE d16 d8 d
+		cis8. h16 a4 r r8 e'
+		fis4( fis8[ gis] a[ e] a4~)
+		a gis a fis
+		e4. e8 d4 cis
+		h4. h8 a4 r
+		r2 a'8.^\tuttiE a16 a8 a
+		fis8. e16 d4 r r8 a'
+		h4( h8[ cis] d4) d,
+		a a'2( g4
+		fis4. g16[ fis]) e4. e8
+		d8 d d d e4 a,
+		e'4. e8 a,4 r
+		R1*3
+		r2 r4 a'8[( g])
+		fis4 h8[ a] g[ fis16 e] a8[ g]
+		fis[ e16 d] a'2 gis4
+		a8 e a2( g4~
+		g fis e4.) e8
+		d8 d d d a4 a'
+		e8. e16 e4 r8 h h h
+		fis'4 r h8. h16 h8 h
+		a8. g16 fis8 e^\critnote g4 e
+		d r r2
+		r4 e8[ d] cis4 fis8[ e]
+		d[ cis16 h] e8[ d] cis[ a h cis]
+		d[( a] d2) cis4
+		d4 r a'8. a16 a8 a
+		fis e d4 r r8 a'
+		h4( h8[ cis] d4) d,
+		a' r d,8. d16 d8 d
+		cis8. h16 a4 r r8 e'
+		fis4( fis8[ gis] a8.) a,16 a4
+		d8([ e fis d)] g([ a h)] g
+		a4 d, a4. a8
+		d8 d d d g4 fis
+		g8. g16 d4 r8 g fis fis
+		g g d d a'4 d,
+		a2. a4
+		d1\fermata \bar "|."
+	}
+}
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+DonaNobisBassoLyrics = \lyricmode {
+	
+}

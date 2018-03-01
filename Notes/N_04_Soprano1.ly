@@ -1540,26 +1540,60 @@ AgnusDeiSopranoILyrics = \lyricmode {
 	bis.] %38 finis
 }
 
-% SopranoINotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoILyrics = \lyricmode {
-% 	
-% }
+DonaNobisSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoDonaNobis
+			\set Score.currentBarNumber = #39
+		\mvTr a'8.\fE^\solo a16 a8 a fis8. e16 d4
+		r r8 a' h4 h8[ cis]
+		d[ a] d4. cis16[ h] cis8[ d]
+		h4. e8 a,4 d~
+		d cis d r8 fis
+		e d cis cis d4 e
+		a, h4.( a16[ g]) a8 a
+		h4 r r2
+		R1
+		d8.^\tutti d16 d8 d cis8. h16 a8 cis
+		d8. d16 d4 r2
+		r4 r8 d e4( e8[ fis]
+		g4. a16[ g] fis4.) fis8
+		e4. e8 d4 e
+		a, r8 a h4( h8[ cis]
+		d[ a] d2) cis4
+		h e8[ d] cis4 fis8[ e]
+		d[ cis16 h] e8[ d] cis[ h cis a]
+		d[ a] d4 e cis
+		d h cis4. d16[ cis]
+		h4. h8 a e' e e
+		fis4. fis8 e4. e8
+		a,4 cis h4. h8
+		e,4 r r2
+		r4 r8 a h4 h8[ cis]
+		d[ a] d4^\critnote cis cis8[ d]
+		e[ h] e2 d4
+		cis4. cis8 h4 r
+		r2 g'8. g16 g8 g
+		fis4. fis8 e4 e
+		e4. e8 e4 cis
+		d( h cis8) h a4
+		R1
+		d8. d16 d8 d cis8. h16 a4
+		r r8 d e4 e8[ fis]
+		g4. a16[ g] fis4. fis8
+		e4 cis d4. d8
+		e4 cis d e
+		a, fis' e e~
+		e8[ a,] d2 g4~
+		g8[ a fis g] e4. e8
+		d d d d h4 a
+		h8. h16 d4 r8 h d d
+		d d d d cis4 fis
+		e( d2) cis4
+		d1\fermata \bar "|."
+	}
+}
 
-% SopranoINotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \autoBeamOff \tempo
-% 		
-% 	}
-% }
-% 
-% SopranoILyrics = \lyricmode {
-% 	
-% }
+DonaNobisSopranoILyrics = \lyricmode {
+	
+}

@@ -1198,10 +1198,43 @@ AgnusDeiViolinoII = {
 	}
 }
 
-% ViolinoII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key d \major \time 4/4 \tempo
-% 		
-% 	}
-% }
+DonaNobisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #39
+		R1*10
+		d'8.\fE d16 d8 d cis8. h16 a8 cis
+		d e fis g a4 r
+		r r8 e fis4 fis8 gis
+		a e a4 d, g
+		a8 g fis a h4 h8 cis
+		d4 h8 a gis4 a~
+		a gis a r
+		R1*5
+		r2 r4 e8 d
+		cis4 fis8 e d cis16 h e8 d
+		cis a d4 g r8 e
+		fis4 fis8 g a4 cis,8 d
+		e4 g8 g fis4 r
+		fis8. fis16 fis8 fis d8. cis16 h8 d
+		cis4 r8 a h4 h8 cis
+		d4 d8 d cis cis cis cis
+		h4. h8 a4 a'~
+		a gis a r
+		R1
+		d,8. d16 d8 d cis8. h16 a4
+		r r8 d e4 e8 fis
+		g4. a16 g fis4. fis8
+		e4 r r2
+		r g8. g16 g8 g
+		fis8. e16 d4 r8 a e'4~
+		e8 fis16 e d8 cis h g' g fis
+		e4 fis e4. e8
+		fis4 r r2
+		r8 g fis fis g4 d
+		r8 h d d cis cis d d
+		cis4 d2 cis4
+		d1\fermata \bar "|."
+	}
+}
