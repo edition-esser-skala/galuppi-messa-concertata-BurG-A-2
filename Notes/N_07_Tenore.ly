@@ -181,7 +181,7 @@ KyrieIITenoreNotes = {
 		d8. d16 d4 r8 d d d
 		h h d d e4 d
 		e( a, e'4.) e8 %245
-		fis1\fermata \bar "||" %246 FINIS
+		fis1\fermata \bar "|." %246 FINIS
 	}
 }
 
@@ -1178,51 +1178,91 @@ DonaNobisTenoreNotes = {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoDonaNobis
 			\set Score.currentBarNumber = #39
-		R1*4
-		\mvTr a8.\fE^\soloE a16 a8 a fis8. e16 d4
-		r4 r8 a' h4( h8[ cis]
-		d[ a] d4. cis16[ h] cis8) d
-		h4 h cis( d
-		h) e a, cis
+		R1*4 %42
+		\mvTr a8.\fE^\soloE a16 a8 a fis8.([ e16)] d4
+		r4 r8 a' h4 h8[ cis]
+		d[ a] d4. cis16[ h] cis8[ d] %45
+		h4 h cis d
+		h e a, cis
 		d h cis r
-		d8.^\tuttiE d16 d8 d cis8. h16 a8 cis
-		d([ e fis)] d a4 r
+		d8.^\tuttiE d16 d8 d cis8.([ h16)] a8 cis
+		d([ e fis d)] a4 r %50
 		R1
-		r4 r8 a h4( h8[ cis]
-		d4 a e'4.) e8
+		r4 r8 a h4 h8[ cis]
+		d4 a e'2
 		a,4 h8 h h4 a
-		h4. h8 cis4 r
+		h2 cis4 r %55
 		R1*2
 		r4 e8[ d] cis4 fis8[ e]
 		d[ cis16 h] e8[ d] cis[ h cis a]
-		d[ a] d2 cis4
-		d e d h
-		cis r r8 h h h
-		a4 a g4. g8
-		fis d' d d e4 cis
-		h8. h16 h4 r h
-		cis fis fis r
+		d[ a] d2 cis4 %60
+		d e( d h)
+		cis r r8 h h4
+		a a g2
+		fis8 d'4 d8 e4 cis
+		h4 h r h %65
+		cis( fis) fis r
 		r r8 a, h4 h8[ cis]
 		d4.^\critnote e,8 a[ h cis a]
 		e'4 e, a8 e a4~
-		a gis a e'~
-		e8[( d16 cis] d8[ fis)] e4. e8
+		a gis a e'~ %70
+		e8[ d16 cis] d8[ fis] e2
 		a,4 r r2
-		d8. d16 d8 d cis h a4
+		d8. d16 d8 d cis([ h)] a4
 		r4 r8 e fis4( fis8[ gis]
-		a8.) h16 cis4 r2
+		a8.[ h16)] cis4 r2 %75
 		r4 r8 a h4 h8[ cis]
 		d4 h cis8[ d e cis]
-		fis4. fis8 h, h g' g
-		e4 d e4. e8
-		fis8 fis fis fis d4 d
-		d8. d16 d4 r8 d d d
-		h h d d e4 d
-		e( a, e'4.) e8
-		fis1\fermata \bar "||"
+		fis2 h,8 h([ g')] g
+		e4 d e2
+		fis8 fis4 fis8 d4 d %80
+		d4 d r8 d4 d8
+		h4 d e d
+		e( a, e'2)
+		fis1\fermata \bar "|." %84 FINIS
 	}
 }
 
 DonaNobisTenoreLyrics = \lyricmode {
+	Do -- na no -- bis pa -- cem, %43
+	da pa -- _
+	_ _ _ _ %45
+	cem, da pa -- _
+	_ _ _ _
+	_ _ cem.
+	Do -- na no -- bis pa -- cem, da
+	pa -- cem, %50
 	
+	da pa -- _
+	_ _ _
+	cem. Do -- na no -- bis
+	pa -- cem, %55
+	
+	pa -- _ _ %58
+	_ _ _
+	_ _ _ %60
+	cem, pa --
+	cem, da pa --
+	cem, da pa --
+	cem. Do -- na no -- bis
+	pa -- cem, da %65
+	pa -- cem,
+	da pa -- _
+	_ _ _
+	_ _ cem, da pa --
+	_ cem, pa -- %70
+	_ _
+	cem.
+	Do -- na no -- bis pa -- cem,
+	da pa --
+	cem, %75
+	da pa -- _
+	_ _ _
+	_ cem. Do -- na
+	no -- bis pa --
+	cem. Do -- na no -- bis %80
+	pa -- cem. Do -- na
+	no -- bis, no -- bis
+	pa --
+	cem. %84 FINIS
 }
