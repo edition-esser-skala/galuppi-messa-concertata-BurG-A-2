@@ -462,6 +462,16 @@ LaudamusViola = {
 	}
 }
 
+GratiasViola = {
+	\relative c' {
+		\clef alto
+		\key fis \phrygian \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #227
+		\override MultiMeasureRest.minimum-length = #40
+			R1*25 \bar "||" %251 finis
+	}
+}
+
 DomineDeusRexViola = {
 	\relative c' {
 		\clef alto
