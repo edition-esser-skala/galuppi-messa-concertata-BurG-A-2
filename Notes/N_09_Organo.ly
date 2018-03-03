@@ -972,10 +972,8 @@ LaudamusBassFigures = \figuremode {
 	r4. <[6\\]>8 %160
 	<[6]>2
 	q4. <[7] [_+]>8
-	r2
-	r
-	r %165
-	<[_+]>
+	r2*3 %165
+	<[_+]>2
 	q4 <[6]>
 	<_+> <[6]>
 	r q
@@ -985,8 +983,7 @@ LaudamusBassFigures = \figuremode {
 	r
 	r
 	<[7] [_+]> %175
-	r
-	r
+	r2*2
 	r4. <[6\\]>8
 	<[6]>4. <_!>8
 	r4 <7>8 <7 [_+]> %180
@@ -1013,10 +1010,7 @@ LaudamusBassFigures = \figuremode {
 	r8 <[7]>4.
 	r8 <[6]> q4
 	<[4]>4 <[3]>
-	r2
-	r %205
-	r
-	r
+	r2*4 %207
 	r4. <[6]>8
 	q2
 	q4 <[7]>8 q %210
