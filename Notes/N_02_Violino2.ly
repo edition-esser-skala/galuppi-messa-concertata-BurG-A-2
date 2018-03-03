@@ -459,6 +459,16 @@ LaudamusViolinoII = {
 	}
 }
 
+GratiasViolinoII = {
+	\relative c' {
+		\clef treble
+		\key fis \phrygian \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #227
+		\override MultiMeasureRest.minimum-length = #40
+			R1*25 \bar "||" %251 finis
+	}
+}
+
 DomineDeusRexViolinoII = {
 	\relative c' {
 		\clef treble
@@ -606,6 +616,16 @@ DomineFiliViolinoII = {
 		e16 cis h cis ais cis %380
 		h[ cis] ais8. h16
 		h8 r r\fermata \bar "||" %382 finis
+	}
+}
+
+DomineDeusAgnusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \mixolydian \time 2/4 \tempoDomineDeusAgnus
+			\set Score.currentBarNumber = #383
+		\override MultiMeasureRest.minimum-length = #40
+			R2*115 \bar "||" %251 finis
 	}
 }
 
