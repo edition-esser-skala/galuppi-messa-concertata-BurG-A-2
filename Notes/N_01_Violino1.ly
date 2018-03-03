@@ -459,6 +459,16 @@ LaudamusViolinoI = {
 	}
 }
 
+GratiasViolinoI = {
+	\relative c' {
+		\clef treble
+		\key fis \phrygian \time 4/4 \tempoGratias
+			\set Score.currentBarNumber = #227
+		\override MultiMeasureRest.minimum-length = #40
+			R1*25 \bar "||" %251 finis
+	}
+}
+
 DomineDeusRexViolinoI = {
 	\relative c' {
 		\clef treble
@@ -1308,7 +1318,7 @@ DonaNobisViolinoI = {
 		\key d \major \time 4/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #39
 		R1*9 %47
-		r2 a'8.\fE a16 a8 a
+		r2 a''8.\fE a16 a8 a
 		fis8. e16 d8 fis e4 r
 		r r8 d e4 e8 fis %50
 		g4. a16 g fis8 e d d

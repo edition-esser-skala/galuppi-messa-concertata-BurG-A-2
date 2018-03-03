@@ -10,9 +10,9 @@
 % \include "Scores/S_Gloria.ly"
 % \include "Scores/S_Credo.ly"
 % \include "Scores/S_Sanctus.ly"
-\include "Scores/S_AgnusDei.ly"
+% \include "Scores/S_AgnusDei.ly"
 
-% \include "Parts/P_Violino1.ly"
+\include "Parts/P_Violino1.ly"
 % \include "Parts/P_Violino2.ly"
 % \include "Parts/P_Viola.ly"
 % \include "Parts/P_Coro.ly"
