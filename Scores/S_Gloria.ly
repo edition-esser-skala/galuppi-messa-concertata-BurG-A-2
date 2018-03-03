@@ -277,7 +277,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = "2.6 DOMINE FILIE"
+			movement = "2.6 DOMINE FILI"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
