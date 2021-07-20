@@ -1,0 +1,17 @@
+composer: Galuppi, Baldassare
+title: Messa concertata
+id: BurG App. 2
+genre: mass
+scoring: 2 S, A, T, B (solo), 2 S, A, T, B (coro), 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-Dl
+    shelfmark: Mus.2973-D-9
+    type: manuscript copy
+    date: 1750–1764
+    rism: 212006142
+    url: http://digital.slub-dresden.de/id426037626
+github: galuppi-messa-concertata-BurG-A-2
+imslp: Missa_in_D_major%2C_BurG_Anh._2_(Galuppi%2C_Baldassare)
+notes:
+
